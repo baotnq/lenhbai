@@ -39,7 +39,7 @@ Quan trọng hơn, việc giới hạn hoạt động bên trong khu vực sẽ 
 
 Tỉ lệ cố ý vi phạm, ra khỏi khu vực không có lý do sẽ ít đi nhiều, và dễ dàng bị phát hiện, bị xử phạt, càng khiến cho số lượng vi phạm dần về 0. 
 
-Sau 1 thời gian triển khai, vùng dịch sẽ chia thành nhiều khu vực có mức độ an toàn khác nhau, cho phép áp dụng **mục tiêu kép** chống dịch và phát triển kinh tế
+Sau 1 thời gian triển khai, vùng dịch có thể thực hiện **mục tiêu kép** chống dịch và phát triển kinh tế
 
 - **Tập trung chống dịch khu vực nguy cơ cao** : khoanh vùng chặt chẽ,  xét nghiệm toàn bộ liên tục để tách hết F0 để chuyển thành vùng an toàn. 
 
@@ -47,18 +47,17 @@ Sau 1 thời gian triển khai, vùng dịch sẽ chia thành nhiều khu vực 
 
 - **Hệ thống cảnh báo sớm** Xét nghiệm theo từng nhóm nguy cơ cao, để nhanh chóng phát hiện, để hạn chế dịch bùng phát trong tương lai. 
 
-Trước khi tìm hiểu 3 chức năng chính của "hệ thống lệnh bài" : 
-chia vùng dịch thành các khu vực nội bộ, huy động mọi người bên trong khu vực cùng tham gia chống dịch và giám sát định kỳ các đối tượng nguy cơ cao, chúng ta cần tìm hiểu
+Để bắt đầu, chúng ta cần tìm hiểu
 
 ### Thế nào là "hệ thống lệnh bài". 
 
 "lệnh bài" là một cấu trúc, nằm trong 1 tấm thẻ, để bảo đảm rằng mệnh lệnh truyền tới các đối tượng liên quan tới thẻ này, sẽ được hiểu và thực hiện đúng. 
 
-Ví dụ: *"mọi gia đình trong tp Hồ Chí mình cần được cấp 1 Thẻ gia đình trong vòng 5 ngày"* là 1 mệnh lệnh gửi tới tất cả các Phường / Xã. Làm thế nào để kiểm tra được việc thực hiện mệnh lệnh này với hơn 300 Phường / xã ở HCM?
+Ví dụ: *"mọi gia đình trong tp Hồ Chí mình cần được cấp 1 Thẻ gia đình trong vòng 5 ngày"* là 1 mệnh lệnh gửi tới tất cả các Phường / Xã. **Làm thế nào để kiểm tra được việc thực hiện mệnh lệnh này với hơn 300 Phường / xã ở HCM**?
 
 Ta sử dụng 1 mệnh lệnh khác để kiểm soát chéo, là thông báo với mọi người rằng "từ ngày ..., toàn bộ siêu thị, chợ chỉ bán hàng cho người có Thẻ gia đình. *Gia đình nào chưa nhận được thẻ, cần liên hệ với Phường / xã đang sống. Nếu gặp trở ngại thì gọi tới số hotline để hỗ trợ,..."*
 
-Và làm sao để bảo đảm, siêu thị, chợ chỉ bán hàng cho người có Thẻ gia đình? Ta dùng mệnh lệnh khác, như *"mọi đơn hàng phải có thêm ID của thẻ gia đình"*. Nếu phát hiện thiếu ID, sẽ bị xử phạt nghiêm. Tất nhiên còn nhiều cách khác nữa.
+Và **làm sao để bảo đảm, siêu thị, chợ chỉ bán hàng cho người có Thẻ gia đình?** Ta dùng mệnh lệnh khác, như *"mọi đơn hàng phải có thêm ID của thẻ gia đình"*. Nếu phát hiện thiếu ID, sẽ bị xử phạt nghiêm. Tất nhiên còn nhiều cách khác nữa.
 
 Thiết kế một cấu trúc tốt cho "lệnh bài" để thực hiện được mục tiêu kép là điều không hề đơn giản. Nó cần bảo đảm đầy đủ các yếu tố then chốt sau: 
 
@@ -85,8 +84,7 @@ Thiết kế một cấu trúc tốt cho "lệnh bài" để thực hiện đư�
     - tìm kiếm thông tin theo ID trên hệ thống
     - phần màu trắng là qrcode và cả barcode, để mở rộng tính năng quản lý giám sát trong tương lai. 
 
-Có thể thấy, khẩu trang là  1 cấu trúc có 4 yếu tố đầu. Và việc lệnh mọi người đeo nó ra đường, khiến cho hệ thống khẩu trang rất hiệu quả trong việc chống dịch: hạn chế lây nhiễm covid và nhận biết người tuân thủ. 
-
+Có thể thấy, khẩu trang là  1 cấu trúc có 4 yếu tố đầu tiên. Việc lệnh mọi người đeo nó ra đường, khiến cho hệ thống khẩu trang rất hiệu quả trong việc chống dịch: hạn chế lây nhiễm covid và nhận biết người tuân thủ. 
 
 Đây là 1 thiết kế cho Thẻ Gia đình, 1 loại "lệnh bài" dành cho gia đình
 
@@ -101,9 +99,9 @@ Các phần quan trọng, giúp có được 5 yếu tố trên
 - **Ngày mua hàng**: check vào để lưu ngày mua, giúp kiểm soát việc ra ngoài nhiều lần mua hàng. triển khai nhanh chóng, bổ sung hệ thống sau này dễ dàng. 
 - phần trắng ở mặt trước là phần để kết nối với hệ thống, dễ dàng mở rộng sau. 
 
-Ngoài ra, còn có các "lệnh bài" dành cho cá nhân, thoả mãn các yếu tố trên, chi tiết xem mục "lệnh bài cho cá nhân bên dưới. 
+Ngoài ra, còn có các "lệnh bài" dành cho cá nhân, thoả mãn các yếu tố trên, chi tiết xem mục [Lệnh bài cho cá nhân](#lệnh-bài-cho-cá-nhân)
 
-Khi các thẻ được cấp đến tay mọi người trong vùng dịch theo chỉ thị, ta có được hệ thống lệnh bài mạnh mẽ, cho phép thực hiện các mục tiêu sau: 
+Khi các thẻ được cấp đến tay mọi người trong vùng dịch theo chỉ thị, ta có được hệ thống lệnh bài mạnh mẽ, cho phép thực hiện các nhiệm vụ sau: 
 
 ### Nhiệm vụ 1: Chia vùng dịch các khu vực liền kề
 
