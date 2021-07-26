@@ -33,11 +33,11 @@
 ### Mục tiêu kép
 
 "Lệnh bài" là một cấu trúc, nếu triển khai một cách hệ thống 
-toàn vùng có dịch, hoặc cả nước, sẽ phân chia cả vùng thành nhiều khu vực lân cận nhau. Trong đó hầu hết hoạt động di chuyển, mua bán và cả làm việc sẽ hạn chế bên trong khu vực này. 
+toàn vùng có dịch, sẽ phân chia thành nhiều khu vực lân cận nhau. Trong đó hầu hết hoạt động di chuyển, mua bán và cả làm việc sẽ hạn chế bên trong khu vực này. 
 
-Quan trọng hơn, việc giới hạn hoạt động của mọi người bên trong khu vực sẽ dần dần một cách "vô thức", không phụ thuộc vào tinh thần tự giác của từng người. Tỉ lệ cố ý vi phạm, ra khỏi khu vực không có lý do sẽ ít đi nhiều, và dễ dàng bị phát hiện, bị xử phạt, càng khiến cho số lượng vi phạm dần về 0. 
+Quan trọng hơn, việc giới hạn hoạt động bên trong khu vực sẽ dần dần một cách "vô thức", không phụ thuộc vào tinh thần tự giác của từng người. 
 
-Ngoài ra, "hệ thống lệnh bài" còn huy động mọi nguồn lực sẵn có, bảo đảm mọi gia đình đều tham gia xét nghiệm tập trung, định kỳ. 
+Tỉ lệ cố ý vi phạm, ra khỏi khu vực không có lý do sẽ ít đi nhiều, và dễ dàng bị phát hiện, bị xử phạt, càng khiến cho số lượng vi phạm dần về 0. 
 
 Sau 1 thời gian triển khai, vùng dịch sẽ chia thành nhiều khu vực có mức độ an toàn khác nhau, cho phép áp dụng **mục tiêu kép** chống dịch và phát triển kinh tế
 
