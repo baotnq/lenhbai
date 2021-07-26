@@ -1,11 +1,12 @@
 ## Hệ thống lệnh bài: chống dịch và phát triển kinh tế theo khu vực
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
-
+ 
 - [Hệ thống lệnh bài: chống dịch và phát triển kinh tế theo khu vực](#hệ-thống-lệnh-bài-chống-dịch-và-phát-triển-kinh-tế-theo-khu-vực)
   - [Mục tiêu kép](#mục-tiêu-kép)
   - [Thế nào là "hệ thống lệnh bài".](#thế-nào-là-hệ-thống-lệnh-bài)
+    - [tại sao dùng từ "Lệnh"](#tại-sao-dùng-từ-lệnh)
   - [Nhiệm vụ 1: Chia vùng dịch các khu vực liền kề](#nhiệm-vụ-1-chia-vùng-dịch-các-khu-vực-liền-kề)
     - [Hạn chế ra ngoài mua nhu yếu phẩm](#hạn-chế-ra-ngoài-mua-nhu-yếu-phẩm)
     - [Giới hạn hoạt động của người dân trong khu vực](#giới-hạn-hoạt-động-của-người-dân-trong-khu-vực)
@@ -54,7 +55,11 @@ Sau 1 thời gian triển khai, vùng dịch có thể thực hiện **mục ti�
 
 ### Thế nào là "hệ thống lệnh bài". 
 
-"lệnh bài" là một cấu trúc, nằm trong 1 tấm thẻ, để bảo đảm rằng mệnh lệnh truyền tới các đối tượng liên quan tới thẻ này, sẽ được hiểu và thực hiện đúng. 
+
+"lệnh bài" là một cấu trúc, nằm trong 1 tấm thẻ, để bảo đảm rằng mọi yêu cầu truyền tới các đối tượng liên quan tới thẻ này, sẽ được hiểu và thực hiện đúng. 
+#### tại sao dùng từ "Lệnh" 
+
+Từ **lệnh**, nên hiểu là cơ chế lệnh "lây nhiễm" của Covid, hoặc **mệnh lệnh** trong quân đội, mọi đối tượng tiếp nhận phải thực hiện giống nhau. 
 
 Ví dụ: *"mọi gia đình trong tp Hồ Chí mình cần được cấp 1 Thẻ gia đình trong vòng 5 ngày"* là 1 mệnh lệnh gửi tới tất cả các Phường / Xã. **Làm thế nào để kiểm tra được việc thực hiện mệnh lệnh này với hơn 300 Phường / xã ở HCM**?
 
