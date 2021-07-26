@@ -11,6 +11,9 @@
     - [Giới hạn hoạt động của người dân trong khu vực](#giới-hạn-hoạt-động-của-người-dân-trong-khu-vực)
     - [Giám sát việc di chuyển ra, vào ngoài khu vực](#giám-sát-việc-di-chuyển-ra-vào-ngoài-khu-vực)
   - [Nhiệm vụ  2. Huy động mọi người bên trong khu vực cùng tham gia chống dịch](#nhiệm-vụ-2-huy-động-mọi-người-bên-trong-khu-vực-cùng-tham-gia-chống-dịch)
+    - [hệ thống liên lạc đa chiều](#hệ-thống-liên-lạc-đa-chiều)
+    - [Huy động mọi nguồn lực](#huy-động-mọi-nguồn-lực)
+    - [Đối tượng lẩn tránh, thiếu trách nhiệm, tiêu cực](#đối-tượng-lẩn-tránh-thiếu-trách-nhiệm-tiêu-cực)
   - [Nhiệm vụ 3: Hệ thống cảnh báo, kiềm soát Covid bùng phát.](#nhiệm-vụ-3-hệ-thống-cảnh-báo-kiềm-soát-covid-bùng-phát)
     - [Tại sao cần hệ thống này?](#tại-sao-cần-hệ-thống-này)
     - [Hệ thống này có khả thi để đối phó Covid ko?](#hệ-thống-này-có-khả-thi-để-đối-phó-covid-ko)
@@ -101,7 +104,7 @@ Các phần quan trọng, giúp có được 5 yếu tố trên
 
 Ngoài ra, còn có các "lệnh bài" dành cho cá nhân, thoả mãn các yếu tố trên, chi tiết xem mục [Lệnh bài cho cá nhân](#lệnh-bài-cho-cá-nhân)
 
-Khi các thẻ được cấp đến tay mọi người trong vùng dịch theo chỉ thị, ta có được hệ thống lệnh bài mạnh mẽ, cho phép thực hiện các nhiệm vụ sau: 
+Khi các thẻ được cấp đến tay mọi người trong vùng dịch theo chỉ thị, ta có được hệ thống lệnh bài mạnh mẽ, cho phép thực hiện các mục tiêu sau: 
 
 ### Nhiệm vụ 1: Chia vùng dịch các khu vực liền kề
 
@@ -137,12 +140,16 @@ Khi cần tăng mức độ kiểm soát ra ngoài khu vực, bổ sung thêm c�
 
 Kết quả của việc đồng thời thực hiện các việc trên, giúp phân chia vùng dịch thành những khu vực hoạt động nội bộ, việc đi lại giữa hai khu vực liền kề được giám sát. Hình thành mạng lưới khu vực liền kề, giống **ruộng bậc thang** hạn chế việc lây lan của covid đi xa một cách hiệu quả. 
 
-Hạn chế và khoanh vùng lây lan theo ruộng bậc thang, giúp nguồn lực được tập trung, sử dụng hiệu quả với hệ thống lệnh bài để làmNhiệm vụ  thứ 2 
-###Nhiệm vụ  2. Huy động mọi người bên trong khu vực cùng tham gia chống dịch
+Hạn chế và khoanh vùng lây lan theo ruộng bậc thang, giúp nguồn lực được tập trung, sử dụng hiệu quả với hệ thống lệnh bài để 
+có thể thực hiện nhiệm vụ tiếp theo.
+### Nhiệm vụ  2. Huy động mọi người bên trong khu vực cùng tham gia chống dịch
 
 Muốn chống dịch hiệu quả, bên cạnh tinh thần tự giác, cần mọi người cùng phối hợp, tuân thủ những yêu cầu đưa ra. 
 
-Lệnh bài là **hệ thống liên lạc đa chiều** giữa Bộ chỉ huy và mọi đối tượng: người dân, doanh nghiệp địa phương, cán bộ địa phương, và đội ngũ y tế dùng chung. Có nhiều cơ chế liên lạc tuỳ tình hình
+
+#### hệ thống liên lạc đa chiều
+
+giữa Bộ chỉ huy và mọi đối tượng: người dân, doanh nghiệp địa phương, cán bộ địa phương, và đội ngũ y tế dùng chung. Có nhiều cơ chế liên lạc tuỳ tình hình
 
 - Ra lệnh tổng quát, từ xa: thông qua báo chí truyền hình, ...
 - Giải thích lệnh theo từng khu vực, Phường / xã nhỏ hơn:
@@ -153,6 +160,7 @@ Lệnh bài là **hệ thống liên lạc đa chiều** giữa Bộ chỉ huy v
 
 Tăng cường mở rộng, kết hợp nhiều công nghệ: thiết bị tự động, phân tích dữ liệu để tối ưu tổ chức, mô hình dự đoán xu hướng dịch bệnh,... giúp nâng cao năng lực, hiệu quả của hệ thống lệnh bài. 
 
+#### Huy động mọi nguồn lực
 Với hệ thống liên lạc mạnh mẽ, nhiều kênh này, sẽ huy động được nguồn lực của cộng đồng
 
 - **Người dân** Sự hợp tác, tuân thủ của mọi gia đình
@@ -160,6 +168,8 @@ Với hệ thống liên lạc mạnh mẽ, nhiều kênh này, sẽ huy động
 - **Nguồn lực tập trung** được điều phối khoa học, tối ưu và cải thiện theo thời gian. 
 
 Khi việc chống dịch diễn ra thường xuyên: như xét nghiệm tập trung, định kỳ, tiêm vacxin theo đợt,... Hệ thống lệnh bài cũng giúp tạo ra thói quen cho mọi người, như : đến đúng nơi, đúng giờ, di chuyển trật tự,... Thói quen này chính là nguồn sức mạnh vô cùng lớn để chống dịch hiệu quả. 
+
+#### Đối tượng lẩn tránh, thiếu trách nhiệm, tiêu cực 
 
 Ngoài ra, Hệ thống lệnh bài còn giúp lọc ra các đối tượng "lẩn tránh, bỏ sót, và chểnh mảng":
 - các gia đình không tham gia theo lệnh
