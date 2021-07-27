@@ -4,7 +4,7 @@
 <!-- code_chunk_output -->
  
   - [Hệ miễn dịch của cơ thể](#hệ-miễn-dịch-của-cơ-thể)
-  - [Hệ miễn dịch của cộng đồng](#hệ-miễn-dịch-của-cộng-đồng)
+  - [Hệ miễn dịch của quốc gia](#hệ-miễn-dịch-của-quốc-gia)
   - [Thế nào là "hệ thống lệnh bài".](#thế-nào-là-hệ-thống-lệnh-bài)
     - [Tại sao dùng từ "Lệnh"](#tại-sao-dùng-từ-lệnh)
   - [Thực hiện "Mục tiêu kép" của chính phủ](#thực-hiện-mục-tiêu-kép-của-chính-phủ)
@@ -20,6 +20,7 @@
     - [Tại sao cần hệ thống này?](#tại-sao-cần-hệ-thống-này)
     - [Hệ thống này có khả thi để đối phó Covid ko?](#hệ-thống-này-có-khả-thi-để-đối-phó-covid-ko)
     - [Mở rộng số lượng Thẻ theo nhu cầu hoạt động.](#mở-rộng-số-lượng-thẻ-theo-nhu-cầu-hoạt-động)
+    - [Quy hoạt các hoạt động bên trong khu vực](#quy-hoạt-các-hoạt-động-bên-trong-khu-vực)
   - [Kết luận](#kết-luận)
 - [Chi tiết hơn](#chi-tiết-hơn)
   - [Lệnh bài cho cá nhân](#lệnh-bài-cho-cá-nhân)
@@ -34,87 +35,95 @@
 
 <!-- /code_chunk_output -->
 
-### Hệ miễn dịch của cơ thể 
+### Hệ miễn dịch của cơ thể
 
-Chúng ta đều biết, một cơ thể có hệ miễn dịch tốt sẽ nhanh chóng phát hiện nguy cơ xâm nhập, phát tín hiệu để đội quân bạch cầu tập trung 
-tiêu diệt, trước khi virus gây nguy hại tới các cơ quan quan trọng trong cơ thể, làm cơ thể bị thương tật hoặc ngưng hoạt động vĩnh viễn.
+Chúng ta đều biết, một cơ thể có hệ miễn dịch tốt sẽ nhanh chóng phát hiện xâm nhập, phát tín hiệu để đội quân bạch cầu tập trung tiêu diệt, trước khi virus kịp làm cơ thể thương tật hoặc ngưng hoạt động vĩnh viễn (chết).
 
-Hiện tại hệ miễn dịch của mỗi người khá chậm chạp trong việc nhận biết Covid. Và khi số lượng trở nên đông đảo, đội quân bạch cầu không đủ sức tiêu diệt, đồng thời các cơ quan quan trọng bị ngừng hoạt động, huỷ hoại, càng khiến cho sức mạnh của tiêu dịch virus càng ít đi. 
+Hiện tại hệ miễn dịch của mỗi người khá chậm chạp trong việc nhận biết Covid. Vì vậy, cần tiêm vacxin để hệ miễn dịch được luyện tập, tăng khả năng phát hiện. Đồng thời cơ thể cũng cần luyện tập thường xuyên tăng cường sức mạnh của đội quân bạch cầu. 
 
-Vì lý do này, cần tiêm vacxin để hệ miễn dịch được luyện tập, để nhanh chóng phát hiện covid. Đồng thời luyện tập sức khoẻ để tăng cường sức mạnh của đội quân bạch cầu. Và ngay cả không tiêm vacxin, hệ miễn dịch tự nhiên của cơ thể khoẻ mạnh hầu hết đều chiến thắng, với tỉ lệ trên 90%. 
+Tuy nhiên, với một cơ thể khoẻ mạnh, ngay cả không tiêm vacxin, đa số trường hợp hệ miễn dịch vẫn đủ sức chiến thắng covid với tỉ lệ trên 90%. 
 
-Nhưng trên phương diện cộng đồng, quốc gia, tỉ lệ chiến thắng lại bị đảo ngược. Covid xem như đã chiến thắng trên 90% quốc gia.
+Nhưng trên phương diện một cộng đồng, một quốc gia, tỉ lệ bị đảo ngược lại, với các quốc gia bị xâm nhập, trên 90% là thất bại trong việc ngăn chặn, kiểm soát covid. 
 
-### Hệ miễn dịch của cộng đồng 
+### Hệ miễn dịch của quốc gia 
 
-Lý do cho việc này là chúng ta khá yếu ở nhiều yếu tố, xem như là "hệ miễn dịch của cộng đồng" để chống lại dịch covid. 
+Nếu xem quốc gia là một cơ thể sống, thì "hệ miễn dịch của quốc gia" chính là khả năng chiến đấu, đẩy lùi covid ra khỏi quốc gia đó. 
 
-1. **Thiếu cơ chế cảnh báo sớm**: khi đã phát hiện thì dịch đã lây lan, ăn sâu vào cộng đồng
-2. **Việc tập trung tiêu diệt chưa hiệu quả**: thiếu cơ chế điều khiển linh hoạt, chưa phát huy mọi nguồn lực đang có, và bỏ sót kẻ thù. 
-3. **Cơ thể suy kiệt**: hạn chế di chuyển, tụ tập trên diện rộng, làm ngưng trệ kinh tế, càng kéo dài, sức đề kháng càng giảm đi.
+Trong cơ thể sống này, mỗi gia đình xem như là tế bào, những người đi làm là hồng cầu, và đội ngũ chống dịch (đội lấy mẫu, xét nghiệm, chính quyền địa phương) là đội quân bạch cầu, chính phủ sẽ là bộ não và nền kinh tế là sức khoẻ của cơ thể này. 
+
+Khi hình dung như trên, thì việc hầu hết các quốc gia thất bại trong cuộc chiến với covid là khá hợp lý, vì các quốc gia này đều thiếu các yếu tố then chốt của một hệ miễn dịch hiệu quả.
+
+1. **Thiếu cơ chế cảnh báo sớm**: khi đã phát hiện thì dịch đã lây lan, ăn sâu vào cộng đồng bên trong. 
+
+3. **Cơ thể suy kiệt**: giãn cách kéo dài, hạn chế di chuyển, tụ tập trên diện rộng, làm ngưng trệ nền kinh tế, khiến cho sức đề kháng càng giảm đi.
+
 4. **Thiếu cơ chế hạn chế lây lan, kiểm soát bùng phát**: làm tổn hại tới cơ quan quan trọng nhất là hệ thống y tế cộng đồng. 
 
-Hầu hết quốc gia chấp nhận để covid xâm nhập, tìm cách bảo vệ cơ quan quan trọng: hệ thống y tế không sụp đổ. Bên cạnh đó, tập trung luyện tập sức khoẻ (phát triển kinh tế), hạn chế tổn thất về con người bằng tiêm vacxin, và mong chờ nâng cao hệ miễn dịch của cộng đồng bằng tiêm chủng toàn dân. 
+2. **Việc tập trung tiêu diệt chưa hiệu quả**: thiếu cơ chế điều khiển linh hoạt, chưa phát huy mọi nguồn lực đang có, và bỏ sót kẻ thù. 
 
+Việc tiêm vacxin toàn dân, giải pháp mà tới lúc này, chưa quốc gia nào dám khẳng định là hiệu quả đối với biến thể Delta, và các biến thể khác trong tương lai, có thể xem là hi vọng duy nhất trong việc xây dựng miễn dịch cộng đồng (là một hệ miễn dịch cuả quốc gia đủ mạnh để chống covid). 
 
-Nhưng còn có cách khác để nâng cao nâng cao đồng thời 4 yếu tố nêu trên. Đó là triển khai "hệ thống lệnh bài". 
+Nhưng còn có cách khác để tăng khả năng của hệ miễn dịch quốc gia. Đó là nâng cao đồng thời 4 yếu tố nêu trên bằng "hệ thống lệnh bài", một liều vacxin để tạo kháng thể covid cho hệ miễn dịch cuả quốc gia. 
 
-Ý tưởng của hệ thống này như sau:
+**Ý tưởng để phát triển "hệ thống lệnh bài"**:
 
-- Xem mỗi Phường / Xã trong vùng dịch là một cơ thể. 
-- Khi nhiễm bệnh, để cơ thể nghỉ ngơi, tập trung truy quét covid. Khi tạm khoẻ, để cơ thể vận động từ từ, giải toả tâm lý và  phát triển kinh tế cục bộ, giúp đỡ các cơ thể yếu khác đang nằm nghỉ. 
-- Mỗi cơ thể cần đeo khẩu trang để hạn chế lây lan, luyện tập khả năng chống dịch thường xuyên, ngay cả khi đã khỏi bệnh. 
-- Một hệ thống cảnh báo sớm, phát tín hiệu để mọi người tăng cường đeo khẩu trang. Chia thành 2 đội: khoẻ mạnh thì hỗ trợ cô lập, dập dịch, yếu thì không cho tiếp xúc, tập trung kinh tế. 
+- Xem mỗi Phường / Xã trong quốc gia là một cơ thể. 
+- Khi nhiễm bệnh, để cơ thể nghỉ ngơi, tập trung truy quét covid. Khi tạm khoẻ, để cơ thể vận động từ từ, giải toả tâm lý và phát triển kinh tế cục bộ và phối hợp các cơ thể khác xung quanh. 
+- Cần trang bị "khẩu trang", cơ chế hạn chế xâm nhập cho mỗi cơ thể, luyện tập khả năng phát hiện nguy cơ thường xuyên, ngay cả khi đã khỏi bệnh. 
+- Một hệ thống cảnh báo sớm, phát tín hiệu để mọi người tăng cường đeo khẩu trang. Chia thành 2 đội: khoẻ mạnh thì hỗ trợ cô lập, dập dịch, đội yếu thì không cho tiếp xúc.
 
-Để bắt đầu, chúng ta hãy tìm hiểu. 
+Với ý tưởng này, Việt nam chúng ta sẽ là ngôi nhà chung của trên 10,000 cá thể này. 
+
+Và để bắt đầu, chúng ta cần tìm hiểu
 ### Thế nào là "hệ thống lệnh bài". 
 
 "Lệnh bài" là 1 tấm thẻ, khi triển khai một cách hệ thống sẽ phân chia vùng dịch thành các khu vực lân cận nhau. Trong đó hầu hết hoạt động di chuyển, mua bán và cả làm việc sẽ hạn chế bên trong khu vực này. 
 
 Quan trọng hơn, việc giới hạn hoạt động bên trong khu vực sẽ dần dần một cách "vô thức", không phụ thuộc vào tinh thần tự giác của từng người. 
-Tỉ lệ cố ý vi phạm, ra khỏi khu vực không có lý do sẽ ít đi nhiều, và dễ dàng bị phát hiện, bị xử phạt, càng khiến cho số lượng vi phạm dần về 0. 
+Tỉ lệ cố ý vi phạm, ra khỏi khu vực không có lý do sẽ ít đi nhiều, và dễ dàng bị phát hiện, xử phạt, càng khiến cho số lượng vi phạm dần về 0. 
 
-Để thực hiện được điều này, cần áp dụng 1 cấu trúc cân bằng, đơn giản lên "hệ thống lệnh bài", để bảo đảm rằng mọi yêu cầu truyền tới các đối tượng liên quan tới thẻ này, sẽ được hiểu và thực hiện đúng. 
+Để thực hiện được điều này, cần thiết kế 1 cấu trúc cân bằng, đơn giản lên tấm thẻ, và triển khai toàn hệ thống, để bảo đảm rằng mọi yêu cầu truyền tới các đối tượng liên quan tới thẻ này, sẽ được hiểu và thực hiện đúng. 
 #### Tại sao dùng từ "Lệnh" 
 
 Từ **lệnh**, nên hiểu là cơ chế lệnh "lây nhiễm" của Covid, hoặc **mệnh lệnh** trong quân đội, bắt buộc mọi đối tượng tiếp nhận phải thực hiện giống nhau. 
 
-Ví dụ: *"mọi gia đình trong tp Hồ Chí mình cần được cấp 1 Thẻ gia đình trong vòng 5 ngày"* là 1 mệnh lệnh gửi tới tất cả các Phường / Xã. **Làm thế nào để kiểm tra được việc thực hiện mệnh lệnh này với hơn 300 Phường / xã ở HCM**?
+Ví dụ: *"mọi gia đình trong tp Hồ Chí mình cần được cấp 1 Thẻ gia đình trong vòng 5 ngày"* là 1 mệnh lệnh gửi tới tất cả các Phường / Xã. **Làm thế nào để bảo đảm mệnh lệnh này được thực hiện đúng với hơn 300 Phường / xã ở HCM**?
 
-Ta sử dụng 1 mệnh lệnh khác để kiểm soát chéo, là thông báo với mọi người rằng "từ ngày ..., toàn bộ siêu thị, chợ chỉ bán hàng cho người có Thẻ gia đình. *Gia đình nào chưa nhận được thẻ, cần liên hệ với Phường / xã đang sống. Nếu gặp trở ngại thì gọi tới số hotline để hỗ trợ,..."*
+Ta sử dụng 1 mệnh lệnh khác để kiểm soát chéo. Đó là thông báo với mọi người rằng "từ ngày ..., toàn bộ siêu thị, chợ chỉ bán hàng cho người có Thẻ gia đình. *Gia đình nào chưa nhận được thẻ, cần liên hệ với Phường / xã đang sống. Nếu gặp trở ngại thì gọi tới số hotline để hỗ trợ,..."*
 
 Và **làm sao để bảo đảm, siêu thị, chợ chỉ bán hàng cho người có Thẻ gia đình?** Ta dùng mệnh lệnh khác, như *"mọi đơn hàng phải có thêm ID của thẻ gia đình"*. Nếu phát hiện thiếu ID, sẽ bị xử phạt nghiêm. Tất nhiên còn nhiều cách khác nữa.
 
-Thiết kế một cấu trúc cân bằng, đơn giản cho "lệnh bài" điều không hề đơn giản, cần có lĩnh hội sâu về [tư duy, ngôn ngữ hệ thống](https://vietnambiz.vn/nguyen-li-thu-nam-the-fifth-discipline-la-gi-cac-nguyen-tac-chinh-20191214001907077.htm). 
+Thiết kế một cấu trúc cân bằng, đơn giản cho "lệnh bài" điều không hề đơn giản, cần có kiến thức và lĩnh hội sâu về [tư duy, ngôn ngữ hệ thống](https://vietnambiz.vn/nguyen-li-thu-nam-the-fifth-discipline-la-gi-cac-nguyen-tac-chinh-20191214001907077.htm). 
 
 Cấu trúc này cần bảo đảm đầy đủ các yếu tố then chốt sau: 
 
-1. **Mọi người đều sử dụng được**: 
+1. **Tính hệ thống: mọi người đều sử dụng được**
     - Người già, người không biết tiếng việt, không có smartphone,
     - nhân viên giữ xe, quản lý có thể sử dụng được.
     - tiểu thương ngoài chợ có thể sử dụng được 
 
-2. **Nhận biết nhanh chóng, từ xa bởi con người và thiết bị tự động**: 
+2. **Tính nhận diện: nhanh chóng, từ xa bởi con người và thiết bị tự động**: 
     - nhìn, phân biệt bởi màu sắc, thông tin ở mặt trước, và cả mặt sau. quan sát từ xa qua dây đeo 
     - không chỉ công an, dân phòng, mà cả người dân và thiết bị đều nhận biết được
     - Với thiết bị (smartphone, thiết bị checkpoint), quét thẻ, thiết bị hiện thông tin, hoặc phát âm thanh.
 
-3. **Duy nhất, toàn vẹn, không chấp nhận nhân bản, sao chép** 
+3. **Tính duy nhất: toàn vẹn, không chấp nhận nhân bản, sao chép** 
     - ID duy nhất, thẻ vật lý, không chấp nhận photo, hình ảnh trên điện thoại, thiếu con dấu hoặc có dấu hiệu làm giả,...
     - khoá thẻ từ xa qua ID, có địa chỉ để xử lý tình trạng cho mượn thẻ, 
     - giám sát số lượng hoạt động theo Phường, ... 
 
-4. **Cho phép triển khai nhanh, đồng loạt tới mọi người**
+4. **Tốc độ triển khai: nhanh, đồng loạt tới mọi khu vực, mọi người**
     - phát hành tập trung, xuất file pdf.
     - in ấn tập trung hoặc bởi từng địa phương dựa trên file đã xuất
+    - địa phương xác nhận và cấp cho từng đối tượng 
 
-5. **kết nối với hệ thống tập trung để tối ưu hiệu quả, nhưng cho phép bổ sung trong tương lai**
+5. **Tính kết nối: với hệ thống chung để tối ưu hiệu quả, nhưng cho phép bổ sung trong tương lai**
     - tìm kiếm thông tin theo ID trên hệ thống
     - phần màu trắng là qrcode và cả barcode, để mở rộng tính năng quản lý giám sát trong tương lai. 
 
-Có thể thấy, khẩu trang là  1 cấu trúc có 4 yếu tố đầu tiên. Việc lệnh mọi người đeo nó ra đường, khiến cho hệ thống khẩu trang rất hiệu quả trong việc chống dịch: hạn chế lây nhiễm covid và nhận biết người tuân thủ. 
+Có thể thấy, khẩu trang là  1 cấu trúc có 4 yếu tố đầu tiên. Điều này khiến cho hệ thống khẩu trang rất hiệu quả trong việc chống dịch: hạn chế lây nhiễm covid và nhận biết người tuân thủ. 
 
-Đây là 1 thiết kế cho Thẻ Gia đình, 1 loại "lệnh bài" dành cho gia đình
+Và đây là thiết kế cho Thẻ Gia đình, 1 loại "lệnh bài" dành cho gia đình
 
 ![](the_gia_dinh.png)
 
@@ -255,6 +264,10 @@ Nếu mọi người đều quen với hệ thống này, thì việc kích ho�
 - Thẻ đi làm trong khu vực: theo ngành nghề
 - Thẻ gia đình 
 
+#### Quy hoạt các hoạt động bên trong khu vực
+
+- Các dịch vụ cho người dân bên trong khu vực: công viên, trường học, khu vui chơi ngoài trời,... cần tuân theo các tiêu chuẩn phòng và giám sát dịch trước khi hoạt động
+- Ưu tiên cho các doanh nghiệp sắp xếp đội ngũ nhân viên, bố trí nơi ở và làm việc bên trong 1 khu vực. 
 
 ### Kết luận 
 
