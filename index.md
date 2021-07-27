@@ -3,7 +3,7 @@
 
 <!-- code_chunk_output -->
  
-  - [Hệ miễn dịch của cơ thể và của cộng đồng](#hệ-miễn-dịch-của-cơ-thể-và-của-cộng-đồng)
+  - [Hệ miễn dịch của cơ thể](#hệ-miễn-dịch-của-cơ-thể)
     - [Hệ miễn dịch của cộng đồng](#hệ-miễn-dịch-của-cộng-đồng)
   - [Thế nào là "hệ thống lệnh bài".](#thế-nào-là-hệ-thống-lệnh-bài)
     - [Tại sao dùng từ "Lệnh"](#tại-sao-dùng-từ-lệnh)
@@ -34,7 +34,7 @@
 
 <!-- /code_chunk_output -->
 
-### Hệ miễn dịch của cơ thể và của cộng đồng
+### Hệ miễn dịch của cơ thể 
 
 Chúng ta đều biết, một cơ thể có hệ miễn dịch tốt sẽ nhanh chóng phát hiện nguy cơ xâm nhập, phát tín hiệu để đội quân bạch cầu tập trung 
 tiêu diệt, trước khi virus gây nguy hại tới các cơ quan quan trọng trong cơ thể, làm cơ thể bị thương tật hoặc ngưng hoạt động vĩnh viễn.
