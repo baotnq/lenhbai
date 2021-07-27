@@ -4,7 +4,7 @@
 <!-- code_chunk_output -->
  
   - [Hệ miễn dịch của cơ thể](#hệ-miễn-dịch-của-cơ-thể)
-    - [Hệ miễn dịch của cộng đồng](#hệ-miễn-dịch-của-cộng-đồng)
+  - [Hệ miễn dịch của cộng đồng](#hệ-miễn-dịch-của-cộng-đồng)
   - [Thế nào là "hệ thống lệnh bài".](#thế-nào-là-hệ-thống-lệnh-bài)
     - [Tại sao dùng từ "Lệnh"](#tại-sao-dùng-từ-lệnh)
   - [Thực hiện "Mục tiêu kép" của chính phủ](#thực-hiện-mục-tiêu-kép-của-chính-phủ)
@@ -45,14 +45,14 @@ Vì lý do này, cần tiêm vacxin để hệ miễn dịch được luyện t�
 
 Nhưng trên phương diện cộng đồng, quốc gia, tỉ lệ chiến thắng lại bị đảo ngược. Covid xem như đã chiến thắng trên 90% quốc gia.
 
-#### Hệ miễn dịch của cộng đồng 
+### Hệ miễn dịch của cộng đồng 
 
 Lý do cho việc này là chúng ta khá yếu ở nhiều yếu tố, xem như là "hệ miễn dịch của cộng đồng" để chống lại dịch covid. 
 
 1. **Thiếu cơ chế cảnh báo sớm**: khi đã phát hiện thì dịch đã lây lan, ăn sâu vào cộng đồng
 2. **Việc tập trung tiêu diệt chưa hiệu quả**: thiếu cơ chế điều khiển linh hoạt, chưa phát huy mọi nguồn lực đang có, và bỏ sót kẻ thù. 
 3. **Cơ thể suy kiệt**: hạn chế di chuyển, tụ tập trên diện rộng, làm suy kiệt kinh tế, là khả năng chống dịch của cơ thể. 
-4. **Thiếu cơ chế hạn chế lây lan, kiểm soát bùng phát**: làm tổn hại tới cơ quan quan trọng nhất của cộng đồng là hệ thống y tế. 
+4. **Thiếu cơ chế hạn chế lây lan, kiểm soát bùng phát**: làm tổn hại tới cơ quan quan trọng nhất là hệ thống y tế cộng đồng. 
 
 Hầu hết quốc gia chấp nhận để covid xâm nhập, tìm cách bảo vệ cơ quan quan trọng: hệ thống y tế không sụp đổ. Bên cạnh đó, tập trung luyện tập sức khoẻ (phát triển kinh tế), hạn chế tổn thất về con người bằng tiêm vacxin, và mong chờ nâng cao hệ miễn dịch của cộng đồng bằng tiêm chủng toàn dân. 
 
