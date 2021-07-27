@@ -4,7 +4,7 @@
 <!-- code_chunk_output -->
  
   - [Hệ miễn dịch của cơ thể](#hệ-miễn-dịch-của-cơ-thể)
-  - [Hệ miễn dịch của quốc gia](#hệ-miễn-dịch-của-quốc-gia)
+  - [Hệ miễn dịch quốc gia](#hệ-miễn-dịch-quốc-gia)
   - [Thế nào là "hệ thống lệnh bài".](#thế-nào-là-hệ-thống-lệnh-bài)
     - [Tại sao dùng từ "Lệnh"](#tại-sao-dùng-từ-lệnh)
   - [Thực hiện "Mục tiêu kép" của chính phủ](#thực-hiện-mục-tiêu-kép-của-chính-phủ)
@@ -45,9 +45,9 @@ Tuy nhiên, với một cơ thể khoẻ mạnh, ngay cả không tiêm vacxin, 
 
 Nhưng trên phương diện một cộng đồng, một quốc gia, tỉ lệ bị đảo ngược lại, với các quốc gia bị xâm nhập, trên 90% là thất bại trong việc ngăn chặn, kiểm soát covid. 
 
-### Hệ miễn dịch của quốc gia 
+### Hệ miễn dịch quốc gia 
 
-Nếu xem quốc gia là một cơ thể sống, thì "hệ miễn dịch của quốc gia" chính là khả năng chiến đấu, đẩy lùi covid ra khỏi quốc gia đó. 
+Nếu xem quốc gia là một cơ thể sống, thì "hệ miễn dịch quốc gia" chính là khả năng chiến đấu, đẩy lùi covid ra khỏi quốc gia đó. 
 
 Trong cơ thể sống này, mỗi gia đình xem như là tế bào, những người đi làm là hồng cầu, và đội ngũ chống dịch (đội lấy mẫu, xét nghiệm, chính quyền địa phương) là đội quân bạch cầu, chính phủ sẽ là bộ não và nền kinh tế là sức khoẻ của cơ thể này. 
 
@@ -63,7 +63,7 @@ Khi hình dung như trên, thì việc hầu hết các quốc gia thất bại 
 
 Việc tiêm vacxin toàn dân, giải pháp mà tới lúc này, chưa quốc gia nào dám khẳng định là hiệu quả đối với biến thể Delta, và các biến thể khác trong tương lai, có thể xem là hi vọng duy nhất trong việc xây dựng miễn dịch cộng đồng (là một hệ miễn dịch cuả quốc gia đủ mạnh để chống covid). 
 
-Nhưng còn có cách khác để tăng khả năng của hệ miễn dịch quốc gia. Đó là nâng cao đồng thời 4 yếu tố nêu trên bằng "hệ thống lệnh bài", một liều vacxin để tạo kháng thể covid cho hệ miễn dịch cuả quốc gia. 
+Nhưng còn có cách khác để cải thiện hệ miễn dịch quốc gia. Đó là nâng cao đồng thời 4 yếu tố nêu trên bằng "hệ thống lệnh bài", một liều vacxin để tạo kháng thể covid cho hệ miễn dịch cuả quốc gia. 
 
 **Ý tưởng để phát triển "hệ thống lệnh bài"**:
 
