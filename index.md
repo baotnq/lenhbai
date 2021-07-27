@@ -1,18 +1,19 @@
-## Hệ thống lệnh bài: chống dịch và phát triển kinh tế theo khu vực
+# Lệnh bài: chống dịch và phát triển kinh tế theo khu vực
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
  
-- [Hệ thống lệnh bài: chống dịch và phát triển kinh tế theo khu vực](#hệ-thống-lệnh-bài-chống-dịch-và-phát-triển-kinh-tế-theo-khu-vực)
-  - [Mục tiêu kép](#mục-tiêu-kép)
+  - [Hệ miễn dịch của cơ thể và của cộng đồng](#hệ-miễn-dịch-của-cơ-thể-và-của-cộng-đồng)
+    - [Hệ miễn dịch của cộng đồng](#hệ-miễn-dịch-của-cộng-đồng)
   - [Thế nào là "hệ thống lệnh bài".](#thế-nào-là-hệ-thống-lệnh-bài)
-    - [tại sao dùng từ "Lệnh"](#tại-sao-dùng-từ-lệnh)
+    - [Tại sao dùng từ "Lệnh"](#tại-sao-dùng-từ-lệnh)
+  - [Thực hiện "Mục tiêu kép" của chính phủ](#thực-hiện-mục-tiêu-kép-của-chính-phủ)
   - [Nhiệm vụ 1: Chia vùng dịch các khu vực liền kề](#nhiệm-vụ-1-chia-vùng-dịch-các-khu-vực-liền-kề)
     - [Hạn chế ra ngoài mua nhu yếu phẩm](#hạn-chế-ra-ngoài-mua-nhu-yếu-phẩm)
     - [Giới hạn hoạt động của người dân trong khu vực](#giới-hạn-hoạt-động-của-người-dân-trong-khu-vực)
     - [Giám sát việc di chuyển ra, vào ngoài khu vực](#giám-sát-việc-di-chuyển-ra-vào-ngoài-khu-vực)
   - [Nhiệm vụ  2. Huy động mọi người bên trong khu vực cùng tham gia chống dịch](#nhiệm-vụ-2-huy-động-mọi-người-bên-trong-khu-vực-cùng-tham-gia-chống-dịch)
-    - [hệ thống liên lạc đa chiều](#hệ-thống-liên-lạc-đa-chiều)
+    - [Hệ thống liên lạc đa chiều](#hệ-thống-liên-lạc-đa-chiều)
     - [Huy động mọi nguồn lực](#huy-động-mọi-nguồn-lực)
     - [Đối tượng lẩn tránh, thiếu trách nhiệm, tiêu cực](#đối-tượng-lẩn-tránh-thiếu-trách-nhiệm-tiêu-cực)
   - [Nhiệm vụ 3: Hệ thống cảnh báo, kiềm soát Covid bùng phát.](#nhiệm-vụ-3-hệ-thống-cảnh-báo-kiềm-soát-covid-bùng-phát)
@@ -20,46 +21,63 @@
     - [Hệ thống này có khả thi để đối phó Covid ko?](#hệ-thống-này-có-khả-thi-để-đối-phó-covid-ko)
     - [Mở rộng số lượng Thẻ theo nhu cầu hoạt động.](#mở-rộng-số-lượng-thẻ-theo-nhu-cầu-hoạt-động)
   - [Kết luận](#kết-luận)
-- [Tham khảo](#tham-khảo)
+- [Chi tiết hơn](#chi-tiết-hơn)
   - [Lệnh bài cho cá nhân](#lệnh-bài-cho-cá-nhân)
   - [Áp dụng vào tình hình ở tp HCM](#áp-dụng-vào-tình-hình-ở-tp-hcm)
     - [Đưa, cấp thẻ tới mọi người dưới 7 ngày](#đưa-cấp-thẻ-tới-mọi-người-dưới-7-ngày)
     - [Xây dựng bản đồ chống dịch](#xây-dựng-bản-đồ-chống-dịch)
     - [Duy trì chất lượng của đội y tế](#duy-trì-chất-lượng-của-đội-y-tế)
     - [Sử dụng hết các năng lực truyền, nhận “lệnh”](#sử-dụng-hết-các-năng-lực-truyền-nhận-lệnh)
-    - [Chiến thuật Quạt 3 cánh để khoanh vùng và truy quét toàn bộ](#chiến-thuật-quạt-3-cánh-để-khoanh-vùng-và-truy-quét-toàn-bộ)
+  - [Chiến thuật Quạt 3 cánh để khoanh vùng và truy quét toàn bộ](#chiến-thuật-quạt-3-cánh-để-khoanh-vùng-và-truy-quét-toàn-bộ)
 - [Tham khảo thêm](#tham-khảo-thêm)
   - [Cấu trúc hệ thống quyết định hành vi bên trong](#cấu-trúc-hệ-thống-quyết-định-hành-vi-bên-trong)
 
 <!-- /code_chunk_output -->
 
+### Hệ miễn dịch của cơ thể và của cộng đồng
 
-### Mục tiêu kép
+Chúng ta đều biết, một cơ thể có hệ miễn dịch tốt sẽ nhanh chóng phát hiện nguy cơ xâm nhập, phát tín hiệu để đội quân bạch cầu tập trung 
+tiêu diệt, trước khi virus gây nguy hại tới các cơ quan quan trọng trong cơ thể, làm cơ thể bị thương tật hoặc ngưng hoạt động vĩnh viễn.
 
-"Lệnh bài" là một cấu trúc, nếu triển khai một cách hệ thống 
-toàn vùng có dịch, sẽ phân chia thành nhiều khu vực lân cận nhau. Trong đó hầu hết hoạt động di chuyển, mua bán và cả làm việc sẽ hạn chế bên trong khu vực này. 
+Hiện tại hệ miễn dịch của mỗi người khá chậm chạp trong việc nhận biết Covid. Và khi số lượng trở nên đông đảo, đội quân bạch cầu không đủ sức tiêu diệt, đồng thời các cơ quan quan trọng bị ngừng hoạt động, huỷ hoại, càng khiến cho sức mạnh của tiêu dịch virus càng ít đi. 
 
-Quan trọng hơn, việc giới hạn hoạt động bên trong khu vực sẽ dần dần một cách "vô thức", không phụ thuộc vào tinh thần tự giác của từng người. 
+Vì lý do này, cần tiêm vacxin để hệ miễn dịch được luyện tập, để nhanh chóng phát hiện covid. Đồng thời luyện tập sức khoẻ để tăng cường sức mạnh của đội quân bạch cầu. Và ngay cả không tiêm vacxin, hệ miễn dịch tự nhiên của cơ thể khoẻ mạnh hầu hết đều chiến thắng, với tỉ lệ trên 90%. 
 
-Tỉ lệ cố ý vi phạm, ra khỏi khu vực không có lý do sẽ ít đi nhiều, và dễ dàng bị phát hiện, bị xử phạt, càng khiến cho số lượng vi phạm dần về 0. 
+Nhưng trên phương diện cộng đồng, quốc gia, tỉ lệ chiến thắng lại bị đảo ngược. Covid xem như đã chiến thắng trên 90% quốc gia.
 
-Sau 1 thời gian triển khai, vùng dịch có thể thực hiện **mục tiêu kép** chống dịch và phát triển kinh tế
+#### Hệ miễn dịch của cộng đồng 
 
-- **Tập trung chống dịch khu vực nguy cơ cao** : khoanh vùng chặt chẽ,  xét nghiệm toàn bộ liên tục để tách hết F0 để chuyển thành vùng an toàn. 
+Lý do cho việc này là chúng ta khá yếu ở nhiều yếu tố, xem như là "hệ miễn dịch của cộng đồng" để chống lại dịch covid. 
 
-- **Giảm bớt giãn cách để phát triển kinh tế bên trong khu vực an toàn**: cho phép mở lại nhiều hoạt động hơn bên trong, và vẫn duy trì xét nghiệm 
+1. **Thiếu cơ chế cảnh báo sớm**: khi đã phát hiện thì dịch đã lây lan, ăn sâu vào cộng đồng
+2. **Việc tập trung tiêu diệt chưa hiệu quả**: thiếu cơ chế điều khiển linh hoạt, chưa phát huy mọi nguồn lực đang có, và bỏ sót kẻ thù. 
+3. **Cơ thể suy kiệt**: hạn chế di chuyển, tụ tập trên diện rộng, làm suy kiệt kinh tế, là khả năng chống dịch của cơ thể. 
+4. **Thiếu cơ chế hạn chế lây lan, kiểm soát bùng phát**: làm tổn hại tới cơ quan quan trọng nhất của cộng đồng là hệ thống y tế. 
 
-- **Hệ thống cảnh báo sớm** Xét nghiệm theo từng nhóm nguy cơ cao, để nhanh chóng phát hiện, để hạn chế dịch bùng phát trong tương lai. 
+Hầu hết quốc gia chấp nhận để covid xâm nhập, tìm cách bảo vệ cơ quan quan trọng: hệ thống y tế không sụp đổ. Bên cạnh đó, tập trung luyện tập sức khoẻ (phát triển kinh tế), hạn chế tổn thất về con người bằng tiêm vacxin, và mong chờ nâng cao hệ miễn dịch của cộng đồng bằng tiêm chủng toàn dân. 
 
-Để bắt đầu, chúng ta cần tìm hiểu
 
+Nhưng còn có cách khác để nâng cao nâng cao đồng thời 4 yếu tố nêu trên. Đó là triển khai "hệ thống lệnh bài". 
+
+Ý tưởng của hệ thống này như sau:
+
+- Xem mỗi Phường / Xã trong vùng dịch là một cơ thể. 
+- Khi nhiễm bệnh, để cơ thể nghỉ ngơi, tập trung truy quét covid. Khi tạm khoẻ, để cơ thể vận động từ từ, giải toả tâm lý và  phát triển kinh tế cục bộ, giúp đỡ các cơ thể yếu khác đang nằm nghỉ. 
+- Mỗi cơ thể cần đeo khẩu trang để hạn chế lây lan, luyện tập khả năng chống dịch thường xuyên, ngay cả khi đã khỏi bệnh. 
+- Một hệ thống cảnh báo sớm, phát tín hiệu để mọi người tăng cường đeo khẩu trang. Chia thành 2 đội: khoẻ mạnh thì hỗ trợ cô lập, dập dịch, yếu thì không cho tiếp xúc, tập trung kinh tế. 
+
+Để bắt đầu, chúng ta hãy tìm hiểu. 
 ### Thế nào là "hệ thống lệnh bài". 
 
+"Lệnh bài" là 1 tấm thẻ, khi triển khai một cách hệ thống sẽ phân chia vùng dịch thành các khu vực lân cận nhau. Trong đó hầu hết hoạt động di chuyển, mua bán và cả làm việc sẽ hạn chế bên trong khu vực này. 
 
-"lệnh bài" là một cấu trúc, nằm trong 1 tấm thẻ, để bảo đảm rằng mọi yêu cầu truyền tới các đối tượng liên quan tới thẻ này, sẽ được hiểu và thực hiện đúng. 
-#### tại sao dùng từ "Lệnh" 
+Quan trọng hơn, việc giới hạn hoạt động bên trong khu vực sẽ dần dần một cách "vô thức", không phụ thuộc vào tinh thần tự giác của từng người. 
+Tỉ lệ cố ý vi phạm, ra khỏi khu vực không có lý do sẽ ít đi nhiều, và dễ dàng bị phát hiện, bị xử phạt, càng khiến cho số lượng vi phạm dần về 0. 
 
-Từ **lệnh**, nên hiểu là cơ chế lệnh "lây nhiễm" của Covid, hoặc **mệnh lệnh** trong quân đội, mọi đối tượng tiếp nhận phải thực hiện giống nhau. 
+Để thực hiện được điều này, cần áp dụng 1 cấu trúc cân bằng, đơn giản lên "hệ thống lệnh bài", để bảo đảm rằng mọi yêu cầu truyền tới các đối tượng liên quan tới thẻ này, sẽ được hiểu và thực hiện đúng. 
+#### Tại sao dùng từ "Lệnh" 
+
+Từ **lệnh**, nên hiểu là cơ chế lệnh "lây nhiễm" của Covid, hoặc **mệnh lệnh** trong quân đội, bắt buộc mọi đối tượng tiếp nhận phải thực hiện giống nhau. 
 
 Ví dụ: *"mọi gia đình trong tp Hồ Chí mình cần được cấp 1 Thẻ gia đình trong vòng 5 ngày"* là 1 mệnh lệnh gửi tới tất cả các Phường / Xã. **Làm thế nào để kiểm tra được việc thực hiện mệnh lệnh này với hơn 300 Phường / xã ở HCM**?
 
@@ -67,7 +85,9 @@ Ta sử dụng 1 mệnh lệnh khác để kiểm soát chéo, là thông báo v
 
 Và **làm sao để bảo đảm, siêu thị, chợ chỉ bán hàng cho người có Thẻ gia đình?** Ta dùng mệnh lệnh khác, như *"mọi đơn hàng phải có thêm ID của thẻ gia đình"*. Nếu phát hiện thiếu ID, sẽ bị xử phạt nghiêm. Tất nhiên còn nhiều cách khác nữa.
 
-Thiết kế một cấu trúc tốt cho "lệnh bài" để thực hiện được mục tiêu kép là điều không hề đơn giản. Nó cần bảo đảm đầy đủ các yếu tố then chốt sau: 
+Thiết kế một cấu trúc cân bằng, đơn giản cho "lệnh bài" điều không hề đơn giản, cần có lĩnh hội sâu về [tư duy, ngôn ngữ hệ thống](https://vietnambiz.vn/nguyen-li-thu-nam-the-fifth-discipline-la-gi-cac-nguyen-tac-chinh-20191214001907077.htm). 
+
+Cấu trúc này cần bảo đảm đầy đủ các yếu tố then chốt sau: 
 
 1. **Mọi người đều sử dụng được**: 
     - Người già, người không biết tiếng việt, không có smartphone,
@@ -107,10 +127,19 @@ Các phần quan trọng, giúp có được 5 yếu tố trên
 - **Ngày mua hàng**: check vào để lưu ngày mua, giúp kiểm soát việc ra ngoài nhiều lần mua hàng. triển khai nhanh chóng, bổ sung hệ thống sau này dễ dàng. 
 - phần trắng ở mặt trước là phần để kết nối với hệ thống, dễ dàng mở rộng sau. 
 
-Ngoài ra, còn có các "lệnh bài" dành cho cá nhân, thoả mãn các yếu tố trên, chi tiết xem mục [Lệnh bài cho cá nhân](#lệnh-bài-cho-cá-nhân)
+Ngoài ra, còn có các "lệnh bài" dành cho cá nhân, dành cho các các nhân có nguy cơ cao, như di chuyển làm việc thường xuyên, hoặc tham gia chống dịch. Chi tiết xem [Lệnh bài cho cá nhân](#lệnh-bài-cho-cá-nhân)
 
-Khi các thẻ được cấp đến tay mọi người trong vùng dịch theo chỉ thị, ta có được hệ thống lệnh bài mạnh mẽ, cho phép thực hiện các mục tiêu sau: 
+### Thực hiện "Mục tiêu kép" của chính phủ 
 
+Sau 1 thời gian triển khai, vùng dịch có thể thực hiện **mục tiêu kép** chống dịch và phát triển kinh tế
+
+- **Tập trung chống dịch khu vực nguy cơ cao** : khoanh vùng chặt chẽ,  xét nghiệm toàn bộ liên tục để tách hết F0 để chuyển thành vùng an toàn. 
+
+- **Giảm bớt giãn cách để phát triển kinh tế bên trong khu vực an toàn**: cho phép mở lại nhiều hoạt động hơn bên trong, và vẫn duy trì xét nghiệm 
+
+- **Hệ thống cảnh báo sớm** Xét nghiệm theo từng nhóm nguy cơ cao, để nhanh chóng phát hiện, để hạn chế dịch bùng phát trong tương lai. 
+
+Để thực hiện được mục tiêu trên, chúng ta cần vận dụng "hệ thống lệnh bài" để thực hiện 3 nhiệm vụ chính như sau: 
 ### Nhiệm vụ 1: Chia vùng dịch các khu vực liền kề
 
 #### Hạn chế ra ngoài mua nhu yếu phẩm 
@@ -135,11 +164,12 @@ Tỉ lệ vi phạm sẽ giảm hơn nhiều và dễ bị phát hiện, khiến
 Việc giới hạn một cách tự nhiên cho mọi người mang thẻ dựa trên một lý thuyết là "cấu trúc ảnh hưởng tới hành vi của mọi đối tượng bên trong" và số lượng vi phạm ngày càng giảm là một tiến trình tăng cường theo thời gian. Tham khảo hai phần này trong cuốn [Nguyên lý thứ 5](https://vietnambiz.vn/nguyen-li-thu-nam-the-fifth-discipline-la-gi-cac-nguyen-tac-chinh-20191214001907077.htm) 
 
 #### Giám sát việc di chuyển ra, vào ngoài khu vực
+> giống như đeo khẩu trang cho cơ chể, đã nêu ở trên. 
 
 Thẻ đi làm dành cho giao hàng, nhân viên đi làm ra khỏi hay vào khu vực,... giúp cho việc giám sát trở nên dễ dàng.
 Yêu cầu tới đường giáp ranh, **khai báo tự nguyện bằng cách quét thẻ tại các điểm Checkpoint** 
 
-Khi đây dễ dàng phân biệt các cá nhân không có Thẻ, hoặc chỉ có Thẻ gia đình. 
+Dựa vào đó dễ dàng phân biệt các cá nhân không có Thẻ, hoặc chỉ có Thẻ gia đình. 
 
 Khi cần tăng mức độ kiểm soát ra ngoài khu vực, bổ sung thêm công an, dân phòng tại các điểm Checkpoint và yêu cầu tất cả tuân thủ như khai báo y tế, xét nghiệm, hoặc cách ly,...
 
@@ -150,9 +180,7 @@ có thể thực hiện nhiệm vụ tiếp theo.
 ### Nhiệm vụ  2. Huy động mọi người bên trong khu vực cùng tham gia chống dịch
 
 Muốn chống dịch hiệu quả, bên cạnh tinh thần tự giác, cần mọi người cùng phối hợp, tuân thủ những yêu cầu đưa ra. 
-
-
-#### hệ thống liên lạc đa chiều
+#### Hệ thống liên lạc đa chiều
 
 giữa Bộ chỉ huy và mọi đối tượng: người dân, doanh nghiệp địa phương, cán bộ địa phương, và đội ngũ y tế dùng chung. Có nhiều cơ chế liên lạc tuỳ tình hình
 
@@ -239,7 +267,7 @@ Và mong bạn gửi đề xuất này đến Ban chỉ đạo chống dịch, h
 
 Mọi góp ý gửi về quocbao.tn@gmail.com hoặc gọi điện tới số điện thoại: 076 784 7421
 
-## Tham khảo 
+## Chi tiết hơn 
 ### Lệnh bài cho cá nhân
 > gồm 2 loại chính
 
@@ -336,7 +364,7 @@ mỗi thẻ là một đơn vị giám sát, hỗ trợ, hướng dẫn
 - tìm tới địa chỉ của từng thẻ: tốn công nhưng rất hiệu quả.
 - gọi điện tới số điện thoại của thẻ: cho thẻ công vụ, 
 
-#### Chiến thuật Quạt 3 cánh để khoanh vùng và truy quét toàn bộ
+### Chiến thuật Quạt 3 cánh để khoanh vùng và truy quét toàn bộ
 
 đây là 1 gợi ích, thực tế có nhiều cách hiệu quả, hợp lý hơn.
 
@@ -368,16 +396,16 @@ Và với Thẻ đi làm” số lượng ít hơn, có thể xét nhiệm toàn
 
 Ngoài việc có kết quả chiến lợi, khi đánh trận cần hạn chế tốn thất cho giữa những người tham gia, và rút ra bài học từ thu thập dữ liệu cho trận đánh tiếp theo.
 
-Hạn chế tổn thất: 
+**Hạn chế tổn thất:**
 là hạn chế lây lan covid giữa những người tham gia, hạn chế việc lấy mẫu không đúng, không đạt yêu cầu, đội lấy mẫu bị vét kiệt sức, chất lượng suy giảm cho trận đánh ngày mai. 
 
 Có nhiều cách để làm điều này xoay quanh việc điều tiết Thẻ tham gia.
 
-Thu thập dữ liệu trong trận đánh giúp cải thiện hiệu quả các trận đánh tiếp theo, hạn chế tổn thất và nhất là làm tăng niềm tin của người dân khi tham gia lấy mẫu lần sau.
+**Thu thập dữ liệu** trong trận đánh giúp cải thiện hiệu quả các trận đánh tiếp theo, hạn chế tổn thất và nhất là làm tăng niềm tin của người dân khi tham gia lấy mẫu lần sau.
 
-Thu thập dữ liệu cần dựa trên tinh thần: hướng dẫn để mọi người dùng Thẻ để “tự động nhập liệu”. Thiết lập những cách thu thập đơn giản, những điểm nhập cố định, dễ nhận biết, và hướng dẫn dễ hiểu mang lại hiệu quả lớn với chi phí thấp. Không cần bày vẽ cách máy móc, công nghệ tân tiến, làm không đúng cách sẽ càng phản tác dụng. 
+thực hiện trên tinh thần: hướng dẫn để mọi người dùng Thẻ để “tự động nhập liệu”. Thiết lập những cách thu thập đơn giản, những điểm nhập cố định, dễ nhận biết, và hướng dẫn dễ hiểu mang lại hiệu quả lớn với chi phí thấp. Không cần bày vẽ cách máy móc, công nghệ tân tiến, làm không đúng cách sẽ càng phản tác dụng. 
 
-Cập nhật bản đồ kết quả, cải thiện cho các lần tiếp theo
+**Cập nhật bản đồ kết quả, cải thiện cho các lần tiếp theo**
 
 Kết quả trận đánh cần công bố cho mọi người biết, ít nhất là những người tham gia.
 
