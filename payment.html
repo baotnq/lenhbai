@@ -10,7 +10,8 @@
        
     <div>
       <div> 
-        <label>RequestTransactionId</label>
+        <label>RequestTransactionId </label>
+        <textarea> (ID do vinaas tạo ra: ví dụ new Date().getTime() hoặc uuid )  </textarea>
         <input type="text" name="RequestTransactionId" value="CUS0123456"/>
       </div>     
       
@@ -113,6 +114,7 @@
       </div>
       <div> 
         <label>ReturnLink  </label>
+        <label>(bao): pop thông báo thành công, bật lên trên App sau khi kết thúc, nên là link popup</label>
         <input type="text" name="ReturnLink" value="/show-success-popup"/>
       </div>
       <input type="submit" value="Send file" />
