@@ -7,7 +7,7 @@
   - [Hệ miễn dịch quốc gia](#hệ-miễn-dịch-quốc-gia)
   - [Thế nào là "hệ thống lệnh bài".](#thế-nào-là-hệ-thống-lệnh-bài)
     - [Tại sao dùng từ "Lệnh"](#tại-sao-dùng-từ-lệnh)
-    - [Các bên đều có thể tương tác](#các-bên-đều-có-thể-tương-tác)
+    - [Các bên có thể tương tác](#các-bên-có-thể-tương-tác)
     - [Cơ chế giám sát chéo](#cơ-chế-giám-sát-chéo)
   - [Thực hiện "Mục tiêu kép" của chính phủ](#thực-hiện-mục-tiêu-kép-của-chính-phủ)
   - [Nhiệm vụ 1: Chia vùng dịch các khu vực liền kề](#nhiệm-vụ-1-chia-vùng-dịch-các-khu-vực-liền-kề)
@@ -27,6 +27,8 @@
     - [Liên hệ:](#liên-hệ)
 - [Triển khai thực tế:](#triển-khai-thực-tế)
   - [Triển khai Thẻ Gia đình](#triển-khai-thẻ-gia-đình)
+    - [Cách sử dụng:](#cách-sử-dụng)
+    - [Thời gian triển khai](#thời-gian-triển-khai)
     - [Hỗ trợ các gia đình khó khăn](#hỗ-trợ-các-gia-đình-khó-khăn)
     - [Tổ chức dịch vụ nội khu](#tổ-chức-dịch-vụ-nội-khu)
   - [Lệnh bài cho cá nhân](#lệnh-bài-cho-cá-nhân)
@@ -144,7 +146,7 @@ Các phần quan trọng, giúp có được 5 yếu tố trên
 - **mã QRCode** là phần để kết nối với hệ thống, dễ dàng mở rộng sau. 
 
 Chi tiết tham khảo thêm [Triển khai Thẻ Gia đình](#triển-khai-thẻ-gia-đình)
-#### Các bên đều có thể tương tác
+#### Các bên có thể tương tác
 
 ![](moi-tuong-tac.png)
 
@@ -232,7 +234,7 @@ giữa Bộ chỉ huy và mọi đối tượng: người dân, doanh nghiệp �
 - Ra lệnh tổng quát, từ xa: thông qua báo chí truyền hình, ...
 - Giải thích lệnh theo từng khu vực, Phường / xã nhỏ hơn:
 - hướng dẫn trực tiếp tại từng nhà bởi các bộ địa phương
-- đôn đốc các bộ địa phương bám sát mọi gia đình, hạn chế bỏ sót 
+- đôn đốc cán bộ địa phương bám sát mọi gia đình, hạn chế bỏ sót 
 - người dân nhắc nhở, hướng dẫn nhau về cách thực hiện. 
 - Các cá nhân mang thẻ, gửi dữ liệu thực tế về Bộ chỉ huy khi có yêu cầu hoặc tự giác thực hiện. 
 
@@ -322,6 +324,23 @@ Và mong bạn gửi đề xuất này đến Ban chỉ đạo chống dịch, h
 
 ### Triển khai Thẻ Gia đình
 
+![](the_gia_dinh_overview.png) 
+
+#### Cách sử dụng:
+- Khi cấp thẻ cho gia đình, cán bộ Phường ghi số cmnd, cccd vào thẻ 
+![](ghi-cmnd.png)
+
+- Công an, dân phòng sẽ khoanh tròn vào ngày kiểm tra (nên dùng bút màu đỏ)
+
+- Quản lý chợ, nhân viên siêu thị sẽ gạch chéo vào ngày mua hàng (nên dùng bút màu xanh)
+![](kiem-tra-ngay.png)
+   - ngày 27.07: có kiểm tra và mua hàng
+   - ngày 30.07: có kiểm tra, ko có mua hàng
+   - ngày 31.07: có mua hàng, ko bị kiểm tra
+  
+- hướng dẫn người dân bị phạt khi nào.
+
+#### Thời gian triển khai 
 **Phát hành trong 2,3 ngày**
 
 - Hệ thống sinh ID và xuất file pdf 
