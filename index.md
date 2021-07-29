@@ -7,6 +7,8 @@
   - [Hệ miễn dịch quốc gia](#hệ-miễn-dịch-quốc-gia)
   - [Thế nào là "hệ thống lệnh bài".](#thế-nào-là-hệ-thống-lệnh-bài)
     - [Tại sao dùng từ "Lệnh"](#tại-sao-dùng-từ-lệnh)
+    - [Các bên đều có thể tương tác](#các-bên-đều-có-thể-tương-tác)
+    - [Cơ chế giám sát chéo](#cơ-chế-giám-sát-chéo)
   - [Thực hiện "Mục tiêu kép" của chính phủ](#thực-hiện-mục-tiêu-kép-của-chính-phủ)
   - [Nhiệm vụ 1: Chia vùng dịch các khu vực liền kề](#nhiệm-vụ-1-chia-vùng-dịch-các-khu-vực-liền-kề)
     - [Hạn chế ra ngoài mua nhu yếu phẩm](#hạn-chế-ra-ngoài-mua-nhu-yếu-phẩm)
@@ -22,8 +24,15 @@
     - [Mở rộng số lượng Thẻ theo nhu cầu hoạt động.](#mở-rộng-số-lượng-thẻ-theo-nhu-cầu-hoạt-động)
     - [Quy hoạt các hoạt động bên trong khu vực](#quy-hoạt-các-hoạt-động-bên-trong-khu-vực)
   - [Kết luận](#kết-luận)
-- [Chi tiết hơn](#chi-tiết-hơn)
+    - [Liên hệ:](#liên-hệ)
+- [Triển khai thực tế:](#triển-khai-thực-tế)
+  - [Triển khai Thẻ Gia đình](#triển-khai-thẻ-gia-đình)
+    - [Hỗ trợ các gia đình khó khăn](#hỗ-trợ-các-gia-đình-khó-khăn)
+    - [Tổ chức dịch vụ nội khu](#tổ-chức-dịch-vụ-nội-khu)
   - [Lệnh bài cho cá nhân](#lệnh-bài-cho-cá-nhân)
+    - [Tổ chức đội shipper trong từng Phường / Xã](#tổ-chức-đội-shipper-trong-từng-phường-xã)
+  - [So sánh với giải pháp đang có](#so-sánh-với-giải-pháp-đang-có)
+    - [Bất cập của phiếu ra đường, thẻ đi chợ](#bất-cập-của-phiếu-ra-đường-thẻ-đi-chợ)
   - [Áp dụng vào tình hình ở tp HCM](#áp-dụng-vào-tình-hình-ở-tp-hcm)
     - [Đưa, cấp thẻ tới mọi người dưới 7 ngày](#đưa-cấp-thẻ-tới-mọi-người-dưới-7-ngày)
     - [Xây dựng bản đồ chống dịch](#xây-dựng-bản-đồ-chống-dịch)
@@ -98,14 +107,13 @@ Thiết kế một cấu trúc cân bằng, đơn giản cho "lệnh bài" đi�
 Cấu trúc này cần bảo đảm đầy đủ các yếu tố then chốt sau: 
 
 1. **Tính hệ thống: mọi người đều sử dụng được**
-    - Người già, người không biết tiếng việt, không có smartphone,
-    - nhân viên giữ xe, quản lý có thể sử dụng được.
-    - tiểu thương ngoài chợ có thể sử dụng được 
+    - Người già, người không biết tiếng việt, không có smartphone,...
+    - nhân viên giữ xe, quản lý chợ, tiểu thương có thể sử dụng được.
 
-2. **Tính nhận diện: nhanh chóng, từ xa bởi con người và thiết bị tự động**: 
-    - nhìn, phân biệt bởi màu sắc, thông tin ở mặt trước, và cả mặt sau. quan sát từ xa qua dây đeo 
-    - không chỉ công an, dân phòng, mà cả người dân và thiết bị đều nhận biết được
-    - Với thiết bị (smartphone, thiết bị checkpoint), quét thẻ, thiết bị hiện thông tin, hoặc phát âm thanh.
+2. **Tính nhận diện: nhanh chóng, từ xa bởi con người và thiết bị**: 
+    - nhìn từ xa qua dây đeo, phân biệt bởi màu sắc, thông tin ở mặt trước, và cả mặt sau.
+    - không chỉ công an, dân phòng, mà cả người dâu đều có thể phân biệt được.
+    - Với thiết bị (smartphone, thiết bị checkpoint), quét thẻ để hiện thông tin, hoặc có âm thanh cảnh báo.
 
 3. **Tính duy nhất: toàn vẹn, không chấp nhận nhân bản, sao chép** 
     - ID duy nhất, thẻ vật lý, không chấp nhận photo, hình ảnh trên điện thoại, thiếu con dấu hoặc có dấu hiệu làm giả,...
@@ -113,19 +121,18 @@ Cấu trúc này cần bảo đảm đầy đủ các yếu tố then chốt sau
     - giám sát số lượng hoạt động theo Phường, ... 
 
 4. **Tốc độ triển khai: nhanh, đồng loạt tới mọi khu vực, mọi người**
-    - phát hành tập trung, xuất file pdf.
-    - in ấn tập trung hoặc bởi từng địa phương dựa trên file đã xuất
+    - phát hành tập trung, in ấn hoặc xuất file pdf gửi online.
     - địa phương xác nhận và cấp cho từng đối tượng 
 
 5. **Tính kết nối: với hệ thống chung để tối ưu hiệu quả, nhưng cho phép bổ sung trong tương lai**
     - tìm kiếm thông tin theo ID trên hệ thống
-    - phần màu trắng là qrcode và cả barcode, để mở rộng tính năng quản lý giám sát trong tương lai. 
+    - qrcode để mở rộng tính năng quản lý giám sát trong tương lai. 
 
 Có thể thấy, khẩu trang là  1 cấu trúc có 4 yếu tố đầu tiên. Điều này khiến cho hệ thống khẩu trang rất hiệu quả trong việc chống dịch: hạn chế lây nhiễm covid và nhận biết người tuân thủ. 
 
 Và đây là thiết kế cho Thẻ Gia đình, 1 loại "lệnh bài" dành cho gia đình
 
-![](the_gia_dinh.png)
+![](the_gia_dinh_overview.png)
 
 Các phần quan trọng, giúp có được 5 yếu tố trên 
 
@@ -134,7 +141,36 @@ Các phần quan trọng, giúp có được 5 yếu tố trên
 
 - **Phần đóng dấu của Phường/ xã** để phục vụ cho việc triển khai nhanh chóng, cũng như dễ dàng nhận biết thật giả.
 - **Ngày mua hàng**: check vào để lưu ngày mua, giúp kiểm soát việc ra ngoài nhiều lần mua hàng. triển khai nhanh chóng, bổ sung hệ thống sau này dễ dàng. 
-- phần trắng ở mặt trước là phần để kết nối với hệ thống, dễ dàng mở rộng sau. 
+- **mã QRCode** là phần để kết nối với hệ thống, dễ dàng mở rộng sau. 
+
+Chi tiết tham khảo thêm [Triển khai Thẻ Gia đình](#triển-khai-thẻ-gia-đình)
+#### Các bên đều có thể tương tác
+
+![](moi-tuong-tac.png)
+
+#### Cơ chế giám sát chéo
+
+> lấy ví dụ về Thẻ gia đình, các thẻ khác tương tự
+
+![](giam-sat-cheo.png)
+
+Cơ chế giám sát chéo đan xen, hạn chế tối đa khe hở vi phạm, thiếu trách nhiệm. 
+
+- *Ban chỉ đạo (BCD) Chống dịch giám sát tất cả các bên. Và chịu sự giám sát của người dân về kết quả chung.*
+
+- *Phường/xã chịu sự giám sát của BCD Chống dịch, Phường/Xã lân cận và cả nội bộ địa phương(đội Công an, dân phòng)*
+
+- *Siêu thị, chợ chịu giám sát của BCD Chống dịch, đội ngũ địa phương và cả người dân.*
+
+**Việc giám sát dựa theo ID và thông tin trên thẻ là chủ yếu.** 
+
+Hướng dẫn chi tiết, bao gồm luôn cách giám sát, kèm các chế tài xử lý vi phạm rõ ràng sẽ giúp mọi bên tự động tuân thủ. Bỏ qua các suy nghĩ tiêu cực: **tìm cách vi phạm và tin rằng sẽ không bị phát hiện**
+
+Một số trường hợp đặc biệt, sẽ có tài khoản sử dụng trên **MobileApp** riêng. Phần công nghệ này có thể bổ sung sau.
+
+Với cơ chế giám sát chéo và hệ thống tập trung, Thẻ gia đình giải quyết nhiều hạn chế của các giải pháp đang có.
+Tham khảo thêm [Bất cập của phiếu ra đường, thẻ đi chợ](#bất-cập-của-phiếu-ra-đường-thẻ-đi-chợ)
+
 
 Ngoài ra, còn có các "lệnh bài" dành cho cá nhân, dành cho các các nhân có nguy cơ cao, như di chuyển làm việc thường xuyên, hoặc tham gia chống dịch. Chi tiết xem [Lệnh bài cho cá nhân](#lệnh-bài-cho-cá-nhân)
 
@@ -278,9 +314,47 @@ Cảm ơn đã dành thời gian đọc tới đây.
 
 Và mong bạn gửi đề xuất này đến Ban chỉ đạo chống dịch, hoặc các lãnh đạo của Chính phủ. Tình hình thời chiến, xin hãy hành động ngay lập tức. 
 
-Mọi góp ý gửi về quocbao.tn@gmail.com hoặc gọi điện tới số điện thoại: 076 784 7421
+#### Liên hệ:
 
-## Chi tiết hơn 
+**Mọi góp ý gửi về quocbao.tn@gmail.com hoặc gọi điện tới số điện thoại: 076 784 7421**
+
+## Triển khai thực tế: 
+
+### Triển khai Thẻ Gia đình
+
+**Phát hành trong 2,3 ngày**
+
+- Hệ thống sinh ID và xuất file pdf 
+- In ấn tập trung, chuyển tới từng Phường / Xã trong thành phố 
+
+**Đưa tới từng gia đình: trong 2,3 ngày**
+- Phường / Xã đóng dấu xác nhận
+- Cán bộ tới từng nhà dân, phòng trọ,... để cấp thẻ và hướng dẫn
+
+**Tuần đầu tiên triển khai**
+- Cảnh báo nhắc nhở 1,2 ngày đầu tiên
+- Tiến hành kiểm tra, xử phạt 
+
+**Nâng cao hiệu quả các tuần tiếp theo**
+
+- Cán bộ tới từng nhà dân để đôn đốc hướng dẫn
+
+- Cập nhật các siêu thị, chợ phục vụ,... trong tờ hướng dẫn để ưu tiên đặt mua tại nhà. 
+
+- Cán bộ sẽ dùng App để quét Thẻ gia đình, xác nhận đã tới từng gia đình, gặp chủ hộ và hướng dẫn.
+
+#### Hỗ trợ các gia đình khó khăn
+
+- Các gia đình khó khăn, gọi điện cung cấp ID (hoặc quét thẻ qrcode) để gửi phản ánh.
+- Thông báo cán bộ Phường dựa trên ID, tới tận nhà để hỗ trợ
+- Các nhà hảo tâm, từ thiện cũng có thể gửi trực tiếp theo ID này 
+
+#### Tổ chức dịch vụ nội khu
+- Đội shipper nội khu, mang lại thu nhập cho các cá nhân muốn tham gia. Cán bộ Phường/ xã tới tận nhà đánh giá hoàn cảnh, cam kết trước khi gửi tới Siêu thị, chợ. Tham khảo [Đội shipper trong từng Phường / Xã](#tổ-chức-đội-shipper-trong-từng-phường-xã)
+
+- Tổ chức các địa điểm giải trí, có kiểm soát phòng dịch tốt để các gia đình, luân phiên theo ngày tới tham gia. Thu phí hợp lý để cân bằng với chi phí chống dịch. 
+
+   
 ### Lệnh bài cho cá nhân
 > gồm 2 loại chính
 
@@ -290,11 +364,31 @@ Mọi góp ý gửi về quocbao.tn@gmail.com hoặc gọi điện tới số đ
 
 ![](The_ca_nhan.png)
 
+#### Tổ chức đội shipper trong từng Phường / Xã
+> Theo tinh thần làm việc, di chuyển bên trong khu vực 
+
+- đội shipper này là người dân sống bên trong, được Phường / xã xác nhận có đủ điều kiện tham gia.
+- Siêu thị, chợ sẽ trả phí giao hàng cho đội shipper này, cũng như trả phí liên quan như tiêm vacxin, xét nghiệm. 
+
+Rất nhiều lợi ích:
+- Mang lại thu nhập cho các cá nhân mất thu nhập, chưa có việc làm. 
+- Giải quyết được khủng hoảng về đội ngũ shipper
+- hạn chế covid lay lan. 
+
+
+### So sánh với giải pháp đang có
+#### Bất cập của phiếu ra đường, thẻ đi chợ
+
+- https://tienphong.vn/ha-noi-phat-phieu-ra-duong-cho-nguoi-dan-trong-thoi-gian-gian-cach-xa-hoi-post1359794.tpo
+
+- https://vnexpress.net/ha-noi-se-phat-phieu-di-cho-toan-thanh-pho-4331589.html
+- ![](the-di-cho.png)
+
 
 ### Áp dụng vào tình hình ở tp HCM
 
-
 > Một số lưu ý khi triển khai quét mẫu toàn vùng
+
 #### Đưa, cấp thẻ tới mọi người dưới 7 ngày
   - Cán bộ Phường/ Xã tới tận nhà đưa Thẻ gia đình
   - Đơn vị, siêu thị, chợ đưa Thẻ làm việc cho cá nhân mình quản lý, và liên tục cập nhật
