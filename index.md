@@ -41,11 +41,11 @@
     - [Giấy thông hành](#giấy-thông-hành)
     - [Khai báo tại chốt kiểm dịch](#khai-báo-tại-chốt-kiểm-dịch)
   - [Áp dụng vào tình hình ở tp HCM](#áp-dụng-vào-tình-hình-ở-tp-hcm)
-    - [Đưa, cấp thẻ tới mọi người dưới 7 ngày](#đưa-cấp-thẻ-tới-mọi-người-dưới-7-ngày)
     - [Xây dựng bản đồ chống dịch](#xây-dựng-bản-đồ-chống-dịch)
     - [Duy trì chất lượng của đội y tế](#duy-trì-chất-lượng-của-đội-y-tế)
     - [Sử dụng hết các năng lực truyền, nhận “lệnh”](#sử-dụng-hết-các-năng-lực-truyền-nhận-lệnh)
   - [Chiến thuật Quạt 3 cánh để khoanh vùng và truy quét toàn bộ](#chiến-thuật-quạt-3-cánh-để-khoanh-vùng-và-truy-quét-toàn-bộ)
+      - [“Phần chưa nhận lệnh” : rủi ro lây lan lớn nhất](#phần-chưa-nhận-lệnh-rủi-ro-lây-lan-lớn-nhất)
 - [Tham khảo thêm](#tham-khảo-thêm)
   - [Cấu trúc hệ thống quyết định hành vi bên trong](#cấu-trúc-hệ-thống-quyết-định-hành-vi-bên-trong)
 
@@ -55,7 +55,7 @@
 
 Đề xuất này khá dài, và không nhiều người đủ kiên nhẫn đọc từ trên xuống dưới và hiểu nội dung từng mục. 
 
-Nếu đang quan tâm tới giải pháp cho tình huống khẩn cấp, kiểm soát dịch trong vùng chỉ thị 16 hoặc hơn, hãy đọc phần [Triển khai Thẻ Gia đình](#triển-khai-thẻ-gia-đình). Có thể bắt đầu áp dụng sau vài ngày, và sẽ kiểm soát dịch trong 2,3 tuần. 
+Nếu các anh chị, các lãnh đạo quan tâm tới giải pháp cho tình huống kiểm soát dịch trong vùng chỉ thị 16 hoặc hơn, hãy đọc phần [Triển khai Thẻ Gia đình](#triển-khai-thẻ-gia-đình). Có thể bắt đầu áp dụng sau **vài ngày, và sẽ kiểm soát dịch trong 2,3 tuần.**
 
 Nhưng nếu đủ kiên nhẫn, và bình tĩnh đọc từ trên xuống dưới, sẽ nhận ra nhiều điều lớn hơn, không chỉ cho hiện tại mà nhiều năm trong tương lai. 
 
@@ -411,6 +411,7 @@ hoặc gọi điện tới số: **076 784 7421**
 - hướng dẫn thực hiện
 ![](cap-nhat-ban-hang.png)
 
+- cách giám sát nhân viên siêu thị, chợ không tuân thủ
 
 ![](giam-sat-cho.png)
 
@@ -422,11 +423,13 @@ hoặc gọi điện tới số: **076 784 7421**
 
 - Cán bộ sẽ dùng App để quét Thẻ gia đình, xác nhận đã tới từng gia đình, gặp chủ hộ và hướng dẫn.
 
-- ![](giam-sat-cap-the.png)
+ ![](giam-sat-cap-the.png)
 #### Hỗ trợ các gia đình khó khăn
 
-- Các gia đình khó khăn, gọi điện cung cấp ID (hoặc quét thẻ qrcode) để gửi phản ánh.
+- Các gia đình khó khăn, có thể phản ánh bằng cách gọi điện tới Phường/ Xã cung cấp ID, hoặc quét thẻ qrcode gửi trực tiếp tới hệ thống.
+
 - Thông báo cán bộ Phường dựa trên ID, tới tận nhà để hỗ trợ
+
 - Các nhà hảo tâm, từ thiện cũng có thể gửi trực tiếp theo ID này 
 
 #### Tổ chức dịch vụ nội khu
@@ -479,12 +482,6 @@ Rất nhiều lợi ích:
 ### Áp dụng vào tình hình ở tp HCM
 
 > Một số lưu ý khi triển khai quét mẫu toàn vùng
-
-#### Đưa, cấp thẻ tới mọi người dưới 7 ngày
-  - Cán bộ Phường/ Xã tới tận nhà đưa Thẻ gia đình
-  - Đơn vị, siêu thị, chợ đưa Thẻ làm việc cho cá nhân mình quản lý, và liên tục cập nhật
-  - Cấp thẻ cho giao hàng, lái xe phân phối hàng hoá liên tỉnh,… dựa trên giấy tờ hợp lệ cho việc di chuyển đang có,…
-Việc phát triển, sản xuất và vận chuyển Thẻ cần linh hoạt, kết hợp nhiều giải pháp để có thể đưa tới tay hầu hết mọi người trong 7 ngày. Có như vậy mới đáp ứng được tình hình chống dịch
 
 #### Xây dựng bản đồ chống dịch
 
@@ -581,14 +578,14 @@ Tại điểm đầu có đặt Checkpoint để quét qrcode trên thẻ, ngay 
 Cán bộ Phường, tổ dân phố,.. sẽ nhắc nhở từng nhà trong danh sách đi xét nghiệm.
 Số gia đình khó khăn trong di chuyển, sẽ có đội lấy mẫu cơ động tới xử lý.
 
-“Phần chưa nhận lệnh” : rủi ro lây lan lớn nhất
+##### “Phần chưa nhận lệnh” : rủi ro lây lan lớn nhất
 
 Một công dụng khác của hệ thống lệnh bài, nhưng rất quan trọng là quét được “Phần chưa nhận lệnh”. 
 
 Ở đây không chỉ là số Thẻ chưa tham gia, (1% còn lại cuối trận đánh), mà còn đánh giá được các Phường / Xã nào còn “gia đình bị bỏ sót”. 
 Thẻ chưa tham gia, có thể lần theo Thẻ để truy quét, nhưng “gia đình bị bỏ sót” nằm ngoài hệ thống, dữ liệu, và rất dễ bỏ quên.
 
-“Gia đình bị bỏ sót” có thể là: người thuê trọ, người lao động tự do, không thuộc diện “gia đình”,… cần hướng dẫn, đôn đốc Phường / xã chú ý để các đối tượng này, để nâng cao “Chất lượng của cấp đia phương”, trên toàn bộ khu vực.
+**"Gia đình bị bỏ sót”** có thể là: người thuê trọ, người lao động tự do, không thuộc diện “gia đình”,… cần hướng dẫn, đôn đốc Phường / xã chú ý để các đối tượng này, để nâng cao “Chất lượng của cấp đia phương”, trên toàn bộ khu vực.
 
 Và với Thẻ đi làm” số lượng ít hơn, có thể xét nhiệm toàn bộ một lần, nhưng việc quan trọng vẫn là giám sát, phát hiện các “cá nhân di chuyển lén lút”
 
