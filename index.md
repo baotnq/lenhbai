@@ -4,6 +4,7 @@
 **Mục lục**:
 <!-- code_chunk_output -->
  
+  - [Lời ngỏ](#lời-ngỏ)
   - [Hệ miễn dịch của cơ thể](#hệ-miễn-dịch-của-cơ-thể)
   - [Hệ miễn dịch quốc gia](#hệ-miễn-dịch-quốc-gia)
   - [Thế nào là "hệ thống lệnh bài".](#thế-nào-là-hệ-thống-lệnh-bài)
@@ -25,8 +26,8 @@
     - [Mở rộng số lượng Thẻ theo nhu cầu hoạt động.](#mở-rộng-số-lượng-thẻ-theo-nhu-cầu-hoạt-động)
     - [Cảnh báo sớm 3 nhóm nguy cơ theo màu của thẻ.](#cảnh-báo-sớm-3-nhóm-nguy-cơ-theo-màu-của-thẻ)
     - [Quy hoạt các hoạt động bên trong khu vực](#quy-hoạt-các-hoạt-động-bên-trong-khu-vực)
-  - [Kết luận](#kết-luận)
-    - [Liên hệ:](#liên-hệ)
+  - [Tổng kết](#tổng-kết)
+    - [Góp ý và liên hệ:](#góp-ý-và-liên-hệ)
 - [Triển khai thực tế:](#triển-khai-thực-tế)
   - [Triển khai Thẻ Gia đình](#triển-khai-thẻ-gia-đình)
     - [Cách sử dụng:](#cách-sử-dụng)
@@ -37,6 +38,8 @@
     - [Tổ chức đội shipper trong từng Phường / Xã](#tổ-chức-đội-shipper-trong-từng-phường-xã)
   - [So sánh với giải pháp đang có](#so-sánh-với-giải-pháp-đang-có)
     - [Bất cập của phiếu ra đường, thẻ đi chợ](#bất-cập-của-phiếu-ra-đường-thẻ-đi-chợ)
+    - [Giấy thông hành](#giấy-thông-hành)
+    - [Khai báo tại chốt kiểm dịch](#khai-báo-tại-chốt-kiểm-dịch)
   - [Áp dụng vào tình hình ở tp HCM](#áp-dụng-vào-tình-hình-ở-tp-hcm)
     - [Đưa, cấp thẻ tới mọi người dưới 7 ngày](#đưa-cấp-thẻ-tới-mọi-người-dưới-7-ngày)
     - [Xây dựng bản đồ chống dịch](#xây-dựng-bản-đồ-chống-dịch)
@@ -48,6 +51,25 @@
 
 <!-- /code_chunk_output -->
 
+### Lời ngỏ
+
+Đề xuất này khá dài, và không nhiều người đủ kiên nhẫn đọc từ trên xuống dưới và hiểu nội dung từng mục. 
+
+Nếu đang quan tâm tới giải pháp cho tình huống khẩn cấp, kiểm soát dịch trong vùng chỉ thị 16 hoặc hơn, hãy đọc phần [Triển khai Thẻ Gia đình](#triển-khai-thẻ-gia-đình). Có thể bắt đầu áp dụng sau vài ngày, và sẽ kiểm soát dịch trong 2,3 tuần. 
+
+Nhưng nếu đủ kiên nhẫn, và bình tĩnh đọc từ trên xuống dưới, sẽ nhận ra nhiều điều lớn hơn, không chỉ cho hiện tại mà nhiều năm trong tương lai. 
+
+Đó là tinh thần của đề xuất
+
+- **tất cả sẽ tuân thủ, nếu từng người biết cần làm gì,  và giám sát ai**
+
+- **Mọi cố gắng chống covid sẽ vô nghĩa nếu thiếu một hệ thống giám sát chéo, cân bằng**
+
+- **Biết huy động nguồn lực hiện có sẽ tự tin để chiến thắng Covid**
+
+- **Tại sao nên duy trì phòng dịch bên cạnh việc chữa trị và tiêm chủng toàn dân** 
+
+Để bắt đầu tìm hiểu, hãy liên tưởng tới khái niệm cơ bản sau: 
 ### Hệ miễn dịch của cơ thể
 
 Chúng ta đều biết, một cơ thể có hệ miễn dịch tốt sẽ nhanh chóng phát hiện xâm nhập, phát tín hiệu để đội quân bạch cầu tập trung tiêu diệt, trước khi virus kịp làm cơ thể thương tật hoặc ngưng hoạt động vĩnh viễn (chết).
@@ -336,7 +358,7 @@ tham khảo thêm :
 - [Hỗ trợ các gia đình khó khăn](#hỗ-trợ-các-gia-đình-khó-khăn)
 
 - [Tổ chức dịch vụ nội khu](#tổ-chức-dịch-vụ-nội-khu)
-### Kết luận 
+### Tổng kết 
 
 Trên đây là những điểm chính, quan trọng của đề xuất. Có nhiều vấn đề rất khó thể diễn đạt bằng giấy, như vòng tròn tiến trình tăng cường, cân bằng trong tương tác. Đây là những khái niệm của một ngôn ngữ riêng, cần nhận biết bởi tư duy hệ thống và trao đổi trực tiếp.
 
@@ -345,9 +367,10 @@ Cảm ơn đã dành thời gian đọc tới đây.
 
 Và mong bạn gửi đề xuất này đến Ban chỉ đạo chống dịch, hoặc các lãnh đạo của Chính phủ. Tình hình thời chiến, xin hãy hành động ngay lập tức. 
 
-#### Liên hệ:
+#### Góp ý và liên hệ:
 
-**Mọi góp ý gửi về quocbao.tn@gmail.com hoặc gọi điện tới số điện thoại: 076 784 7421**
+Mọi góp ý gửi về **quocbao.tn@gmail.com** 
+hoặc gọi điện tới số: **076 784 7421**
 
 ## Triển khai thực tế: 
 
@@ -442,6 +465,17 @@ Rất nhiều lợi ích:
 - ![](the-di-cho.png)
 
 
+#### Giấy thông hành
+
+- Giải pháp cho Thẻ đi làm: chỗ làm cố định và công việc di chuyển 
+- Cập nhật sau
+#### Khai báo tại chốt kiểm dịch 
+
+- khai báo y tế là 1 việc cần thiết, nhưng khá tốn thời gian của tất cả mọi người. Chưa kể gây ách tắt tại chốt kiểm dịch. 
+
+- Giải pháp: **tự giác quét Thẻ tại điểm Checkpoint**
+
+- Chi tiết thực hiện: cập nhật sau
 ### Áp dụng vào tình hình ở tp HCM
 
 > Một số lưu ý khi triển khai quét mẫu toàn vùng
