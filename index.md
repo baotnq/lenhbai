@@ -127,6 +127,11 @@ Cấu trúc này cần bảo đảm đầy đủ các yếu tố then chốt sau
     - phát hành tập trung, in ấn hoặc xuất file pdf gửi online.
     - địa phương xác nhận và cấp cho từng đối tượng 
 
+5. **lưu trữ lịch sử**: trên thẻ và trên hệ thống để tra cứu theo ID
+    - các lần bị kiểm tra bởi công an, cán bộ phường, ....
+    - các lần mua hàng bởi quản lý chợ, siêu thị 
+    - kết hợp nhiều cách lưu trữ để mang lại hiệu quả: ghi trên thẻ và lưu vào  theo ID
+
 5. **Tính kết nối: với hệ thống chung để tối ưu hiệu quả, nhưng cho phép bổ sung trong tương lai**
     - tìm kiếm thông tin theo ID trên hệ thống
     - qrcode để mở rộng tính năng quản lý giám sát trong tương lai. 
@@ -348,12 +353,20 @@ Và mong bạn gửi đề xuất này đến Ban chỉ đạo chống dịch, h
 - In ấn tập trung, chuyển tới từng Phường / Xã trong thành phố 
 
 **Đưa tới từng gia đình: trong 2,3 ngày**
-- Phường / Xã đóng dấu xác nhận
-- Cán bộ tới từng nhà dân, phòng trọ,... để cấp thẻ và hướng dẫn
+
+![](cap_the_lan_1.png)
 
 **Tuần đầu tiên triển khai**
 - Cảnh báo nhắc nhở 1,2 ngày đầu tiên
 - Tiến hành kiểm tra, xử phạt 
+
+
+**Quy định cho siêu thị/ chợ**
+- hướng dẫn thực hiện
+![](cap-nhat-ban-hang.png)
+
+
+![](giam-sat-cho.png)
 
 **Nâng cao hiệu quả các tuần tiếp theo**
 
@@ -363,6 +376,7 @@ Và mong bạn gửi đề xuất này đến Ban chỉ đạo chống dịch, h
 
 - Cán bộ sẽ dùng App để quét Thẻ gia đình, xác nhận đã tới từng gia đình, gặp chủ hộ và hướng dẫn.
 
+- ![](giam-sat-cap-the.png)
 #### Hỗ trợ các gia đình khó khăn
 
 - Các gia đình khó khăn, gọi điện cung cấp ID (hoặc quét thẻ qrcode) để gửi phản ánh.
