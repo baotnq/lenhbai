@@ -23,6 +23,7 @@
     - [Tại sao cần hệ thống này?](#tại-sao-cần-hệ-thống-này)
     - [Hệ thống này có khả thi để đối phó Covid ko?](#hệ-thống-này-có-khả-thi-để-đối-phó-covid-ko)
     - [Mở rộng số lượng Thẻ theo nhu cầu hoạt động.](#mở-rộng-số-lượng-thẻ-theo-nhu-cầu-hoạt-động)
+    - [Cảnh báo sớm 3 nhóm nguy cơ theo màu của thẻ.](#cảnh-báo-sớm-3-nhóm-nguy-cơ-theo-màu-của-thẻ)
     - [Quy hoạt các hoạt động bên trong khu vực](#quy-hoạt-các-hoạt-động-bên-trong-khu-vực)
   - [Kết luận](#kết-luận)
     - [Liên hệ:](#liên-hệ)
@@ -195,6 +196,7 @@ Sau 1 thời gian triển khai, vùng dịch có thể thực hiện **mục ti�
 Để thực hiện được mục tiêu trên, chúng ta cần vận dụng "hệ thống lệnh bài" để thực hiện 3 nhiệm vụ chính như sau: 
 ### Nhiệm vụ 1: Chia vùng dịch các khu vực liền kề
 
+![](tinh-than-cua-lenhbai.png)
 #### Hạn chế ra ngoài mua nhu yếu phẩm 
 
 Thẻ gia đình sẽ bảo đảm ra mỗi gia đình chỉ có 1 người ra ngoài mua nhu yếu phẩm. 
@@ -284,6 +286,9 @@ Hiện tại chiến lược phòng bệnh đang gặp nhiều khó khăn tại 
 
 ####  Hệ thống này có khả thi để đối phó Covid ko? 
 
+
+
+
 Chống lại 1 cấu trúc hệ thống mạnh mẽ như Dịch Covid, cần phải đưa ra 1 cấu trúc hệ thống đối kháng mạnh, cho phép nâng cấp, tăng cường khả năng đối kháng trong tương lai. 
 
 Khi hiểu rõ hơn về cấu trúc covid, chúng ta sẽ tìm ra nhiều cấu trúc hệ thống đối kháng tương ứng.
@@ -296,23 +301,41 @@ Nếu mọi người đều quen với hệ thống này, thì việc kích ho�
 
 #### Mở rộng số lượng Thẻ theo nhu cầu hoạt động. 
 
-- Giữ nguyên Thẻ gia đình theo cấu trúc 1 gia đình 1 thẻ. 
-   - nên giữ chính sách bán hàng theo Thẻ gia đình. 
+Khi dịch bệnh được kiểm soát trong 1 khu vực (hoặc tỉnh / tp), 1 gia đình sẽ có các các thẻ.
+
+- Giữ nguyên cấu trúc: 1 Thẻ gia đình và duy trì chính sách bán hàng theo gia đình. 
 
 - Bổ sung Thẻ đi làm: khi mở rộng hoạt động kinh tế, các doanh nghiệp nội khu vực sẽ đăng ký Thẻ đi làm và cấp cho từng hộ gia đình. 
 
-- Việc cảnh báo sớm sẽ phân loại theo nhóm nguy cơ theo thẻ, thứ tự như sau: 
+- Thêm Thẻ chống dịch cho người dân muốn tham gia: 
 
-- Thẻ đi làm ngoài khu vực, theo ngành nghề
-- Thẻ chống dịch cho cán bộ tại Checkpoint ở đường khoanh vùng
-- Thẻ đi làm trong khu vực: theo ngành nghề
-- Thẻ gia đình 
+![](the-1-nha.png)
+#### Cảnh báo sớm 3 nhóm nguy cơ theo màu của thẻ.
+
+**Màu đỏ (Thẻ chống dịch)**: nguy cơ bị lây, và lây lan cao nhất
+
+- cần chú ý các tình nguyện viên: ít được tiêm vacxin, kỹ năng hạn chế bị lây thấp
+- ưu tiên vacxin và liên tục xét nghiệm: 1,2 ngày / 1 lần
+
+**Màu vàng (Thẻ đi làm)**: chia thành 2 nhóm
+- đi làm ngoài khu vực sinh sống: nhất là giao hàng liên tỉnh, lái xe đường dài cần thường xuyên xét nghiệm: 2,3 lần ngày / 1 lần. 
+
+- đi làm trong cùng khu vực sinh sống: rủi ro thấp hơn: 4,5 ngày / 1 lần
+
+**Màu xanh (thẻ gia đình)**: 
+
+Việc xét nghiệm theo nhóm thẻ giúp tối ưu nguồn lực xét nghiệm nhưng vẫn giữ được tính cảnh báo sớm Covid trong khu vực. 
 
 #### Quy hoạt các hoạt động bên trong khu vực
 
 - Các dịch vụ cho người dân bên trong khu vực: công viên, trường học, khu vui chơi ngoài trời,... cần tuân theo các tiêu chuẩn phòng và giám sát dịch trước khi hoạt động
 - Ưu tiên cho các doanh nghiệp sắp xếp đội ngũ nhân viên, bố trí nơi ở và làm việc bên trong 1 khu vực. 
 
+tham khảo thêm : 
+
+- [Hỗ trợ các gia đình khó khăn](#hỗ-trợ-các-gia-đình-khó-khăn)
+
+- [Tổ chức dịch vụ nội khu](#tổ-chức-dịch-vụ-nội-khu)
 ### Kết luận 
 
 Trên đây là những điểm chính, quan trọng của đề xuất. Có nhiều vấn đề rất khó thể diễn đạt bằng giấy, như vòng tròn tiến trình tăng cường, cân bằng trong tương tác. Đây là những khái niệm của một ngôn ngữ riêng, cần nhận biết bởi tư duy hệ thống và trao đổi trực tiếp.
