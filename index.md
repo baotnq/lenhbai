@@ -35,6 +35,10 @@
     - [Hỗ trợ các gia đình khó khăn](#hỗ-trợ-các-gia-đình-khó-khăn)
     - [Tổ chức dịch vụ nội khu](#tổ-chức-dịch-vụ-nội-khu)
   - [Lệnh bài cho cá nhân](#lệnh-bài-cho-cá-nhân)
+    - [Các loại thẻ đi làm](#các-loại-thẻ-đi-làm)
+    - [Thẻ đi làm tại điểm cố định](#thẻ-đi-làm-tại-điểm-cố-định)
+    - [Trách nhiệm của Đơn vị chủ quản](#trách-nhiệm-của-đơn-vị-chủ-quản)
+    - [Giám sát chéo thẻ đi làm](#giám-sát-chéo-thẻ-đi-làm)
     - [Tổ chức đội shipper trong từng Phường / Xã](#tổ-chức-đội-shipper-trong-từng-phường-xã)
   - [So sánh với giải pháp đang có](#so-sánh-với-giải-pháp-đang-có)
     - [Bất cập của phiếu ra đường, thẻ đi chợ](#bất-cập-của-phiếu-ra-đường-thẻ-đi-chợ)
@@ -378,6 +382,11 @@ hoặc gọi điện tới số: **076 784 7421**
 
 ![](the_gia_dinh_overview.png) 
 
+
+**Các bên có thể tương tác**
+
+![](moi-tuong-tac.png)
+
 #### Cách sử dụng:
 - Khi cấp thẻ cho gia đình, cán bộ Phường ghi số cmnd, cccd vào thẻ 
 ![](ghi-cmnd.png)
@@ -424,6 +433,12 @@ hoặc gọi điện tới số: **076 784 7421**
 - Cán bộ sẽ dùng App để quét Thẻ gia đình, xác nhận đã tới từng gia đình, gặp chủ hộ và hướng dẫn.
 
  ![](giam-sat-cap-the.png)
+
+
+
+**Cơ chế giám sát chéo**
+
+![](giam-sat-cheo.png)
 #### Hỗ trợ các gia đình khó khăn
 
 - Các gia đình khó khăn, có thể phản ánh bằng cách gọi điện tới Phường/ Xã cung cấp ID, hoặc quét thẻ qrcode gửi trực tiếp tới hệ thống.
@@ -441,14 +456,67 @@ hoặc gọi điện tới số: **076 784 7421**
 ### Lệnh bài cho cá nhân
 > gồm 2 loại chính
 
+
+![](The_ca_nhan.png)
+
 - Thẻ đi làm: nhân viên siêu thị, chợ, nhân viên giao hàng, đi làm tại nhà máy, ...
 
 - Thẻ chống dịch: cán bộ địa phương, tình nguyện viên, đội ngũ y tế, ...
 
-![](The_ca_nhan.png)
+#### Các loại thẻ đi làm
 
+![](the-di-lam-phan-loai.png)
+
+**Chỗ làm việc cố định**
+- nhân viên tại siêu thị, chợ,
+- công nhân tại nhà máy sản xuất
+- cán bộ tại cơ quan, doanh nghiệp thiết yếu
+
+**Thường xuyên di chuyển**
+- shipper giao hàng, văn thư 
+- tài xế xe giao hàng 
+
+Chia thành 2 loại bên trong và liên khu vực. 
+#### Thẻ đi làm tại điểm cố định
+
+![](the-di-lam-mat-sau.png)
+
+**Quy trình triển khai**
+- Cấp phôi thẻ cho từng Quận/ huyện:
+    - sô phôi nhiều hơn nhu cầu, để dự phòng tình huống phát sinh
+    - đóng dấu cho thẻ cần sử dụng , cập nhật phôi chưa sử dụng 
+- Mỗi đơn vị gửi đăng ký số lượng nhân viên cần
+    - được cấp nhiều hơn 20% số lượng cần
+    - đóng dấu trước khi sử dụng
+- Ghi cmnd/cccd và Phường xã cư trú vào thẻ, đóng dấu đưa nhân viên
+    - cần quản lý nhân viên theo Phường / xã cư trú.
+
+- Mỗi nhân viên cần Phường/ Xã xác nhận trước khi đi làm
+- Thẻ không sử dụng, thu hồi và thông báo ID cho quận huyện để khóa thẻ từ xa. 
+
+![](the-di-lam-trien-khai.png)
+
+#### Trách nhiệm của Đơn vị chủ quản
+- Quản lý thẻ cấp cho nhân viên, thu hồi và khoá thẻ các nhân viên nghỉ việc
+
+- Đóng phạt khi có nhân viên vi phạm. Hoặc ngừng hoạt động nếu sai phạm kéo dài, không khắc phục
+
+- Đóng phí xét nghiệm thường xuyên cho nhân viên. 
+  - di chuyển càng xa, càng phải xét nghiệm thường xuyên 
+
+- Doanh nghiệp chuỗi như Ngân hàng, siêu thị, đơn vị vận chuyển ..., cần sắp xếp, bố trí nhân viên theo khu vực sinh sống để hạn chế đi lại, hạn chế chi phí xét nghiệm. 
+#### Giám sát chéo thẻ đi làm
+> xử phạt Đơn vị chủ quản để có trách nhiệm trong đăng ký và quản lý nhân viên.
+> Hạn chế xử phạt người mang Thẻ đi làm, khiến họ lẫn trốn, không thành khẩn khai báo, gây khó khăn cho ngăn chặn covid. 
+
+- Công an, cán bộ địa phương phát hiện vi phạm, gửi về hệ thống
+
+- Chính quyền cấp quận/ huyện quản lý đơn vị có trách nhiệm xử phạt nghiêm và giám sát việc tái phạm. 
+
+
+![](the-di-lam-giam-sat-cheo.png)
 #### Tổ chức đội shipper trong từng Phường / Xã
-> Theo tinh thần làm việc, di chuyển bên trong khu vực 
+> làm việc, di chuyển bên trong khu vực 
 
 - đội shipper này là người dân sống bên trong, được Phường / xã xác nhận có đủ điều kiện tham gia.
 - Siêu thị, chợ sẽ trả phí giao hàng cho đội shipper này, cũng như trả phí liên quan như tiêm vacxin, xét nghiệm. 
