@@ -8,6 +8,7 @@
 - [Hệ miễn dịch quốc gia](#hệ-miễn-dịch-quốc-gia)
 - [Thế nào là "hệ thống lệnh bài".](#thế-nào-là-hệ-thống-lệnh-bài)
   - [Biểu tượng của sự tuân thủ](#biểu-tượng-của-sự-tuân-thủ)
+  - [Các bên có thể tương tác:](#các-bên-có-thể-tương-tác)
   - [Giám sát chéo](#giám-sát-chéo)
 - [Thực hiện "Mục tiêu kép" của chính phủ](#thực-hiện-mục-tiêu-kép-của-chính-phủ)
 - [Nhiệm vụ 1: Chia vùng dịch thành các khu vực (Phường/Xã) liền kề](#nhiệm-vụ-1-chia-vùng-dịch-thành-các-khu-vực-phườngxã-liền-kề)
@@ -93,7 +94,7 @@ Khẩu trang là 1 biểu tượng về sự tuân thủ nơi công cộng. Chú
 Lệnh bài cũng là 1 biểu tượng của sự tuân thủ khi ra ngoài. Hơn nữa, còn thể hiện sự đồng lòng, sẵn sàng tham gia chống dịch của người mang thẻ.
 
 
-**Lệnh** trong lệnh bài, là mệnh lệnh trong quân đội, bắt buộc mọi đối tượng tiếp nhận phải thực hiện giống nhau. Đối tượng không chỉ là người đeo thẻ, mà còn là các bên khác như cấp thẻ (chính quyền địa phương), phục vụ thẻ (doanh nghiệp), và kiểm tra thẻ (công an).
+**Lệnh** trong lệnh bài, là mệnh lệnh trong quân đội, bắt buộc mọi đối tượng tiếp nhận phải thực hiện giống nhau. Đối tượng không chỉ là người **đeo thẻ**, mà còn là các bên khác như **cấp thẻ** (chính quyền địa phương), **phục vụ thẻ** (doanh nghiệp), và **kiểm tra thẻ** (công an).
 
 Để thực hiện được điều này, cần 1 cấu trúc cân bằng, đơn giản lên tấm thẻ, và triển khai toàn hệ thống. Cấu trúc này cho phép giám sát chéo giữa các đối tượng. 
 
@@ -146,8 +147,8 @@ Và đây là thiết kế cho Thẻ Gia đình, 1 loại "lệnh bài" dành ch
 
 Các phần quan trọng, giúp có được 5 yếu tố trên 
 
-- **ID (1000010001)**: duy nhất và sinh ra bởi hệ thống tập trung.  
-- **Phường xã đang sống**, cố định, và liên quan tới 6 số đầu của ID
+- **ID (100050009)**: duy nhất và sinh ra bởi hệ thống tập trung.  
+- **Phường xã đang sống**, cố định, liên quan tới 5 số đầu của ID
 
 - **Phần đóng dấu của Phường/ xã** để phục vụ cho việc triển khai nhanh chóng, cũng như dễ dàng nhận biết thật giả.
 - **Ngày mua hàng**: check vào để lưu ngày mua, giúp kiểm soát việc ra ngoài nhiều lần mua hàng. triển khai nhanh chóng, bổ sung hệ thống sau này dễ dàng. 
@@ -155,20 +156,20 @@ Các phần quan trọng, giúp có được 5 yếu tố trên
 
 Chi tiết tham khảo thêm [Triển khai Thẻ Gia đình](https://baotnq.qrcare.vn/trienkhai.html#triển-khai-thẻ-gia-đình)
 
-Hệ thống lệnh bài có yếu tố quan trọng như sau, lấy ví dụ về Thẻ gia đình, 1 loại trong lệnh bài
+Hệ thống lệnh bài có yếu tố quan trọng như sau, ví dụ về Thẻ gia đình,
 
-- **Các bên có thể tương tác**: người dân, chính quyền địa phương, doanh nghiệp, công an và Ban chỉ đạo chống dịch.
+#### Các bên có thể tương tác: 
+người dân, chính quyền địa phương, doanh nghiệp, công an và Ban chỉ đạo chống dịch.
 
 
 ![](moi-tuong-tac.png)
 
-- cơ chế giám sát chéo
 #### Giám sát chéo
 Cơ chế giám sát đan xen, hạn chế tối đa khe hở vi phạm, thiếu trách nhiệm. 
 
 ![](giam-sat-cheo.png)
 
-Hướng dẫn chi tiết, bao gồm luôn cách giám sát, kèm các chế tài xử lý vi phạm rõ ràng sẽ giúp mọi bên tự động tuân thủ. Bỏ qua các suy nghĩ tiêu cực: **tìm cách vi phạm và tin rằng sẽ không bị phát hiện**
+Hướng dẫn chi tiết, bao gồm luôn cách giám sát, kèm các chế tài xử lý vi phạm rõ ràng sẽ giúp mọi bên tự động tuân thủ. Loại bỏ  suy nghĩ tiêu cực của mọi người: **tìm cách vi phạm và tin rằng sẽ không bị phát hiện**
 
 Một số trường hợp đặc biệt, sẽ có tài khoản sử dụng trên **MobileApp** riêng. Phần công nghệ này có thể bổ sung sau.
 
@@ -191,7 +192,6 @@ Sau 1 thời gian triển khai, vùng dịch có thể thực hiện **mục ti�
 Để thực hiện được mục tiêu trên, chúng ta cần vận dụng "hệ thống lệnh bài" để thực hiện 3 nhiệm vụ chính như sau: 
 ### Nhiệm vụ 1: Chia vùng dịch thành các khu vực (Phường/Xã) liền kề
 
-![](tinh-than-cua-lenhbai.png)
 #### Hạn chế ra ngoài mua nhu yếu phẩm 
 
 Thẻ gia đình sẽ bảo đảm ra mỗi gia đình chỉ có 1 người ra ngoài mua nhu yếu phẩm. 
@@ -234,7 +234,7 @@ Muốn chống dịch hiệu quả, bên cạnh tinh thần tự giác, cần m�
 
 giữa Bộ chỉ huy và mọi đối tượng: người dân, doanh nghiệp địa phương, cán bộ địa phương, và đội ngũ y tế dùng chung. Có nhiều cơ chế liên lạc tuỳ tình hình
 
-- Ra lệnh tổng quát, từ xa: thông qua báo chí truyền hình, ...
+- Truyền lệnh tổng quát, từ xa: thông qua báo chí truyền hình, ...
 - Giải thích lệnh theo từng khu vực, Phường / xã nhỏ hơn:
 - hướng dẫn trực tiếp tại từng nhà bởi các bộ địa phương
 - đôn đốc cán bộ địa phương bám sát mọi gia đình, hạn chế bỏ sót 
@@ -272,8 +272,8 @@ Covid là một cấu trúc mạnh mẽ, tăng cường lây lan dựa trên h�
 
 Có 2 chiến lược chính để đối kháng nguy cơ của Covid:
 
-- Chiến lược chữa trị: giảm thiệt hại kinh tế bằng hạn chế tương đối, cho phép Covid lây lan, tiêm chủng để hạn chế tổn thất nhân mạng và giữ cho hệ thống y tế kịp đáp ứng. 
-- Chiến lược phòng bệnh: chấp nhận thiệt hại kinh tế, kiểm soát đi lại, và quét nguy cơ ra khỏi cộng đồng. 
+- **Chiến lược chữa trị**: giảm thiệt hại kinh tế bằng hạn chế tương đối, cho phép Covid lây lan, tiêm chủng để hạn chế tổn thất nhân mạng và giữ cho hệ thống y tế kịp đáp ứng. 
+- **Chiến lược phòng bệnh**: chấp nhận thiệt hại kinh tế, kiểm soát đi lại, và quét nguy cơ ra khỏi cộng đồng. 
 
 Hiện tại chiến lược phòng bệnh đang gặp nhiều khó khăn tại nhiều nước từng thành công trong 2020, nhưng không có nghĩa là chiến lược phòng bệnh không kháng cự được với dịch Covid, chỉ là chúng ta chưa tìm ra, và áp dụng đủ sớm thôi. 
 
@@ -286,7 +286,7 @@ Chống lại 1 cấu trúc hệ thống mạnh mẽ như Dịch Covid, cần ph
 
 Khi hiểu rõ hơn về cấu trúc covid, chúng ta sẽ tìm ra nhiều cấu trúc hệ thống đối kháng tương ứng.
 
-- Hệ thống lệnh bài là dựa trên ý tưởng **"ruộng bậc thang hạn chế rò rỉ nước"** khoanh vùng khu vực, tạo thành dạng ruộng bậc thang nguy cơ để hạn chế lay lan.
+Hệ thống lệnh bài là dựa trên ý tưởng **"ruộng bậc thang hạn chế rò rỉ nước"** khoanh vùng khu vực, tạo thành dạng ruộng bậc thang nguy cơ để hạn chế lay lan.
 
 Và khi phát hiện 1 khu vực có nguy cơ, nhanh chóng kích hoạt "lệnh bài" trong toàn hệ thống để tăng cường cảnh giác. 
 
@@ -296,13 +296,14 @@ Nếu mọi người đều quen với hệ thống này, thì việc kích ho�
 
 Khi dịch bệnh được kiểm soát trong 1 khu vực (hoặc tỉnh / tp), 1 gia đình sẽ có các các thẻ.
 
+![](the-1-nha.png)
+
 - Giữ nguyên cấu trúc: 1 Thẻ gia đình và duy trì chính sách bán hàng theo gia đình. 
 
 - Bổ sung Thẻ đi làm: khi mở rộng hoạt động kinh tế, các doanh nghiệp nội khu vực sẽ đăng ký Thẻ đi làm và cấp cho từng hộ gia đình. 
 
 - Thêm Thẻ chống dịch cho người dân muốn tham gia: 
 
-![](the-1-nha.png)
 #### Cảnh báo sớm theo màu của thẻ.
 
 **Màu đỏ (Thẻ chống dịch)**: nguy cơ bị lây, và lây lan cao nhất
