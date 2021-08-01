@@ -28,6 +28,10 @@
   - [Chiến thuật Quạt 3 cánh để khoanh vùng và truy quét toàn bộ](#chiến-thuật-quạt-3-cánh-để-khoanh-vùng-và-truy-quét-toàn-bộ)
       - [“Phần chưa nhận lệnh” : rủi ro lây lan lớn nhất](#phần-chưa-nhận-lệnh-rủi-ro-lây-lan-lớn-nhất)
 - [Tham khảo thêm](#tham-khảo-thêm)
+  - [Hệ miễn dịch của cơ thể](#hệ-miễn-dịch-của-cơ-thể)
+  - [Hệ miễn dịch quốc gia](#hệ-miễn-dịch-quốc-gia)
+  - [Ý tưởng để phát triển "hệ thống lệnh bài"](#ý-tưởng-để-phát-triển-hệ-thống-lệnh-bài)
+  - [Biểu tượng của sự tuân thủ](#biểu-tượng-của-sự-tuân-thủ)
   - [Cấu trúc hệ thống quyết định hành vi bên trong](#cấu-trúc-hệ-thống-quyết-định-hành-vi-bên-trong)
 
 <!-- /code_chunk_output -->
@@ -344,6 +348,53 @@ Phân biệt được 2 nhóm này, sẽ dễ dàng rất nhiều trong việc q
 
 
 ## Tham khảo thêm 
+
+
+### Hệ miễn dịch của cơ thể
+
+Chúng ta đều biết, một cơ thể có hệ miễn dịch tốt sẽ nhanh chóng phát hiện xâm nhập, phát tín hiệu để đội quân bạch cầu tập trung tiêu diệt, trước khi virus kịp làm cơ thể thương tật hoặc ngưng hoạt động vĩnh viễn (chết).
+
+Hiện tại hệ miễn dịch của mỗi người khá chậm chạp trong việc nhận biết Covid. Vì vậy, cần tiêm vacxin để hệ miễn dịch được luyện tập, tăng khả năng phát hiện. Đồng thời cơ thể cũng cần luyện tập thường xuyên tăng cường sức mạnh của đội quân bạch cầu. 
+
+Tuy nhiên, với một cơ thể khoẻ mạnh, ngay cả không tiêm vacxin, đa số trường hợp hệ miễn dịch vẫn đủ sức chiến thắng covid với tỉ lệ trên 90%. 
+
+Nhưng trên phương diện một cộng đồng, một quốc gia, tỉ lệ bị đảo ngược lại, với các quốc gia bị xâm nhập, trên 90% là thất bại trong việc ngăn chặn, kiểm soát covid. 
+
+### Hệ miễn dịch quốc gia 
+
+Nếu xem quốc gia là một cơ thể sống, thì "hệ miễn dịch quốc gia" chính là khả năng chiến đấu, đẩy lùi covid ra khỏi quốc gia đó. 
+
+Trong cơ thể sống này, mỗi gia đình xem như là tế bào, những người đi làm là hồng cầu, và đội ngũ chống dịch (đội lấy mẫu, xét nghiệm, chính quyền địa phương) là đội quân bạch cầu, chính phủ sẽ là bộ não và nền kinh tế là sức khoẻ của cơ thể này. 
+
+Khi hình dung như trên, thì việc hầu hết các quốc gia thất bại trong cuộc chiến với covid là khá hợp lý, vì các quốc gia này đều thiếu các yếu tố then chốt của một hệ miễn dịch hiệu quả.
+
+1. **Thiếu cơ chế cảnh báo sớm**: khi đã phát hiện thì dịch đã lây lan, ăn sâu vào cộng đồng bên trong. 
+
+3. **Cơ thể suy kiệt**: giãn cách kéo dài, hạn chế di chuyển, tụ tập trên diện rộng, làm ngưng trệ nền kinh tế, khiến cho sức đề kháng càng giảm đi.
+
+4. **Thiếu cơ chế hạn chế lây lan, kiểm soát bùng phát**: làm tổn hại tới cơ quan quan trọng nhất là hệ thống y tế cộng đồng. 
+
+2. **Việc tập trung tiêu diệt chưa hiệu quả**: thiếu cơ chế điều khiển linh hoạt, chưa phát huy mọi nguồn lực đang có, và bỏ sót kẻ thù. 
+
+Việc tiêm vacxin toàn dân, giải pháp mà tới lúc này, chưa quốc gia nào dám khẳng định là hiệu quả đối với biến thể Delta, và các biến thể khác trong tương lai, có thể xem là hi vọng duy nhất trong việc xây dựng miễn dịch cộng đồng (là một hệ miễn dịch cuả quốc gia đủ mạnh để chống covid). 
+
+Nhưng còn có cách khác để cải thiện hệ miễn dịch quốc gia. Đó là nâng cao đồng thời 4 yếu tố nêu trên bằng "hệ thống lệnh bài", một liều vacxin để tạo kháng thể covid cho hệ miễn dịch cuả quốc gia. 
+
+### Ý tưởng để phát triển "hệ thống lệnh bài"
+
+- Xem mỗi Phường / Xã trong quốc gia là một cơ thể. 
+- Khi nhiễm bệnh, để cơ thể nghỉ ngơi, tập trung truy quét covid. Khi tạm khoẻ, để cơ thể vận động từ từ, giải toả tâm lý và phát triển kinh tế cục bộ và phối hợp các cơ thể khác xung quanh. 
+- Cần trang bị "khẩu trang", cơ chế hạn chế xâm nhập cho mỗi cơ thể, luyện tập khả năng phát hiện nguy cơ thường xuyên, ngay cả khi đã khỏi bệnh. 
+- Một hệ thống cảnh báo sớm, phát tín hiệu để mọi người tăng cường đeo khẩu trang. Chia thành 2 đội: khoẻ mạnh thì hỗ trợ cô lập, dập dịch, đội yếu thì không cho tiếp xúc.
+
+Với ý tưởng này, Việt nam sẽ là ngôi nhà của trên 10,000 cơ thể này. Và để bắt đầu, chúng ta cần tìm hiểu
+
+### Biểu tượng của sự tuân thủ
+
+Khẩu trang là 1 biểu tượng về sự tuân thủ nơi công cộng. Chúng ta dễ dàng sử dụng khẩu trang, và dễ nhận biết gười không đeo khẩu trang, đeo không đúng cách, hoặc lúc đeo lúc không khi ra ngoài hay tụ tập nơi công cộng.
+
+Lệnh bài cũng là 1 biểu tượng của sự tuân thủ khi ra ngoài. Hơn nữa, còn thể hiện sự đồng lòng, sẵn sàng tham gia chống dịch của người mang thẻ.
+
 ### Cấu trúc hệ thống quyết định hành vi bên trong
   
 **Dịch covid là 1 cấu  trúc hệ thống**
