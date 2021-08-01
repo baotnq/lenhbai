@@ -27,15 +27,6 @@
   - [Góp ý, liên hệ:](#góp-ý-liên-hệ)
 
 <!-- /code_chunk_output -->
-
-**Lời ngỏ**
-
-Đề xuất này khá dài, và không nhiều người đủ kiên nhẫn đọc từ trên xuống dưới và hiểu nội dung từng mục. 
-
-Nếu các anh chị quan tâm tới giải pháp cho tình huống kiểm soát dịch trong vùng chỉ thị 16 hoặc hơn, hãy đọc phần [Triển khai thực tế](http://baotnq.qrcare.vn/trienkhai.html). Có thể bắt đầu áp dụng sau **vài ngày, và sẽ kiểm soát dịch sau 2,3 tuần.**
-
-Nhưng khi bình tĩnh đọc, kết hợp với suy ngẫm sâu, sẽ phát hiện ra nhiều điều lớn hơn, không chỉ áp dụng cho lúc này mà còn "thay đổi mô thức" về cuộc chiến chống Covid trong tương lai. 
-
 ### Thế nào là "hệ thống lệnh bài". 
 
 "Lệnh bài" là **1 tấm thẻ, yêu cầu mọi người ra ngoài, mua hàng hay làm việc, phải đeo nó.**
