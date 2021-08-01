@@ -4,74 +4,39 @@
 **Mục lục**:
 <!-- code_chunk_output -->
  
-  - [Lời ngỏ](#lời-ngỏ)
-  - [Hệ miễn dịch của cơ thể](#hệ-miễn-dịch-của-cơ-thể)
-  - [Hệ miễn dịch quốc gia](#hệ-miễn-dịch-quốc-gia)
-  - [Thế nào là "hệ thống lệnh bài".](#thế-nào-là-hệ-thống-lệnh-bài)
-    - [Biểu tượng của sự tuân thủ](#biểu-tượng-của-sự-tuân-thủ)
-    - [Tại sao dùng từ "Lệnh"](#tại-sao-dùng-từ-lệnh)
-    - [Giám sát chéo](#giám-sát-chéo)
-  - [Thực hiện "Mục tiêu kép" của chính phủ](#thực-hiện-mục-tiêu-kép-của-chính-phủ)
-  - [Nhiệm vụ 1: Chia vùng dịch các khu vực liền kề](#nhiệm-vụ-1-chia-vùng-dịch-các-khu-vực-liền-kề)
-    - [Hạn chế ra ngoài mua nhu yếu phẩm](#hạn-chế-ra-ngoài-mua-nhu-yếu-phẩm)
-    - [Giới hạn hoạt động của người dân trong khu vực](#giới-hạn-hoạt-động-của-người-dân-trong-khu-vực)
-    - [Giám sát việc di chuyển ra, vào ngoài khu vực](#giám-sát-việc-di-chuyển-ra-vào-ngoài-khu-vực)
-  - [Nhiệm vụ  2. Huy động mọi người bên trong khu vực cùng tham gia chống dịch](#nhiệm-vụ-2-huy-động-mọi-người-bên-trong-khu-vực-cùng-tham-gia-chống-dịch)
-    - [Hệ thống liên lạc đa chiều](#hệ-thống-liên-lạc-đa-chiều)
-    - [Huy động mọi nguồn lực](#huy-động-mọi-nguồn-lực)
-    - [Đối tượng lẩn tránh, thiếu trách nhiệm, tiêu cực](#đối-tượng-lẩn-tránh-thiếu-trách-nhiệm-tiêu-cực)
-  - [Nhiệm vụ 3: Hệ thống cảnh báo, kiềm soát Covid bùng phát.](#nhiệm-vụ-3-hệ-thống-cảnh-báo-kiềm-soát-covid-bùng-phát)
-    - [Tại sao cần hệ thống này?](#tại-sao-cần-hệ-thống-này)
-    - [Hệ thống này có khả thi để đối phó Covid ko?](#hệ-thống-này-có-khả-thi-để-đối-phó-covid-ko)
-    - [Mở rộng số lượng Thẻ theo nhu cầu hoạt động.](#mở-rộng-số-lượng-thẻ-theo-nhu-cầu-hoạt-động)
-    - [Cảnh báo sớm 3 nhóm nguy cơ theo màu của thẻ.](#cảnh-báo-sớm-3-nhóm-nguy-cơ-theo-màu-của-thẻ)
-    - [Quy hoạt các hoạt động bên trong khu vực](#quy-hoạt-các-hoạt-động-bên-trong-khu-vực)
-  - [Tổng kết](#tổng-kết)
-    - [Góp ý và liên hệ:](#góp-ý-và-liên-hệ)
-- [Triển khai thực tế:](#triển-khai-thực-tế)
-  - [Triển khai Thẻ Gia đình](#triển-khai-thẻ-gia-đình)
-    - [Cách sử dụng:](#cách-sử-dụng)
-    - [Thời gian triển khai](#thời-gian-triển-khai)
-    - [Hỗ trợ các gia đình khó khăn](#hỗ-trợ-các-gia-đình-khó-khăn)
-    - [Tổ chức dịch vụ nội khu](#tổ-chức-dịch-vụ-nội-khu)
-  - [Lệnh bài cho cá nhân](#lệnh-bài-cho-cá-nhân)
-    - [Các loại thẻ đi làm](#các-loại-thẻ-đi-làm)
-    - [Thẻ đi làm tại điểm cố định](#thẻ-đi-làm-tại-điểm-cố-định)
-    - [Trách nhiệm của Đơn vị chủ quản](#trách-nhiệm-của-đơn-vị-chủ-quản)
-    - [Giám sát chéo thẻ đi làm](#giám-sát-chéo-thẻ-đi-làm)
-    - [Tổ chức đội shipper trong từng Phường / Xã](#tổ-chức-đội-shipper-trong-từng-phường-xã)
-  - [So sánh với giải pháp đang có](#so-sánh-với-giải-pháp-đang-có)
-    - [Bất cập của phiếu ra đường, thẻ đi chợ](#bất-cập-của-phiếu-ra-đường-thẻ-đi-chợ)
-    - [Giấy thông hành](#giấy-thông-hành)
-    - [Khai báo tại chốt kiểm dịch](#khai-báo-tại-chốt-kiểm-dịch)
-  - [Áp dụng vào tình hình ở tp HCM](#áp-dụng-vào-tình-hình-ở-tp-hcm)
-    - [Xây dựng bản đồ chống dịch](#xây-dựng-bản-đồ-chống-dịch)
-    - [Duy trì chất lượng của đội y tế](#duy-trì-chất-lượng-của-đội-y-tế)
-    - [Sử dụng hết các năng lực truyền, nhận “lệnh”](#sử-dụng-hết-các-năng-lực-truyền-nhận-lệnh)
-  - [Chiến thuật Quạt 3 cánh để khoanh vùng và truy quét toàn bộ](#chiến-thuật-quạt-3-cánh-để-khoanh-vùng-và-truy-quét-toàn-bộ)
-      - [“Phần chưa nhận lệnh” : rủi ro lây lan lớn nhất](#phần-chưa-nhận-lệnh-rủi-ro-lây-lan-lớn-nhất)
-- [Tham khảo thêm](#tham-khảo-thêm)
-  - [Cấu trúc hệ thống quyết định hành vi bên trong](#cấu-trúc-hệ-thống-quyết-định-hành-vi-bên-trong)
+- [Hệ miễn dịch của cơ thể](#hệ-miễn-dịch-của-cơ-thể)
+- [Hệ miễn dịch quốc gia](#hệ-miễn-dịch-quốc-gia)
+- [Thế nào là "hệ thống lệnh bài".](#thế-nào-là-hệ-thống-lệnh-bài)
+  - [Biểu tượng của sự tuân thủ](#biểu-tượng-của-sự-tuân-thủ)
+  - [Giám sát chéo](#giám-sát-chéo)
+- [Thực hiện "Mục tiêu kép" của chính phủ](#thực-hiện-mục-tiêu-kép-của-chính-phủ)
+- [Nhiệm vụ 1: Chia vùng dịch thành các khu vực (Phường/Xã) liền kề](#nhiệm-vụ-1-chia-vùng-dịch-thành-các-khu-vực-phườngxã-liền-kề)
+  - [Hạn chế ra ngoài mua nhu yếu phẩm](#hạn-chế-ra-ngoài-mua-nhu-yếu-phẩm)
+  - [Giới hạn hoạt động của người dân bên trong khu vực](#giới-hạn-hoạt-động-của-người-dân-bên-trong-khu-vực)
+  - [Giám sát việc di chuyển ra, vào ngoài khu vực](#giám-sát-việc-di-chuyển-ra-vào-ngoài-khu-vực)
+- [Nhiệm vụ  2. Huy động mọi người bên trong khu vực  cùng tham gia chống dịch](#nhiệm-vụ-2-huy-động-mọi-người-bên-trong-khu-vực-cùng-tham-gia-chống-dịch)
+  - [Hệ thống liên lạc đa chiều](#hệ-thống-liên-lạc-đa-chiều)
+  - [Huy động mọi nguồn lực](#huy-động-mọi-nguồn-lực)
+  - [Đối tượng lẩn tránh, thiếu trách nhiệm, tiêu cực](#đối-tượng-lẩn-tránh-thiếu-trách-nhiệm-tiêu-cực)
+- [Nhiệm vụ 3: Hệ thống cảnh báo, kiềm soát Covid bùng phát theo khu vực .](#nhiệm-vụ-3-hệ-thống-cảnh-báo-kiềm-soát-covid-bùng-phát-theo-khu-vực)
+  - [Tại sao cần hệ thống này?](#tại-sao-cần-hệ-thống-này)
+  - [Hệ thống này có khả thi để đối phó Covid ko?](#hệ-thống-này-có-khả-thi-để-đối-phó-covid-ko)
+  - [Mở rộng số lượng Thẻ theo nhu cầu hoạt động.](#mở-rộng-số-lượng-thẻ-theo-nhu-cầu-hoạt-động)
+  - [Cảnh báo sớm theo màu của thẻ.](#cảnh-báo-sớm-theo-màu-của-thẻ)
+  - [Quy hoạch các hoạt động bên trong khu vực](#quy-hoạch-các-hoạt-động-bên-trong-khu-vực)
+- [Tổng kết](#tổng-kết)
+  - [Triển khai thực tế](#triển-khai-thực-tế)
+  - [Góp ý, liên hệ:](#góp-ý-liên-hệ)
 
 <!-- /code_chunk_output -->
 
-### Lời ngỏ
+**Lời ngỏ**
 
 Đề xuất này khá dài, và không nhiều người đủ kiên nhẫn đọc từ trên xuống dưới và hiểu nội dung từng mục. 
 
-Nếu các anh chị, các lãnh đạo quan tâm tới giải pháp cho tình huống kiểm soát dịch trong vùng chỉ thị 16 hoặc hơn, hãy đọc phần [Triển khai Thẻ Gia đình](#triển-khai-thẻ-gia-đình). Có thể bắt đầu áp dụng sau **vài ngày, và sẽ kiểm soát dịch trong 2,3 tuần.**
+Nếu các anh chị quan tâm tới giải pháp cho tình huống kiểm soát dịch trong vùng chỉ thị 16 hoặc hơn, hãy đọc phần [Triển khai thực tế](http://baotnq.qrcare.vn/trienkhai.html). Có thể bắt đầu áp dụng sau **vài ngày, và sẽ kiểm soát dịch trong 2,3 tuần.**
 
 Nhưng nếu đủ kiên nhẫn, và bình tĩnh đọc từ trên xuống dưới, sẽ nhận ra nhiều điều lớn hơn, không chỉ cho hiện tại mà nhiều năm trong tương lai. 
-
-Đó là tinh thần của đề xuất
-
-- **tất cả sẽ tuân thủ, nếu từng người biết cần làm gì,  và giám sát ai**
-
-- **Mọi cố gắng chống covid sẽ vô nghĩa nếu thiếu một hệ thống giám sát chéo, cân bằng**
-
-- **Biết huy động nguồn lực hiện có sẽ tự tin để chiến thắng Covid**
-
-- **Tại sao nên duy trì phòng dịch bên cạnh việc chữa trị và tiêm chủng toàn dân** 
 
 Để bắt đầu tìm hiểu, hãy liên tưởng tới khái niệm cơ bản sau: 
 ### Hệ miễn dịch của cơ thể
@@ -111,12 +76,10 @@ Nhưng còn có cách khác để cải thiện hệ miễn dịch quốc gia. �
 - Cần trang bị "khẩu trang", cơ chế hạn chế xâm nhập cho mỗi cơ thể, luyện tập khả năng phát hiện nguy cơ thường xuyên, ngay cả khi đã khỏi bệnh. 
 - Một hệ thống cảnh báo sớm, phát tín hiệu để mọi người tăng cường đeo khẩu trang. Chia thành 2 đội: khoẻ mạnh thì hỗ trợ cô lập, dập dịch, đội yếu thì không cho tiếp xúc.
 
-Với ý tưởng này, Việt nam chúng ta sẽ là ngôi nhà chung của trên 10,000 cá thể này. 
-
-Và để bắt đầu, chúng ta cần tìm hiểu
+Với ý tưởng này, Việt nam sẽ là ngôi nhà của trên 10,000 cơ thể này. Và để bắt đầu, chúng ta cần tìm hiểu
 ### Thế nào là "hệ thống lệnh bài". 
 
-"Lệnh bài" là 1 tấm thẻ đơn giản, yêu cầu mọi người ra ngoài, di chuyển hay làm việc, phải mang (đeo) nó.
+"Lệnh bài" là **1 tấm thẻ đơn giản, yêu cầu mọi người ra ngoài, di chuyển hay làm việc, phải đeo nó.**
 
 Khi triển khai tấm thẻ này lên toàn hệ thống sẽ phân chia vùng dịch thành các khu vực lân cận nhau. Trong đó hầu hết hoạt động di chuyển, mua bán và cả làm việc sẽ hạn chế bên trong khu vực này. 
 
@@ -125,15 +88,12 @@ Tỉ lệ cố ý vi phạm, ra khỏi khu vực không có lý do sẽ ít đi 
 
 #### Biểu tượng của sự tuân thủ
 
-Biểu tượng là 1 vật mà ai cũng nhận biết nó. 
-
 Khẩu trang là 1 biểu tượng về sự tuân thủ nơi công cộng. Chúng ta dễ dàng sử dụng khẩu trang, và dễ nhận biết gười không đeo khẩu trang, đeo không đúng cách, hoặc lúc đeo lúc không khi ra ngoài hay tụ tập nơi công cộng.
 
-Lệnh bài cũng là 1 biểu tượng của sự tuân thủ khi ra ngoài. Hơn nữa, thực hiện theo yêu cầu từ lệnh bài là thể hiện sự đồng lòng, sẵn sàng tham gia chống dịch.
+Lệnh bài cũng là 1 biểu tượng của sự tuân thủ khi ra ngoài. Hơn nữa, còn thể hiện sự đồng lòng, sẵn sàng tham gia chống dịch của người mang thẻ.
 
-#### Tại sao dùng từ "Lệnh" 
 
-Từ **lệnh**, là mệnh lệnh trong quân đội, bắt buộc mọi đối tượng tiếp nhận phải thực hiện giống nhau. Đối tượng không chỉ là người đeo thẻ, mà còn là các bên khác như cấp thẻ (chính quyền địa phương), phục vụ thẻ (doanh nghiệp), và kiểm tra thẻ (công an).
+**Lệnh** trong lệnh bài, là mệnh lệnh trong quân đội, bắt buộc mọi đối tượng tiếp nhận phải thực hiện giống nhau. Đối tượng không chỉ là người đeo thẻ, mà còn là các bên khác như cấp thẻ (chính quyền địa phương), phục vụ thẻ (doanh nghiệp), và kiểm tra thẻ (công an).
 
 Để thực hiện được điều này, cần 1 cấu trúc cân bằng, đơn giản lên tấm thẻ, và triển khai toàn hệ thống. Cấu trúc này cho phép giám sát chéo giữa các đối tượng. 
 
@@ -193,7 +153,7 @@ Các phần quan trọng, giúp có được 5 yếu tố trên
 - **Ngày mua hàng**: check vào để lưu ngày mua, giúp kiểm soát việc ra ngoài nhiều lần mua hàng. triển khai nhanh chóng, bổ sung hệ thống sau này dễ dàng. 
 - **mã QRCode** là phần để kết nối với hệ thống, dễ dàng mở rộng sau. 
 
-Chi tiết tham khảo thêm [Triển khai Thẻ Gia đình](#triển-khai-thẻ-gia-đình)
+Chi tiết tham khảo thêm [Triển khai Thẻ Gia đình](https://baotnq.qrcare.vn/trienkhai.html#triển-khai-thẻ-gia-đình)
 
 Hệ thống lệnh bài có yếu tố quan trọng như sau, lấy ví dụ về Thẻ gia đình, 1 loại trong lệnh bài
 
@@ -208,23 +168,15 @@ Cơ chế giám sát đan xen, hạn chế tối đa khe hở vi phạm, thiếu
 
 ![](giam-sat-cheo.png)
 
-- *Ban chỉ đạo (BCD) Chống dịch giám sát tất cả các bên. Và chịu sự giám sát của người dân về kết quả chung.*
-
-- *Phường/xã chịu sự giám sát của BCD Chống dịch, Phường/Xã lân cận và cả nội bộ địa phương(đội Công an, dân phòng)*
-
-- *Siêu thị, chợ chịu giám sát của BCD Chống dịch, đội ngũ địa phương và cả người dân.*
-
-*Việc giám sát dựa theo ID và thông tin trên thẻ là chủ yếu.* 
-
 Hướng dẫn chi tiết, bao gồm luôn cách giám sát, kèm các chế tài xử lý vi phạm rõ ràng sẽ giúp mọi bên tự động tuân thủ. Bỏ qua các suy nghĩ tiêu cực: **tìm cách vi phạm và tin rằng sẽ không bị phát hiện**
 
 Một số trường hợp đặc biệt, sẽ có tài khoản sử dụng trên **MobileApp** riêng. Phần công nghệ này có thể bổ sung sau.
 
 Với cơ chế giám sát chéo và hệ thống tập trung, Thẻ gia đình giải quyết nhiều hạn chế của các giải pháp đang có.
-Tham khảo thêm [Bất cập của phiếu ra đường, thẻ đi chợ](#bất-cập-của-phiếu-ra-đường-thẻ-đi-chợ)
+Tham khảo thêm [Bất cập của phiếu ra đường, thẻ đi chợ](https://baotnq.qrcare.vn/trienkhai.html#bất-cập-của-phiếu-ra-đường-thẻ-đi-chợ)
 
 
-Ngoài ra, còn có các "lệnh bài" dành cho cá nhân, dành cho các các nhân có nguy cơ cao, như di chuyển làm việc thường xuyên, hoặc tham gia chống dịch. Chi tiết xem [Lệnh bài cho cá nhân](#lệnh-bài-cho-cá-nhân)
+Ngoài ra, còn có các "lệnh bài" dành cho cá nhân, dành cho các các nhân có nguy cơ cao, như di chuyển làm việc thường xuyên, hoặc tham gia chống dịch. Chi tiết xem [Lệnh bài cho cá nhân](https://baotnq.qrcare.vn/trienkhai.html#lệnh-bài-cho-cá-nhân)
 
 ### Thực hiện "Mục tiêu kép" của chính phủ 
 
@@ -237,7 +189,7 @@ Sau 1 thời gian triển khai, vùng dịch có thể thực hiện **mục ti�
 - **Hệ thống cảnh báo sớm** Xét nghiệm theo từng nhóm nguy cơ cao, để nhanh chóng phát hiện, để hạn chế dịch bùng phát trong tương lai. 
 
 Để thực hiện được mục tiêu trên, chúng ta cần vận dụng "hệ thống lệnh bài" để thực hiện 3 nhiệm vụ chính như sau: 
-### Nhiệm vụ 1: Chia vùng dịch các khu vực liền kề
+### Nhiệm vụ 1: Chia vùng dịch thành các khu vực (Phường/Xã) liền kề
 
 ![](tinh-than-cua-lenhbai.png)
 #### Hạn chế ra ngoài mua nhu yếu phẩm 
@@ -253,7 +205,7 @@ Với lệnh: **chỉ bán cho người có thẻ, không vượt giới hạn m
 Kết hợp lại, sẽ tạo ra một lệnh mạnh mẽ, phân biệt nhanh người cố tình vi phạm. Bản thân mỗi người cũng biết điều này, khiến họ "vô thức" hạn chế ra đường. 
 
 Hạn chế được mọi người dân ra đường theo tinh thần của chỉ thị 16, giúp việc áp dụng các bước sau nhanh chóng, ít bị phản kháng.
-#### Giới hạn hoạt động của người dân trong khu vực  
+#### Giới hạn hoạt động của người dân bên trong khu vực  
 
 Ra lệnh bên bán **không phục vụ cư dân ngoài khu vực cụ thể**, cũng như thông báo về cơ chế xử phạt nếu bị phát hiện, sẽ "vô thức" hạn chế việc di chuyển ra ngoài khu  vực của người dân
 
@@ -261,7 +213,7 @@ Tỉ lệ vi phạm sẽ giảm hơn nhiều và dễ bị phát hiện, khiến
 
 Việc giới hạn một cách tự nhiên cho mọi người mang thẻ dựa trên một lý thuyết là "cấu trúc ảnh hưởng tới hành vi của mọi đối tượng bên trong" và số lượng vi phạm ngày càng giảm là một tiến trình tăng cường theo thời gian. Tham khảo hai phần này trong cuốn [Nguyên lý thứ 5](https://vietnambiz.vn/nguyen-li-thu-nam-the-fifth-discipline-la-gi-cac-nguyen-tac-chinh-20191214001907077.htm) 
 
-#### Giám sát việc di chuyển ra, vào ngoài khu vực
+#### Giám sát việc di chuyển ra, vào ngoài khu vực 
 > giống như đeo khẩu trang cho cơ chể, đã nêu ở trên. 
 
 Thẻ đi làm dành cho giao hàng, nhân viên đi làm ra khỏi hay vào khu vực,... giúp cho việc giám sát trở nên dễ dàng.
@@ -275,7 +227,7 @@ Kết quả của việc đồng thời thực hiện các việc trên, giúp p
 
 Hạn chế và khoanh vùng lây lan theo ruộng bậc thang, giúp nguồn lực được tập trung, sử dụng hiệu quả với hệ thống lệnh bài để 
 có thể thực hiện nhiệm vụ tiếp theo.
-### Nhiệm vụ  2. Huy động mọi người bên trong khu vực cùng tham gia chống dịch
+### Nhiệm vụ  2. Huy động mọi người bên trong khu vực  cùng tham gia chống dịch
 
 Muốn chống dịch hiệu quả, bên cạnh tinh thần tự giác, cần mọi người cùng phối hợp, tuân thủ những yêu cầu đưa ra. 
 #### Hệ thống liên lạc đa chiều
@@ -312,7 +264,7 @@ Ngoài ra, Hệ thống lệnh bài còn giúp lọc ra các đối tượng "l�
 
 Khi dịch bệnh được kiềm chế trong một khu vực, và cho phép hoạt động lại các hoạt động phát triển kinh tế nội khu, thì nguy cơ xâm nhập từ bên ngoài vẫn thường trực. Hệ thống Lệnh bài lúc này đóng vai trò cảnh báo sớm, đồng loạt kích hoạt các biện phát kiềm chế. Đó là nhiệm vụ thứ 3.
 
-### Nhiệm vụ 3: Hệ thống cảnh báo, kiềm soát Covid bùng phát. 
+### Nhiệm vụ 3: Hệ thống cảnh báo, kiềm soát Covid bùng phát theo khu vực . 
 
 #### Tại sao cần hệ thống này? 
 
@@ -328,8 +280,6 @@ Hiện tại chiến lược phòng bệnh đang gặp nhiều khó khăn tại 
 "Hệ thống lệnh bài" là một công cụ mạnh mẽ để thực hiện chiến lược phòng bệnh như trên.
 
 ####  Hệ thống này có khả thi để đối phó Covid ko? 
-
-
 
 
 Chống lại 1 cấu trúc hệ thống mạnh mẽ như Dịch Covid, cần phải đưa ra 1 cấu trúc hệ thống đối kháng mạnh, cho phép nâng cấp, tăng cường khả năng đối kháng trong tương lai. 
@@ -353,7 +303,7 @@ Khi dịch bệnh được kiểm soát trong 1 khu vực (hoặc tỉnh / tp), 
 - Thêm Thẻ chống dịch cho người dân muốn tham gia: 
 
 ![](the-1-nha.png)
-#### Cảnh báo sớm 3 nhóm nguy cơ theo màu của thẻ.
+#### Cảnh báo sớm theo màu của thẻ.
 
 **Màu đỏ (Thẻ chống dịch)**: nguy cơ bị lây, và lây lan cao nhất
 
@@ -369,361 +319,36 @@ Khi dịch bệnh được kiểm soát trong 1 khu vực (hoặc tỉnh / tp), 
 
 Việc xét nghiệm theo nhóm thẻ giúp tối ưu nguồn lực xét nghiệm nhưng vẫn giữ được tính cảnh báo sớm Covid trong khu vực. 
 
-#### Quy hoạt các hoạt động bên trong khu vực
+#### Quy hoạch các hoạt động bên trong khu vực
 
 - Các dịch vụ cho người dân bên trong khu vực: công viên, trường học, khu vui chơi ngoài trời,... cần tuân theo các tiêu chuẩn phòng và giám sát dịch trước khi hoạt động
 - Ưu tiên cho các doanh nghiệp sắp xếp đội ngũ nhân viên, bố trí nơi ở và làm việc bên trong 1 khu vực. 
 
 tham khảo thêm : 
 
-- [Hỗ trợ các gia đình khó khăn](#hỗ-trợ-các-gia-đình-khó-khăn)
+- [Hỗ trợ các gia đình khó khăn](https://baotnq.qrcare.vn/trienkhai.html#hỗ-trợ-các-gia-đình-khó-khăn)
 
-- [Tổ chức dịch vụ nội khu](#tổ-chức-dịch-vụ-nội-khu)
+- [Tổ chức dịch vụ nội khu](https://baotnq.qrcare.vn/trienkhai.html#tổ-chức-dịch-vụ-nội-khu)
 ### Tổng kết 
 
 Trên đây là những điểm chính, quan trọng của đề xuất. Có nhiều vấn đề rất khó thể diễn đạt bằng giấy, như vòng tròn tiến trình tăng cường, cân bằng trong tương tác. Đây là những khái niệm của một ngôn ngữ riêng, cần nhận biết bởi tư duy hệ thống và trao đổi trực tiếp.
 
 
+Nếu mọi người quan tâm tới giải pháp chi tiết, 
+
+#### Triển khai thực tế
+
+- xem link [Triển khai thực tế](http://baotnq.qrcare.vn/trienkhai.html)
+
+#### Góp ý, liên hệ:
+
 Cảm ơn đã dành thời gian đọc tới đây. 
 
-Và mong bạn gửi đề xuất này đến Ban chỉ đạo chống dịch, hoặc các lãnh đạo của Chính phủ. Tình hình thời chiến, xin hãy hành động ngay lập tức. 
-
-#### Góp ý và liên hệ:
+Và mong bạn gửi đề xuất này đến Ban chỉ đạo chống dịch, hoặc các lãnh đạo của Chính phủ. 
 
 Mọi góp ý gửi về **quocbao.tn@gmail.com** 
 hoặc gọi điện tới số: **076 784 7421**
 
-## Triển khai thực tế: 
-
-### Triển khai Thẻ Gia đình
-
-![](the_gia_dinh_overview.png) 
-
-
-**Các bên có thể tương tác**
-
-![](moi-tuong-tac.png)
-
-#### Cách sử dụng:
-- Khi cấp thẻ cho gia đình, cán bộ Phường ghi số cmnd, cccd vào thẻ 
-![](ghi-cmnd.png)
-
-- Công an, dân phòng sẽ khoanh tròn vào ngày kiểm tra (nên dùng bút màu đỏ)
-
-- Quản lý chợ, nhân viên siêu thị sẽ gạch chéo vào ngày mua hàng (nên dùng bút màu xanh)
-![](kiem-tra-ngay.png)
-   - ngày 27.07: có kiểm tra và mua hàng
-   - ngày 30.07: có kiểm tra, ko có mua hàng
-   - ngày 31.07: có mua hàng, ko bị kiểm tra
-  
-- hướng dẫn người dân bị phạt khi nào.
-
-#### Thời gian triển khai 
-**Phát hành trong 2,3 ngày**
-
-- Hệ thống sinh ID và xuất file pdf 
-- In ấn tập trung, chuyển tới từng Phường / Xã trong thành phố 
-
-**Đưa tới từng gia đình: trong 2,3 ngày**
-
-![](cap_the_lan_1.png)
-
-**Tuần đầu tiên triển khai**
-- Cảnh báo nhắc nhở 1,2 ngày đầu tiên
-- Tiến hành kiểm tra, xử phạt 
-
-
-**Quy định cho siêu thị/ chợ**
-- hướng dẫn thực hiện
-![](cap-nhat-ban-hang.png)
-
-- cách giám sát nhân viên siêu thị, chợ không tuân thủ
-
-![](giam-sat-cho.png)
-
-**Nâng cao hiệu quả các tuần tiếp theo**
-
-- Cán bộ tới từng nhà dân để đôn đốc hướng dẫn
-
-- Cập nhật các siêu thị, chợ phục vụ,... trong tờ hướng dẫn để ưu tiên đặt mua tại nhà. 
-
-- Cán bộ sẽ dùng App để quét Thẻ gia đình, xác nhận đã tới từng gia đình, gặp chủ hộ và hướng dẫn.
-
- ![](giam-sat-cap-the.png)
-
-
-
-**Cơ chế giám sát chéo**
-
-![](giam-sat-cheo.png)
-#### Hỗ trợ các gia đình khó khăn
-
-- Các gia đình khó khăn, có thể phản ánh bằng cách gọi điện tới Phường/ Xã cung cấp ID, hoặc quét thẻ qrcode gửi trực tiếp tới hệ thống.
-
-- Thông báo cán bộ Phường dựa trên ID, tới tận nhà để hỗ trợ
-
-- Các nhà hảo tâm, từ thiện cũng có thể gửi trực tiếp theo ID này 
-
-#### Tổ chức dịch vụ nội khu
-- Đội shipper nội khu, mang lại thu nhập cho các cá nhân muốn tham gia. Cán bộ Phường/ xã tới tận nhà đánh giá hoàn cảnh, cam kết trước khi gửi tới Siêu thị, chợ. Tham khảo [Đội shipper trong từng Phường / Xã](#tổ-chức-đội-shipper-trong-từng-phường-xã)
-
-- Tổ chức các địa điểm giải trí, có kiểm soát phòng dịch tốt để các gia đình, luân phiên theo ngày tới tham gia. Thu phí hợp lý để cân bằng với chi phí chống dịch. 
-
-   
-### Lệnh bài cho cá nhân
-> gồm 2 loại chính
-
-
-![](The_ca_nhan.png)
-
-- Thẻ đi làm: nhân viên siêu thị, chợ, nhân viên giao hàng, đi làm tại nhà máy, ...
-
-- Thẻ chống dịch: cán bộ địa phương, tình nguyện viên, đội ngũ y tế, ...
-
-#### Các loại thẻ đi làm
-
-![](the-di-lam-phan-loai.png)
-
-**Chỗ làm việc cố định**
-- nhân viên tại siêu thị, chợ,
-- công nhân tại nhà máy sản xuất
-- cán bộ tại cơ quan, doanh nghiệp thiết yếu
-
-**Thường xuyên di chuyển**
-- shipper giao hàng, văn thư 
-- tài xế xe giao hàng 
-
-Chia thành 2 loại bên trong và liên khu vực. 
-#### Thẻ đi làm tại điểm cố định
-
-![](the-di-lam-mat-sau.png)
-
-**Quy trình triển khai**
-- Cấp phôi thẻ cho từng Quận/ huyện:
-    - sô phôi nhiều hơn nhu cầu, để dự phòng tình huống phát sinh
-    - đóng dấu cho thẻ cần sử dụng , cập nhật phôi chưa sử dụng 
-- Mỗi đơn vị gửi đăng ký số lượng nhân viên cần
-    - được cấp nhiều hơn 20% số lượng cần
-    - đóng dấu trước khi sử dụng
-- Ghi cmnd/cccd và Phường xã cư trú vào thẻ, đóng dấu đưa nhân viên
-    - cần quản lý nhân viên theo Phường / xã cư trú.
-
-- Mỗi nhân viên cần Phường/ Xã xác nhận trước khi đi làm
-- Thẻ không sử dụng, thu hồi và thông báo ID cho quận huyện để khóa thẻ từ xa. 
-
-![](the-di-lam-trien-khai.png)
-
-#### Trách nhiệm của Đơn vị chủ quản
-- Quản lý thẻ cấp cho nhân viên, thu hồi và khoá thẻ các nhân viên nghỉ việc
-
-- Đóng phạt khi có nhân viên vi phạm. Hoặc ngừng hoạt động nếu sai phạm kéo dài, không khắc phục
-
-- Đóng phí xét nghiệm thường xuyên cho nhân viên. 
-  - di chuyển càng xa, càng phải xét nghiệm thường xuyên 
-
-- Doanh nghiệp chuỗi như Ngân hàng, siêu thị, đơn vị vận chuyển ..., cần sắp xếp, bố trí nhân viên theo khu vực sinh sống để hạn chế đi lại, hạn chế chi phí xét nghiệm. 
-#### Giám sát chéo thẻ đi làm
-> xử phạt Đơn vị chủ quản để có trách nhiệm trong đăng ký và quản lý nhân viên.
-> Hạn chế xử phạt người mang Thẻ đi làm, khiến họ lẫn trốn, không thành khẩn khai báo, gây khó khăn cho ngăn chặn covid. 
-
-- Công an, cán bộ địa phương phát hiện vi phạm, gửi về hệ thống
-
-- Chính quyền cấp quận/ huyện quản lý đơn vị có trách nhiệm xử phạt nghiêm và giám sát việc tái phạm. 
-
-
-![](the-di-lam-giam-sat-cheo.png)
-#### Tổ chức đội shipper trong từng Phường / Xã
-> làm việc, di chuyển bên trong khu vực 
-
-- đội shipper này là người dân sống bên trong, được Phường / xã xác nhận có đủ điều kiện tham gia.
-- Siêu thị, chợ sẽ trả phí giao hàng cho đội shipper này, cũng như trả phí liên quan như tiêm vacxin, xét nghiệm. 
-
-Rất nhiều lợi ích:
-- Mang lại thu nhập cho các cá nhân mất thu nhập, chưa có việc làm. 
-- Giải quyết được khủng hoảng về đội ngũ shipper
-- hạn chế covid lay lan. 
-
-
-### So sánh với giải pháp đang có
-#### Bất cập của phiếu ra đường, thẻ đi chợ
-
-- https://tienphong.vn/ha-noi-phat-phieu-ra-duong-cho-nguoi-dan-trong-thoi-gian-gian-cach-xa-hoi-post1359794.tpo
-
-- https://vnexpress.net/ha-noi-se-phat-phieu-di-cho-toan-thanh-pho-4331589.html
-- ![](the-di-cho.png)
-
-
-#### Giấy thông hành
-
-- Giải pháp cho Thẻ đi làm: chỗ làm cố định và công việc di chuyển 
-- Cập nhật sau
-#### Khai báo tại chốt kiểm dịch 
-
-- khai báo y tế là 1 việc cần thiết, nhưng khá tốn thời gian của tất cả mọi người. Chưa kể gây ách tắt tại chốt kiểm dịch. 
-
-- Giải pháp: **tự giác quét Thẻ tại điểm Checkpoint**
-
-- Chi tiết thực hiện: cập nhật sau
-### Áp dụng vào tình hình ở tp HCM
-
-> Một số lưu ý khi triển khai quét mẫu toàn vùng
-
-#### Xây dựng bản đồ chống dịch
-
-Có khoảng 500 điểm lấy mẫu, rải rác khắp vùng dịch HCM.
-
-Mỗi địa điểm cần bố trí theo tiêu chuẩn chung về an toàn 
-
-Tiêu chuẩn này thiết lập ban đầu và dựa vào dữ liệu thu thập, cải thiện dần dần: gồm tổ chức khoa học các địa điểm tập trung lấy mẫu, địa điểm hậu cần, và tuyến đường di chuyển của đội lấy mẫu. 
-
-Gợi ý về tiêu chuẩn: **Cố định, Theo luồng, CHECKPOINT.**
-
-Cố định: địa điểm lấy mẫu và danh sách 1000 Thẻ cần lấy. Việc cố định sẽ tạo thói quen cho các lần lấy sau, hạn chế tối đa các Thẻ đi lộn địa điểm, gây khó khăn không đáng có.
-
-Phân luồng thành 3 đợt: sáng , chiều, tối và các Thẻ đi đúng theo đợt, ví dụ sử dụng số cuối cùng trên ID của mỗi thẻ
-  - nếu là 0,1,2,3 đi buổi sáng, 4,5,6,7 vào buổi chiều, 9,10 vào buổi tối. 
-  - buổi tối cần ít thẻ nhất, để dự phòng các Thẻ đi trễ ở buổi sáng, chiều.
-
-Thiết lập luồng di chuyển hợp lý, có hướng dẫn phân luồng từ xa, và các vị trí CHECKPOINT Thẻ trước khi vào trong. 
-
-Ưu tiên việc đi bộ, hạn chế tập trung bãi giữ xe. 
-
-Thiết lập các CHECKPOINT theo Thẻ, để tự động để thu thập dữ liệu, hoàn thiện các đợt sau.
-  - CHECKPOINT là các điểm yêu cầu mỗi người đi qua cần quét qrcode trên Thẻ. Nếu không có smartphone, wifi, sử dụng thiết bị chung của ban tổ chức.
-
-Chia các cá nhân mang “Thẻ công vụ” màu đỏ thành nhiều chức năng:
-
-Đội lấy mẫu tập trung, Đội lấy mẫu tại nhà, Đội nhắc nhở các thẻ “quên”, …
-
-Cập nhật hình ảnh thực Tế
-
-Yêu cầu Thẻ công vụ là cán bộ địa phương, chụp hình thực tế địa điểm cách bố. trí phân luồng, gửi về hệ thống.
-Đội phân tích tập trung ở Bộ chỉ huy, dựa trên hình ảnh, dữ liệu thu thập, tối ưu việc bố trí trận địa
-“Ra lệnh” cho các Thẻ màu đỏ địa phương, điều chỉnh theo bố trí mới cũng như liên tục cập nhật bất cập thực tế.
-Mọi thứ cần chuẩn bị 1,2 ngày trước khi tổ chức lấy mẫu tập trung. 
-
-Việc xây bản đồ trận địa kết hợp với đưa thẻ tới 3 triệu gia đình sẽ diễn ra trong vòng 1 tuần. 
-Có như vậy mới kịp với tinh hình hiện tại và bắt đầu trận đánh sớm nhất. 
-
-Chia thành 3 khu vực: cao, trung, thấp trong đó,  vùng cao có số “lệnh bài” gấp đôi trung, thấp.
-
-#### Duy trì chất lượng của đội y tế
-
-Do việc lấy mẫu diễn ra liên tục trong ít nhất 12 ngày, cần dự phòng các nguồn lực để bảo đảm chất lượng.
-
-Nhân sự lấy mẫu cần chia thành ca, luân phiên thực hiện nghỉ ngơi
-Nhân sự lấy mẫu cần huấn luyện nội bộ để nâng cao kỹ năng
-Tổ chức tuyến di chuyển hợp lý giữa các điểm lấy mẫu
-Lập các điểm nghỉ ngơi gần nơi điểm lấy mẫu, và cho đội ngủ tập trung trước ngày thực hiện.
-
-#### Sử dụng hết các năng lực truyền, nhận “lệnh”
-
-có rất nhiều cơ chế truyền, nhận, đánh giá tỉ lệ nhận “lệnh” thông qua giác quan của mỗi người, và cả thiết bị công nghệ, nếu biết sử dụng sẽ là công cụ mạnh mẽ, hiệu quả.
-
-**Truyền lệnh**
-Tổng quát từ xa qua các kênh truyền thông đại chúng, hoặc sms, Zalo,…
-Chi tiết lệnh tới từng khu vực: từ cấp quận huyện đến tổ dân phố cho Thẻ gia đình, thông qua đơn vị làm việc: Thẻ đi làm
-Nhắc nhở, đôn đốc bởi cán bộ địa phương
-gọi điện đến từng cá nhân
-**Nhận lệnh**: cần báo chí, địa phương hướng dẫn các nhận biết
-- dựa trên màu sắc, thông tin khu vực, hay đơn vị làm việc 
-- dựa trên ID của thẻ để mỗi cá nhân
-- dùng quét qrcode để tra cứu thông tin
-
-**Xác định Tỉ lệ đã / chưa nhận lệnh**
-
-ví dụ: truyền lệnh yêu cầu sẽ xét nghiệm tập trung, mọi cá nhân liên quan cần quét qrcode để xác nhận. Dựa vào tỉ lệ, sẽ biết việc thông báo có cần cải thiện hay không, như mọi người chưa biết thông báo, biết nhưng chưa hiểu, hiểu sai, …
-
-Phản hồi dựa trên quét mã qrcode bởi mỗi cá nhân, hay tại điểm Checkpoint
-dùng kiểm tra cheó bởi nhân sự khác để đánh giá phản hồi
-
-**Phản ánh các vi phạm**
-mỗi thẻ là một đơn vị giám sát, hỗ trợ, hướng dẫn
-
-**Liên lạc trực tiếp, tập nơi:**
-- tìm tới địa chỉ của từng thẻ: tốn công nhưng rất hiệu quả.
-- gọi điện tới số điện thoại của thẻ: cho thẻ công vụ, 
-
-### Chiến thuật Quạt 3 cánh để khoanh vùng và truy quét toàn bộ
-
-đây là 1 gợi ích, thực tế có nhiều cách hiệu quả, hợp lý hơn.
-
-![](quat_3_canh.png)
-
-Tiêu chí để phân biệt thắng thua.
-
-“trận đánh” trong ngày chỉ xem là thắng lợi khi có trên 99% Thẻ tham gia, và dưới <95% xem như thất bại. Số còn thiếu 1% sẽ có các Đội Cơ động kết hợp với địa phương để truy quét tận nhà.
-
-“trận đánh gia đình” sẽ tiến hành xét nghiệm cho 500,000 Thẻ gia đình, tập trung tại 500 địa tại các phường / xã trên thành phố.
-
-Dựa trên thông tin nhận biết trên Thẻ, mỗi người dân sẽ đến địa điểm vào khung giờ quy đi, và được phân luông từ xa.
-
-Tại điểm đầu có đặt Checkpoint để quét qrcode trên thẻ, ngay khi quét ID của thẻ được gửi về hệ thống và cập nhật tới các bộ phận cần sử dụng.
-
-Cán bộ Phường, tổ dân phố,.. sẽ nhắc nhở từng nhà trong danh sách đi xét nghiệm.
-Số gia đình khó khăn trong di chuyển, sẽ có đội lấy mẫu cơ động tới xử lý.
-
-##### “Phần chưa nhận lệnh” : rủi ro lây lan lớn nhất
-
-Một công dụng khác của hệ thống lệnh bài, nhưng rất quan trọng là quét được “Phần chưa nhận lệnh”. 
-
-Ở đây không chỉ là số Thẻ chưa tham gia, (1% còn lại cuối trận đánh), mà còn đánh giá được các Phường / Xã nào còn “gia đình bị bỏ sót”. 
-Thẻ chưa tham gia, có thể lần theo Thẻ để truy quét, nhưng “gia đình bị bỏ sót” nằm ngoài hệ thống, dữ liệu, và rất dễ bỏ quên.
-
-**"Gia đình bị bỏ sót”** có thể là: người thuê trọ, người lao động tự do, không thuộc diện “gia đình”,… cần hướng dẫn, đôn đốc Phường / xã chú ý để các đối tượng này, để nâng cao “Chất lượng của cấp đia phương”, trên toàn bộ khu vực.
-
-Và với Thẻ đi làm” số lượng ít hơn, có thể xét nhiệm toàn bộ một lần, nhưng việc quan trọng vẫn là giám sát, phát hiện các “cá nhân di chuyển lén lút”
-
-Ngoài việc có kết quả chiến lợi, khi đánh trận cần hạn chế tốn thất cho giữa những người tham gia, và rút ra bài học từ thu thập dữ liệu cho trận đánh tiếp theo.
-
-**Hạn chế tổn thất:**
-là hạn chế lây lan covid giữa những người tham gia, hạn chế việc lấy mẫu không đúng, không đạt yêu cầu, đội lấy mẫu bị vét kiệt sức, chất lượng suy giảm cho trận đánh ngày mai. 
-
-Có nhiều cách để làm điều này xoay quanh việc điều tiết Thẻ tham gia.
-
-**Thu thập dữ liệu** trong trận đánh giúp cải thiện hiệu quả các trận đánh tiếp theo, hạn chế tổn thất và nhất là làm tăng niềm tin của người dân khi tham gia lấy mẫu lần sau.
-
-thực hiện trên tinh thần: hướng dẫn để mọi người dùng Thẻ để “tự động nhập liệu”. Thiết lập những cách thu thập đơn giản, những điểm nhập cố định, dễ nhận biết, và hướng dẫn dễ hiểu mang lại hiệu quả lớn với chi phí thấp. Không cần bày vẽ cách máy móc, công nghệ tân tiến, làm không đúng cách sẽ càng phản tác dụng. 
-
-**Cập nhật bản đồ kết quả, cải thiện cho các lần tiếp theo**
-
-Kết quả trận đánh cần công bố cho mọi người biết, ít nhất là những người tham gia.
-
- - tỉ lệ lấy mẫu trên tổng số tham gia, 
- - tỉ lệ bị sót, cần bổ sung ngày sau.
- - kết quả F0 phát hiện.
-
-Theo tôi, mọi người cần biết thông tin này, tổng hợp theo khu vực trên Bản đồ trận địa. Việc này tạo ra tâm lý rất lớn với những người dân quan tâm về cuộc chiến.
-
-Họ thường là người tuân thủ, nhưng dễ lo lắng với thông tin từ mạng xã hội chia sẻ,…
-Còn số không quan tâm tới kết quả, đa phần là đối tượng nguy cơ cao.
-
-Phân biệt được 2 nhóm này, sẽ dễ dàng rất nhiều trong việc quét sạch covid
-
-
-
-## Tham khảo thêm 
-### Cấu trúc hệ thống quyết định hành vi bên trong
-  
-**Dịch covid là 1 cấu  trúc hệ thống**
- 
- Nếu phân tích kỹ, thì dịch covid là 1 cấu trúc hệ thống. 
- 
- - “lây qua tiếp xúc, có khả năng lây sau 2,3 ngày và thời gian ủ bệnh tới 14-21 ngày,…” là 1 cấu trúc
- - hệ thống ở đây là việc tiếp xúc, di chuyển của mọi người trong việt nam và cả thế giới. 
- 
- Cấu trúc hệ thống mới xuất hiện này, khiến chúng ta thay đổi hành vi rất nhiều như đeo khẩu trang khi tiếp xúc, hạn chế di chuyển, tụ tập,…
-
-**Cấu trúc hệ thống đối kháng với covid**
-
-- Tạo miễn dịch cộng đồng bằng cách tiêm Vacxin là 1 cấu trúc hệ thống đối kháng covid
-- Xét nghiệm, tách F0 ra khỏi cộng đồng là 1 cấu trúc hệ thống đối kháng tương tự.
-
-**Cấu trúc hạn chế lay lan Covid**
-
-**Mọi người đeo khẩu trang khi ra ngoài, tiếp xúc** là 1 cấu trúc hệ thống hạn chế lây lan 
-
-**Chỉ thị 16** cũng có thể xem là 1 cấu trúc, và khi áp dụng trên toàn hệ thống, như vùng dịch ở tp HCM, sẽ thay đổi hành vi của mọi người: hạn chế di chuyển nhất có thể, để hạn chế lây lan cuả covid. Điều này đã giúp Việt Nam chúng ta 3 lần chiến thắng covid. 
 
  
 

@@ -1,35 +1,34 @@
 
 # Lệnh bài: chống dịch và phát triển kinh tế theo khu vực
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Lệnh bài: chống dịch và phát triển kinh tế theo khu vực](#lệnh-bài-chống-dịch-và-phát-triển-kinh-tế-theo-khu-vực)
-  - [Triển khai thực tế:](#triển-khai-thực-tế)
-    - [Triển khai Thẻ Gia đình](#triển-khai-thẻ-gia-đình)
-      - [Cách sử dụng:](#cách-sử-dụng)
-      - [Thời gian triển khai](#thời-gian-triển-khai)
-      - [Hỗ trợ các gia đình khó khăn](#hỗ-trợ-các-gia-đình-khó-khăn)
-      - [Tổ chức dịch vụ nội khu](#tổ-chức-dịch-vụ-nội-khu)
-    - [Lệnh bài cho cá nhân](#lệnh-bài-cho-cá-nhân)
-      - [Các loại thẻ đi làm](#các-loại-thẻ-đi-làm)
-      - [Thẻ đi làm tại điểm cố định](#thẻ-đi-làm-tại-điểm-cố-định)
-      - [Trách nhiệm của Đơn vị chủ quản](#trách-nhiệm-của-đơn-vị-chủ-quản)
-      - [Giám sát chéo thẻ đi làm](#giám-sát-chéo-thẻ-đi-làm)
-      - [Tổ chức đội shipper trong từng Phường / Xã](#tổ-chức-đội-shipper-trong-từng-phường-xã)
-    - [So sánh với giải pháp đang có](#so-sánh-với-giải-pháp-đang-có)
-      - [Bất cập của phiếu ra đường, thẻ đi chợ](#bất-cập-của-phiếu-ra-đường-thẻ-đi-chợ)
-      - [Giấy thông hành](#giấy-thông-hành)
-      - [Khai báo tại chốt kiểm dịch](#khai-báo-tại-chốt-kiểm-dịch)
-    - [Áp dụng vào tình hình ở tp HCM](#áp-dụng-vào-tình-hình-ở-tp-hcm)
-      - [Xây dựng bản đồ chống dịch](#xây-dựng-bản-đồ-chống-dịch)
-      - [Duy trì chất lượng của đội y tế](#duy-trì-chất-lượng-của-đội-y-tế)
-      - [Sử dụng hết các năng lực truyền, nhận “lệnh”](#sử-dụng-hết-các-năng-lực-truyền-nhận-lệnh)
-    - [Chiến thuật Quạt 3 cánh để khoanh vùng và truy quét toàn bộ](#chiến-thuật-quạt-3-cánh-để-khoanh-vùng-và-truy-quét-toàn-bộ)
-        - [“Phần chưa nhận lệnh” : rủi ro lây lan lớn nhất](#phần-chưa-nhận-lệnh-rủi-ro-lây-lan-lớn-nhất)
-  - [Tham khảo thêm](#tham-khảo-thêm)
-    - [Cấu trúc hệ thống quyết định hành vi bên trong](#cấu-trúc-hệ-thống-quyết-định-hành-vi-bên-trong)
+- [Triển khai thực tế:](#triển-khai-thực-tế)
+  - [Triển khai Thẻ Gia đình](#triển-khai-thẻ-gia-đình)
+    - [Cách sử dụng:](#cách-sử-dụng)
+    - [Thời gian triển khai](#thời-gian-triển-khai)
+    - [Hỗ trợ các gia đình khó khăn](#hỗ-trợ-các-gia-đình-khó-khăn)
+    - [Tổ chức dịch vụ nội khu](#tổ-chức-dịch-vụ-nội-khu)
+  - [Lệnh bài cho cá nhân](#lệnh-bài-cho-cá-nhân)
+    - [Các loại thẻ đi làm](#các-loại-thẻ-đi-làm)
+    - [Thẻ đi làm tại điểm cố định](#thẻ-đi-làm-tại-điểm-cố-định)
+    - [Trách nhiệm của Đơn vị chủ quản](#trách-nhiệm-của-đơn-vị-chủ-quản)
+    - [Giám sát chéo thẻ đi làm](#giám-sát-chéo-thẻ-đi-làm)
+    - [Tổ chức đội shipper trong từng Phường / Xã](#tổ-chức-đội-shipper-trong-từng-phường-xã)
+  - [So sánh với giải pháp đang có](#so-sánh-với-giải-pháp-đang-có)
+    - [Bất cập của phiếu ra đường, thẻ đi chợ](#bất-cập-của-phiếu-ra-đường-thẻ-đi-chợ)
+    - [Giấy thông hành](#giấy-thông-hành)
+    - [Khai báo tại chốt kiểm dịch](#khai-báo-tại-chốt-kiểm-dịch)
+  - [Áp dụng vào tình hình ở tp HCM](#áp-dụng-vào-tình-hình-ở-tp-hcm)
+    - [Xây dựng bản đồ chống dịch](#xây-dựng-bản-đồ-chống-dịch)
+    - [Duy trì chất lượng của đội y tế](#duy-trì-chất-lượng-của-đội-y-tế)
+    - [Sử dụng hết các năng lực truyền, nhận “lệnh”](#sử-dụng-hết-các-năng-lực-truyền-nhận-lệnh)
+  - [Chiến thuật Quạt 3 cánh để khoanh vùng và truy quét toàn bộ](#chiến-thuật-quạt-3-cánh-để-khoanh-vùng-và-truy-quét-toàn-bộ)
+      - [“Phần chưa nhận lệnh” : rủi ro lây lan lớn nhất](#phần-chưa-nhận-lệnh-rủi-ro-lây-lan-lớn-nhất)
+- [Tham khảo thêm](#tham-khảo-thêm)
+  - [Cấu trúc hệ thống quyết định hành vi bên trong](#cấu-trúc-hệ-thống-quyết-định-hành-vi-bên-trong)
 
 <!-- /code_chunk_output -->
 
