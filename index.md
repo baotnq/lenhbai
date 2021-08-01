@@ -99,11 +99,13 @@ Và kết hợp với *"danh sách ID mua hàng mỗi ngày phải gửi về Ph
  
 Tăng cường kiểm tra thẻ của khách lúc mua hàng tại chỗ, lúc đơn hàng được giao bởi shipper,... để kiểm soát, phát hiện siêu thị, chợ vi phạm. 
 
-Thiết kế một cấu trúc cân bằng, đơn giản cho "lệnh bài" điều không hề đơn giản, cần có kiến thức và lĩnh hội sâu về [tư duy, ngôn ngữ hệ thống](https://vietnambiz.vn/nguyen-li-thu-nam-the-fifth-discipline-la-gi-cac-nguyen-tac-chinh-20191214001907077.htm). 
+Tiếp tục như vậy, các đối tượng liên quan tới thẻ sẽ được giám sát, kiểm tra chéo. 
 
-Cấu trúc này cần bảo đảm đầy đủ các yếu tố then chốt sau: 
+Thiết kế một cấu trúc cân bằng cho "lệnh bài" điều không hề đơn giản, cần có kiến thức và lĩnh hội sâu về [tư duy, ngôn ngữ hệ thống](https://vietnambiz.vn/nguyen-li-thu-nam-the-fifth-discipline-la-gi-cac-nguyen-tac-chinh-20191214001907077.htm). 
 
-1. **Tính hệ thống: mọi người đều sử dụng được**
+Một lệnh bài cần bảo đảm các yếu tố then chốt sau: 
+
+1. **Tính đơn giản: mọi người đều sử dụng được**
     - Người già, người không biết tiếng việt, không có smartphone,...
     - nhân viên giữ xe, quản lý chợ, tiểu thương có thể sử dụng được.
 
@@ -130,7 +132,7 @@ Cấu trúc này cần bảo đảm đầy đủ các yếu tố then chốt sau
     - tìm kiếm thông tin theo ID trên hệ thống
     - qrcode để mở rộng tính năng quản lý giám sát trong tương lai. 
 
-Có thể thấy, khẩu trang là  1 cấu trúc có 4 yếu tố đầu tiên. Điều này khiến cho hệ thống khẩu trang rất hiệu quả trong việc chống dịch: hạn chế lây nhiễm covid và nhận biết người tuân thủ. 
+Có thể thấy, **khẩu trang** là  1 cấu trúc có 4 yếu tố đầu tiên. Điều này khiến cho hệ thống khẩu trang rất hiệu quả trong việc chống dịch: hạn chế lây nhiễm covid và nhận biết người tuân thủ. 
 
 Và đây là thiết kế cho Thẻ Gia đình, 1 loại "lệnh bài" dành cho gia đình
 
