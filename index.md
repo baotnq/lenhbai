@@ -8,9 +8,9 @@
   - [Hệ miễn dịch của cơ thể](#hệ-miễn-dịch-của-cơ-thể)
   - [Hệ miễn dịch quốc gia](#hệ-miễn-dịch-quốc-gia)
   - [Thế nào là "hệ thống lệnh bài".](#thế-nào-là-hệ-thống-lệnh-bài)
+    - [Biểu tượng của sự tuân thủ](#biểu-tượng-của-sự-tuân-thủ)
     - [Tại sao dùng từ "Lệnh"](#tại-sao-dùng-từ-lệnh)
-    - [Các bên có thể tương tác](#các-bên-có-thể-tương-tác)
-    - [Cơ chế giám sát chéo](#cơ-chế-giám-sát-chéo)
+    - [Giám sát chéo](#giám-sát-chéo)
   - [Thực hiện "Mục tiêu kép" của chính phủ](#thực-hiện-mục-tiêu-kép-của-chính-phủ)
   - [Nhiệm vụ 1: Chia vùng dịch các khu vực liền kề](#nhiệm-vụ-1-chia-vùng-dịch-các-khu-vực-liền-kề)
     - [Hạn chế ra ngoài mua nhu yếu phẩm](#hạn-chế-ra-ngoài-mua-nhu-yếu-phẩm)
@@ -116,21 +116,36 @@ Với ý tưởng này, Việt nam chúng ta sẽ là ngôi nhà chung của tr�
 Và để bắt đầu, chúng ta cần tìm hiểu
 ### Thế nào là "hệ thống lệnh bài". 
 
-"Lệnh bài" là 1 tấm thẻ, khi triển khai một cách hệ thống sẽ phân chia vùng dịch thành các khu vực lân cận nhau. Trong đó hầu hết hoạt động di chuyển, mua bán và cả làm việc sẽ hạn chế bên trong khu vực này. 
+"Lệnh bài" là 1 tấm thẻ đơn giản, yêu cầu mọi người ra ngoài, di chuyển hay làm việc, phải mang (đeo) nó.
+
+Khi triển khai tấm thẻ này lên toàn hệ thống sẽ phân chia vùng dịch thành các khu vực lân cận nhau. Trong đó hầu hết hoạt động di chuyển, mua bán và cả làm việc sẽ hạn chế bên trong khu vực này. 
 
 Quan trọng hơn, việc giới hạn hoạt động bên trong khu vực sẽ dần dần một cách "vô thức", không phụ thuộc vào tinh thần tự giác của từng người. 
 Tỉ lệ cố ý vi phạm, ra khỏi khu vực không có lý do sẽ ít đi nhiều, và dễ dàng bị phát hiện, xử phạt, càng khiến cho số lượng vi phạm dần về 0. 
 
-Để thực hiện được điều này, cần thiết kế 1 cấu trúc cân bằng, đơn giản lên tấm thẻ, và triển khai toàn hệ thống, để bảo đảm rằng mọi yêu cầu truyền tới các đối tượng liên quan tới thẻ này, sẽ được hiểu và thực hiện đúng. 
+#### Biểu tượng của sự tuân thủ
+
+Biểu tượng là 1 vật mà ai cũng nhận biết nó. 
+
+Khẩu trang là 1 biểu tượng về sự tuân thủ nơi công cộng. Chúng ta dễ dàng sử dụng khẩu trang, và dễ nhận biết gười không đeo khẩu trang, đeo không đúng cách, hoặc lúc đeo lúc không khi ra ngoài hay tụ tập nơi công cộng.
+
+Lệnh bài cũng là 1 biểu tượng của sự tuân thủ khi ra ngoài. Hơn nữa, thực hiện theo yêu cầu từ lệnh bài là thể hiện sự đồng lòng, sẵn sàng tham gia chống dịch.
+
 #### Tại sao dùng từ "Lệnh" 
 
-Từ **lệnh**, nên hiểu là cơ chế lệnh "lây nhiễm" của Covid, hoặc **mệnh lệnh** trong quân đội, bắt buộc mọi đối tượng tiếp nhận phải thực hiện giống nhau. 
+Từ **lệnh**, là mệnh lệnh trong quân đội, bắt buộc mọi đối tượng tiếp nhận phải thực hiện giống nhau. Đối tượng không chỉ là người đeo thẻ, mà còn là các bên khác như cấp thẻ (chính quyền địa phương), phục vụ thẻ (doanh nghiệp), và kiểm tra thẻ (công an).
 
-Ví dụ: *"mọi gia đình trong tp Hồ Chí mình cần được cấp 1 Thẻ gia đình trong vòng 5 ngày"* là 1 mệnh lệnh gửi tới tất cả các Phường / Xã. **Làm thế nào để bảo đảm mệnh lệnh này được thực hiện đúng với hơn 300 Phường / xã ở HCM**?
+Để thực hiện được điều này, cần 1 cấu trúc cân bằng, đơn giản lên tấm thẻ, và triển khai toàn hệ thống. Cấu trúc này cho phép giám sát chéo giữa các đối tượng. 
+
+Ví dụ: *"mọi gia đình trong tp Hồ Chí mình cần được cấp 1 Thẻ gia đình trong vòng 5 ngày"* là 1 mệnh lệnh gửi tới tất cả các Phường / Xã. 
+
+**Làm thế nào để bảo đảm mệnh lệnh này được thực hiện đúng với hơn 300 Phường / xã ở HCM**?
 
 Ta sử dụng 1 mệnh lệnh khác để kiểm soát chéo. Đó là thông báo với mọi người rằng "từ ngày ..., toàn bộ siêu thị, chợ chỉ bán hàng cho người có Thẻ gia đình. *Gia đình nào chưa nhận được thẻ, cần liên hệ với Phường / xã đang sống. Nếu gặp trở ngại thì gọi tới số hotline để hỗ trợ,..."*
 
-Và **làm sao để bảo đảm, siêu thị, chợ chỉ bán hàng cho người có Thẻ gia đình?** Ta dùng mệnh lệnh khác, như *"mọi đơn hàng phải có thêm ID của thẻ gia đình"*. Nếu phát hiện thiếu ID, sẽ bị xử phạt nghiêm. Tất nhiên còn nhiều cách khác nữa.
+Và **làm sao để bảo đảm, siêu thị, chợ chỉ bán hàng cho người có Thẻ gia đình?**
+
+Dùng 1 lệnh khác, *"mọi đơn hàng phải có thêm ID của thẻ gia đình"*. Nếu phát hiện thiếu ID, sẽ bị xử phạt nghiêm. Tất nhiên còn nhiều cách khác nữa.
 
 Thiết kế một cấu trúc cân bằng, đơn giản cho "lệnh bài" điều không hề đơn giản, cần có kiến thức và lĩnh hội sâu về [tư duy, ngôn ngữ hệ thống](https://vietnambiz.vn/nguyen-li-thu-nam-the-fifth-discipline-la-gi-cac-nguyen-tac-chinh-20191214001907077.htm). 
 
@@ -179,17 +194,19 @@ Các phần quan trọng, giúp có được 5 yếu tố trên
 - **mã QRCode** là phần để kết nối với hệ thống, dễ dàng mở rộng sau. 
 
 Chi tiết tham khảo thêm [Triển khai Thẻ Gia đình](#triển-khai-thẻ-gia-đình)
-#### Các bên có thể tương tác
+
+Hệ thống lệnh bài có yếu tố quan trọng như sau, lấy ví dụ về Thẻ gia đình, 1 loại trong lệnh bài
+
+- **Các bên có thể tương tác**: người dân, chính quyền địa phương, doanh nghiệp, công an và Ban chỉ đạo chống dịch.
+
 
 ![](moi-tuong-tac.png)
 
-#### Cơ chế giám sát chéo
-
-> lấy ví dụ về Thẻ gia đình, các thẻ khác tương tự
+- cơ chế giám sát chéo
+#### Giám sát chéo
+Cơ chế giám sát đan xen, hạn chế tối đa khe hở vi phạm, thiếu trách nhiệm. 
 
 ![](giam-sat-cheo.png)
-
-Cơ chế giám sát chéo đan xen, hạn chế tối đa khe hở vi phạm, thiếu trách nhiệm. 
 
 - *Ban chỉ đạo (BCD) Chống dịch giám sát tất cả các bên. Và chịu sự giám sát của người dân về kết quả chung.*
 
@@ -197,7 +214,7 @@ Cơ chế giám sát chéo đan xen, hạn chế tối đa khe hở vi phạm, t
 
 - *Siêu thị, chợ chịu giám sát của BCD Chống dịch, đội ngũ địa phương và cả người dân.*
 
-**Việc giám sát dựa theo ID và thông tin trên thẻ là chủ yếu.** 
+*Việc giám sát dựa theo ID và thông tin trên thẻ là chủ yếu.* 
 
 Hướng dẫn chi tiết, bao gồm luôn cách giám sát, kèm các chế tài xử lý vi phạm rõ ràng sẽ giúp mọi bên tự động tuân thủ. Bỏ qua các suy nghĩ tiêu cực: **tìm cách vi phạm và tin rằng sẽ không bị phát hiện**
 
