@@ -7,7 +7,10 @@
 
 - [Triển khai thực tế:](#triển-khai-thực-tế)
   - [Triển khai Thẻ Gia đình](#triển-khai-thẻ-gia-đình)
-    - [Cách sử dụng:](#cách-sử-dụng)
+    - [Bước 1 (1,2 ngày) Phát hành phôi thẻ](#bước-1-12-ngày-phát-hành-phôi-thẻ)
+    - [Bước 2 (1 ngày): Chuyển phôi thẻ tới từng Phường / Xã](#bước-2-1-ngày-chuyển-phôi-thẻ-tới-từng-phường-xã)
+    - [Bước 3 (2,3 ngày): Cấp thẻ cho mọi gia đình](#bước-3-23-ngày-cấp-thẻ-cho-mọi-gia-đình)
+    - [Bước 4: Kiểm tra khi ra ngoài, mua hàng](#bước-4-kiểm-tra-khi-ra-ngoài-mua-hàng)
     - [Thời gian triển khai](#thời-gian-triển-khai)
     - [Hỗ trợ các gia đình khó khăn](#hỗ-trợ-các-gia-đình-khó-khăn)
     - [Tổ chức dịch vụ nội khu](#tổ-chức-dịch-vụ-nội-khu)
@@ -49,11 +52,36 @@
 
 ![](moi-tuong-tac.png)
 
-#### Cách sử dụng:
-- Khi cấp thẻ cho gia đình, cán bộ Phường ghi số cmnd, cccd vào thẻ 
+#### Bước 1 (1,2 ngày) Phát hành phôi thẻ
+
+- Xuất ra phôi thẻ theo từng Phường / Xã dứoi dạng file pdf
+  - mặt trước sinh ra bởi hệ thống
+![](phoi-the-mat-truoc.png)
+  - mặt sau cho phép điều chỉnh nội dung, lịch mua hàng
+![](phoi-the-mat-sau.png)  
+- in ấn và cắt thành từng tấm thẻ
+
+#### Bước 2 (1 ngày): Chuyển phôi thẻ tới từng Phường / Xã
+- Số lượng phôi nhiều hơn nhu cầu tầm 20%
+- Mỗi phường tự đóng dấu lên Thẻ cần sử dụng
+- Gửi danh sách ID của Phôi chưa sử dụng về hệ thống để cập nhật
+
+#### Bước 3 (2,3 ngày): Cấp thẻ cho mọi gia đình
+- Khi cấp, cán bộ Phường ghi số cmnd, cccd vào thẻ 
 ![](ghi-cmnd.png)
 
-- Công an, dân phòng sẽ khoanh tròn vào ngày kiểm tra (nên dùng bút màu đỏ)
+- Danh sách thẻ đã phát: có thể ghi trên giấy, hoặc dùng app để thực hiên
+  - dùng app sẽ cần trang bị 3G, smartphone và sẽ hơi bất tiện khi mặc đồ chống dịch
+  - cho phép ghi chú vào danh sách thẻ in sẵn: và cập nhật vào hệ thống sau
+
+- 
+
+- 
+
+#### Bước 4: Kiểm tra khi ra ngoài, mua hàng
+- Công an, dân phòng,... khi kiểm tra thẻ
+    - sẽ khoanh tròn vào ngày kiểm tra 
+    - nên dùng màu đỏ)
 
 - Quản lý chợ, nhân viên siêu thị sẽ gạch chéo vào ngày mua hàng (nên dùng bút màu xanh)
 ![](kiem-tra-ngay.png)
