@@ -5,19 +5,20 @@
 
 <!-- code_chunk_output -->
 
-- [Triển khai Thẻ Gia đình](#triển-khai-thẻ-gia-đình)
+- [Triển khai nhanh chóng sau 7 ngày](#triển-khai-nhanh-chóng-sau-7-ngày)
+  - [Tổng quan Thẻ gia đình](#tổng-quan-thẻ-gia-đình)
   - [Bước 1 (1,2 ngày) Phát hành phôi thẻ](#bước-1-12-ngày-phát-hành-phôi-thẻ)
   - [Bước 2 (1 ngày): Chuyển phôi thẻ tới từng Phường / Xã](#bước-2-1-ngày-chuyển-phôi-thẻ-tới-từng-phường-xã)
   - [Bước 3 (2,3 ngày): Cấp thẻ cho mọi gia đình](#bước-3-23-ngày-cấp-thẻ-cho-mọi-gia-đình)
   - [Bước 4: Kiểm tra khi ra ngoài, mua hàng](#bước-4-kiểm-tra-khi-ra-ngoài-mua-hàng)
   - [Bước 5: Mua hàng tại Chợ, Siêu thị,...](#bước-5-mua-hàng-tại-chợ-siêu-thị)
   - [Bước 5.1 Đặt hàng tại nhà qua ID](#bước-51-đặt-hàng-tại-nhà-qua-id)
-  - [Bước 6: Phường/xã đôn đốc các gia đình tuân thủ phòng dịch](#bước-6-phườngxã-đôn-đốc-các-gia-đình-tuân-thủ-phòng-dịch)
 - [Phục vụ chống dịch](#phục-vụ-chống-dịch)
   - [Hạn chế xếp hàng, tụ tập mua hàng](#hạn-chế-xếp-hàng-tụ-tập-mua-hàng)
     - [3 yêu cầu cơ bản:](#3-yêu-cầu-cơ-bản)
     - [Tăng giới hạn ra ngoài để chống dịch](#tăng-giới-hạn-ra-ngoài-để-chống-dịch)
   - [Giám sát chéo](#giám-sát-chéo)
+    - [Hướng dẫn, đôn đốc các gia đình tuân thủ phòng dịch](#hướng-dẫn-đôn-đốc-các-gia-đình-tuân-thủ-phòng-dịch)
     - [Trách nhiệm của cán bộ Phường/ Xã](#trách-nhiệm-của-cán-bộ-phường-xã)
     - [Trách nhiệm của nhân viên chợ, siêu thị](#trách-nhiệm-của-nhân-viên-chợ-siêu-thị)
     - [Trách nhiệm của Công an, dân phòng,..](#trách-nhiệm-của-công-an-dân-phòng)
@@ -33,7 +34,9 @@
 
 <!-- /code_chunk_output -->
 
-## Triển khai Thẻ Gia đình
+## Triển khai nhanh chóng sau 7 ngày
+
+### Tổng quan Thẻ gia đình 
 
 ![](the_gia_dinh_overview.png) 
 
@@ -140,13 +143,6 @@
 - khách hàng mang thẻ, trùng ID để ra nhận hàng.
 
 
-### Bước 6: Phường/xã đôn đốc các gia đình tuân thủ phòng dịch 
-
-- Cán bộ tới từng nhà dân để đôn đốc hướng dẫn
-
-- Cập nhật các siêu thị, chợ phục vụ,... trong tờ hướng dẫn để ưu tiên đặt mua tại nhà. 
-
-
 ## Phục vụ chống dịch 
 
 > Khi gặp chướng ngại, mỗi người ít khi từ bỏ, cố vượt qua hoặc tìm đường khác"
@@ -195,6 +191,13 @@ Giải thích:
 **Cơ chế giám sát chéo**
 
 ![](giam-sat-cheo.png)
+
+#### Hướng dẫn, đôn đốc các gia đình tuân thủ phòng dịch 
+
+- Cán bộ tới từng nhà dân để đôn đốc hướng dẫn
+
+- Cập nhật các siêu thị, chợ phục vụ,... trong tờ hướng dẫn để ưu tiên đặt mua tại nhà. 
+
 #### Trách nhiệm của cán bộ Phường/ Xã 
 
 Kiểm tra việc các cán bộ thực sự đã tới từng gia đình, gặp chủ hộ và hướng dẫn.
