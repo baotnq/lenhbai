@@ -14,6 +14,9 @@
   - [Bước 5.1 Đặt hàng tại nhà qua ID](#bước-51-đặt-hàng-tại-nhà-qua-id)
   - [Bước 6: Phường/xã đôn đốc các gia đình tuân thủ phòng dịch](#bước-6-phườngxã-đôn-đốc-các-gia-đình-tuân-thủ-phòng-dịch)
 - [Phục vụ chống dịch](#phục-vụ-chống-dịch)
+  - [Hạn chế xếp hàng, tụ tập mua hàng](#hạn-chế-xếp-hàng-tụ-tập-mua-hàng)
+    - [3 yêu cầu cơ bản:](#3-yêu-cầu-cơ-bản)
+    - [Tăng giới hạn ra ngoài để chống dịch](#tăng-giới-hạn-ra-ngoài-để-chống-dịch)
   - [Giám sát chéo](#giám-sát-chéo)
     - [Trách nhiệm của cán bộ Phường/ Xã](#trách-nhiệm-của-cán-bộ-phường-xã)
     - [Trách nhiệm của nhân viên chợ, siêu thị](#trách-nhiệm-của-nhân-viên-chợ-siêu-thị)
@@ -145,6 +148,47 @@
 
 
 ## Phục vụ chống dịch 
+
+> Khi gặp chướng ngại, mỗi người ít khi từ bỏ, cố vượt qua hoặc tìm đường khác"
+
+> Nhưng thấy người khác bị từ chối, chúng ta từ bỏ dễ dàng. 
+
+### Hạn chế xếp hàng, tụ tập mua hàng 
+> Điều tiết dựa trên ID, khu vực 
+
+> Tổng số được phân đều theo số cuối cùng của ID. 
+> số 0 chiếm 10% tổng số thẻ (0->9)
+
+#### 3 yêu cầu cơ bản:
+> là đủ hạn chế tụ tập, mua hàng
+
+1. bán hàng cho Thẻ trong Phường / xã
+2. khung giờ mua theo số cuối cùng của ID, ví dụ 
+    - từ 7-9h sáng: là số (0,1)
+    - từ 9-11h sáng: cho số (2,3)
+    - từ 11-13h: (4,5)
+    - từ 13-15h: (6,7)
+    - từ 15-17h: (8,9)
+3. 1 ngày ra ngoài 1 lần
+
+Giải thích: 
+
+- Việc cho phép mua hàng mỗi ngày sẽ giảm tâm lý lo lắng, tích trữ. ít tìm cách vi phạm. 
+- Giới hạn mua theo Phường không gây nhiều khó khăn lắm. Cho dù không mua được hàng, nhưng người dân sẽ không cố gắng chạy qua Phường khác để tìm mua. 
+
+
+#### Tăng giới hạn ra ngoài để chống dịch
+
+> giới hạn ra ngoài 2 ngày / 1 lần nhưng cho phép đặt mua tại nhà 1 ngày / 1 lần.
+
+- hôm qua đã ra ngoài, thì hôm nay không được ra ngoài.
+  - cách này linh động hơn, đỡ áp lực hơn.
+  - ví dụ: ngày 11 đã mua, ngày 13 chưa cần, thì ngày 14 vẫn đi được, nên để tới 14 mua luôn (sau 3 ngày)
+
+- ID số lẻ đi ngày lẻ, số chẵn đi ngày chẵn (cách này không tôi
+  - ví dụ: ngày 11 đã mua, ngày 13 chưa cần, nhưng phải chờ tới ngày 15 mới được (tới 4 ngày). Và hầu hết sẽ ra ngày 13 để mua tiếp cho dù cần hay không. 
+
+> Không nên giới hạn quá dài, ví du 3 ngày / 1 lần. Sẽ gây tâm lý hoang mang, tích trữ không cần thiết hoặc cố tình vi phạm.
 
 ### Giám sát chéo
 
