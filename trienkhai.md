@@ -11,7 +11,8 @@
     - [Bước 2 (1 ngày): Chuyển phôi thẻ tới từng Phường / Xã](#bước-2-1-ngày-chuyển-phôi-thẻ-tới-từng-phường-xã)
     - [Bước 3 (2,3 ngày): Cấp thẻ cho mọi gia đình](#bước-3-23-ngày-cấp-thẻ-cho-mọi-gia-đình)
     - [Bước 4: Kiểm tra khi ra ngoài, mua hàng](#bước-4-kiểm-tra-khi-ra-ngoài-mua-hàng)
-    - [Thời gian triển khai](#thời-gian-triển-khai)
+    - [Bước 5: Kiểm tra khi vào chợ, siêu thị,](#bước-5-kiểm-tra-khi-vào-chợ-siêu-thị)
+    - [Lịch trình mua hàng, di chuyển theo ID](#lịch-trình-mua-hàng-di-chuyển-theo-id)
     - [Hỗ trợ các gia đình khó khăn](#hỗ-trợ-các-gia-đình-khó-khăn)
     - [Tổ chức dịch vụ nội khu](#tổ-chức-dịch-vụ-nội-khu)
   - [Lệnh bài cho cá nhân](#lệnh-bài-cho-cá-nhân)
@@ -64,55 +65,54 @@
 #### Bước 2 (1 ngày): Chuyển phôi thẻ tới từng Phường / Xã
 - Số lượng phôi nhiều hơn nhu cầu tầm 20%
 - Mỗi phường tự đóng dấu lên Thẻ cần sử dụng
-- Gửi danh sách ID của Phôi chưa sử dụng về hệ thống để cập nhật
 
 #### Bước 3 (2,3 ngày): Cấp thẻ cho mọi gia đình
 - Khi cấp, cán bộ Phường ghi số cmnd, cccd vào thẻ 
 ![](ghi-cmnd.png)
 
 - Danh sách thẻ đã phát: có thể ghi trên giấy, hoặc dùng app để thực hiên
+
+  - In sẵn danh sách như bên dưới, ghi thông tin gia đình đã cấp thẻ. 
+  ![](danh-sach-the-da-cap.png)
+
   - dùng app sẽ cần trang bị 3G, smartphone và sẽ hơi bất tiện khi mặc đồ chống dịch
-  - cho phép ghi chú vào danh sách thẻ in sẵn: và cập nhật vào hệ thống sau
 
-- 
-
-- 
-
+- cập nhật vào hệ thống các thẻ đã cấp, các thẻ chưa.
 #### Bước 4: Kiểm tra khi ra ngoài, mua hàng
 - Công an, dân phòng,... khi kiểm tra thẻ
     - sẽ khoanh tròn vào ngày kiểm tra 
     - nên dùng màu đỏ)
 
-- Quản lý chợ, nhân viên siêu thị sẽ gạch chéo vào ngày mua hàng (nên dùng bút màu xanh)
 ![](kiem-tra-ngay.png)
+- chú thích hình: 
    - ngày 27.07: có kiểm tra và mua hàng
    - ngày 30.07: có kiểm tra, ko có mua hàng
    - ngày 31.07: có mua hàng, ko bị kiểm tra
-  
-- hướng dẫn người dân bị phạt khi nào.
 
-#### Thời gian triển khai 
-**Phát hành trong 2,3 ngày**
+- cảnh cáo, xử phạt các trường hợp vi phạm. Ra ngoài, mua hàng quá số lần quy định.
 
-- Hệ thống sinh ID và xuất file pdf 
-- In ấn tập trung, chuyển tới từng Phường / Xã trong thành phố 
+- Nếu có smartphone, có thể cài app, đăng nhập tài khoản để quét thẻ, kết hợp với khoanh tròn.
 
-**Đưa tới từng gia đình: trong 2,3 ngày**
-
-![](cap_the_lan_1.png)
-
-**Tuần đầu tiên triển khai**
-- Cảnh báo nhắc nhở 1,2 ngày đầu tiên
-- Tiến hành kiểm tra, xử phạt 
+#### Bước 5: Kiểm tra khi vào chợ, siêu thị, 
+- Quản lý chợ, nhân viên siêu thị sẽ gạch chéo vào ngày mua hàng 
+![](kiem-tra-ngay.png)
 
 
-**Quy định cho siêu thị/ chợ**
-- hướng dẫn thực hiện
-![](cap-nhat-ban-hang.png)
+- Ghi lại danh sách ID đã mua hàng mỗi ngày
 
-- cách giám sát nhân viên siêu thị, chợ không tuân thủ
+![](danh-sach-mua-hang.png)
 
-![](giam-sat-cho.png)
+- Gửi danh sách về để Phường/ Xã cập nhật vào hệ thống. 
+
+
+#### Lịch trình mua hàng, di chuyển theo ID
+
+- Lịch sử mua hàng tại các điểm bán, thông tin điểm bán được lưu đầy đủ trên thẻ. (quét qrcode để xem)
+
+- xem lịch sư trên app bằng cách quét thẻ.
+
+- Hệ thống dashboard phân tích
+
 
 **Nâng cao hiệu quả các tuần tiếp theo**
 
@@ -123,8 +123,6 @@
 - Cán bộ sẽ dùng App để quét Thẻ gia đình, xác nhận đã tới từng gia đình, gặp chủ hộ và hướng dẫn.
 
  ![](giam-sat-cap-the.png)
-
-
 
 **Cơ chế giám sát chéo**
 
