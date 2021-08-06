@@ -1,12 +1,11 @@
 
 # Thẻ gia đình: cân bằng lượt mua hàng theo khung giờ, theo khu vực.
 
-Thẻ gia đình: cân bằng lượt mua hàng theo khung giờ, theo khu vực. 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Cấu trúc cân bằng lượt mua hàng](#cấu-trúc-cân-bằng-lượt-mua-hàng)
+- [Cân bằng lượt mua hàng](#cân-bằng-lượt-mua-hàng)
   - [ID tăng dần, theo từng Phường / Xã](#id-tăng-dần-theo-từng-phường-xã)
   - [Cân bằng dựa trên số cuối cùng của ID](#cân-bằng-dựa-trên-số-cuối-cùng-của-id)
   - [5 khung giờ mua hàng](#5-khung-giờ-mua-hàng)
@@ -38,9 +37,13 @@ Thẻ gia đình: cân bằng lượt mua hàng theo khung giờ, theo khu vực
 
 <!-- /code_chunk_output -->
 
-## Cấu trúc cân bằng lượt mua hàng
+## Cân bằng lượt mua hàng
+
+bằng cách cấp cho mỗi nhà 1 tấm thẻ bên dưới. 
 
 ![](the_gia_dinh.png) 
+
+Mỗi nhà có thể là **hộ gia đình, nhà trọ, phòng trọ 1 hoặc vài người,...** đang sống tách biệt, cần giãn cách theo chỉ thị 16. 
 
 ### ID tăng dần, theo từng Phường / Xã 
 
