@@ -1,12 +1,17 @@
 
 # Thẻ gia đình: điều tiết mua hàng theo gia đình và bảo đảm an toàn phòng dịch 
 
+Thẻ gia đình: cân bằng lượt mua hàng theo khung giờ, theo khu vực. 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
+- [Cấu trúc cân bằng lượt mua hàng](#cấu-trúc-cân-bằng-lượt-mua-hàng)
+  - [ID tăng dần, theo từng Phường / Xã](#id-tăng-dần-theo-từng-phường-xã)
+  - [Cân bằng dựa trên số cuối cùng của ID](#cân-bằng-dựa-trên-số-cuối-cùng-của-id)
+  - [5 khung giờ mua hàng](#5-khung-giờ-mua-hàng)
+  - [Bất cập của phiếu ra đường, thẻ đi chợ](#bất-cập-của-phiếu-ra-đường-thẻ-đi-chợ)
 - [Triển khai nhanh chóng sau 7 ngày](#triển-khai-nhanh-chóng-sau-7-ngày)
-  - [Tổng quan Thẻ gia đình](#tổng-quan-thẻ-gia-đình)
   - [Bước 1 (1,2 ngày) Phát hành phôi thẻ](#bước-1-12-ngày-phát-hành-phôi-thẻ)
   - [Bước 2 (1 ngày): Chuyển phôi thẻ tới từng Phường / Xã](#bước-2-1-ngày-chuyển-phôi-thẻ-tới-từng-phường-xã)
   - [Bước 3 (2,3 ngày): Cấp thẻ cho mọi gia đình](#bước-3-23-ngày-cấp-thẻ-cho-mọi-gia-đình)
@@ -15,8 +20,8 @@
   - [Bước 5.1 Đặt hàng tại nhà qua ID](#bước-51-đặt-hàng-tại-nhà-qua-id)
 - [Phục vụ chống dịch](#phục-vụ-chống-dịch)
   - [Hạn chế xếp hàng, tụ tập mua hàng](#hạn-chế-xếp-hàng-tụ-tập-mua-hàng)
-    - [3 yêu cầu cơ bản:](#3-yêu-cầu-cơ-bản)
-    - [Tăng giới hạn ra ngoài để chống dịch](#tăng-giới-hạn-ra-ngoài-để-chống-dịch)
+    - [3 lệnh cơ bản: để hạn chế tụ tập, mua hàng](#3-lệnh-cơ-bản-để-hạn-chế-tụ-tập-mua-hàng)
+    - [Giới hạn ra ngoài để chống dịch](#giới-hạn-ra-ngoài-để-chống-dịch)
   - [Giám sát chéo](#giám-sát-chéo)
     - [Hướng dẫn, đôn đốc các gia đình tuân thủ phòng dịch](#hướng-dẫn-đôn-đốc-các-gia-đình-tuân-thủ-phòng-dịch)
     - [Trách nhiệm của cán bộ Phường/ Xã](#trách-nhiệm-của-cán-bộ-phường-xã)
@@ -28,22 +33,80 @@
     - [Tổ chức đội shipper trong từng Phường / Xã](#tổ-chức-đội-shipper-trong-từng-phường-xã)
     - [Các địa điểm dịch vụ tuân thủ 5k](#các-địa-điểm-dịch-vụ-tuân-thủ-5k)
 - [So sánh với giải pháp đang có](#so-sánh-với-giải-pháp-đang-có)
-  - [Bất cập của phiếu ra đường, thẻ đi chợ](#bất-cập-của-phiếu-ra-đường-thẻ-đi-chợ)
   - [Giấy thông hành](#giấy-thông-hành)
   - [Khai báo tại chốt kiểm dịch](#khai-báo-tại-chốt-kiểm-dịch)
 
 <!-- /code_chunk_output -->
 
+## Cấu trúc cân bằng lượt mua hàng
+
+![](the_gia_dinh.png) 
+
+### ID tăng dần, theo từng Phường / Xã 
+
+![](ID_gia_dinh_format.png)
+
+### Cân bằng dựa trên số cuối cùng của ID
+
+> Dựa vào tổng số thẻ đã phát, và số ID tăng dần
+
+Ví dụ: 1 Phường đã phát được 10.005 thẻ: với ID tăng dần từ 0 tới 10.004. 
+
+- Dựa vào tính chẵn lẻ của ID, sẽ như sau  
+    - Id chẵn là 5.003 thẻ, chiếm 50%
+    - như vậy ngày chẵn bán cho ID chẵn, ngày lẻ bán cho ID lẻ là sẽ giảm 50% số lượt ra đường mỗi ngày. 
+
+- Dựa vào số cuối cùng của ID, cân bằng 10% tổng số thẻ. 
+    - 1001 thẻ có số cuối của ID là 0, chiếm ~10% (1.001/10.005)
+    - 1000 thẻ có số cuối của ID là 5, chiếm ~10% (1.000/10.005)
+    - dùng tỉ lệ này để cân bằng theo khung giờ mua hàng mỗi ngày. 
+    
+**Lưu ý:**
+- thực tế mỗi Phường sẽ có vài đội, đồng thời tới từng khu phố, cụm dân cư để đi phát. Số thẻ chưa phát hết sẽ được thu lại, khiến cho ID không tăng liên tục.
+
+- Nhưng khi mỗi cụm được chia 1 block tăng liên tiếp. Ví dụ: 200 thẻ từ số 00150 tới 00350, thì cho dù còn dư lại 15,20 thẻ. thì vẫn bảo đảm tỉ lệ cân bằng như trên. 
+
+### 5 khung giờ mua hàng 
+
+> chia 10 khung giờ, gây khó khăn nếu giới hạn 2 ngày 1 lần mua.
+Chưa kể thời gian ngắn, khiến mọi người khó đi đúng giờ.
+
+- 1 khung giờ tầm 2h, trong đó 
+    - vào cửa trong 1 giờ 30 phút đầu, 
+    - và 30 phút còn lại để kết thúc mua hàng.
+
+- mỗi khung giờ cho 2 số cuối cùng của ID. 
+- ví dụ:
+    - 7h-8h30 cho ID có số cuối cùng là 0 hoặc 1, viết gọn (0,1)
+    - 9h-10h30 cho (2,3)
+    - 11h-12h30 cho (4,5)
+    - 13h-14h30 cho (6,7)
+    - 15h-16h30 cho (8,9)
+
+**Hạn chế tiêu cực khi phát thẻ**
+
+Với cách chia trên, mọi người sẽ quan tâm thẻ có ID (0,1) hoặc (6,7) để có khung giờ mua tốt, hàng hoá phong phú.
+Dễ phát sinh tiêu cực trong việc chọn thẻ.
+
+Cần linh động sắp lại khung giờ sau 1,2 tuần. Ví dụ: khung giờ 7h-8h30 sẽ đổi thành (4,5) thay vì (0,1)
+
+### Bất cập của phiếu ra đường, thẻ đi chợ
+
+- khó cân bằng khung giờ mua hàng vì thiếu ID 
+- thẻ sử dụng 1 lần, tăng chi phí in ấn,  đi phát thẻ,...Các nhà trọ, phòng trọ dễ bị phát thiếu, không đủ thẻ. 
+
+- không kiểm soát được số lượng mỗi phường xã tự phát hành. khó khăn cho việc điều phối hàng hoá. 
+- tốn công số hoá thông tin khách hàng (tên, số điện thoại,...) vào hệ thống mỗi ngày
+    - không lưu giờ vào cổng chính xác.
+
+- ![](the-di-cho.png)
+
+- https://tienphong.vn/ha-noi-phat-phieu-ra-duong-cho-nguoi-dan-trong-thoi-gian-gian-cach-xa-hoi-post1359794.tpo
+
+- https://vnexpress.net/ha-noi-se-phat-phieu-di-cho-toan-thanh-pho-4331589.html
+
+
 ## Triển khai nhanh chóng sau 7 ngày
-
-### Tổng quan Thẻ gia đình 
-
-![](the_gia_dinh_overview.png) 
-
-
-**Các bên có thể tương tác**
-
-![](moi-tuong-tac.png)
 
 ### Bước 1 (1,2 ngày) Phát hành phôi thẻ
 
@@ -145,9 +208,6 @@
 
 ## Phục vụ chống dịch 
 
-> Khi gặp chướng ngại, mỗi người ít khi từ bỏ, cố vượt qua hoặc tìm đường khác"
-
-> Nhưng thấy người khác bị từ chối, chúng ta từ bỏ dễ dàng. 
 
 ### Hạn chế xếp hàng, tụ tập mua hàng 
 > Điều tiết dựa trên ID, khu vực 
@@ -155,16 +215,11 @@
 > Tổng số được phân đều theo số cuối cùng của ID. 
 > số 0 chiếm 10% tổng số thẻ (0->9)
 
-#### 3 yêu cầu cơ bản:
-> là đủ hạn chế tụ tập, mua hàng
+#### 3 lệnh cơ bản: để hạn chế tụ tập, mua hàng
 
 1. bán hàng cho Thẻ trong Phường / xã
-2. khung giờ mua theo số cuối cùng của ID, ví dụ 
-    - từ 7-9h sáng: là số (0,1)
-    - từ 9-11h sáng: cho số (2,3)
-    - từ 11-13h: (4,5)
-    - từ 13-15h: (6,7)
-    - từ 15-17h: (8,9)
+2. khung giờ mua theo số cuối cùng của ID 
+    - tham khảo:[5 khung giờ mua hàng](#5-khung-giờ-mua-hàng)
 3. 1 ngày ra ngoài 1 lần
 
 Giải thích: 
@@ -172,21 +227,26 @@ Giải thích:
 - Việc cho phép mua hàng mỗi ngày sẽ giảm tâm lý lo lắng, tích trữ. ít tìm cách vi phạm. 
 - Giới hạn mua theo Phường không gây nhiều khó khăn lắm. Cho dù không mua được hàng, nhưng người dân sẽ không cố gắng chạy qua Phường khác để tìm mua. 
 
+#### Giới hạn ra ngoài để chống dịch
+> Giữ nguyên đặt tại nhà, giới hạn ra ngoài mua 
 
-#### Tăng giới hạn ra ngoài để chống dịch
+Giới hạn: 2 ngày, 1 lần mua có 2 cách thực hiện. 
 
-> giới hạn ra ngoài 2 ngày / 1 lần nhưng cho phép đặt mua tại nhà 1 ngày / 1 lần.
-
-- hôm qua đã ra ngoài, thì hôm nay không được ra ngoài.
-  - cách này linh động hơn, đỡ áp lực hơn.
-  - ví dụ: ngày 11 đã mua, ngày 13 chưa cần, thì ngày 14 vẫn đi được, nên để tới 14 mua luôn (sau 3 ngày)
+- Linh động, hiệu quả hơn với giới hạn: không được mua hàng 2 ngày liên tiếp.
+  - **không được bán cho thẻ đã mua hàng ngày hôm qua**
+  - ví dụ: ngày 11 đã mua, ngày 13 chưa cần, thì ngày 14 vẫn đi được, nên sẽ chờ tới 14 mua luôn (sau 3 ngày)
 
 - ID số lẻ đi ngày lẻ, số chẵn đi ngày chẵn (cách này không tôi
-  - ví dụ: ngày 11 đã mua, ngày 13 chưa cần, nhưng phải chờ tới ngày 15 mới được (tới 4 ngày). Và hầu hết sẽ ra ngày 13 để mua tiếp cho dù cần hay không. 
+  - ví dụ: ngày 11 đã mua, ngày 13 chưa cần, nhưng phải chờ tới ngày 15 mới được. Và đa số sẽ đi mua ngày 13 (sau 2 ngày).
 
-> Không nên giới hạn quá dài, ví du 3 ngày / 1 lần. Sẽ gây tâm lý hoang mang, tích trữ không cần thiết hoặc cố tình vi phạm.
+> Không nên giới hạn quá 3 ngày / 1 lần. Sẽ gây tâm lý hoang mang, tích trữ không cần thiết và tìm cách vi phạm.
 
 ### Giám sát chéo
+
+
+**Các bên có thể tương tác**
+
+![](moi-tuong-tac.png)
 
 **Cơ chế giám sát chéo**
 
@@ -270,13 +330,6 @@ Rất nhiều lợi ích:
 - Thu phí hợp lý để cân bằng với chi phí chống dịch. 
 
 ## So sánh với giải pháp đang có
-### Bất cập của phiếu ra đường, thẻ đi chợ
-
-- https://tienphong.vn/ha-noi-phat-phieu-ra-duong-cho-nguoi-dan-trong-thoi-gian-gian-cach-xa-hoi-post1359794.tpo
-
-- https://vnexpress.net/ha-noi-se-phat-phieu-di-cho-toan-thanh-pho-4331589.html
-- ![](the-di-cho.png)
-
 
 ### Giấy thông hành
 
