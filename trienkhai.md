@@ -1,5 +1,5 @@
 
-# Thẻ gia đình: điều tiết mua hàng theo gia đình và bảo đảm an toàn phòng dịch 
+# Thẻ gia đình: cân bằng lượt mua hàng theo khung giờ, theo khu vực.
 
 Thẻ gia đình: cân bằng lượt mua hàng theo khung giờ, theo khu vực. 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
