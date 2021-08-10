@@ -1,11 +1,11 @@
-# Lệnh bài: chống dịch và phát triển kinh tế theo khu vực
+# Thẻ lệnh: chống dịch và phát triển kinh tế theo khu vực
 <!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
  
-- [Thế nào là "hệ thống lệnh bài".](#thế-nào-là-hệ-thống-lệnh-bài)
-  - [Điểm nổi bật của "hệ thống lệnh bài"](#điểm-nổi-bật-của-hệ-thống-lệnh-bài)
-  - [Cấu trúc cân bằng của "lệnh bài"](#cấu-trúc-cân-bằng-của-lệnh-bài)
+- [Thế nào là "hệ thống Thẻ lệnh".](#thế-nào-là-hệ-thống-thẻ-lệnh)
+  - [Điểm nổi bật của "hệ thống Thẻ lệnh"](#điểm-nổi-bật-của-hệ-thống-thẻ-lệnh)
+  - [Cấu trúc cân bằng của "Thẻ lệnh"](#cấu-trúc-cân-bằng-của-thẻ-lệnh)
   - [Các bên có thể tương tác:](#các-bên-có-thể-tương-tác)
   - [Giám sát chéo](#giám-sát-chéo)
 - [Thực hiện "Mục tiêu kép" của chính phủ](#thực-hiện-mục-tiêu-kép-của-chính-phủ)
@@ -17,7 +17,7 @@
   - [Hệ thống liên lạc đa chiều](#hệ-thống-liên-lạc-đa-chiều)
   - [Huy động mọi nguồn lực](#huy-động-mọi-nguồn-lực)
   - [Đối tượng lẩn tránh, thiếu trách nhiệm, tiêu cực](#đối-tượng-lẩn-tránh-thiếu-trách-nhiệm-tiêu-cực)
-- [Nhiệm vụ 3: Hệ thống cảnh báo, kiềm soát Covid bùng phát theo khu vực .](#nhiệm-vụ-3-hệ-thống-cảnh-báo-kiềm-soát-covid-bùng-phát-theo-khu-vực)
+- [Nhiệm vụ 3: Hệ thống cảnh báo, kiềm soát Covid bùng phát theo khu vực.](#nhiệm-vụ-3-hệ-thống-cảnh-báo-kiềm-soát-covid-bùng-phát-theo-khu-vực)
   - [Tại sao cần hệ thống này?](#tại-sao-cần-hệ-thống-này)
   - [Hệ thống này có khả thi để đối phó Covid ko?](#hệ-thống-này-có-khả-thi-để-đối-phó-covid-ko)
   - [Mở rộng số lượng Thẻ theo nhu cầu hoạt động.](#mở-rộng-số-lượng-thẻ-theo-nhu-cầu-hoạt-động)
@@ -27,15 +27,15 @@
   - [Góp ý, liên hệ:](#góp-ý-liên-hệ)
 
 <!-- /code_chunk_output -->
-### Thế nào là "hệ thống lệnh bài". 
+### Thế nào là "hệ thống Thẻ lệnh". 
 
-"Lệnh bài" là **1 tấm thẻ, yêu cầu mọi người ra ngoài, mua hàng hay làm việc, phải đeo nó.**
+"Thẻ lệnh" là **1 tấm thẻ, yêu cầu mọi người ra ngoài, mua hàng hay làm việc, phải đeo nó.**
 
 - Mỗi gia đình được cấp 1 **Thẻ gia đình màu xanh**, để ra ngoài mua hàng.
 - Cá nhân làm việc, được cấp 1 **Thẻ làm việc màu vàng** , chia thành 2 loại: cố định 1 chỗ hay thường xuyên di chuyển (giao hàng)
 - Cá nhân tham gia chống dịch được cấp 1 **Thẻ chống dịch màu đỏ**.
 
-Khi thẻ được cấp tới mọi người trong vùng dịch cho các nhu cầu trên, ta có được "hệ thống lệnh bài".
+Khi thẻ được cấp tới mọi người trong vùng dịch cho các nhu cầu trên, ta có được "hệ thống Thẻ lệnh".
 
 Hệ thống này giúp thực hiện 3 nhiệm vụ lớn:
 
@@ -49,23 +49,23 @@ Hệ thống này giúp thực hiện 3 nhiệm vụ lớn:
 3. Hệ thống cảnh báo sớm, nhanh chóng kích hoạt để hạn chế lây lan, bùng phát dịch trong tương lai. 
     - xem thêm [Nhiệm vụ 3: Hệ thống cảnh báo, kiềm soát Covid bùng phát theo khu vực .](#nhiệm-vụ-3-hệ-thống-cảnh-báo-kiềm-soát-covid-bùng-phát-theo-khu-vực)
 
-#### Điểm nổi bật của "hệ thống lệnh bài"
+#### Điểm nổi bật của "hệ thống Thẻ lệnh"
 
-- **Đơn giản đến không ngờ**: mọi người sẽ khó tin, với một tấm thẻ có thể thực hiện 3 nhiệm vụ bên trên. Sự khác biệt ở cách thiết lập cấu trúc cân bằng cho lệnh bài, và triển khai toàn hệ thống. 
+- **Đơn giản đến không ngờ**: mọi người sẽ khó tin, với một tấm thẻ có thể thực hiện 3 nhiệm vụ bên trên. Sự khác biệt ở cách thiết lập cấu trúc cân bằng cho Thẻ lệnh, và triển khai toàn hệ thống. 
 
-- **Triển khai ngay lập tức**: sau vài ngày chuẩn bị, là có thể triển khai hệ thống lệnh bài cho 1 tỉnh/ thành phố, hoặc cả nước. 
+- **Triển khai ngay lập tức**: sau vài ngày chuẩn bị, là có thể triển khai hệ thống Thẻ lệnh cho 1 tỉnh/ thành phố, hoặc cả nước. 
 
 - **Chi phí thấp, nguồn lực sẵn có**: chi phí in ấn, phát hành thẻ giấy. Các hệ thống, phần mềm liên quan không quá phức tạp để xây dựng. Vì là giải pháp phòng bệnh, truy quét Covid, nên chỉ cần nguồn lực lấy mẫu, xét nghiệm F0. 
 
-- **Ít phụ thuộc vào ứng dụng CNTT**: lệnh bài có thể hoạt động độc lập, các ứng dụng CNTT như mobile app, thiết bị IoT, phân tích dữ liệu,... có thể bổ sung sau. 
+- **Ít phụ thuộc vào ứng dụng CNTT**: Thẻ lệnh có thể hoạt động độc lập, các ứng dụng CNTT như mobile app, thiết bị IoT, phân tích dữ liệu,... có thể bổ sung sau. 
 
-#### Cấu trúc cân bằng của "lệnh bài"
+#### Cấu trúc cân bằng của "Thẻ lệnh"
 
-**Lệnh** trong lệnh bài, là mệnh lệnh trong quân đội, bắt buộc mọi đối tượng tiếp nhận phải thực hiện giống nhau. 
+**Lệnh** trong Thẻ lệnh, là mệnh lệnh trong quân đội, bắt buộc mọi đối tượng tiếp nhận phải thực hiện giống nhau. 
 
 Đối tượng tiếp nhận không chỉ là người **đeo thẻ**, mà còn là các bên khác như **cấp thẻ** (chính quyền địa phương), **phục vụ thẻ** (doanh nghiệp), và **kiểm tra thẻ** (công an).
 
-Để thực hiện được điều này, cần thiết kế cho lệnh bài 1 cấu trúc cân bằng, cho phép giám sát chéo giữa các đối tượng. 
+Để thực hiện được điều này, cần thiết kế cho Thẻ lệnh 1 cấu trúc cân bằng, cho phép giám sát chéo giữa các đối tượng. 
 
 Đây là  minh hoạ cho cấu trúc cân bằng cho Thẻ gia đình, với các lệnh giám sát chéo: 
 
@@ -92,9 +92,9 @@ Tăng cường kiểm tra thẻ của khách lúc mua hàng tại chỗ, lúc đ
 
 Tiếp tục như vậy, các đối tượng liên quan tới thẻ sẽ được giám sát, kiểm tra chéo. 
 
-Thiết kế một cấu trúc cân bằng cho "lệnh bài" điều không hề đơn giản, cần có kiến thức và lĩnh hội sâu về [tư duy, ngôn ngữ hệ thống](https://vietnambiz.vn/nguyen-li-thu-nam-the-fifth-discipline-la-gi-cac-nguyen-tac-chinh-20191214001907077.htm). 
+Thiết kế một cấu trúc cân bằng cho "Thẻ lệnh" điều không hề đơn giản, cần có kiến thức và lĩnh hội sâu về [tư duy, ngôn ngữ hệ thống](https://vietnambiz.vn/nguyen-li-thu-nam-the-fifth-discipline-la-gi-cac-nguyen-tac-chinh-20191214001907077.htm). 
 
-Một lệnh bài cần bảo đảm các yếu tố then chốt sau: 
+Một Thẻ lệnh cần bảo đảm các yếu tố then chốt sau: 
 
 1. **Tính đơn giản: mọi người đều sử dụng được**
     - Người già, người không biết tiếng việt, không có smartphone,...
@@ -125,7 +125,7 @@ Một lệnh bài cần bảo đảm các yếu tố then chốt sau:
 
 Có thể thấy, **khẩu trang** là  1 cấu trúc có 4 yếu tố đầu tiên. Điều này khiến cho hệ thống khẩu trang rất hiệu quả trong việc chống dịch: hạn chế lây nhiễm covid và nhận biết người tuân thủ. 
 
-Và đây là thiết kế cho Thẻ Gia đình, 1 loại "lệnh bài" dành cho gia đình
+Và đây là thiết kế cho Thẻ Gia đình, 1 loại "Thẻ lệnh" dành cho gia đình
 
 ![](the_gia_dinh_overview.png)
 
@@ -141,9 +141,9 @@ Các phần quan trọng, giúp có được 5 yếu tố trên
 Chi tiết tham khảo thêm [Triển khai Thẻ Gia đình](https://baotnq.qrcare.vn/trienkhai.html#triển-khai-thẻ-gia-đình)
 
 #### Các bên có thể tương tác: 
-Người dân, chính quyền địa phương, doanh nghiệp, công an,... đều có thể tương tác lên từng "lệnh bài".
+Người dân, chính quyền địa phương, doanh nghiệp, công an,... đều có thể tương tác lên từng "Thẻ lệnh".
 
-Ban chỉ đạo chống dịch, dựa trên hệ thống lệnh bài, có thể giám sát, quản lý các tương tác này từ xa. 
+Ban chỉ đạo chống dịch, dựa trên hệ thống Thẻ lệnh, có thể giám sát, quản lý các tương tác này từ xa. 
 
 Chi tiết xem minh hoạ bên dưới 
 
@@ -162,7 +162,7 @@ Với cơ chế giám sát chéo và hệ thống tập trung, Thẻ gia đình 
 Tham khảo thêm [Bất cập của phiếu ra đường, thẻ đi chợ](https://baotnq.qrcare.vn/trienkhai.html#bất-cập-của-phiếu-ra-đường-thẻ-đi-chợ)
 
 
-Sau 1 thời gian triển khai "hệ thống lệnh bài", vùng dịch có thể thực hiện **mục tiêu kép** chống dịch và phát triển kinh tế
+Sau 1 thời gian triển khai "hệ thống Thẻ lệnh", vùng dịch có thể thực hiện **mục tiêu kép** chống dịch và phát triển kinh tế
 ### Thực hiện "Mục tiêu kép" của chính phủ 
 
 
@@ -172,10 +172,10 @@ Sau 1 thời gian triển khai "hệ thống lệnh bài", vùng dịch có th�
 
 - **Hệ thống cảnh báo sớm** Xét nghiệm theo từng nhóm nguy cơ cao, để nhanh chóng phát hiện, để hạn chế dịch bùng phát trong tương lai. 
 
-Sau đây chúng ta sẽ chi tiết 3 nhiệm vụ chính của hệ thống lệnh bài:
+Sau đây chúng ta sẽ chi tiết 3 nhiệm vụ chính của hệ thống Thẻ lệnh:
 ### Nhiệm vụ 1: Chia vùng dịch thành các khu vực liền kề
 
-Khi triển khai một số mệnh lệnh lên hệ thống lệnh bài, sẽ khiến cho hầu hết hoạt động của mọi người tập trung bên trong từng khu vực. Người dân chỉ mua hàng bên trong khu vực, không vô ý di chuyển sang khu vực lân cận. 
+Khi triển khai một số mệnh lệnh lên hệ thống Thẻ lệnh, sẽ khiến cho hầu hết hoạt động của mọi người tập trung bên trong từng khu vực. Người dân chỉ mua hàng bên trong khu vực, không vô ý di chuyển sang khu vực lân cận. 
 
 Quan trọng hơn, việc giới hạn hoạt động theo khu vực diễn ra một cách "vô thức", không phụ thuộc vào tinh thần tự giác của người dân. Các cá nhân ra vào khu vực để làm việc, giao hàng theo Thẻ cá nhân tuân thủ một cách "vô thức", cũng như được kiểm soát chặt khi cần thiết.
 
@@ -213,7 +213,7 @@ Khi cần tăng mức độ kiểm soát ra ngoài khu vực, bổ sung thêm c�
 
 Kết quả của việc đồng thời thực hiện các việc trên, giúp phân chia vùng dịch thành những khu vực hoạt động nội bộ, việc đi lại giữa hai khu vực liền kề được giám sát. Hình thành mạng lưới khu vực liền kề, giống **ruộng bậc thang** hạn chế việc lây lan của covid đi xa một cách hiệu quả. 
 
-Hạn chế và khoanh vùng lây lan theo ruộng bậc thang, giúp nguồn lực được tập trung, sử dụng hiệu quả với hệ thống lệnh bài để 
+Hạn chế và khoanh vùng lây lan theo ruộng bậc thang, giúp nguồn lực được tập trung, sử dụng hiệu quả với hệ thống Thẻ lệnh để 
 có thể thực hiện nhiệm vụ tiếp theo.
 ### Nhiệm vụ  2. Huy động mọi người bên trong khu vực  cùng tham gia chống dịch
 
@@ -229,7 +229,7 @@ giữa Bộ chỉ huy và mọi đối tượng: người dân, doanh nghiệp �
 - người dân nhắc nhở, hướng dẫn nhau về cách thực hiện. 
 - Các cá nhân mang thẻ, gửi dữ liệu thực tế về Bộ chỉ huy khi có yêu cầu hoặc tự giác thực hiện. 
 
-Tăng cường mở rộng, kết hợp nhiều công nghệ: thiết bị tự động, phân tích dữ liệu để tối ưu tổ chức, mô hình dự đoán xu hướng dịch bệnh,... giúp nâng cao năng lực, hiệu quả của hệ thống lệnh bài. 
+Tăng cường mở rộng, kết hợp nhiều công nghệ: thiết bị tự động, phân tích dữ liệu để tối ưu tổ chức, mô hình dự đoán xu hướng dịch bệnh,... giúp nâng cao năng lực, hiệu quả của hệ thống Thẻ lệnh. 
 #### Huy động mọi nguồn lực
 Với hệ thống liên lạc mạnh mẽ, nhiều kênh này, sẽ huy động được nguồn lực của cộng đồng
 
@@ -237,13 +237,13 @@ Với hệ thống liên lạc mạnh mẽ, nhiều kênh này, sẽ huy động
 - **Nguồn lực địa phương**: cán bộ địa phương, tình nguyện viên và cả doanh nghiệp địa phương 
 - **Nguồn lực tập trung** được điều phối khoa học, tối ưu và cải thiện theo thời gian. 
 
-Khi việc chống dịch diễn ra thường xuyên: như xét nghiệm tập trung, định kỳ, tiêm vacxin theo đợt,... Hệ thống lệnh bài cũng giúp tạo ra thói quen cho mọi người, như : đến đúng nơi, đúng giờ, di chuyển trật tự,... 
+Khi việc chống dịch diễn ra thường xuyên: như xét nghiệm tập trung, định kỳ, tiêm vacxin theo đợt,... Hệ thống Thẻ lệnh cũng giúp tạo ra thói quen cho mọi người, như : đến đúng nơi, đúng giờ, di chuyển trật tự,... 
 
 Thói quen này chính là nguồn sức mạnh vô cùng lớn để chống dịch hiệu quả. 
 
 #### Đối tượng lẩn tránh, thiếu trách nhiệm, tiêu cực 
 
-Ngoài ra, Hệ thống lệnh bài còn giúp lọc ra các đối tượng "lẩn tránh, bỏ sót, và chểnh mảng":
+Ngoài ra, Hệ thống Thẻ lệnh còn giúp lọc ra các đối tượng "lẩn tránh, bỏ sót, và chểnh mảng":
 - các gia đình không tham gia theo lệnh
 - các gia đình, cá nhân bị bỏ sót, chưa được cấp thẻ.
 - các địa phương có cán bộ, đội ngũ chểnh mảng, thiếu trách nhiệm trong chống dịch. 
@@ -251,9 +251,9 @@ Ngoài ra, Hệ thống lệnh bài còn giúp lọc ra các đối tượng "l�
 
 Đây là những nguy cơ cao, không chỉ lây lan mà còn tạo nguy cơ bùng phát âm thầm, gây nguy hại rất lớn.
 
-Khi dịch bệnh được kiềm chế trong một khu vực, và cho phép hoạt động lại các hoạt động phát triển kinh tế nội khu, thì nguy cơ xâm nhập từ bên ngoài vẫn thường trực. Hệ thống Lệnh bài lúc này đóng vai trò cảnh báo sớm, đồng loạt kích hoạt các biện phát kiềm chế. Đó là nhiệm vụ thứ 3.
+Khi dịch bệnh được kiềm chế trong một khu vực, và cho phép hoạt động lại các hoạt động phát triển kinh tế nội khu, thì nguy cơ xâm nhập từ bên ngoài vẫn thường trực. Hệ thống Thẻ lệnh lúc này đóng vai trò cảnh báo sớm, đồng loạt kích hoạt các biện phát kiềm chế. Đó là nhiệm vụ thứ 3.
 
-### Nhiệm vụ 3: Hệ thống cảnh báo, kiềm soát Covid bùng phát theo khu vực . 
+### Nhiệm vụ 3: Hệ thống cảnh báo, kiềm soát Covid bùng phát theo khu vực. 
 
 #### Tại sao cần hệ thống này? 
 
@@ -266,7 +266,7 @@ Có 2 chiến lược chính để đối kháng nguy cơ của Covid:
 
 Hiện tại chiến lược phòng bệnh đang gặp nhiều khó khăn tại nhiều nước từng thành công trong 2020, nhưng không có nghĩa là chiến lược phòng bệnh không kháng cự được với dịch Covid, chỉ là chúng ta chưa tìm ra, và áp dụng đủ sớm thôi. 
 
-"Hệ thống lệnh bài" là một công cụ mạnh mẽ để thực hiện chiến lược phòng bệnh như trên.
+"Hệ thống Thẻ lệnh" là một công cụ mạnh mẽ để thực hiện chiến lược phòng bệnh như trên.
 
 ####  Hệ thống này có khả thi để đối phó Covid ko? 
 
@@ -275,9 +275,9 @@ Chống lại 1 cấu trúc hệ thống mạnh mẽ như Dịch Covid, cần ph
 
 Khi hiểu rõ hơn về cấu trúc covid, chúng ta sẽ tìm ra nhiều cấu trúc hệ thống đối kháng tương ứng.
 
-Hệ thống lệnh bài là dựa trên ý tưởng **"ruộng bậc thang hạn chế rò rỉ nước"** khoanh vùng khu vực, tạo thành dạng ruộng bậc thang nguy cơ để hạn chế lay lan.
+Hệ thống Thẻ lệnh là dựa trên ý tưởng **"ruộng bậc thang hạn chế rò rỉ nước"** khoanh vùng khu vực, tạo thành dạng ruộng bậc thang nguy cơ để hạn chế lay lan.
 
-Và khi phát hiện 1 khu vực có nguy cơ, nhanh chóng kích hoạt "lệnh bài" trong toàn hệ thống để tăng cường cảnh giác. 
+Và khi phát hiện 1 khu vực có nguy cơ, nhanh chóng kích hoạt "Thẻ lệnh" trong toàn hệ thống để tăng cường cảnh giác. 
 
 Nếu mọi người đều quen với hệ thống này, thì việc kích hoạt có thể triển khai trong 1 ngày. So với "khả năng lây sau 2-3 ngày" và đó là tốc độ đủ để kiềm soát covid. 
 
@@ -323,7 +323,7 @@ tham khảo thêm :
 
 ### Tổng kết 
 
-Trên đây là những nội dung tổng quan về Hệ thống lệnh bài.
+Trên đây là những nội dung tổng quan về Hệ thống Thẻ lệnh.
 
 
 Để đưa vào thực tế, cần tìm hiểu thêm giải pháp chi tiết.
@@ -331,7 +331,7 @@ Phần này được tách riêng trong 1 bài viết độc lập.
 
 Xem link bên dưới
 
-- [Triển khai Hệ thống lệnh bài vào thực tế](http://baotnq.qrcare.vn/trienkhai.html)
+- [Triển khai Hệ thống Thẻ lệnh vào thực tế](http://baotnq.qrcare.vn/trienkhai.html)
 
 #### Góp ý, liên hệ:
 
