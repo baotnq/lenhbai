@@ -39,8 +39,6 @@
 
 ## Cân bằng lượt mua hàng
 
-bằng cách cấp cho mỗi nhà 1 tấm thẻ bên dưới. 
-
 ![](the_gia_dinh.png) 
 
 Mỗi nhà có thể là **hộ gia đình, nhà trọ, phòng trọ 1 hoặc vài người,...** đang sống tách biệt, cần giãn cách theo chỉ thị 16. 

@@ -1,355 +1,244 @@
-# Thẻ lệnh: chống dịch và phát triển kinh tế theo khu vực
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=6 orderedList=false} -->
+
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=3 orderedList=false} -->
 
 <!-- code_chunk_output -->
- 
-- [Thế nào là "hệ thống Thẻ lệnh".](#thế-nào-là-hệ-thống-thẻ-lệnh)
-  - [Điểm nổi bật của "hệ thống Thẻ lệnh"](#điểm-nổi-bật-của-hệ-thống-thẻ-lệnh)
-  - [Cấu trúc cân bằng của "Thẻ lệnh"](#cấu-trúc-cân-bằng-của-thẻ-lệnh)
-  - [Các bên có thể tương tác:](#các-bên-có-thể-tương-tác)
-  - [Giám sát chéo](#giám-sát-chéo)
-- [Thực hiện "Mục tiêu kép" của chính phủ](#thực-hiện-mục-tiêu-kép-của-chính-phủ)
-- [Nhiệm vụ 1: Chia vùng dịch thành các khu vực liền kề](#nhiệm-vụ-1-chia-vùng-dịch-thành-các-khu-vực-liền-kề)
-  - [Hạn chế ra ngoài mua nhu yếu phẩm](#hạn-chế-ra-ngoài-mua-nhu-yếu-phẩm)
-  - [Giới hạn hoạt động của người dân bên trong khu vực](#giới-hạn-hoạt-động-của-người-dân-bên-trong-khu-vực)
-  - [Giám sát việc di chuyển ra, vào ngoài khu vực](#giám-sát-việc-di-chuyển-ra-vào-ngoài-khu-vực)
-- [Nhiệm vụ  2. Huy động mọi người bên trong khu vực  cùng tham gia chống dịch](#nhiệm-vụ-2-huy-động-mọi-người-bên-trong-khu-vực-cùng-tham-gia-chống-dịch)
-  - [Hệ thống liên lạc đa chiều](#hệ-thống-liên-lạc-đa-chiều)
-  - [Huy động mọi nguồn lực](#huy-động-mọi-nguồn-lực)
-  - [Đối tượng lẩn tránh, thiếu trách nhiệm, tiêu cực](#đối-tượng-lẩn-tránh-thiếu-trách-nhiệm-tiêu-cực)
-- [Nhiệm vụ 3: Hệ thống cảnh báo, kiềm soát Covid bùng phát theo khu vực.](#nhiệm-vụ-3-hệ-thống-cảnh-báo-kiềm-soát-covid-bùng-phát-theo-khu-vực)
-  - [Tại sao cần hệ thống này?](#tại-sao-cần-hệ-thống-này)
-  - [Hệ thống này có khả thi để đối phó Covid ko?](#hệ-thống-này-có-khả-thi-để-đối-phó-covid-ko)
-  - [Mở rộng số lượng Thẻ theo nhu cầu hoạt động.](#mở-rộng-số-lượng-thẻ-theo-nhu-cầu-hoạt-động)
-  - [Cảnh báo sớm theo màu của thẻ.](#cảnh-báo-sớm-theo-màu-của-thẻ)
-  - [Quy hoạch các hoạt động bên trong khu vực](#quy-hoạch-các-hoạt-động-bên-trong-khu-vực)
-- [Tổng kết](#tổng-kết)
-  - [Góp ý, liên hệ:](#góp-ý-liên-hệ)
+
+- [Hệ thống thẻ lệnh](#hệ-thống-thẻ-lệnh)
+  - [Thiếu số liệu thực tế](#thiếu-số-liệu-thực-tế)
+  - [Thu thập số liệu thực tế bằng Thẻ](#thu-thập-số-liệu-thực-tế-bằng-thẻ)
+  - [Điều chỉnh hành vi bằng Lệnh](#điều-chỉnh-hành-vi-bằng-lệnh)
+  - [Tăng tuân thủ, giảm vi phạm bằng Hệ thống Thẻ Lệnh](#tăng-tuân-thủ-giảm-vi-phạm-bằng-hệ-thống-thẻ-lệnh)
+  - [Lấy mẫu xét nghiệm hiệu quả an toàn](#lấy-mẫu-xét-nghiệm-hiệu-quả-an-toàn)
+  - [Hỗ trợ đúng đối tượng khó khăn](#hỗ-trợ-đúng-đối-tượng-khó-khăn)
+  - [Chống dịch và phát triển kinh tế theo Phường/Xã.](#chống-dịch-và-phát-triển-kinh-tế-theo-phườngxã)
 
 <!-- /code_chunk_output -->
-### Thế nào là "hệ thống Thẻ lệnh". 
 
-"Thẻ lệnh" là **1 tấm thẻ, yêu cầu mọi người ra ngoài, mua hàng hay làm việc, phải đeo nó.**
+## Hệ thống thẻ lệnh
 
-- Mỗi gia đình được cấp 1 **Thẻ gia đình màu xanh**, để ra ngoài mua hàng.
-- Cá nhân làm việc, được cấp 1 **Thẻ làm việc màu vàng** , chia thành 2 loại: cố định 1 chỗ hay thường xuyên di chuyển (giao hàng)
-- Cá nhân tham gia chống dịch được cấp 1 **Thẻ chống dịch màu đỏ**.
+### Thiếu số liệu thực tế 
 
-Khi thẻ được cấp tới mọi người trong vùng dịch cho các nhu cầu trên, ta có được "hệ thống Thẻ lệnh".
+Hiện tại có nhiều biện pháp hành chánh đang được triển khai để hạn chế hoạt động của người dân trong vùng áp dụng chỉ thị 16. 
 
-Hệ thống này giúp thực hiện 3 nhiệm vụ lớn:
+Phiếu mua hàng để hạn chế ra ngoài mua hàng và Giấy đi đường để cấp phép cho việc di chuyển để làm việc. 
 
-1. Phân chia vùng dịch thành các khu vực lân cận nhau. 
-   - Nếu vùng dịch nguy cơ cao, áp dụng chỉ thị 16 hoặc hơn, khu vực sẽ nhỏ tới cấp Phường/ Xã. 
-   - Và khi Covid được kiểm soát hoặc giảm đi, khu vực sẽ mở rộng là nhiều Phường/ Xã liền kề nhau. 
-   - xem thêm phần [Nhiệm vụ 1: Chia vùng dịch thành các khu vực liền kề](#nhiệm-vụ-1-chia-vùng-dịch-thành-các-khu-vực-phườngxã-liền-kề)
-2. Huy động mọi nguồn lực bên trong khu vực để tham gia chống dịch 
-   - Và nguồn lực lớn nhất, quan trọng nhất chính là sự tuân thủ và hợp tác của người dân bên trong. 
-   - xem thêm phần [Nhiệm vụ  2. Huy động mọi người bên trong khu vực  cùng tham gia chống dịch](#nhiệm-vụ-2-huy-động-mọi-người-bên-trong-khu-vực-cùng-tham-gia-chống-dịch)
-3. Hệ thống cảnh báo sớm, nhanh chóng kích hoạt để hạn chế lây lan, bùng phát dịch trong tương lai. 
-    - xem thêm [Nhiệm vụ 3: Hệ thống cảnh báo, kiềm soát Covid bùng phát theo khu vực .](#nhiệm-vụ-3-hệ-thống-cảnh-báo-kiềm-soát-covid-bùng-phát-theo-khu-vực)
+#### Phiếu mua hàng 
 
-#### Điểm nổi bật của "hệ thống Thẻ lệnh"
+Mỗi địa phương có phiếu mua hàng khác nhau, nhưng cách làm thì không khác nhau nhiều. Sau nhiều lần cải tiến, Tp Hồ Chí Minh đang áp dụng mẫu Phiếu bên dưới. 
 
-- **Đơn giản đến không ngờ**: mọi người sẽ khó tin, với một tấm thẻ có thể thực hiện 3 nhiệm vụ bên trên. Sự khác biệt ở cách thiết lập cấu trúc cân bằng cho Thẻ lệnh, và triển khai toàn hệ thống. 
+![](phieu-mua-hang-mau.png)
 
-- **Triển khai ngay lập tức**: sau vài ngày chuẩn bị, là có thể triển khai hệ thống Thẻ lệnh cho 1 tỉnh/ thành phố, hoặc cả nước. 
+Người dân phải điền nhiều thông tin vào Phiếu mua hàng, khiến việc số hoá cho 1 phiếu tốn nhiều thời gian. Chưa kể 1 phiếu sử dụng được 1,2 lần trong 6 ngày, khiến mỗi Phường/Xã thường xuyên in và phát, rất khó để thống kê tổng số bao nhiêu phiếu đã phát. 
 
-- **Chi phí thấp, nguồn lực sẵn có**: chi phí in ấn, phát hành thẻ giấy. Các hệ thống, phần mềm liên quan không quá phức tạp để xây dựng. Vì là giải pháp phòng bệnh, truy quét Covid, nên chỉ cần nguồn lực lấy mẫu, xét nghiệm F0. 
+Việc số hoá tất cả các phiếu này là tốn rất nhiều nhân lực, và không một siêu thị, chợ nào có thể thực hiện mỗi ngày.
 
-- **Ít phụ thuộc vào ứng dụng CNTT**: Thẻ lệnh có thể hoạt động độc lập, các ứng dụng CNTT như mobile app, thiết bị IoT, phân tích dữ liệu,... có thể bổ sung sau. 
+Điều này khiến cho số liệu thực tế về hoạt động mua hàng gần như không có. Hoặc nếu có cũng với số lượng nhỏ so với thực tế. 
 
-#### Cấu trúc cân bằng của "Thẻ lệnh"
+#### Giấy đi đường
 
-**Lệnh** trong Thẻ lệnh, là mệnh lệnh trong quân đội, bắt buộc mọi đối tượng tiếp nhận phải thực hiện giống nhau. 
+Thời gian đầu, giấy đi đường là do Đơn vị chủ quản tự cấp cho nhân viên. Sau vài lần điều chỉnh, việc cấp Giấy đi đường sẽ do Phường/Xã thực hiện, và đây là 1 mẫu mới nhất mà Tp Hà Nội đang áp dụng 
 
-Đối tượng tiếp nhận không chỉ là người **đeo thẻ**, mà còn là các bên khác như **cấp thẻ** (chính quyền địa phương), **phục vụ thẻ** (doanh nghiệp), và **kiểm tra thẻ** (công an).
+![](mau-giay-di-duong.png)
 
-Để thực hiện được điều này, cần thiết kế cho Thẻ lệnh 1 cấu trúc cân bằng, cho phép giám sát chéo giữa các đối tượng. 
+Giấy đi đường cũng có rất nhiều thông tin phải nhập. 
+Trên giấy không có QRCode, ID riêng, khiến các chốt kiểm tra **không thể thu thập danh sách người ra chốt mỗi ngày**.
 
-Đây là  minh hoạ cho cấu trúc cân bằng cho Thẻ gia đình, với các lệnh giám sát chéo: 
 
-Gửi tới tất cả Phường/ Xã 1 mệnh lệnh: 
+Để khắc phục việc không thể thu thập dữ liệu từ Phiếu mua hàng hay Giấy đi đường ở trên, nhiều biện pháp khác được bổ sung để người dân tự nguyện khai báo.
 
-*"Mọi gia đình trong tp Hồ Chí mình cần được cấp 1 Thẻ gia đình"* 
+#### Khai báo tại chốt kiểm tra, siêu thị, chợ  
 
-**Làm thế nào để bảo đảm lệnh này được thực hiện đúng với hơn 300 Phường / xã ở HCM**?
+Các giải pháp khác như "Di biến động dân cư", Tờ khai Y tế trên ứng dụng NCovi, Bluezone tốn khá nhiều thời gian để thực hiện. 
+Khiến gây tắc nghẽn khi kiểm tra tại chốt. 
+Việc triển khai cũng có giới hạn tại một số chốt liên quận, khiến dữ liệu thu thập chỉ là 1 phần nhỏ của di chuyển thực tế. 
 
-Ta sử dụng 1 lệnh khác để kiểm soát chéo. Đó là thông báo với mọi người rằng "từ ngày dd/mm, toàn bộ siêu thị, chợ chỉ bán hàng cho người có Thẻ gia đình. *Gia đình nào chưa nhận được thẻ, cần liên hệ với Phường / xã đang sống. Nếu gặp trở ngại thì gọi tới số hotline để hỗ trợ,..."*
+Chưa kể người dân chỉ khai báo khi có nhu cầu "thông chốt", hoặc vào vào mua hàng ở các siêu thị lớn. Khiến việc này không có nhiều ý nghĩa. 
 
-Những gia đình chưa nhận được Thẻ, sẽ tìm cách liên hệ, nếu không muốn bị từ chối tại siêu thị, chợ, hoặc bị đói. 
+Tóm lại, các biện pháp đang áp dụng khiến mọi người tốn rất nhiều thời gian để điền thông tin, để khai báo nhưng số liệu quan trọng cho việc phòng chống dịch bệnh gần như không có.
 
-Và sau đó 1 tuần, lệnh cho tất cả Phường/ Xã: *tới từng gia đình để hướng dẫn chống dịch. Lúc gặp, sử dụng mobile app để quét Thẻ gia đình, và gửi toạ độ GPS, hình thực tế về hệ thống*
+Điều này khiến Chính quyền không biết được 
+1. Số lượng người **được phép** ra ngoài, theo từng Phường/Xã, Quận/Huyện hoặc cả Thành phố? 
+2. Những người này **đã tới** những địa điểm, vào lúc nào mỗi ngày? 
 
-Sai lệch giữa lần cấp thẻ và lần hướng dẫn thứ 2 sẽ đánh gía được trách nhiệm của mỗi Phường / Xã. Vài lần như vậy, hầu hết mọi Phường/ Xã sẽ thực hiện tốt, không dám chểnh mảng,...
+Chưa trả lời được 2 câu hỏi, Chính quyền sẽ khó đánh giá được hiệu quả thực tế của các biện pháp đã thực hiện, cũng như đưa ra các kế hoạch chống dịch hợp lý trong tương lai. 
 
-Và **làm sao để bảo đảm, siêu thị, chợ chỉ bán hàng cho người có Thẻ gia đình?**
+Chúng ta cần một giải pháp khả thi để tìm câu trả lời, đó là cấp thẻ cho mọi cá nhân được phép ra ngoài và thu thập dữ liệu di chuyển của các Thẻ này. 
 
-Dùng 1 lệnh khác, *"mọi đơn hàng phải có thêm ID của thẻ gia đình"*. Nếu phát hiện thiếu ID, sẽ bị xử phạt nghiêm.
-Và kết hợp với *"danh sách ID mua hàng mỗi ngày phải gửi về Phường/ Xã* để cập nhật vào lịch sử mua hàng của mỗi thẻ.
- 
-Tăng cường kiểm tra thẻ của khách lúc mua hàng tại chỗ, lúc đơn hàng được giao bởi shipper,... để kiểm soát, phát hiện siêu thị, chợ vi phạm. 
+### Thu thập số liệu thực tế bằng Thẻ 
 
-Tiếp tục như vậy, các đối tượng liên quan tới thẻ sẽ được giám sát, kiểm tra chéo. 
+Thẻ là 1 tấm giấy nhỏ, nằm gọn trong lòng bàn tay, và có thể đeo trên cổ như Thẻ Nhân viên. Có 3 loại thẻ dành cho các cá nhân được phép ra ngoài mua hàng, làm việc hay tham gia chống dịch.
 
-Thiết kế một cấu trúc cân bằng cho "Thẻ lệnh" điều không hề đơn giản, cần có kiến thức và lĩnh hội sâu về [tư duy, ngôn ngữ hệ thống](https://vietnambiz.vn/nguyen-li-thu-nam-the-fifth-discipline-la-gi-cac-nguyen-tac-chinh-20191214001907077.htm). 
+![](3-loai-the.png)
 
-Một Thẻ lệnh cần bảo đảm các yếu tố then chốt sau: 
+**Thẻ gia đình màu xanh**
+- Dành cho hộ gia đình, nhà trọ, phòng trọ, ... để ra ngoài mua nhu yếu phẩm. 
+- Phường/Xã sẽ cấp cho mỗi nhà 1 Thẻ. 
 
-1. **Tính đơn giản: mọi người đều sử dụng được**
-    - Người già, người không biết tiếng việt, không có smartphone,...
-    - nhân viên giữ xe, quản lý chợ, tiểu thương có thể sử dụng được.
+**Thẻ làm việc màu vàng**
+- Dành cho cá nhân ra ngoài làm việc như : đi làm tại nhà máy, doanh nghiệp, bán hàng tại siêu thị, chợ hay giao hàng, vận chuyển hàng hoá 
+- Chia thành nhiều loại nhỏ hơn: Thẻ đi làm (cố định), Thẻ Giao hàng (nội khu vực) và Thẻ Vận chuyển (liên khu vực)
+- Địa phương nơi làm việc sẽ cấp thẻ cho Đơn vị chủ quản. Đơn vị sẽ cấp cho nhân viên theo danh sách đã đăng ký. 
 
-2. **Tính nhận diện: nhanh chóng, từ xa bởi con người và thiết bị**: 
-    - nhìn từ xa qua dây đeo, phân biệt bởi màu sắc, thông tin ở mặt trước, và cả mặt sau.
-    - không chỉ công an, dân phòng, mà cả người dâu đều có thể phân biệt được.
-    - Với thiết bị (smartphone, thiết bị checkpoint), quét thẻ để hiện thông tin, hoặc có âm thanh cảnh báo.
+**Thẻ chống dịch màu đỏ**
+- Dành cho cá nhân tham gia chống dịch như: cán bộ địa phương, công an dân phòng, đội ngũ y tế, tình nguyện viên, nhà báo,...
 
-3. **Tính duy nhất: toàn vẹn, không chấp nhận nhân bản, sao chép** 
-    - ID duy nhất, thẻ vật lý, không chấp nhận photo, hình ảnh trên điện thoại, thiếu con dấu hoặc có dấu hiệu làm giả,...
-    - khoá thẻ từ xa qua ID, có địa chỉ để xử lý tình trạng cho mượn thẻ, 
-    - giám sát số lượng hoạt động theo Phường, ... 
+- Chính quyền cấp Thẻ cho các đơn vị chống dịch. Các đơn vị này sẽ cấp cho cá nhân tham gia chống dịch.
 
-4. **Tốc độ triển khai: nhanh, đồng loạt tới mọi khu vực, mọi người**
-    - phát hành tập trung, in ấn hoặc xuất file pdf gửi online.
-    - địa phương xác nhận và cấp cho từng đối tượng 
+Đặc điểm chung của các loại Thẻ này là 
+- có ID duy nhất, thuộc Phường/ Xã cấp thẻ 
+- có mã QRCode để check-in nhanh chóng:  quét thẻ để lưu thời gian, điểm đến. 
+- được phát hành bởi 1 hệ thống, Hệ thống Thẻ lệnh 
 
-5. **lưu trữ lịch sử**: trên thẻ và trên hệ thống để tra cứu theo ID
-    - các lần bị kiểm tra bởi công an, cán bộ phường, ....
-    - các lần mua hàng bởi quản lý chợ, siêu thị 
-    - kết hợp nhiều cách lưu trữ để mang lại hiệu quả: ghi trên thẻ và lưu vào  theo ID
+Phôi Thẻ là thẻ được in ra, nhưng chưa được đóng dấu. 
 
-5. **Tính kết nối: với hệ thống chung để tối ưu hiệu quả, nhưng cho phép bổ sung trong tương lai**
-    - tìm kiếm thông tin theo ID trên hệ thống
-    - qrcode để mở rộng tính năng quản lý giám sát trong tương lai. 
+Với việc Địa phương cấp thẻ cho các cá nhân được phép ra ngoài, Chính quyền sẽ biết được chính xác số lượng người được phép ra ngoài. 
 
-Có thể thấy, **khẩu trang** là  1 cấu trúc có 4 yếu tố đầu tiên. Điều này khiến cho hệ thống khẩu trang rất hiệu quả trong việc chống dịch: hạn chế lây nhiễm covid và nhận biết người tuân thủ. 
+Với việc yêu cầu các bên check-in các hoạt động: 
+- Công an, dân phòng tại các điểm Checkpoint (chợ, siêu thị, chốt kiểm tra,...) quét thẻ mọi cá nhân đi qua.
+- Siêu thị, chợ quét thẻ mọi khách ra vào, lưa lại ID những khách mua hàng
+- Ghi nhận các vi phạm: cá nhân vi phạm việc đi lại, người 
 
-Và đây là thiết kế cho Thẻ Gia đình, 1 loại "Thẻ lệnh" dành cho gia đình
+Chính quyền sẽ biết được hoạt động của mọi người một cách chi tiết, đầy đủ theo khu vực, và theo địa điểm, khung giờ,... như 
 
-![](the_gia_dinh_overview.png)
+- Tại chốt kiểm tra, bao nhiêu người đã đi qua từ 8h-9h
+- Một cá nhân (ID) đến bao nhiêu chợ, siêu thị để hoàn thành 1 lần mua hàng.
+- Số lượng người đi làm tại 1 Phường xã. Ngày nào trong tuần có đông người đi làm nhất. 
+- Có bao nhiêu vi phạm trong 1 phường / xã
+- Có bao nhiêu nhân viên vi phạm của 1 Đơn vị
 
-Các phần quan trọng, giúp có được 5 yếu tố trên 
+Tất cả các số liêụ trên giúp Chính quyền đánh giá được thực tế xã hội, và có các biện pháp điều chỉnh để phục vụ chống dịch. 
 
-- **ID (100050009)**: duy nhất và sinh ra bởi hệ thống tập trung.  
-- **Phường xã đang sống**, cố định, liên quan tới 5 số đầu của ID
+### Điều chỉnh hành vi bằng Lệnh 
 
-- **Phần đóng dấu của Phường/ xã** để phục vụ cho việc triển khai nhanh chóng, cũng như dễ dàng nhận biết thật giả.
-- **Lịch sử ra ngoài, mua hàng**: khoanh tròn bởi công an là đánh dấu ngày ra ngoài, viết chéo bởi nhân viên siêu thị là để xác nhận ngày mua hàng.
-- **mã QRCode** là phần để kết nối với hệ thống, dễ dàng mở rộng sau. 
+**Lệnh** là các quy định hành chính áp dụng cho các đối tượng liên quan tới Thẻ. Các quy định này là cụ thể hoá nội dung phòng chống dịch của chính quyền, như chỉ thị 16 của chính phủ hay chỉ thị 12 của tp HCM. 
 
-Chi tiết tham khảo thêm [Triển khai Thẻ Gia đình](https://baotnq.qrcare.vn/trienkhai.html#triển-khai-thẻ-gia-đình)
+Lệnh cũng bao gồm các quy định xử phạt khi vi phạm, để tạo tính răn đe, "mệnh lệnh" phải tuân thủ. 
 
-#### Các bên có thể tương tác: 
-Người dân, chính quyền địa phương, doanh nghiệp, công an,... đều có thể tương tác lên từng "Thẻ lệnh".
+Ví dụ: **"Ra ngoài phải mang thẻ. Không mang sẽ bị xử phạt từ 1-3 triệu đồng theo quy định ra ngoài không có lý do chính đáng"** là 1 Lệnh, trên nội dung quy định của chỉ thị 16.
 
-Ban chỉ đạo chống dịch, dựa trên hệ thống Thẻ lệnh, có thể giám sát, quản lý các tương tác này từ xa. 
+#### Lệnh với người dân
 
-Chi tiết xem minh hoạ bên dưới 
+**Ra ngoài mua hàng**
+- Phải đeo Thẻ gia đình, trình thẻ tại các chốt để check-in.
+- Mua hàng theo quy định về ngày, khung giờ theo ID trên Thẻ. 
+- Trường hợp ra ngoài nhưng không mua hàng (hết hàng, không muốn mua, muốn đi chơi...) chỉ được ra ngoài tối đa 2 lần / 1 ngày. 
+- Vi phạm sẽ bị xử lý như ra ngoài không có lý do chính đáng. 
 
-![](moi-tuong-tac.png)
+**Đi làm**
+- Phải đeo Thẻ làm việc, Trình thẻ tại các chốt để check-in
+- Di chuyển không dừng giữa 2 Phường: đang sống và làm việc. 
+- Nếu dừng lại, mua bán, tiếp xúc với người khác tại Phường/Xã khác, sẽ bị xử lý. và thông báo tới Đơn vị chủ quản (doanh nghiệp, cơ quan quản lý,...) ghi trên Thẻ. 
 
-#### Giám sát chéo
-Cơ chế giám sát đan xen, hạn chế tối đa khe hở vi phạm, thiếu trách nhiệm. 
+**Tham gia chống dịch**
+- Tham gia chống dịch phải mang Thẻ chống dịch 
+- Trình thẻ tại các chốt để check-in
+- Chỉ được đi lại theo khu vực quy định trên thẻ.
+- Nếu phát hiện vi phạm, sẽ xử lý và thông báo tới Đơn vị chủ quản ghi trên Thẻ 
+
+Không chỉ với người dân, Lệnh còn áp dụng với Siêu thị, chợ, Đơn vị chủ quản, và cả Chính quyền địa phương.
+
+#### Lệnh cho siêu thị, chợ 
+- Bán hàng cho người không mang Thẻ gia đình sẽ bị xử phạt. 
+- Bán hàng cho Thẻ gia đình trong Phường/ Xã đang sống.
+- Đúng ngày theo 5 khung giờ mua bên dưới 
+- Đơn hàng phải có ID của Thẻ gia đình.
+
+Xử phạt cho từng tình huống vi phạm. Khung hình phạt cao hơn nếu tỉ lệ vi phạm chiếm > 1% số đơn hàng mỗi ngày. Tiếp diễn trên 3 lần sẽ bị đình chỉ hoạt động. 
+
+**5 khung giờ mua hàng** : dựa trên số cuối cùng từ 0 tới 9 của ID Thẻ gia đình, đây là 1 ví dụ: 
+- 7h-8h30: cho (1,2)
+- 9h-1030: cho (3,4)
+- 11h-12h30 cho (5,6)
+- 13h-14h30 cho (7,8)
+- 15h-16h30 cho (9,0)
+- mỗi khung giờ cách nhau 30 phút để hạn chế tụ tập 
+
+**Giới hạn 2 ngày 1 lần mua**: 
+- Dựa trên tính chẵn lẻ của ID: ID chẵn mua ngày chẵn.
+- 1 cách linh động hơn: một ID không được mua hàng 2 ngày liên tiếp. 
+
+Giới hạn 3 ngày 1 lần mua trở lên sẽ gây tâm lý tích trữ cho người dân, và cố tình vi phạm gây áp lực lên chợ, siêu thị. 
+
+Ưu tiên **đặt hàng tại nhà mỗi ngày theo ID** Thẻ gia đình để hạn chế ra ngoài mua hàng. 
+
+
+#### Lệnh cho Đơn vị chủ quản (Doanh nghiệp, cơ quan, ...)
+- Đơn vị chủ quản chịu trách nhiệm quản lý Thẻ đi làm của nhân viên. 
+- Nếu phát hiện nhân viên vi phạm, Đơn vị sẽ liên đới bị xử phạt theo quy định....
+- Nếu số lượng vi phạm chiếm > 5% tổng số Thẻ đã cấp, Đơn vị sẽ bị xử phạt cao hơn theo quy định. 
+
+#### Lệnh cho Phường / Xã
+- Cấp Cho mỗi hộ gia đình, nhà trọ, phòng trọ,... 1 Thẻ gia đình. Các bộ Phường sẽ bị xử lý nếu phát hiện tiêu cực trong Cấp Thẻ
+- Hàng tuần tới từng nhà dân, đôn đốc hướng dẫn chống dịch, xác nhận bằng cách quét Thẻ gia đình. Phường nào có tỉ lệ xác nhận dưới 95%, xem như thiếu trách nhiệm trong công tác phòng dịch. 
+
+#### Lệnh cho Công an, Dân phòng
+- Quét thẻ mọi cá nhân qua Chốt kiểm tra.
+- Trường hợp tập trung đông tại chốt, có thể để người dân tự quét theo theo hướng dẫn sau....
+
+Trên đây là tổng quan về các Lệnh cho vùng dịch áp dụng chỉ thị 16. Để đưa vào thực tế, cần chi tiết hơn, cũng như liên tục cải thiện các lệnh này để bao quát mọi tình huống phát sinh.
+
+Kết hợp các Lệnh này đồng bộ, sẽ tạo cơ chế **giám sát chéo** giữa các đối tượng, khiến cho việc vi phạm rất dễ bị phát hiện.
+Nhờ vậy Thẻ lệnh có tính răn đe cao, khiến mọi người dẹp bỏ các tư tưởng tiêu cực như *"cứ vi phạm xem sao, xui lắm thì mới bị  phát hiện"*
 
 ![](giam-sat-cheo.png)
 
-Hướng dẫn chi tiết, bao gồm luôn cách giám sát, kèm các chế tài xử lý vi phạm rõ ràng sẽ giúp mọi bên tự động tuân thủ. Loại bỏ  suy nghĩ tiêu cực của mọi người: **tìm cách vi phạm và tin rằng sẽ không bị phát hiện**
+Kết hợp Thẻ Lệnh vẫn là điều kiện cần. Muốn giải pháp mang lại hiệu quả thực tế, cần triển khai một cách "Hệ thống", đồng nhất và bao phủ mọi đối tượng liên quan. 
 
-Một số trường hợp đặc biệt, sẽ có tài khoản sử dụng trên **MobileApp** riêng. Phần công nghệ này có thể bổ sung sau.
+### Tăng tuân thủ, giảm vi phạm bằng Hệ thống Thẻ Lệnh 
 
-Với cơ chế giám sát chéo và hệ thống tập trung, Thẻ gia đình giải quyết nhiều hạn chế của các giải pháp đang có.
-Tham khảo thêm [Bất cập của phiếu ra đường, thẻ đi chợ](https://baotnq.qrcare.vn/trienkhai.html#bất-cập-của-phiếu-ra-đường-thẻ-đi-chợ)
+**Mọi đối tượng cần tuân thủ**
 
+Người dân cần tuần thủ Lệnh: đeo thẻ ra đường, tuân thủ các giới hạn mà Thẻ quy định. Đồng thời đưa thẻ để check-in hoặc tự check-in tại các điểm Checkpoint.
 
-Sau 1 thời gian triển khai "hệ thống Thẻ lệnh", vùng dịch có thể thực hiện **mục tiêu kép** chống dịch và phát triển kinh tế
-### Thực hiện "Mục tiêu kép" của chính phủ 
+Siêu thị, chợ cần tuân thủ các Lệnh về phục vụ người dân. 
 
+Với các địa phương: cán bộ Phường/Xã, công an dân phòng: hoàn thành tốt các nhiệm vụ mà Lệnh đưa ra chính là tuân thủ. 
 
-- **Tập trung chống dịch khu vực nguy cơ cao** : khoanh vùng chặt chẽ,  xét nghiệm toàn bộ liên tục để tách hết F0 để chuyển thành vùng an toàn. 
+Ngoài ra cần nhắc nhở hỗ trợ lẫn nhau để **cùng tuân thủ**. 
+- Cán bộ hướng dẫn về các lệnh cho người dân.
+- Nhân viên siêu thị, chợ hướng dẫn cho khách hàng.
+- Công an, dân phòng hướng dẫn người dân tự giác check-in.
 
-- **Giảm bớt giãn cách để phát triển kinh tế bên trong khu vực an toàn**: cho phép mở lại nhiều hoạt động hơn bên trong, và vẫn duy trì xét nghiệm 
+Tăng cường sự tuân thủ trong cộng đồng, là giá trị của Hệ thống Thẻ lệnh, bên cạnh với việc hạn chế vi phạm. Việc hạn chế được thực hiện bằng kiểm tra thường xuyên và giám sát để ngăn ngừa vi phạm trong tương lai.
 
-- **Hệ thống cảnh báo sớm** Xét nghiệm theo từng nhóm nguy cơ cao, để nhanh chóng phát hiện, để hạn chế dịch bùng phát trong tương lai. 
+#### Kiểm tra để phát hiện vi phạm 
 
-Sau đây chúng ta sẽ chi tiết 3 nhiệm vụ chính của hệ thống Thẻ lệnh:
-### Nhiệm vụ 1: Chia vùng dịch thành các khu vực liền kề
 
-Khi triển khai một số mệnh lệnh lên hệ thống Thẻ lệnh, sẽ khiến cho hầu hết hoạt động của mọi người tập trung bên trong từng khu vực. Người dân chỉ mua hàng bên trong khu vực, không vô ý di chuyển sang khu vực lân cận. 
+#### Giám sát để ngăn ngừa vi phạm trong tương lai 
 
-Quan trọng hơn, việc giới hạn hoạt động theo khu vực diễn ra một cách "vô thức", không phụ thuộc vào tinh thần tự giác của người dân. Các cá nhân ra vào khu vực để làm việc, giao hàng theo Thẻ cá nhân tuân thủ một cách "vô thức", cũng như được kiểm soát chặt khi cần thiết.
+- Vi phạm vì hoàn cảnh 
+- Thiếu trách nhiệm vì bất lực 
 
-Tỉ lệ cố ý vi phạm, ra khỏi khu vực không có lý do sẽ ít đi nhiều. Việc phát hiện dễ dàng, xử phạt rõ ràng theo quy định, càng khiến cho số lượng vi phạm dần về 0. 
 
-#### Hạn chế ra ngoài mua nhu yếu phẩm 
+### Lấy mẫu xét nghiệm hiệu quả an toàn
 
-Thẻ gia đình sẽ bảo đảm ra mỗi gia đình chỉ có 1 người ra ngoài mua nhu yếu phẩm. 
+Hiệu quả trong việc phân loại đối tượng 
 
-Với lệnh, **người bán ghi nhận ngày mua hàng ở mặt sau tấm thẻ**, sẽ giúp phát hiện dễ dàng việc cố tình ra ngoài nhiều lần mà không mua hàng. 
+An toàn trong khâu tổ chức
 
-Với lệnh: **chỉ bán cho người có thẻ, không vượt giới hạn mua theo ngày**, giúp loại bỏ nhu cầu ra ngoài mua hàng không cần thiết. 
+### Hỗ trợ đúng đối tượng khó khăn 
 
-Đồng thời, **yêu cầu bên bán đưa ra các ưu đãi mua hàng tại nhà**, sẽ hạn chế nhu cầu ra ngoài mua hàng. 
+Xác nhận hoàn cảnh khó khăn 
 
-Kết hợp lại, sẽ tạo ra một lệnh mạnh mẽ, phân biệt nhanh người cố tình vi phạm. Bản thân mỗi người cũng biết điều này, khiến họ "vô thức" hạn chế ra đường. 
+Gia đình hoặc cá nhân gặp khó khăn gửi phản ánh theo Thẻ
 
-Hạn chế được mọi người dân ra đường theo tinh thần của chỉ thị 16, giúp việc áp dụng các bước sau nhanh chóng, ít bị phản kháng.
-#### Giới hạn hoạt động của người dân bên trong khu vực  
+Mọi người đều lắng nghe 
 
-Ra lệnh bên bán **không phục vụ cư dân ngoài khu vực cụ thể**, cũng như thông báo về cơ chế xử phạt nếu bị phát hiện, sẽ "vô thức" hạn chế việc di chuyển ra ngoài khu  vực của người dân
+Địa phương hỗ trợ kịp thời 
 
-Tỉ lệ vi phạm sẽ giảm hơn nhiều và dễ bị phát hiện, khiến số lượng ngày càng giảm 
+Từ thiện đúng người, đúng nhu cầu 
 
-Việc giới hạn một cách tự nhiên cho mọi người mang thẻ dựa trên một lý thuyết là "cấu trúc ảnh hưởng tới hành vi của mọi đối tượng bên trong" và số lượng vi phạm ngày càng giảm là một tiến trình tăng cường theo thời gian. Tham khảo hai phần này trong cuốn [Nguyên lý thứ 5](https://vietnambiz.vn/nguyen-li-thu-nam-the-fifth-discipline-la-gi-cac-nguyen-tac-chinh-20191214001907077.htm) 
+### Chống dịch và phát triển kinh tế theo Phường/Xã. 
 
-#### Giám sát việc di chuyển ra, vào ngoài khu vực 
+Mô hình "Ruộng bậc thang" Phường/Xã 
 
-Thẻ làm việc dành cho đội giao hàng, nhân viên đi làm thường xuyên ra, vào khu vực,... giúp cho việc giám sát trở nên dễ dàng.
-Yêu cầu tới đường giáp ranh, **khai báo tự nguyện bằng cách quét thẻ tại các điểm Checkpoint** 
+Tập trung chống dịch theo "Ruộng bậc thang" Phường/Xã 
 
-Dựa vào đó dễ dàng phân biệt các cá nhân không có Thẻ, hoặc chỉ có Thẻ gia đình. 
-
-Khi cần tăng mức độ kiểm soát ra ngoài khu vực, bổ sung thêm công an, dân phòng tại các điểm Checkpoint và yêu cầu tất cả tuân thủ như khai báo y tế, xét nghiệm, hoặc cách ly,...
-
-Kết quả của việc đồng thời thực hiện các việc trên, giúp phân chia vùng dịch thành những khu vực hoạt động nội bộ, việc đi lại giữa hai khu vực liền kề được giám sát. Hình thành mạng lưới khu vực liền kề, giống **ruộng bậc thang** hạn chế việc lây lan của covid đi xa một cách hiệu quả. 
-
-Hạn chế và khoanh vùng lây lan theo ruộng bậc thang, giúp nguồn lực được tập trung, sử dụng hiệu quả với hệ thống Thẻ lệnh để 
-có thể thực hiện nhiệm vụ tiếp theo.
-### Nhiệm vụ  2. Huy động mọi người bên trong khu vực  cùng tham gia chống dịch
-
-Muốn chống dịch hiệu quả, bên cạnh tinh thần tự giác, cần mọi người cùng phối hợp, tuân thủ những yêu cầu đưa ra. 
-#### Hệ thống liên lạc đa chiều
-
-giữa Bộ chỉ huy và mọi đối tượng: người dân, doanh nghiệp địa phương, cán bộ địa phương, và đội ngũ y tế dùng chung. Có nhiều cơ chế liên lạc tuỳ tình hình
-
-- Truyền lệnh tổng quát, từ xa: thông qua báo chí truyền hình, ...
-- Giải thích lệnh theo từng khu vực, Phường / xã nhỏ hơn:
-- hướng dẫn trực tiếp tại từng nhà bởi các bộ địa phương
-- đôn đốc cán bộ địa phương bám sát mọi gia đình, hạn chế bỏ sót 
-- người dân nhắc nhở, hướng dẫn nhau về cách thực hiện. 
-- Các cá nhân mang thẻ, gửi dữ liệu thực tế về Bộ chỉ huy khi có yêu cầu hoặc tự giác thực hiện. 
-
-Tăng cường mở rộng, kết hợp nhiều công nghệ: thiết bị tự động, phân tích dữ liệu để tối ưu tổ chức, mô hình dự đoán xu hướng dịch bệnh,... giúp nâng cao năng lực, hiệu quả của hệ thống Thẻ lệnh. 
-#### Huy động mọi nguồn lực
-Với hệ thống liên lạc mạnh mẽ, nhiều kênh này, sẽ huy động được nguồn lực của cộng đồng
-
-- **Người dân** Sự hợp tác, tuân thủ của mọi gia đình
-- **Nguồn lực địa phương**: cán bộ địa phương, tình nguyện viên và cả doanh nghiệp địa phương 
-- **Nguồn lực tập trung** được điều phối khoa học, tối ưu và cải thiện theo thời gian. 
-
-Khi việc chống dịch diễn ra thường xuyên: như xét nghiệm tập trung, định kỳ, tiêm vacxin theo đợt,... Hệ thống Thẻ lệnh cũng giúp tạo ra thói quen cho mọi người, như : đến đúng nơi, đúng giờ, di chuyển trật tự,... 
-
-Thói quen này chính là nguồn sức mạnh vô cùng lớn để chống dịch hiệu quả. 
-
-#### Đối tượng lẩn tránh, thiếu trách nhiệm, tiêu cực 
-
-Ngoài ra, Hệ thống Thẻ lệnh còn giúp lọc ra các đối tượng "lẩn tránh, bỏ sót, và chểnh mảng":
-- các gia đình không tham gia theo lệnh
-- các gia đình, cá nhân bị bỏ sót, chưa được cấp thẻ.
-- các địa phương có cán bộ, đội ngũ chểnh mảng, thiếu trách nhiệm trong chống dịch. 
-- các địa phương có tiêu cực trong cấp thẻ, dấu số liệu, ...
-
-Đây là những nguy cơ cao, không chỉ lây lan mà còn tạo nguy cơ bùng phát âm thầm, gây nguy hại rất lớn.
-
-Khi dịch bệnh được kiềm chế trong một khu vực, và cho phép hoạt động lại các hoạt động phát triển kinh tế nội khu, thì nguy cơ xâm nhập từ bên ngoài vẫn thường trực. Hệ thống Thẻ lệnh lúc này đóng vai trò cảnh báo sớm, đồng loạt kích hoạt các biện phát kiềm chế. Đó là nhiệm vụ thứ 3.
-
-### Nhiệm vụ 3: Hệ thống cảnh báo, kiềm soát Covid bùng phát theo khu vực. 
-
-#### Tại sao cần hệ thống này? 
-
-Covid là một cấu trúc mạnh mẽ, tăng cường lây lan dựa trên hệ thống di chuyển phức tạp của xã hội loài người. Mà việc di chuyển của mọi người là xương sống của nền kinh tế của loài người. 
-
-Có 2 chiến lược chính để đối kháng nguy cơ của Covid:
-
-- **Chiến lược chữa trị**: giảm thiệt hại kinh tế bằng hạn chế tương đối, cho phép Covid lây lan, tiêm chủng để hạn chế tổn thất nhân mạng và giữ cho hệ thống y tế kịp đáp ứng. 
-- **Chiến lược phòng bệnh**: chấp nhận thiệt hại kinh tế, kiểm soát đi lại, và quét nguy cơ ra khỏi cộng đồng. 
-
-Hiện tại chiến lược phòng bệnh đang gặp nhiều khó khăn tại nhiều nước từng thành công trong 2020, nhưng không có nghĩa là chiến lược phòng bệnh không kháng cự được với dịch Covid, chỉ là chúng ta chưa tìm ra, và áp dụng đủ sớm thôi. 
-
-"Hệ thống Thẻ lệnh" là một công cụ mạnh mẽ để thực hiện chiến lược phòng bệnh như trên.
-
-####  Hệ thống này có khả thi để đối phó Covid ko? 
-
-
-Chống lại 1 cấu trúc hệ thống mạnh mẽ như Dịch Covid, cần phải đưa ra 1 cấu trúc hệ thống đối kháng mạnh, cho phép nâng cấp, tăng cường khả năng đối kháng trong tương lai. 
-
-Khi hiểu rõ hơn về cấu trúc covid, chúng ta sẽ tìm ra nhiều cấu trúc hệ thống đối kháng tương ứng.
-
-Hệ thống Thẻ lệnh là dựa trên ý tưởng **"ruộng bậc thang hạn chế rò rỉ nước"** khoanh vùng khu vực, tạo thành dạng ruộng bậc thang nguy cơ để hạn chế lay lan.
-
-Và khi phát hiện 1 khu vực có nguy cơ, nhanh chóng kích hoạt "Thẻ lệnh" trong toàn hệ thống để tăng cường cảnh giác. 
-
-Nếu mọi người đều quen với hệ thống này, thì việc kích hoạt có thể triển khai trong 1 ngày. So với "khả năng lây sau 2-3 ngày" và đó là tốc độ đủ để kiềm soát covid. 
-
-#### Mở rộng số lượng Thẻ theo nhu cầu hoạt động. 
-
-Khi dịch bệnh được kiểm soát trong 1 khu vực (hoặc tỉnh / tp), 1 gia đình sẽ có các các thẻ.
-
-![](the-1-nha.png)
-
-- Giữ nguyên cấu trúc: 1 Thẻ gia đình và duy trì chính sách bán hàng theo gia đình. 
-
-- Bổ sung Thẻ đi làm: khi mở rộng hoạt động kinh tế, các doanh nghiệp nội khu vực sẽ đăng ký Thẻ đi làm và cấp cho từng hộ gia đình. 
-
-- Thêm Thẻ chống dịch cho người dân muốn tham gia: 
-
-#### Cảnh báo sớm theo màu của thẻ.
-
-**Màu đỏ (Thẻ chống dịch)**: nguy cơ bị lây, và lây lan cao nhất
-
-- cần chú ý các tình nguyện viên: ít được tiêm vacxin, kỹ năng hạn chế bị lây thấp
-- ưu tiên vacxin và liên tục xét nghiệm: 1,2 ngày / 1 lần
-
-**Màu vàng (Thẻ đi làm)**: chia thành 2 nhóm
-- đi làm ngoài khu vực sinh sống: nhất là giao hàng liên tỉnh, lái xe đường dài cần thường xuyên xét nghiệm: 2,3 lần ngày / 1 lần. 
-
-- đi làm trong cùng khu vực sinh sống: rủi ro thấp hơn: 4,5 ngày / 1 lần
-
-**Màu xanh (thẻ gia đình)**: 
-
-Việc xét nghiệm theo nhóm thẻ giúp tối ưu nguồn lực xét nghiệm nhưng vẫn giữ được tính cảnh báo sớm Covid trong khu vực. 
-
-#### Quy hoạch các hoạt động bên trong khu vực
-
-- Các dịch vụ cho người dân bên trong khu vực: công viên, trường học, khu vui chơi ngoài trời,... cần tuân theo các tiêu chuẩn phòng và giám sát dịch trước khi hoạt động
-- Ưu tiên cho các doanh nghiệp sắp xếp đội ngũ nhân viên, bố trí nơi ở và làm việc bên trong 1 khu vực. 
-
-tham khảo thêm : 
-
-- [Hỗ trợ các gia đình khó khăn](https://baotnq.qrcare.vn/trienkhai.html#hỗ-trợ-các-gia-đình-khó-khăn)
-
-- [Tổ chức dịch vụ nội khu](https://baotnq.qrcare.vn/trienkhai.html#tổ-chức-dịch-vụ-nội-khu)
-
-
-### Tổng kết 
-
-Trên đây là những nội dung tổng quan về Hệ thống Thẻ lệnh.
-
-
-Để đưa vào thực tế, cần tìm hiểu thêm giải pháp chi tiết.
-Phần này được tách riêng trong 1 bài viết độc lập. 
-
-Xem link bên dưới
-
-- [Triển khai Hệ thống Thẻ lệnh vào thực tế](http://baotnq.qrcare.vn/trienkhai.html)
-
-#### Góp ý, liên hệ:
-
-Cảm ơn đã dành thời gian đọc tới đây. Có nhiều nội dung, cần trao đổi trực tiếp mới giải thích được. 
-
-Rất mong đề xuất này gửi tới được đến Ban chỉ đạo chống dịch, hoặc các lãnh đạo của Chính phủ. 
-
-Tôi luôn chào đón mọi phản biện của mọi người. 
-
-Mọi góp ý gửi về **quocbao.tn@gmail.com** 
-hoặc gọi điện tới số: **076 784 7421**
-
-
- 
-
-
-
-
+Phát triển kinh tế trong Phường/Xã an toàn 
+- Sống và làm việc trong khu vực
+- Tách biệt giữa Giao hàng nội khu và Vận chuyển liên khu 
+- khoanh vùng hoạt động theo khu vực
 
 
 

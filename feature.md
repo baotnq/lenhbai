@@ -1,11 +1,11 @@
-# Tổng quan về hệ thống Lệnh bài
+# Tổng quan về hệ thống Thẻ lệnh
 
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Tổng quan về hệ thống Lệnh bài](#tổng-quan-về-hệ-thống-lệnh-bài)
+- [Tổng quan về hệ thống Thẻ lệnh](#tổng-quan-về-hệ-thống-thẻ-lệnh)
     - [Hiển thị khi quét QRCode trên thẻ](#hiển-thị-khi-quét-qrcode-trên-thẻ)
       - [Thông tin thẻ](#thông-tin-thẻ)
       - [Danh sách cửa hàng trong Phường/ Xã, được bán:](#danh-sách-cửa-hàng-trong-phường-xã-được-bán)
@@ -20,7 +20,10 @@
 
 
 ### Hiển thị khi quét QRCode trên thẻ
-> https://lenhbai.vn/id/{10_so}/p/{8_so}
+> Thẻ gia đình https://tl.qrcare.vn/id/{10_so}/p/{8_so}
+> Thẻ đi làm: https://tl.qrcare.vn/lv/{11_so}/p/{8_so}
+> Thẻ tài xế: https://tl.qrcare.vn/tx/{11_so}/p/{8_so}
+
 
 #### Thông tin thẻ 
 - ID (10 số)
@@ -30,6 +33,14 @@
 
 Trường hợp status : INACTIVE: Hiện thông tin: thẻ này bị khoá
 
+Backend
+
+- `/api/qrpackage/getInfo` 
+- input:
+```
+id: 10_so
+p: 8_so
+```
 
 #### Danh sách cửa hàng trong Phường/ Xã, được bán: 
 được cán bộ Phường cập nhật danh sách từ file excel lên hệ thống: 
@@ -38,6 +49,15 @@ Trường hợp status : INACTIVE: Hiện thông tin: thẻ này bị khoá
 - địa điểm (orgLocation)
 - số điện thoại đặt hàng tại nhà (orgPhone)
 
+Backend
+- `/api/qrpackage/{id_5so}/dscuahang`
+
+- output
+```json
+[ {
+  }
+]
+```
 #### Lịch sử tới chợ siêu thị: 
 
 được cập nhật mỗi ngày do siêu thị, chợ gửi file excel lên hệ thống
