@@ -116,8 +116,7 @@ Tất cả các số liêụ trên giúp Chính quyền đánh giá được th�
 Lệnh cũng bao gồm các quy định xử phạt khi vi phạm, để tạo tính răn đe, "mệnh lệnh" phải tuân thủ. 
 
 Ví dụ: **"Ra ngoài phải mang thẻ. Không mang sẽ bị xử phạt từ 1-3 triệu đồng theo quy định ra ngoài không có lý do chính đáng"** là 1 Lệnh, trên nội dung quy định của chỉ thị 16.
-
-#### Lệnh với người dân
+#### Lệnh cho người dân
 
 **Ra ngoài mua hàng**
 - Phải đeo Thẻ gia đình, trình thẻ tại các chốt để check-in.
@@ -189,7 +188,7 @@ Kết hợp Thẻ Lệnh vẫn là điều kiện cần. Muốn giải pháp man
 
 **Mọi đối tượng cần tuân thủ**
 
-Người dân cần tuần thủ Lệnh: đeo thẻ ra đường, tuân thủ các giới hạn mà Thẻ quy định. Đồng thời đưa thẻ để check-in hoặc tự check-in tại các điểm Checkpoint.
+Người dân cần tuân thủ: đeo thẻ ra đường, tuân thủ các giới hạn mà Thẻ quy định, đưa thẻ để check-in hoặc tự check-in tại các điểm Checkpoint.
 
 Siêu thị, chợ cần tuân thủ các Lệnh về phục vụ người dân. 
 
