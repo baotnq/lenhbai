@@ -1,31 +1,52 @@
+## Thẻ Lệnh: Chống dịch hiệu quả và phát triển kinh tế bên trong Phường/Xã an toàn.
 
+Thẻ Lệnh là một chiến lược truy quét F0 ra khỏi cộng đồng. 
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=3 orderedList=false} -->
+Để thực hiện chiến lược này cần cấp Thẻ cho mọi cá nhân được phép ra ngoài mua hàng, làm việc và chống dịch.
+
+![](3-loai-the.png)
+
+Sau đó, ra "Lệnh" cho các cá nhân này đeo Thẻ và quét thẻ tại các địa điểm đến như siêu thị, chợ, chốt kiểm tra,... 
+để tạo dữ liệu di chuyển của mọi người. 
+Kết hợp với nhiều Lệnh khác dành cho Doanh nghiệp, Chính quyền địa phương,..., huy động các bên cùng kiểm soát tất cả ra vào Phường/Xã mỗi ngày. 
+
+Khi tất cả Phường/Xã kiểm soát được việc ra vào mỗi ngày, đồng nghĩa việc lây lan Covid giữa các Phường được kiểm soát. Lúc này tập trung truy quét F0 bằng cách lấy mẫu xét nghiệm toàn bộ Thẻ mà Phường đã cấp. 
+
+Việc truy quét theo Phường cần hoàn thành trong 1 ngày, không bỏ sót Thẻ nào, trước khi chuyển sang Phường bên cạnh. Thực hiện liên tục như vậy, toàn vùng dịch sẽ được lấy mẫu 2 lần sau 12 ngày, 3 lần sau 21 ngày,...
+
+Khi hết F0 trong cộng đồng, cho phép mở lại các hoạt động kinh tế bên trong Phường/Xã. Việc kiểm soát ra vào được giảm bớt và chuyển sang tự giám sát. Bên cạnh đó định kỳ xét nghiệm các Thẻ có lịch sử ra vào Phường, để phát hiện sớm nguy cơ. 
+
+Khi dịch đã được đẩy lùi, bất ngờ 1 Phường an toàn phát hiện F0 trong cộng đồng, Thẻ Lệnh sẽ kích hoạt 2 Lớp kiểm soát để ngăn chặn lây lan. Xét nghiệm tất cả các Thẻ có lịch sử ra vào. Nếu 1 Thẻ là F0 thì Phường nơi F0 đến hoặc đi xem như có F0 cộng đồng. Đội Chống dịch sẽ tập trung truy quét toàn bộ Thẻ trong các Phường nguy cơ này. 
+
+Ngoài ra thông qua Thẻ Lệnh, các gia đình khó khăn được hỗ trợ đúng và kịp thời. Siêu thị, chợ giải quyết việc giao hàng tại nhà bằng đội shipper nội khu. Doanh nghiệp bố trí lại nhân viên để hoạt động an toàn trong vùng dịch,...
+
+Khi vùng dịch trở lại "bình thường mới", Thẻ Lệnh vẫn hiện diện như là công cụ phát hiện và ngăn chặn sớm nguy cơ: Covid và dịch bệnh trong tương lai. Nó hình thành một số thói quen tốt cho mọi người, để "sinh hoạt và làm việc trong một khu vực an toàn".
+
+**Mục lục**
+<!-- @import "[TOC]" {cmd="toc" depthFrom=3 depthTo=3 orderedList=false} -->
 
 <!-- code_chunk_output -->
 
-- [Hệ thống Thẻ Lệnh](#hệ-thống-thẻ-lệnh)
-  - [Vấn đề: thiếu số liệu di chuyển của mọi người](#vấn-đề-thiếu-số-liệu-di-chuyển-của-mọi-người)
-  - [Cấp Thẻ cho các đối tượng được phép ra ngoài.](#cấp-thẻ-cho-các-đối-tượng-được-phép-ra-ngoài)
-  - [Thu thập số liệu thực tế bằng quét Thẻ](#thu-thập-số-liệu-thực-tế-bằng-quét-thẻ)
-  - [Điều chỉnh hành vi bằng Lệnh](#điều-chỉnh-hành-vi-bằng-lệnh)
-  - [Tăng tuân thủ, giảm vi phạm bằng Hệ thống Thẻ Lệnh](#tăng-tuân-thủ-giảm-vi-phạm-bằng-hệ-thống-thẻ-lệnh)
-  - [Lấy mẫu xét nghiệm hiệu quả an toàn](#lấy-mẫu-xét-nghiệm-hiệu-quả-an-toàn)
-  - [Hỗ trợ đúng đối tượng khó khăn](#hỗ-trợ-đúng-đối-tượng-khó-khăn)
-  - [Công việc Giao nhận Nội khu cho cư dân mất thu nhập](#công-việc-giao-nhận-nội-khu-cho-cư-dân-mất-thu-nhập)
-  - [Phát triển kinh tế trong Phường/Xã an toàn.](#phát-triển-kinh-tế-trong-phườngxã-an-toàn)
+- [Vấn đề: Thiếu số liệu di chuyển của mọi người](#vấn-đề-thiếu-số-liệu-di-chuyển-của-mọi-người)
+- [Cấp Thẻ cho mọi đối tượng được phép di chuyển.](#cấp-thẻ-cho-mọi-đối-tượng-được-phép-di-chuyển)
+- [Thu thập số liệu di chuyển bằng quét Thẻ](#thu-thập-số-liệu-di-chuyển-bằng-quét-thẻ)
+- [Điều chỉnh việc di chuyển của mọi người bằng Lệnh](#điều-chỉnh-việc-di-chuyển-của-mọi-người-bằng-lệnh)
+- [Tăng tuân thủ, giảm vi phạm bằng Thẻ Lệnh](#tăng-tuân-thủ-giảm-vi-phạm-bằng-thẻ-lệnh)
+- [Truy quét hiệu quả F0 trong cộng đồng bằng Thẻ Lệnh](#truy-quét-hiệu-quả-f0-trong-cộng-đồng-bằng-thẻ-lệnh)
+- [Hỗ trợ đúng gia đình khó khăn qua Thẻ](#hỗ-trợ-đúng-gia-đình-khó-khăn-qua-thẻ)
+- [Giúp dân nghèo có thu nhập bằng Shipper Nội khu](#giúp-dân-nghèo-có-thu-nhập-bằng-shipper-nội-khu)
+- [Hệ thống phát hiện sớm F0 trong vùng "bình thường mới"](#hệ-thống-phát-hiện-sớm-f0-trong-vùng-bình-thường-mới)
 
 <!-- /code_chunk_output -->
+ 
 
-## Hệ thống Thẻ Lệnh
-
-### Vấn đề: thiếu số liệu di chuyển của mọi người 
+### Vấn đề: Thiếu số liệu di chuyển của mọi người
 
 Hiện tại có nhiều biện pháp đang triển khai để hạn chế hoạt động của người dân theo Chỉ thị 16 của chính phủ, như Phiếu mua hàng để hạn chế ra ngoài mua hàng và Giấy đi đường để cấp phép cho cá nhân ra ngoài làm việc. 
 
 #### Phiếu mua hàng 
 
-Mỗi địa phương có mẫu phiếu mua hàng khác nhau, nhưng cách làm thì không khác nhau nhiều. Sau nhiều lần cải tiến, Tp Hồ Chí Minh đang áp dụng mẫu Phiếu bên dưới. 
+Mỗi địa phương có mẫu phiếu riêng, nhưng cách làm thì khá giống nhau. Sau nhiều lần cải tiến, Tp Hồ Chí Minh đang áp dụng mẫu Phiếu bên dưới. 
 
 ![](phieu-mua-hang-mau.png)
 
@@ -57,7 +78,7 @@ Thiếu số liệu thực tế khiến việc đánh giá tác động của c�
 
 Cần một cách làm mới để trả lời 2 câu hỏi trên, đó là cấp thẻ cho mọi cá nhân được phép ra ngoài và thu thập dữ liệu di chuyển của các Thẻ này. 
 
-### Cấp Thẻ cho các đối tượng được phép ra ngoài. 
+### Cấp Thẻ cho mọi đối tượng được phép di chuyển. 
 
 Thẻ là 1 tấm giấy, kích thước bằng thẻ ngân hàng, kèm theo dây đeo. Nên dùng giấy (thay vì nhựa) để làm thẻ để in ấn dễ dàng và tiết kiệm chi phí.  
 
@@ -80,6 +101,7 @@ Có 3 loại thẻ chính cho 3 nhu cầu: ra ngoài mua hàng, làm việc hay 
 **Thẻ chống dịch** (màu đỏ)
 
 ![](the-chong-dich.png)
+
 - Dành cho cá nhân tham gia chống dịch như: cán bộ địa phương, công an dân phòng, đội ngũ y tế, tình nguyện viên, nhà báo,...
 - Chính quyền cấp Thẻ cho các đơn vị chống dịch. Các đơn vị này sẽ cấp cho cá nhân tham gia chống dịch.
 
@@ -99,7 +121,7 @@ Phôi Thẻ được phát hành từ hệ thống và in thành Thẻ giấy. C
 
 Việc cấp Thẻ đồng loạt cho mọi Phường/Xã kéo dài tầm 3-4 ngày, sau đó Chính quyền sẽ biết được chính xác số lượng người được phép ra ngoài theo từng Phường/Xã, Quận / Huyện hay cả Tỉnh / TP. 
 
-### Thu thập số liệu thực tế bằng quét Thẻ 
+### Thu thập số liệu di chuyển bằng quét Thẻ 
 
 Mọi cá nhân ra ngoài phải đeo thẻ và thực hiện quét thẻ 
 
@@ -108,11 +130,11 @@ Mọi cá nhân ra ngoài phải đeo thẻ và thực hiện quét thẻ
 - Tại chốt kiểm tra, do công an, dân phòng dùng app thực hiện. 
 
 - Tại lối vào, ra của địa điểm tổ chưc lấy mẫu xét nghiệm,tiêm vacxin: dùng app quét thẻ mọi cá nhân tham gia. 
+- Các Thẻ vi phạm cũng được quét Thẻ để lưu vào hệ thống. 
 
 Đặt nhiều Checkpoint (ID khác nhau) để người dân tự quét thẻ, giúp thu thập dữ liệu xếp hàng, di chuyển qua các điểm này. 
 Các điểm tổ chức lấy mẫu xét nghiệm, hoặc các chốt đông người xếp hàng nên áp dụng cách này để phân luồng và bảo đảm 5K. 
 
-Các Thẻ vi phạm cũng được quét Thẻ để lưu vào hệ thống. 
 
 Ngoài việc quét Thẻ, có thể áp dụng **cách thủ công, là ghi ID Thẻ vào mẫu giấy in sẵn**. Việc ghi chú cho 1 Thẻ diễn tầm 15 giây: viết 10 số và thời điểm (10:35) và việc số hoá cuối ngày cũng tầm 15 giây 1 Thẻ.  
 
@@ -126,7 +148,7 @@ Lịch sử đi lại, tụ tập của mọi người sẽ được thu thập 
 
 Từ số liêụ trên, Chính quyền đánh giá được thực tế xã hội, và có các biện pháp điều chỉnh hành vi của mọi người để phục vụ chống dịch. 
 
-### Điều chỉnh hành vi bằng Lệnh 
+### Điều chỉnh việc di chuyển của mọi người bằng Lệnh 
 
 **Lệnh** là các quy định hành chính áp dụng cho các đối tượng liên quan tới Thẻ. Các quy định này là cụ thể hoá nội dung phòng chống dịch của chính quyền, như chỉ thị 16 của chính phủ hay chỉ thị 12 của tp HCM. 
 
@@ -198,13 +220,11 @@ Lưu ý:
 Trên đây là tổng quan về các Lệnh cho vùng dịch áp dụng chỉ thị 16. Để đưa vào thực tế, cần chi tiết hơn, cũng như liên tục cải thiện các lệnh này để bao quát mọi tình huống phát sinh.
 
 Kết hợp các Lệnh này đồng thời, sẽ tạo cơ chế **giám sát chéo giữa các đối tượng**, khiến cho việc vi phạm rất dễ bị phát hiện.
-Nhờ vậy Thẻ Lệnh có tính răn đe cao, khiến mọi người dẹp bỏ các tư tưởng tiêu cực như *"thử vi phạm, xui lắm thì mới bị  phát hiện"*
-
-![](giam-sat-cheo.png)
+Nhờ vậy Thẻ Lệnh có tính răn đe cao, khiến mọi người dẹp bỏ các tư tưởng tiêu cực như *"cứ vi phạm, xui lắm thì mới bị  phát hiện"*
 
 Kết hợp Thẻ Lệnh vẫn là điều kiện cần. Muốn giải pháp mang lại hiệu quả thực tế, cần triển khai một cách "Hệ thống", đồng nhất và bao phủ mọi đối tượng liên quan. 
 
-### Tăng tuân thủ, giảm vi phạm bằng Hệ thống Thẻ Lệnh 
+### Tăng tuân thủ, giảm vi phạm bằng Thẻ Lệnh 
 
 **Tuân thủ là trách nhiệm của mọi đối tượng**
 
@@ -262,7 +282,7 @@ Hệ thống Thẻ Lệnh được xây dựng dựa trên Tư duy hệ thống:
 
 Bên cạnh việc điều chỉnh hoạt động xã hội để trở nên trật tự hơn, nhiệm vụ quan trọng khác của Thẻ lệnh là tăng tính hiệu quả của Chống dịch bằng truy quét F0. 
 
-### Lấy mẫu xét nghiệm hiệu quả an toàn
+### Truy quét hiệu quả F0 trong cộng đồng bằng Thẻ Lệnh 
 
 Chống dịch bằng cách xét nghiệm toàn dân để truy quét F0 là một công việc tốn kém và khó đo lường hiệu quả, bởi các yếu tố
 
@@ -271,7 +291,7 @@ Chống dịch bằng cách xét nghiệm toàn dân để truy quét F0 là m�
 - Thực hiện trong thời gian ngắn với đội ngũ lấy mẫu hạn chế. 
 - Các cá nhân nguy cơ cao thường tránh né lấy mẫu. 
 
-**Thẻ Lệnh giúp tối ưu số mẫu cần lấy**
+**Tối ưu số mẫu cần lấy**
 
 Màu sắc của 3 loại Thẻ Lệnh phản ánh nguy cơ lây nhiễm của các đối tượng mang Thẻ. 
 
@@ -284,7 +304,7 @@ Dữ liệu check-in thực tế theo ID cũng giúp lọc ra các đối tượ
 
 Từ đó Thẻ Lệnh giúp giảm số lượng mẫu cần lấy, nhưng vẫn bảo đảm tính khoa học, bao phủ được các đối tượng nguy cơ cao. Cho phép việc truy quét lấy mẫu diễn ra thường xuyên, định kỳ hơn với chi phí tối ưu. 
 
-**Tổ chức lấy mẫu một cách khoa học và an toàn**
+**Tổ chức lấy mẫu khoa học và an toàn**
 
 Khi cần lấy mẫu toàn bộ để quét sạch F0 ra khỏi mọi gia đình. Số lượng lấy mẫu sẽ rất lớn, và chúng ta có thể dùng Thẻ gia đình để lấy mẫu cá nhân đại diện. Trường hợp của Tp HCM, sẽ có tầm 3 triệu Thẻ gia đình cần lấy mẫu. 
 
@@ -293,12 +313,23 @@ Trong tình huống này, Thẻ Lệnh phát huy vai trò tổ chức việc l�
 - Phân khung giờ lấy mẫu theo số cuối của ID
 - Tổ chức đường di chuyển 1 chiều theo CheckPoint, từ cổng vào, xếp hàng, di chuyển tới bàn lấy mẫu một cách khoa học, trật tự.
 - quét Thẻ tại Checkpoint để có số liệu thực tế, cải thiện việc tổ chức lần sau. 
-- Phát hiện sớm các ID không tham gia lấy mẫu để truy quét vào cuối ngày. 
+
+**Không bỏ sót cá nhân tránh né lấy mẫu** 
+
+Một số cá nhân tự biết nguy cơ cao, thường tìm cách tránh né xét nghiệm do sợ khi bị phát hiện, ảnh hưởng tới công việc, thu nhập. 
+
+Một số khác thì mãi mê làm việc, "quên" tham gia lấy mẫu.
+
+Một số tự tin đã tiêm vacxin, không lo lắng về sức khoẻ, nhưng lo lắng khi bị cách ly ở nhà. 
+
+Công sức của mọi người tham gia truy vết có thể tan thành mây khói nếu bỏ sót các đối tượng này. 
+
+Thẻ Lệnh sẽ lọc ra các ID có nguy cơ cao, thông báo để Đội lấy mẫu chú ý. Nếu phát hiện các ID này chưa tham gia lấy mẫu, sẽ tới tận nhà để truy quét vào cuối ngày. 
 
 Thẻ Lệnh còn giúp tối ưu đội ngũ lấy mẫu tập trung,là các Thẻ Chống dịch, như tổ chức việc hậu cần, di chuyển giữa các điểm lấy mẫu. Phân công thực hiện hợp lý để chất lượng lấy mẫu duy trì trong thời gian 2,3 tuần liên tục.
 
 Trên đây là các ưu điểm của Hệ thống Thẻ Lệnh để chống dịch hiệu quả. Bên cạnh đó Thẻ Lệnh còn giúp duy trì sức dân và phát triển kinh tế trong khu vực an toàn. 
-### Hỗ trợ đúng đối tượng khó khăn 
+### Hỗ trợ đúng gia đình khó khăn qua Thẻ
 
 Trong hoàn cảnh dịch bệnh kéo dài, có khá nhiều đối tượng khó khăn, có thể là 
 - các gia đình nghèo, không có tiền mua nhu yếu phẩm
@@ -312,11 +343,11 @@ Các nhà hảo tâm cũng có biết và hỗ trợ đúng gia đình thực s�
 
 Các khó khăn khác của người dân như cần chăm sóc Y tế, cần xe cấp cứu,... từ Thẻ gia đình kết nối với các hệ thống chuyên môn khác. 
 
-### Công việc Giao nhận Nội khu cho cư dân mất thu nhập
+### Giúp dân nghèo có thu nhập bằng Shipper Nội khu
 
-Khi giãn cách kéo dài, mọi người sẽ tìm cách để tăng nguồn thu bằng cách làm thêm. Một công việc hợp lệ là làm Giao nhận giao hàng
+Khi giãn cách kéo dài, mọi người sẽ tìm cách để tăng nguồn thu bằng cách làm thêm. Một công việc hợp lệ là làm Shipper giao hàng
 
-Các Giao nhận đăng ký trên ứng dụng như Grab, GoJek,... phải chấp nhập di chuyển nhiều nơi, tiếp xúc nhiều người để có thu nhập.
+Các shipper tham gia trên ứng dụng như Grab, GoJek,... phải chấp nhập di chuyển nhiều nơi, tiếp xúc nhiều người để có thu nhập.
 Đổi lại họ gặp rủi ro về sức khoẻ và bị phạt tiền nếu vi phạm. 
 Grab, Gojek,... thu lợi từ công việc của Giao nhận, nhưng Nhà nước sẽ phải trả phí nếu các Giao nhận bị dính covid. Điều này khá vô lý. 
 
@@ -324,7 +355,7 @@ Có một cách để cân bằng quyền lợi của các bên, đó là chia v
 
 ![](shipper-2mau.png)
 
-**Giao nhận nội khu** do Phường/Xã cấp Thẻ và giám sát. 
+**Shipper Nội khu** do Phường/Xã cấp Thẻ và giám sát. 
 
 Shipper nội khu được phép giao nhận hàng với người dân, và di chuyển bên trong 1 Phường/Xã đang hoạt động, không được ra ngoài. 
 
@@ -344,7 +375,7 @@ Giao nhận nội khu cân bằng lợi ích giữa lợi ích kinh tế và vi�
 - Người dân cảm thấy an toàn hơn và tiết kiện được Chi phí giao nhận
 - Cư dân làm shipper nội khu có thêm thu nhập, không chịu rủi ro dịch bệnh hoặc bị phạt khi qua chốt. 
 
-**Shipper Vận chuyển liên khu**
+**Shipper Liên khu**
 
 Không được vào bên trong Phường/ Xã, trừ nơi họ đang sống. Họ cũng không được giao hàng tới người dân. 
 
@@ -353,7 +384,7 @@ Việc di chuyển chủ yếu giữa các điểm tập kết, theo các trục
 Trong 1 doanh nghiệp vận chuyển, Tài xế liên khu không được tiếp xúc, hoặc tự ý hoán đổi với tài xế Giao nhận nội khu
 
 Các doanh nghiệp cần tổ chức thành 2 đội này, để bảo đảm an toàn trong Phòng chống dịch cũng như phát triển bền vững trong tương lai.
-### Phát triển kinh tế trong Phường/Xã an toàn.
+### Hệ thống phát hiện sớm F0 trong vùng "bình thường mới" 
 
 Để phát triển kinh tế song song với chống dịch hiệu quả, cần tổ chức vùng dịch thành Ruộng bậc thang Phường/Xã, trong đó mỗi Phường/Xã kiểm soát toàn bộ ra mỗi ngày. 
 
@@ -367,12 +398,14 @@ Và để xã hội trở về "bình thường mới" một cách bền vững,
 
 **Sống và làm việc trong cùng khu vực**
 
-để thực hiện điều này các doanh nghiệp cần bố trí lại lực lượng lao động: 
+Doanh nghiệp phối hợp với địa phương để bố trí lại lực lượng lao động: 
 
 - Doanh nghiệp vận chuyển hàng hoá tách biệt giữa Giao hàng nội khu và Vận chuyển liên khu 
 - Việc bán hàng, tiếp xúc khách hàng, bố trí nhân viên sống theo Phường/Xã nơi làm việc.
-- toạ điều kiện để nhân viên sống và làm việc theo Quận huyện. 
-- Các di chuyển đi làm mỗi ngày cần điều chỉnh theo tuyến. 
+- tạo điều kiện để nhân viên sống và làm việc theo Quận huyện. 
+- Để nhân viên đi làm xa Phường/Xã đang sống, Doanh nghiệp phải trả các chi phí chống dịch như phí xét nghiệm thường xuyên, thiết bị check-in tại nơi làm việc,...
+
+- Cá nhân đi làm mỗi ngày cần tự giác quét thẻ để giám sát và được khuyến kích di chuyển theo tuyến cố định.
 
 Các nhu cầu di chuyển khác của xã hội như thăm người thân, đi công tác ở vùng khác,du lịch ... cần được kiểm tra và tự giám sát. Các nhu cầu không thực sự cần thiết được khuyến khích bởi các tour du lịch giảm giá cũng nên hạn chế. 
 
