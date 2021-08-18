@@ -9,7 +9,6 @@
   - [ID tăng dần, theo từng Phường / Xã](#id-tăng-dần-theo-từng-phường-xã)
   - [Cân bằng dựa trên số cuối cùng của ID](#cân-bằng-dựa-trên-số-cuối-cùng-của-id)
   - [5 khung giờ mua hàng](#5-khung-giờ-mua-hàng)
-  - [Bất cập của phiếu ra đường, thẻ đi chợ](#bất-cập-của-phiếu-ra-đường-thẻ-đi-chợ)
 - [Triển khai nhanh chóng sau 7 ngày](#triển-khai-nhanh-chóng-sau-7-ngày)
   - [Bước 1 (1,2 ngày) Phát hành phôi thẻ](#bước-1-12-ngày-phát-hành-phôi-thẻ)
   - [Bước 2 (1 ngày): Chuyển phôi thẻ tới từng Phường / Xã](#bước-2-1-ngày-chuyển-phôi-thẻ-tới-từng-phường-xã)
@@ -31,9 +30,6 @@
   - [Tổ chức dịch vụ nội khu](#tổ-chức-dịch-vụ-nội-khu)
     - [Tổ chức đội shipper trong từng Phường / Xã](#tổ-chức-đội-shipper-trong-từng-phường-xã)
     - [Các địa điểm dịch vụ tuân thủ 5k](#các-địa-điểm-dịch-vụ-tuân-thủ-5k)
-- [So sánh với giải pháp đang có](#so-sánh-với-giải-pháp-đang-có)
-  - [Giấy thông hành](#giấy-thông-hành)
-  - [Khai báo tại chốt kiểm dịch](#khai-báo-tại-chốt-kiểm-dịch)
 
 <!-- /code_chunk_output -->
 
@@ -90,22 +86,6 @@ Với cách chia trên, mọi người sẽ quan tâm thẻ có ID (0,1) hoặc 
 Dễ phát sinh tiêu cực trong việc chọn thẻ.
 
 Cần linh động sắp lại khung giờ sau 1,2 tuần. Ví dụ: khung giờ 7h-8h30 sẽ đổi thành (4,5) thay vì (0,1)
-
-### Bất cập của phiếu ra đường, thẻ đi chợ
-
-- khó cân bằng khung giờ mua hàng vì thiếu ID 
-- thẻ sử dụng 1 lần, tăng chi phí in ấn,  đi phát thẻ,...Các nhà trọ, phòng trọ dễ bị phát thiếu, không đủ thẻ. 
-
-- không kiểm soát được số lượng mỗi phường xã tự phát hành. khó khăn cho việc điều phối hàng hoá. 
-- tốn công số hoá thông tin khách hàng (tên, số điện thoại,...) vào hệ thống mỗi ngày
-    - không lưu giờ vào cổng chính xác.
-
-- ![](the-di-cho.png)
-
-- https://tienphong.vn/ha-noi-phat-phieu-ra-duong-cho-nguoi-dan-trong-thoi-gian-gian-cach-xa-hoi-post1359794.tpo
-
-- https://vnexpress.net/ha-noi-se-phat-phieu-di-cho-toan-thanh-pho-4331589.html
-
 
 ## Triển khai nhanh chóng sau 7 ngày
 
@@ -307,7 +287,6 @@ Kiểm tra việc các cán bộ thực sự đã tới từng gia đình, gặp
 
 - hạn chế nhu cầu vào, ra của Phường / xã
 
-
 #### Tổ chức đội shipper trong từng Phường / Xã
 > làm việc, di chuyển bên trong khu vực 
 
@@ -329,17 +308,3 @@ Rất nhiều lợi ích:
 - giới hạn số lượng tối đa khách bên trong khu 
 
 - Thu phí hợp lý để cân bằng với chi phí chống dịch. 
-
-## So sánh với giải pháp đang có
-
-### Giấy thông hành
-
-- Giải pháp cho Thẻ đi làm: chỗ làm cố định và công việc di chuyển 
-- Cập nhật sau
-### Khai báo tại chốt kiểm dịch 
-
-- khai báo y tế là 1 việc cần thiết, nhưng khá tốn thời gian của tất cả mọi người. Chưa kể gây ách tắt tại chốt kiểm dịch. 
-
-- Giải pháp: **tự giác quét Thẻ tại điểm Checkpoint**
-
-- Chi tiết thực hiện: cập nhật sau
