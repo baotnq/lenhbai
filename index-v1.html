@@ -1,0 +1,652 @@
+<!DOCTYPE html><html><head>
+      <title>index-v1</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <h1 class="mume-header" id="th%E1%BA%BB-l%E1%BB%87nh-ch%E1%BB%91ng-d%E1%BB%8Bch-v%C3%A0-ph%C3%A1t-tri%E1%BB%83n-kinh-t%E1%BA%BF-theo-khu-v%E1%BB%B1c">Th&#x1EBB; l&#x1EC7;nh: ch&#x1ED1;ng d&#x1ECB;ch v&#xE0; ph&#xE1;t tri&#x1EC3;n kinh t&#x1EBF; theo khu v&#x1EF1;c</h1>
+
+<div class="code-chunk" data-id="code-chunk-id-0" data-cmd="toc"><div class="input-div"><div class="btn-group"><div class="run-btn btn"><span>&#x25B6;&#xFE0E;</span></div><div class="run-all-btn btn">all</div></div><div class="status">running...</div></div><div class="output-div"></div></div><ul>
+<li><a href="#gi%E1%BB%9Bi-thi%E1%BB%87u">Gi&#x1EDB;i thi&#x1EC7;u</a></li>
+<li><a href="#th%E1%BA%BF-n%C3%A0o-l%C3%A0-h%E1%BB%87-th%E1%BB%91ng-th%E1%BA%BB-l%E1%BB%87nh">Th&#x1EBF; n&#xE0;o l&#xE0; &quot;h&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh&quot;.</a>
+<ul>
+<li><a href="#%C4%91i%E1%BB%83m-n%E1%BB%95i-b%E1%BA%ADt-c%E1%BB%A7a-h%E1%BB%87-th%E1%BB%91ng-th%E1%BA%BB-l%E1%BB%87nh">&#x110;i&#x1EC3;m n&#x1ED5;i b&#x1EAD;t c&#x1EE7;a &quot;h&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh&quot;</a></li>
+<li><a href="#c%E1%BA%A5u-tr%C3%BAc-c%C3%A2n-b%E1%BA%B1ng-c%E1%BB%A7a-th%E1%BA%BB-l%E1%BB%87nh">C&#x1EA5;u tr&#xFA;c c&#xE2;n b&#x1EB1;ng c&#x1EE7;a &quot;Th&#x1EBB; l&#x1EC7;nh&quot;</a></li>
+<li><a href="#c%C3%A1c-b%C3%AAn-c%C3%B3-th%E1%BB%83-t%C6%B0%C6%A1ng-t%C3%A1c">C&#xE1;c b&#xEA;n c&#xF3; th&#x1EC3; t&#x1B0;&#x1A1;ng t&#xE1;c:</a></li>
+<li><a href="#gi%C3%A1m-s%C3%A1t-ch%C3%A9o">Gi&#xE1;m s&#xE1;t ch&#xE9;o</a></li>
+</ul>
+</li>
+<li><a href="#th%E1%BB%B1c-hi%E1%BB%87n-m%E1%BB%A5c-ti%C3%AAu-k%C3%A9p-c%E1%BB%A7a-ch%C3%ADnh-ph%E1%BB%A7">Th&#x1EF1;c hi&#x1EC7;n &quot;M&#x1EE5;c ti&#xEA;u k&#xE9;p&quot; c&#x1EE7;a ch&#xED;nh ph&#x1EE7;</a></li>
+<li><a href="#nhi%E1%BB%87m-v%E1%BB%A5-1-chia-v%C3%B9ng-d%E1%BB%8Bch-th%C3%A0nh-c%C3%A1c-khu-v%E1%BB%B1c-li%E1%BB%81n-k%E1%BB%81">Nhi&#x1EC7;m v&#x1EE5; 1: Chia v&#xF9;ng d&#x1ECB;ch th&#xE0;nh c&#xE1;c khu v&#x1EF1;c li&#x1EC1;n k&#x1EC1;</a>
+<ul>
+<li><a href="#h%E1%BA%A1n-ch%E1%BA%BF-ra-ngo%C3%A0i-mua-nhu-y%E1%BA%BFu-ph%E1%BA%A9m">H&#x1EA1;n ch&#x1EBF; ra ngo&#xE0;i mua nhu y&#x1EBF;u ph&#x1EA9;m</a></li>
+<li><a href="#gi%E1%BB%9Bi-h%E1%BA%A1n-ho%E1%BA%A1t-%C4%91%E1%BB%99ng-c%E1%BB%A7a-ng%C6%B0%E1%BB%9Di-d%C3%A2n-b%C3%AAn-trong-khu-v%E1%BB%B1c">Gi&#x1EDB;i h&#x1EA1;n ho&#x1EA1;t &#x111;&#x1ED9;ng c&#x1EE7;a ng&#x1B0;&#x1EDD;i d&#xE2;n b&#xEA;n trong khu v&#x1EF1;c</a></li>
+<li><a href="#gi%C3%A1m-s%C3%A1t-vi%E1%BB%87c-di-chuy%E1%BB%83n-ra-v%C3%A0o-ngo%C3%A0i-khu-v%E1%BB%B1c">Gi&#xE1;m s&#xE1;t vi&#x1EC7;c di chuy&#x1EC3;n ra, v&#xE0;o ngo&#xE0;i khu v&#x1EF1;c</a></li>
+</ul>
+</li>
+<li><a href="#nhi%E1%BB%87m-v%E1%BB%A5-2-huy-%C4%91%E1%BB%99ng-m%E1%BB%8Di-ng%C6%B0%E1%BB%9Di-b%C3%AAn-trong-khu-v%E1%BB%B1c-c%C3%B9ng-tham-gia-ch%E1%BB%91ng-d%E1%BB%8Bch">Nhi&#x1EC7;m v&#x1EE5;  2. Huy &#x111;&#x1ED9;ng m&#x1ECD;i ng&#x1B0;&#x1EDD;i b&#xEA;n trong khu v&#x1EF1;c  c&#xF9;ng tham gia ch&#x1ED1;ng d&#x1ECB;ch</a>
+<ul>
+<li><a href="#h%E1%BB%87-th%E1%BB%91ng-li%C3%AAn-l%E1%BA%A1c-%C4%91a-chi%E1%BB%81u">H&#x1EC7; th&#x1ED1;ng li&#xEA;n l&#x1EA1;c &#x111;a chi&#x1EC1;u</a></li>
+<li><a href="#huy-%C4%91%E1%BB%99ng-m%E1%BB%8Di-ngu%E1%BB%93n-l%E1%BB%B1c">Huy &#x111;&#x1ED9;ng m&#x1ECD;i ngu&#x1ED3;n l&#x1EF1;c</a></li>
+<li><a href="#%C4%91%E1%BB%91i-t%C6%B0%E1%BB%A3ng-l%E1%BA%A9n-tr%C3%A1nh-thi%E1%BA%BFu-tr%C3%A1ch-nhi%E1%BB%87m-ti%C3%AAu-c%E1%BB%B1c">&#x110;&#x1ED1;i t&#x1B0;&#x1EE3;ng l&#x1EA9;n tr&#xE1;nh, thi&#x1EBF;u tr&#xE1;ch nhi&#x1EC7;m, ti&#xEA;u c&#x1EF1;c</a></li>
+</ul>
+</li>
+<li><a href="#nhi%E1%BB%87m-v%E1%BB%A5-3-h%E1%BB%87-th%E1%BB%91ng-c%E1%BA%A3nh-b%C3%A1o-ki%E1%BB%81m-so%C3%A1t-covid-b%C3%B9ng-ph%C3%A1t-theo-khu-v%E1%BB%B1c">Nhi&#x1EC7;m v&#x1EE5; 3: H&#x1EC7; th&#x1ED1;ng c&#x1EA3;nh b&#xE1;o, ki&#x1EC1;m so&#xE1;t Covid b&#xF9;ng ph&#xE1;t theo khu v&#x1EF1;c.</a>
+<ul>
+<li><a href="#t%E1%BA%A1i-sao-c%E1%BA%A7n-h%E1%BB%87-th%E1%BB%91ng-n%C3%A0y">T&#x1EA1;i sao c&#x1EA7;n h&#x1EC7; th&#x1ED1;ng n&#xE0;y?</a></li>
+<li><a href="#h%E1%BB%87-th%E1%BB%91ng-n%C3%A0y-c%C3%B3-kh%E1%BA%A3-thi-%C4%91%E1%BB%83-%C4%91%E1%BB%91i-ph%C3%B3-covid-ko">H&#x1EC7; th&#x1ED1;ng n&#xE0;y c&#xF3; kh&#x1EA3; thi &#x111;&#x1EC3; &#x111;&#x1ED1;i ph&#xF3; Covid ko?</a></li>
+<li><a href="#m%E1%BB%9F-r%E1%BB%99ng-s%E1%BB%91-l%C6%B0%E1%BB%A3ng-th%E1%BA%BB-theo-nhu-c%E1%BA%A7u-ho%E1%BA%A1t-%C4%91%E1%BB%99ng">M&#x1EDF; r&#x1ED9;ng s&#x1ED1; l&#x1B0;&#x1EE3;ng Th&#x1EBB; theo nhu c&#x1EA7;u ho&#x1EA1;t &#x111;&#x1ED9;ng.</a></li>
+<li><a href="#c%E1%BA%A3nh-b%C3%A1o-s%E1%BB%9Bm-theo-m%C3%A0u-c%E1%BB%A7a-th%E1%BA%BB">C&#x1EA3;nh b&#xE1;o s&#x1EDB;m theo m&#xE0;u c&#x1EE7;a th&#x1EBB;.</a></li>
+<li><a href="#quy-ho%E1%BA%A1ch-c%C3%A1c-ho%E1%BA%A1t-%C4%91%E1%BB%99ng-b%C3%AAn-trong-khu-v%E1%BB%B1c">Quy ho&#x1EA1;ch c&#xE1;c ho&#x1EA1;t &#x111;&#x1ED9;ng b&#xEA;n trong khu v&#x1EF1;c</a></li>
+</ul>
+</li>
+<li><a href="#t%E1%BB%95ng-k%E1%BA%BFt">T&#x1ED5;ng k&#x1EBF;t</a>
+<ul>
+<li><a href="#g%C3%B3p-%C3%BD-li%C3%AAn-h%E1%BB%87">G&#xF3;p &#xFD;, li&#xEA;n h&#x1EC7;:</a></li>
+</ul>
+</li>
+</ul>
+<h3 class="mume-header" id="gi%E1%BB%9Bi-thi%E1%BB%87u">Gi&#x1EDB;i thi&#x1EC7;u</h3>
+
+<p>L&#xE0; gi&#x1EA3;i ph&#xE1;p c&#x1EA5;p Th&#x1EBB; cho c&#xE1;c c&#xE1; nh&#xE2;n &#x111;&#x1B0;&#x1EE3;c ph&#xE9;p ra ngo&#xE0;i, v&#x1EDB;i 3 lo&#x1EA1;i ch&#xED;nh:</p>
+<ul>
+<li>Th&#x1EBB; gia &#x111;&#xEC;nh (m&#xE0;u xanh) d&#xE0;nh cho 1 c&#xE1; nh&#xE2;n, &#x111;&#x1EA1;i di&#x1EC7;n 1 gia &#x111;&#xEC;nh, nh&#xE0; tr&#x1ECD;, ph&#xF2;ng tr&#x1ECD;, ... &#x111;&#x1B0;&#x1EE3;c ra ngo&#xE0;i mua h&#xE0;ng</li>
+<li>Th&#x1EBB; l&#xE0;m vi&#x1EC7;c (m&#xE0;u v&#xE0;ng) d&#xE0;nh cho c&#xE1; nh&#xE2;n &#x111;&#x1B0;&#x1EE3;c &#x110;&#x1A1;n v&#x1ECB; ch&#x1EE7; qu&#x1EA3;n &#x111;&#x103;ng k&#xFD; &#x111;i l&#xE0;m t&#x1EA1;i nh&#xE0; m&#xE1;y hay &#x111;i giao nh&#x1EAD;n h&#xE0;ng ho&#xE1;.</li>
+<li>Th&#x1EBB; ch&#x1ED1;ng d&#x1ECB;ch (m&#xE0;u &#x111;&#x1ECF;) d&#xE0;nh cho nh&#xE2;n vi&#xEA;n y t&#x1EBF;, c&#xE1;n b&#x1ED9; &#x111;&#x1ECB;a ph&#x1B0;&#x1A1;ng, t&#xEC;nh nguy&#x1EC7;n vi&#xEA;n, nh&#xE0; b&#xE1;o,... tham gia ch&#x1ED1;ng d&#x1ECB;ch</li>
+</ul>
+<p>M&#x1ECD;i ng&#x1B0;&#x1EDD;i &#x111;&#x1B0;&#x1EE3;c L&#x1EC7;nh ph&#x1EA3;i &#x111;eo Th&#x1EBB; khi ra ngo&#xE0;i, v&#xE0; qu&#xE9;t Th&#x1EBB; t&#x1EA1;i c&#xE1;c ch&#x1ED1;t ki&#x1EC3;m tra.<br>
+Ch&#x1EE3; si&#xEA;u th&#x1ECB;, &#x111;&#x1B0;&#x1EE3;c L&#x1EC7;nh ch&#x1EC9; b&#xE1;n h&#xE0;ng cho ng&#x1B0;&#x1EDD;i c&#xF3; Th&#x1EBB; gia &#x111;&#xEC;nh, theo Ph&#x1B0;&#x1EDD;ng/X&#xE3;, theo ng&#xE0;y trong khung gi&#x1EDD; quy &#x111;&#x1ECB;nh s&#x1EB5;n.<br>
+Doanh nghi&#x1EC7;p &#x111;&#x1B0;&#x1EE3;c L&#x1EC7;nh qu&#x1EA3;n l&#xFD; nh&#xE2;n vi&#xEA;n &#x111;&#xE3; &#x111;&#x103;ng k&#xFD; ra ngo&#xE0;i l&#xE0;m vi&#x1EC7;c v&#xE0; &#x111;&#xF3;ng ph&#x1EA1;t n&#x1EBF;u nh&#xE2;n vi&#xEA;n vi ph&#x1EA1;m.<br>
+C&#xE1;n b&#x1ED9; Ph&#x1B0;&#x1EDD;ng/X&#xE3; &#x111;&#x1B0;&#x1EE3;c L&#x1EC7;nh &#x111;&#x1ECB;nh k&#x1EF3; 1,2 tu&#x1EA7;n t&#x1EDB;i g&#x1EB7;p T&#x1EEB;ng gia &#x111;&#xEC;nh &#x111;&#x1EC3; h&#x1B0;&#x1EDB;ng d&#x1EAB;n ch&#x1ED1;ng d&#x1ECB;ch.<br>
+C&#xF4;ng an, d&#xE2;n ph&#xF2;ng &#x111;&#x1B0;&#x1EE3;c L&#x1EC7;nh x&#x1EED; ph&#x1EA1;t c&#xE1;c c&#xE1; nh&#xE2;n kh&#xF4;ng mang Th&#x1EBB;, v&#xE0; b&#x1EA3;o &#x111;&#x1EA3;m m&#x1ECD;i th&#x1EBB; &#x111;&#x1B0;&#x1EE3;c Qu&#xE9;t khi ki&#x1EC3;m tra.</p>
+<p>K&#x1EBF;t h&#x1EE3;p L&#x1EC7;nh v&#x1EDB;i Th&#x1EBB; gi&#xFA;p ph&#xE1;t hi&#x1EC7;n vi ph&#x1EA1;m nhanh ch&#xF3;ng<br>
+v&#xE0; d&#x1EC5; d&#xE0;ng x&#x1EED; ph&#x1EA1;t. Khi tri&#x1EC3;n khai &#x111;&#x1ED3;ng lo&#x1EA1;t tr&#xEA;n to&#xE0;n h&#x1EC7; th&#x1ED1;ng t&#x1EA1;o n&#xEA;n t&#xED;nh r&#x103;n &#x111;e cao, gi&#xFA;p t&#x103;ng s&#x1EF1; tu&#xE2;n th&#x1EE7; v&#xE0; gi&#x1EA3;m vi&#x1EC7;c vi ph&#x1EA1;m c&#x1EE7;a m&#x1ECD;i ng&#x1B0;&#x1EDD;i.</p>
+<p>Nhi&#x1EC7;m v&#x1EE5; th&#x1EE9; 2 c&#x1EE7;a H&#x1EC7; th&#x1ED1;ng Th&#x1EBB; L&#x1EC7;nh l&#xE0; n&#xE2;ng cao hi&#x1EC7;u qu&#x1EA3; bi&#x1EC7;n ph&#xE1;t truy qu&#xE9;t &#x111;&#x1EC3; t&#xE1;ch F0 ra kh&#x1ECF;i c&#x1ED9;ng &#x111;&#x1ED3;ng. Trong th&#x1EDD;i gian truy qu&#xE9;t, H&#x1EC7; th&#x1ED1;ng s&#x1EBD; ki&#x1EC3;m so&#xE1;t ch&#x1EB7;t m&#x1ECD;i ra v&#xE0;o, &#x111;&#x1EC3; b&#x1EA3;o &#x111;&#x1EA3;m Covid b&#x1ECB; c&#xF4; l&#x1EAD;p theo t&#x1EEB;ng Ph&#x1B0;&#x1EDD;ng/X&#xE3;.</p>
+<p>&#x110;&#x1ED9;i ch&#x1ED1;ng d&#x1ECB;ch s&#x1EBD; t&#x1EAD;p trung l&#x1EA5;y m&#x1EAB;u to&#xE0;n b&#x1ED9; Th&#x1EBB; gia &#x111;&#xEC;nh c&#x1EE7;a m&#x1ED9;t Ph&#x1B0;&#x1EDD;ng trong 1 ng&#xE0;y, tr&#x1B0;&#x1EDB;c khi chuy&#x1EC3;n sang Ph&#x1B0;&#x1EDD;ng l&#xE2;n c&#x1EAD;n. Li&#xEA;n t&#x1EE5;c xoay v&#xF2;ng &#x111;&#x1EC3; quay l&#x1EA1;i l&#x1EA5;y m&#x1EAB;u l&#x1EA7;n 2 kh&#xF4;ng qu&#xE1; 6 ng&#xE0;y.</p>
+<p>H&#x1EC7; th&#x1ED1;ng Th&#x1EBB; L&#x1EC7;nh &#x111;&#x1B0;a ra s&#x1A1; &#x111;&#x1ED3; b&#x1ED1; tr&#xED; di chuy&#x1EC3;n &#x111;&#x1EC3; c&#xE1;c &#x111;i&#x1EC3;m l&#x1EA5;y m&#x1EAB;u t&#x1EAD;p trung t&#x1ED5; ch&#x1EE9;c khoa h&#x1ECD;c, h&#x1EA1;n ch&#x1EBF; l&#xE2;y lan khi ng&#x1B0;&#x1EDD;i d&#xE2;n t&#x1EE5; t&#x1EAD;p l&#x1EA5;y m&#x1EAB;u. H&#x1EC7; th&#x1ED1;ng c&#x169;ng li&#xEA;n t&#x1EE5;c thu th&#x1EAD;p d&#x1EEF; li&#x1EC7;u &#x111;&#x1EC3; c&#x1EA3;i thi&#x1EC7;n cho c&#xE1;c l&#x1EA7;n ti&#x1EBF;p theo.</p>
+<p>Nhi&#x1EC7;m v&#x1EE5; th&#x1EE9; 3 l&#xE0; H&#x1EC7; th&#x1ED1;ng ph&#xE1;t hi&#x1EC7;n s&#x1EDB;m nguy c&#x1A1; trong v&#xF9;ng an to&#xE0;n. Ch&#xED;nh quy&#x1EC1;n s&#x1EBD; &#x111;&#x1ECB;nh k&#x1EF3; x&#xE9;t nghi&#x1EC7;m &#x111;&#x1EC3; ph&#xE1;t hi&#x1EC7;n F0 trong c&#x1ED9;ng &#x111;&#x1ED3;ng m&#x1ED9;t c&#xE1;c</p>
+<p>Vi&#x1EC7;c l&#x1EA5;y m&#x1EAB;u s&#x1EBD; d&#x1EF1;a tr&#xEA;n Th&#x1EBB; gia &#x111;&#xEC;nh k&#x1EBF;t h&#x1EE3;p v&#x1EDB;i</p>
+<p>Ngo&#xE0;i ra, Th&#x1EBB; L&#x1EC7;nh gi&#xFA;p t&#x103;ng hi&#x1EC7;u qu&#x1EA3; c&#x1EE7;a vi&#x1EC7;c<br>
+Ph&#xE2;n chia 3 lo&#x1EA1;i th&#x1EBB; cho 3 &#x111;&#x1ED1;i t&#x1B0;&#x1EE3;ng nguy c&#x1A1; kh&#xE1;c nhau, gi&#xFA;p vi&#x1EC7;c x&#xE9;t nghi&#x1EC7;m truy v&#x1EBF;t &#x111;<br>
+S&#x1ED1; li&#x1EC7;u di chuy&#x1EC3;n th&#x1EF1;c t&#x1EBF; c&#xF3; &#x111;&#x1B0;&#x1EE3;c t&#x1EEB; qu&#xE9;t Th&#x1EBB; c&#x1ED9;ng v&#x1EDB;i  vi&#x1EC7;c ph&#xE2;n th&#xE0;nh 3 &#x111;&#x1ED1;i t&#x1B0;&#x1EE3;ng</p>
+<h3 class="mume-header" id="th%E1%BA%BF-n%C3%A0o-l%C3%A0-h%E1%BB%87-th%E1%BB%91ng-th%E1%BA%BB-l%E1%BB%87nh">Th&#x1EBF; n&#xE0;o l&#xE0; &quot;h&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh&quot;.</h3>
+
+<p>&quot;Th&#x1EBB; l&#x1EC7;nh&quot; l&#xE0; <strong>1 t&#x1EA5;m th&#x1EBB;, y&#xEA;u c&#x1EA7;u m&#x1ECD;i ng&#x1B0;&#x1EDD;i ra ngo&#xE0;i, mua h&#xE0;ng hay l&#xE0;m vi&#x1EC7;c, ph&#x1EA3;i &#x111;eo n&#xF3;.</strong></p>
+<ul>
+<li>M&#x1ED7;i gia &#x111;&#xEC;nh &#x111;&#x1B0;&#x1EE3;c c&#x1EA5;p 1 <strong>Th&#x1EBB; gia &#x111;&#xEC;nh m&#xE0;u xanh</strong>, &#x111;&#x1EC3; ra ngo&#xE0;i mua h&#xE0;ng.</li>
+<li>C&#xE1; nh&#xE2;n l&#xE0;m vi&#x1EC7;c, &#x111;&#x1B0;&#x1EE3;c c&#x1EA5;p 1 <strong>Th&#x1EBB; l&#xE0;m vi&#x1EC7;c m&#xE0;u v&#xE0;ng</strong> , chia th&#xE0;nh 2 lo&#x1EA1;i: c&#x1ED1; &#x111;&#x1ECB;nh 1 ch&#x1ED7; hay th&#x1B0;&#x1EDD;ng xuy&#xEA;n di chuy&#x1EC3;n (giao h&#xE0;ng)</li>
+<li>C&#xE1; nh&#xE2;n tham gia ch&#x1ED1;ng d&#x1ECB;ch &#x111;&#x1B0;&#x1EE3;c c&#x1EA5;p 1 <strong>Th&#x1EBB; ch&#x1ED1;ng d&#x1ECB;ch m&#xE0;u &#x111;&#x1ECF;</strong>.</li>
+</ul>
+<p>Khi th&#x1EBB; &#x111;&#x1B0;&#x1EE3;c c&#x1EA5;p t&#x1EDB;i m&#x1ECD;i ng&#x1B0;&#x1EDD;i trong v&#xF9;ng d&#x1ECB;ch cho c&#xE1;c nhu c&#x1EA7;u tr&#xEA;n, ta c&#xF3; &#x111;&#x1B0;&#x1EE3;c &quot;h&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh&quot;.</p>
+<p>H&#x1EC7; th&#x1ED1;ng n&#xE0;y gi&#xFA;p th&#x1EF1;c hi&#x1EC7;n 3 nhi&#x1EC7;m v&#x1EE5; l&#x1EDB;n:</p>
+<ol>
+<li>Ph&#xE2;n chia v&#xF9;ng d&#x1ECB;ch th&#xE0;nh c&#xE1;c khu v&#x1EF1;c l&#xE2;n c&#x1EAD;n nhau.
+<ul>
+<li>N&#x1EBF;u v&#xF9;ng d&#x1ECB;ch nguy c&#x1A1; cao, &#xE1;p d&#x1EE5;ng ch&#x1EC9; th&#x1ECB; 16 ho&#x1EB7;c h&#x1A1;n, khu v&#x1EF1;c s&#x1EBD; nh&#x1ECF; t&#x1EDB;i c&#x1EA5;p Ph&#x1B0;&#x1EDD;ng/ X&#xE3;.</li>
+<li>V&#xE0; khi Covid &#x111;&#x1B0;&#x1EE3;c ki&#x1EC3;m so&#xE1;t ho&#x1EB7;c gi&#x1EA3;m &#x111;i, khu v&#x1EF1;c s&#x1EBD; m&#x1EDF; r&#x1ED9;ng l&#xE0; nhi&#x1EC1;u Ph&#x1B0;&#x1EDD;ng/ X&#xE3; li&#x1EC1;n k&#x1EC1; nhau.</li>
+<li>xem th&#xEA;m ph&#x1EA7;n <a href="#nhi%E1%BB%87m-v%E1%BB%A5-1-chia-v%C3%B9ng-d%E1%BB%8Bch-th%C3%A0nh-c%C3%A1c-khu-v%E1%BB%B1c-ph%C6%B0%E1%BB%9Dngx%C3%A3-li%E1%BB%81n-k%E1%BB%81">Nhi&#x1EC7;m v&#x1EE5; 1: Chia v&#xF9;ng d&#x1ECB;ch th&#xE0;nh c&#xE1;c khu v&#x1EF1;c li&#x1EC1;n k&#x1EC1;</a></li>
+</ul>
+</li>
+<li>Huy &#x111;&#x1ED9;ng m&#x1ECD;i ngu&#x1ED3;n l&#x1EF1;c b&#xEA;n trong khu v&#x1EF1;c &#x111;&#x1EC3; tham gia ch&#x1ED1;ng d&#x1ECB;ch
+<ul>
+<li>V&#xE0; ngu&#x1ED3;n l&#x1EF1;c l&#x1EDB;n nh&#x1EA5;t, quan tr&#x1ECD;ng nh&#x1EA5;t ch&#xED;nh l&#xE0; s&#x1EF1; tu&#xE2;n th&#x1EE7; v&#xE0; h&#x1EE3;p t&#xE1;c c&#x1EE7;a ng&#x1B0;&#x1EDD;i d&#xE2;n b&#xEA;n trong.</li>
+<li>xem th&#xEA;m ph&#x1EA7;n <a href="#nhi%E1%BB%87m-v%E1%BB%A5-2-huy-%C4%91%E1%BB%99ng-m%E1%BB%8Di-ng%C6%B0%E1%BB%9Di-b%C3%AAn-trong-khu-v%E1%BB%B1c-c%C3%B9ng-tham-gia-ch%E1%BB%91ng-d%E1%BB%8Bch">Nhi&#x1EC7;m v&#x1EE5;  2. Huy &#x111;&#x1ED9;ng m&#x1ECD;i ng&#x1B0;&#x1EDD;i b&#xEA;n trong khu v&#x1EF1;c  c&#xF9;ng tham gia ch&#x1ED1;ng d&#x1ECB;ch</a></li>
+</ul>
+</li>
+<li>H&#x1EC7; th&#x1ED1;ng c&#x1EA3;nh b&#xE1;o s&#x1EDB;m, nhanh ch&#xF3;ng k&#xED;ch ho&#x1EA1;t &#x111;&#x1EC3; h&#x1EA1;n ch&#x1EBF; l&#xE2;y lan, b&#xF9;ng ph&#xE1;t d&#x1ECB;ch trong t&#x1B0;&#x1A1;ng lai.
+<ul>
+<li>xem th&#xEA;m <a href="#nhi%E1%BB%87m-v%E1%BB%A5-3-h%E1%BB%87-th%E1%BB%91ng-c%E1%BA%A3nh-b%C3%A1o-ki%E1%BB%81m-so%C3%A1t-covid-b%C3%B9ng-ph%C3%A1t-theo-khu-v%E1%BB%B1c">Nhi&#x1EC7;m v&#x1EE5; 3: H&#x1EC7; th&#x1ED1;ng c&#x1EA3;nh b&#xE1;o, ki&#x1EC1;m so&#xE1;t Covid b&#xF9;ng ph&#xE1;t theo khu v&#x1EF1;c .</a></li>
+</ul>
+</li>
+</ol>
+<h4 class="mume-header" id="%C4%91i%E1%BB%83m-n%E1%BB%95i-b%E1%BA%ADt-c%E1%BB%A7a-h%E1%BB%87-th%E1%BB%91ng-th%E1%BA%BB-l%E1%BB%87nh">&#x110;i&#x1EC3;m n&#x1ED5;i b&#x1EAD;t c&#x1EE7;a &quot;h&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh&quot;</h4>
+
+<ul>
+<li>
+<p><strong>&#x110;&#x1A1;n gi&#x1EA3;n &#x111;&#x1EBF;n kh&#xF4;ng ng&#x1EDD;</strong>: m&#x1ECD;i ng&#x1B0;&#x1EDD;i s&#x1EBD; kh&#xF3; tin, v&#x1EDB;i m&#x1ED9;t t&#x1EA5;m th&#x1EBB; c&#xF3; th&#x1EC3; th&#x1EF1;c hi&#x1EC7;n 3 nhi&#x1EC7;m v&#x1EE5; b&#xEA;n tr&#xEA;n. S&#x1EF1; kh&#xE1;c bi&#x1EC7;t &#x1EDF; c&#xE1;ch thi&#x1EBF;t l&#x1EAD;p c&#x1EA5;u tr&#xFA;c c&#xE2;n b&#x1EB1;ng cho Th&#x1EBB; l&#x1EC7;nh, v&#xE0; tri&#x1EC3;n khai to&#xE0;n h&#x1EC7; th&#x1ED1;ng.</p>
+</li>
+<li>
+<p><strong>Tri&#x1EC3;n khai ngay l&#x1EAD;p t&#x1EE9;c</strong>: sau v&#xE0;i ng&#xE0;y chu&#x1EA9;n b&#x1ECB;, l&#xE0; c&#xF3; th&#x1EC3; tri&#x1EC3;n khai h&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh cho 1 t&#x1EC9;nh/ th&#xE0;nh ph&#x1ED1;, ho&#x1EB7;c c&#x1EA3; n&#x1B0;&#x1EDB;c.</p>
+</li>
+<li>
+<p><strong>Chi ph&#xED; th&#x1EA5;p, ngu&#x1ED3;n l&#x1EF1;c s&#x1EB5;n c&#xF3;</strong>: chi ph&#xED; in &#x1EA5;n, ph&#xE1;t h&#xE0;nh th&#x1EBB; gi&#x1EA5;y. C&#xE1;c h&#x1EC7; th&#x1ED1;ng, ph&#x1EA7;n m&#x1EC1;m li&#xEA;n quan kh&#xF4;ng qu&#xE1; ph&#x1EE9;c t&#x1EA1;p &#x111;&#x1EC3; x&#xE2;y d&#x1EF1;ng. V&#xEC; l&#xE0; gi&#x1EA3;i ph&#xE1;p ph&#xF2;ng b&#x1EC7;nh, truy qu&#xE9;t Covid, n&#xEA;n ch&#x1EC9; c&#x1EA7;n ngu&#x1ED3;n l&#x1EF1;c l&#x1EA5;y m&#x1EAB;u, x&#xE9;t nghi&#x1EC7;m F0.</p>
+</li>
+<li>
+<p><strong>&#xCD;t ph&#x1EE5; thu&#x1ED9;c v&#xE0;o &#x1EE9;ng d&#x1EE5;ng CNTT</strong>: Th&#x1EBB; l&#x1EC7;nh c&#xF3; th&#x1EC3; ho&#x1EA1;t &#x111;&#x1ED9;ng &#x111;&#x1ED9;c l&#x1EAD;p, c&#xE1;c &#x1EE9;ng d&#x1EE5;ng CNTT nh&#x1B0; mobile app, thi&#x1EBF;t b&#x1ECB; IoT, ph&#xE2;n t&#xED;ch d&#x1EEF; li&#x1EC7;u,... c&#xF3; th&#x1EC3; b&#x1ED5; sung sau.</p>
+</li>
+</ul>
+<h4 class="mume-header" id="c%E1%BA%A5u-tr%C3%BAc-c%C3%A2n-b%E1%BA%B1ng-c%E1%BB%A7a-th%E1%BA%BB-l%E1%BB%87nh">C&#x1EA5;u tr&#xFA;c c&#xE2;n b&#x1EB1;ng c&#x1EE7;a &quot;Th&#x1EBB; l&#x1EC7;nh&quot;</h4>
+
+<p><strong>L&#x1EC7;nh</strong> trong Th&#x1EBB; l&#x1EC7;nh, l&#xE0; m&#x1EC7;nh l&#x1EC7;nh trong qu&#xE2;n &#x111;&#x1ED9;i, b&#x1EAF;t bu&#x1ED9;c m&#x1ECD;i &#x111;&#x1ED1;i t&#x1B0;&#x1EE3;ng ti&#x1EBF;p nh&#x1EAD;n ph&#x1EA3;i th&#x1EF1;c hi&#x1EC7;n gi&#x1ED1;ng nhau.</p>
+<p>&#x110;&#x1ED1;i t&#x1B0;&#x1EE3;ng ti&#x1EBF;p nh&#x1EAD;n kh&#xF4;ng ch&#x1EC9; l&#xE0; ng&#x1B0;&#x1EDD;i <strong>&#x111;eo th&#x1EBB;</strong>, m&#xE0; c&#xF2;n l&#xE0; c&#xE1;c b&#xEA;n kh&#xE1;c nh&#x1B0; <strong>c&#x1EA5;p th&#x1EBB;</strong> (ch&#xED;nh quy&#x1EC1;n &#x111;&#x1ECB;a ph&#x1B0;&#x1A1;ng), <strong>ph&#x1EE5;c v&#x1EE5; th&#x1EBB;</strong> (doanh nghi&#x1EC7;p), v&#xE0; <strong>ki&#x1EC3;m tra th&#x1EBB;</strong> (c&#xF4;ng an).</p>
+<p>&#x110;&#x1EC3; th&#x1EF1;c hi&#x1EC7;n &#x111;&#x1B0;&#x1EE3;c &#x111;i&#x1EC1;u n&#xE0;y, c&#x1EA7;n thi&#x1EBF;t k&#x1EBF; cho Th&#x1EBB; l&#x1EC7;nh 1 c&#x1EA5;u tr&#xFA;c c&#xE2;n b&#x1EB1;ng, cho ph&#xE9;p gi&#xE1;m s&#xE1;t ch&#xE9;o gi&#x1EEF;a c&#xE1;c &#x111;&#x1ED1;i t&#x1B0;&#x1EE3;ng.</p>
+<p>&#x110;&#xE2;y l&#xE0;  minh ho&#x1EA1; cho c&#x1EA5;u tr&#xFA;c c&#xE2;n b&#x1EB1;ng cho Th&#x1EBB; gia &#x111;&#xEC;nh, v&#x1EDB;i c&#xE1;c l&#x1EC7;nh gi&#xE1;m s&#xE1;t ch&#xE9;o:</p>
+<p>G&#x1EED;i t&#x1EDB;i t&#x1EA5;t c&#x1EA3; Ph&#x1B0;&#x1EDD;ng/ X&#xE3; 1 m&#x1EC7;nh l&#x1EC7;nh:</p>
+<p><em>&quot;M&#x1ECD;i gia &#x111;&#xEC;nh trong tp H&#x1ED3; Ch&#xED; m&#xEC;nh c&#x1EA7;n &#x111;&#x1B0;&#x1EE3;c c&#x1EA5;p 1 Th&#x1EBB; gia &#x111;&#xEC;nh&quot;</em></p>
+<p><strong>L&#xE0;m th&#x1EBF; n&#xE0;o &#x111;&#x1EC3; b&#x1EA3;o &#x111;&#x1EA3;m l&#x1EC7;nh n&#xE0;y &#x111;&#x1B0;&#x1EE3;c th&#x1EF1;c hi&#x1EC7;n &#x111;&#xFA;ng v&#x1EDB;i h&#x1A1;n 300 Ph&#x1B0;&#x1EDD;ng / x&#xE3; &#x1EDF; HCM</strong>?</p>
+<p>Ta s&#x1EED; d&#x1EE5;ng 1 l&#x1EC7;nh kh&#xE1;c &#x111;&#x1EC3; ki&#x1EC3;m so&#xE1;t ch&#xE9;o. &#x110;&#xF3; l&#xE0; th&#xF4;ng b&#xE1;o v&#x1EDB;i m&#x1ECD;i ng&#x1B0;&#x1EDD;i r&#x1EB1;ng &quot;t&#x1EEB; ng&#xE0;y dd/mm, to&#xE0;n b&#x1ED9; si&#xEA;u th&#x1ECB;, ch&#x1EE3; ch&#x1EC9; b&#xE1;n h&#xE0;ng cho ng&#x1B0;&#x1EDD;i c&#xF3; Th&#x1EBB; gia &#x111;&#xEC;nh. <em>Gia &#x111;&#xEC;nh n&#xE0;o ch&#x1B0;a nh&#x1EAD;n &#x111;&#x1B0;&#x1EE3;c th&#x1EBB;, c&#x1EA7;n li&#xEA;n h&#x1EC7; v&#x1EDB;i Ph&#x1B0;&#x1EDD;ng / x&#xE3; &#x111;ang s&#x1ED1;ng. N&#x1EBF;u g&#x1EB7;p tr&#x1EDF; ng&#x1EA1;i th&#xEC; g&#x1ECD;i t&#x1EDB;i s&#x1ED1; hotline &#x111;&#x1EC3; h&#x1ED7; tr&#x1EE3;,...&quot;</em></p>
+<p>Nh&#x1EEF;ng gia &#x111;&#xEC;nh ch&#x1B0;a nh&#x1EAD;n &#x111;&#x1B0;&#x1EE3;c Th&#x1EBB;, s&#x1EBD; t&#xEC;m c&#xE1;ch li&#xEA;n h&#x1EC7;, n&#x1EBF;u kh&#xF4;ng mu&#x1ED1;n b&#x1ECB; t&#x1EEB; ch&#x1ED1;i t&#x1EA1;i si&#xEA;u th&#x1ECB;, ch&#x1EE3;, ho&#x1EB7;c b&#x1ECB; &#x111;&#xF3;i.</p>
+<p>V&#xE0; sau &#x111;&#xF3; 1 tu&#x1EA7;n, l&#x1EC7;nh cho t&#x1EA5;t c&#x1EA3; Ph&#x1B0;&#x1EDD;ng/ X&#xE3;: <em>t&#x1EDB;i t&#x1EEB;ng gia &#x111;&#xEC;nh &#x111;&#x1EC3; h&#x1B0;&#x1EDB;ng d&#x1EAB;n ch&#x1ED1;ng d&#x1ECB;ch. L&#xFA;c g&#x1EB7;p, s&#x1EED; d&#x1EE5;ng mobile app &#x111;&#x1EC3; qu&#xE9;t Th&#x1EBB; gia &#x111;&#xEC;nh, v&#xE0; g&#x1EED;i to&#x1EA1; &#x111;&#x1ED9; GPS, h&#xEC;nh th&#x1EF1;c t&#x1EBF; v&#x1EC1; h&#x1EC7; th&#x1ED1;ng</em></p>
+<p>Sai l&#x1EC7;ch gi&#x1EEF;a l&#x1EA7;n c&#x1EA5;p th&#x1EBB; v&#xE0; l&#x1EA7;n h&#x1B0;&#x1EDB;ng d&#x1EAB;n th&#x1EE9; 2 s&#x1EBD; &#x111;&#xE1;nh g&#xED;a &#x111;&#x1B0;&#x1EE3;c tr&#xE1;ch nhi&#x1EC7;m c&#x1EE7;a m&#x1ED7;i Ph&#x1B0;&#x1EDD;ng / X&#xE3;. V&#xE0;i l&#x1EA7;n nh&#x1B0; v&#x1EAD;y, h&#x1EA7;u h&#x1EBF;t m&#x1ECD;i Ph&#x1B0;&#x1EDD;ng/ X&#xE3; s&#x1EBD; th&#x1EF1;c hi&#x1EC7;n t&#x1ED1;t, kh&#xF4;ng d&#xE1;m ch&#x1EC3;nh m&#x1EA3;ng,...</p>
+<p>V&#xE0; <strong>l&#xE0;m sao &#x111;&#x1EC3; b&#x1EA3;o &#x111;&#x1EA3;m, si&#xEA;u th&#x1ECB;, ch&#x1EE3; ch&#x1EC9; b&#xE1;n h&#xE0;ng cho ng&#x1B0;&#x1EDD;i c&#xF3; Th&#x1EBB; gia &#x111;&#xEC;nh?</strong></p>
+<p>D&#xF9;ng 1 l&#x1EC7;nh kh&#xE1;c, <em>&quot;m&#x1ECD;i &#x111;&#x1A1;n h&#xE0;ng ph&#x1EA3;i c&#xF3; th&#xEA;m ID c&#x1EE7;a th&#x1EBB; gia &#x111;&#xEC;nh&quot;</em>. N&#x1EBF;u ph&#xE1;t hi&#x1EC7;n thi&#x1EBF;u ID, s&#x1EBD; b&#x1ECB; x&#x1EED; ph&#x1EA1;t nghi&#xEA;m.<br>
+V&#xE0; k&#x1EBF;t h&#x1EE3;p v&#x1EDB;i <em>&quot;danh s&#xE1;ch ID mua h&#xE0;ng m&#x1ED7;i ng&#xE0;y ph&#x1EA3;i g&#x1EED;i v&#x1EC1; Ph&#x1B0;&#x1EDD;ng/ X&#xE3;</em> &#x111;&#x1EC3; c&#x1EAD;p nh&#x1EAD;t v&#xE0;o l&#x1ECB;ch s&#x1EED; mua h&#xE0;ng c&#x1EE7;a m&#x1ED7;i th&#x1EBB;.</p>
+<p>T&#x103;ng c&#x1B0;&#x1EDD;ng ki&#x1EC3;m tra th&#x1EBB; c&#x1EE7;a kh&#xE1;ch l&#xFA;c mua h&#xE0;ng t&#x1EA1;i ch&#x1ED7;, l&#xFA;c &#x111;&#x1A1;n h&#xE0;ng &#x111;&#x1B0;&#x1EE3;c giao b&#x1EDF;i shipper,... &#x111;&#x1EC3; ki&#x1EC3;m so&#xE1;t, ph&#xE1;t hi&#x1EC7;n si&#xEA;u th&#x1ECB;, ch&#x1EE3; vi ph&#x1EA1;m.</p>
+<p>Ti&#x1EBF;p t&#x1EE5;c nh&#x1B0; v&#x1EAD;y, c&#xE1;c &#x111;&#x1ED1;i t&#x1B0;&#x1EE3;ng li&#xEA;n quan t&#x1EDB;i th&#x1EBB; s&#x1EBD; &#x111;&#x1B0;&#x1EE3;c gi&#xE1;m s&#xE1;t, ki&#x1EC3;m tra ch&#xE9;o.</p>
+<p>Thi&#x1EBF;t k&#x1EBF; m&#x1ED9;t c&#x1EA5;u tr&#xFA;c c&#xE2;n b&#x1EB1;ng cho &quot;Th&#x1EBB; l&#x1EC7;nh&quot; &#x111;i&#x1EC1;u kh&#xF4;ng h&#x1EC1; &#x111;&#x1A1;n gi&#x1EA3;n, c&#x1EA7;n c&#xF3; ki&#x1EBF;n th&#x1EE9;c v&#xE0; l&#x129;nh h&#x1ED9;i s&#xE2;u v&#x1EC1; <a href="https://vietnambiz.vn/nguyen-li-thu-nam-the-fifth-discipline-la-gi-cac-nguyen-tac-chinh-20191214001907077.htm">t&#x1B0; duy, ng&#xF4;n ng&#x1EEF; h&#x1EC7; th&#x1ED1;ng</a>.</p>
+<p>M&#x1ED9;t Th&#x1EBB; l&#x1EC7;nh c&#x1EA7;n b&#x1EA3;o &#x111;&#x1EA3;m c&#xE1;c y&#x1EBF;u t&#x1ED1; then ch&#x1ED1;t sau:</p>
+<ol>
+<li>
+<p><strong>T&#xED;nh &#x111;&#x1A1;n gi&#x1EA3;n: m&#x1ECD;i ng&#x1B0;&#x1EDD;i &#x111;&#x1EC1;u s&#x1EED; d&#x1EE5;ng &#x111;&#x1B0;&#x1EE3;c</strong></p>
+<ul>
+<li>Ng&#x1B0;&#x1EDD;i gi&#xE0;, ng&#x1B0;&#x1EDD;i kh&#xF4;ng bi&#x1EBF;t ti&#x1EBF;ng vi&#x1EC7;t, kh&#xF4;ng c&#xF3; smartphone,...</li>
+<li>nh&#xE2;n vi&#xEA;n gi&#x1EEF; xe, qu&#x1EA3;n l&#xFD; ch&#x1EE3;, ti&#x1EC3;u th&#x1B0;&#x1A1;ng c&#xF3; th&#x1EC3; s&#x1EED; d&#x1EE5;ng &#x111;&#x1B0;&#x1EE3;c.</li>
+</ul>
+</li>
+<li>
+<p><strong>T&#xED;nh nh&#x1EAD;n di&#x1EC7;n: nhanh ch&#xF3;ng, t&#x1EEB; xa b&#x1EDF;i con ng&#x1B0;&#x1EDD;i v&#xE0; thi&#x1EBF;t b&#x1ECB;</strong>:</p>
+<ul>
+<li>nh&#xEC;n t&#x1EEB; xa qua d&#xE2;y &#x111;eo, ph&#xE2;n bi&#x1EC7;t b&#x1EDF;i m&#xE0;u s&#x1EAF;c, th&#xF4;ng tin &#x1EDF; m&#x1EB7;t tr&#x1B0;&#x1EDB;c, v&#xE0; c&#x1EA3; m&#x1EB7;t sau.</li>
+<li>kh&#xF4;ng ch&#x1EC9; c&#xF4;ng an, d&#xE2;n ph&#xF2;ng, m&#xE0; c&#x1EA3; ng&#x1B0;&#x1EDD;i d&#xE2;u &#x111;&#x1EC1;u c&#xF3; th&#x1EC3; ph&#xE2;n bi&#x1EC7;t &#x111;&#x1B0;&#x1EE3;c.</li>
+<li>V&#x1EDB;i thi&#x1EBF;t b&#x1ECB; (smartphone, thi&#x1EBF;t b&#x1ECB; checkpoint), qu&#xE9;t th&#x1EBB; &#x111;&#x1EC3; hi&#x1EC7;n th&#xF4;ng tin, ho&#x1EB7;c c&#xF3; &#xE2;m thanh c&#x1EA3;nh b&#xE1;o.</li>
+</ul>
+</li>
+<li>
+<p><strong>T&#xED;nh duy nh&#x1EA5;t: to&#xE0;n v&#x1EB9;n, kh&#xF4;ng ch&#x1EA5;p nh&#x1EAD;n nh&#xE2;n b&#x1EA3;n, sao ch&#xE9;p</strong></p>
+<ul>
+<li>ID duy nh&#x1EA5;t, th&#x1EBB; v&#x1EAD;t l&#xFD;, kh&#xF4;ng ch&#x1EA5;p nh&#x1EAD;n photo, h&#xEC;nh &#x1EA3;nh tr&#xEA;n &#x111;i&#x1EC7;n tho&#x1EA1;i, thi&#x1EBF;u con d&#x1EA5;u ho&#x1EB7;c c&#xF3; d&#x1EA5;u hi&#x1EC7;u l&#xE0;m gi&#x1EA3;,...</li>
+<li>kho&#xE1; th&#x1EBB; t&#x1EEB; xa qua ID, c&#xF3; &#x111;&#x1ECB;a ch&#x1EC9; &#x111;&#x1EC3; x&#x1EED; l&#xFD; t&#xEC;nh tr&#x1EA1;ng cho m&#x1B0;&#x1EE3;n th&#x1EBB;,</li>
+<li>gi&#xE1;m s&#xE1;t s&#x1ED1; l&#x1B0;&#x1EE3;ng ho&#x1EA1;t &#x111;&#x1ED9;ng theo Ph&#x1B0;&#x1EDD;ng, ...</li>
+</ul>
+</li>
+<li>
+<p><strong>T&#x1ED1;c &#x111;&#x1ED9; tri&#x1EC3;n khai: nhanh, &#x111;&#x1ED3;ng lo&#x1EA1;t t&#x1EDB;i m&#x1ECD;i khu v&#x1EF1;c, m&#x1ECD;i ng&#x1B0;&#x1EDD;i</strong></p>
+<ul>
+<li>ph&#xE1;t h&#xE0;nh t&#x1EAD;p trung, in &#x1EA5;n ho&#x1EB7;c xu&#x1EA5;t file pdf g&#x1EED;i online.</li>
+<li>&#x111;&#x1ECB;a ph&#x1B0;&#x1A1;ng x&#xE1;c nh&#x1EAD;n v&#xE0; c&#x1EA5;p cho t&#x1EEB;ng &#x111;&#x1ED1;i t&#x1B0;&#x1EE3;ng</li>
+</ul>
+</li>
+<li>
+<p><strong>l&#x1B0;u tr&#x1EEF; l&#x1ECB;ch s&#x1EED;</strong>: tr&#xEA;n th&#x1EBB; v&#xE0; tr&#xEA;n h&#x1EC7; th&#x1ED1;ng &#x111;&#x1EC3; tra c&#x1EE9;u theo ID</p>
+<ul>
+<li>c&#xE1;c l&#x1EA7;n b&#x1ECB; ki&#x1EC3;m tra b&#x1EDF;i c&#xF4;ng an, c&#xE1;n b&#x1ED9; ph&#x1B0;&#x1EDD;ng, ....</li>
+<li>c&#xE1;c l&#x1EA7;n mua h&#xE0;ng b&#x1EDF;i qu&#x1EA3;n l&#xFD; ch&#x1EE3;, si&#xEA;u th&#x1ECB;</li>
+<li>k&#x1EBF;t h&#x1EE3;p nhi&#x1EC1;u c&#xE1;ch l&#x1B0;u tr&#x1EEF; &#x111;&#x1EC3; mang l&#x1EA1;i hi&#x1EC7;u qu&#x1EA3;: ghi tr&#xEA;n th&#x1EBB; v&#xE0; l&#x1B0;u v&#xE0;o  theo ID</li>
+</ul>
+</li>
+<li>
+<p><strong>T&#xED;nh k&#x1EBF;t n&#x1ED1;i: v&#x1EDB;i h&#x1EC7; th&#x1ED1;ng chung &#x111;&#x1EC3; t&#x1ED1;i &#x1B0;u hi&#x1EC7;u qu&#x1EA3;, nh&#x1B0;ng cho ph&#xE9;p b&#x1ED5; sung trong t&#x1B0;&#x1A1;ng lai</strong></p>
+<ul>
+<li>t&#xEC;m ki&#x1EBF;m th&#xF4;ng tin theo ID tr&#xEA;n h&#x1EC7; th&#x1ED1;ng</li>
+<li>qrcode &#x111;&#x1EC3; m&#x1EDF; r&#x1ED9;ng t&#xED;nh n&#x103;ng qu&#x1EA3;n l&#xFD; gi&#xE1;m s&#xE1;t trong t&#x1B0;&#x1A1;ng lai.</li>
+</ul>
+</li>
+</ol>
+<p>C&#xF3; th&#x1EC3; th&#x1EA5;y, <strong>kh&#x1EA9;u trang</strong> l&#xE0;  1 c&#x1EA5;u tr&#xFA;c c&#xF3; 4 y&#x1EBF;u t&#x1ED1; &#x111;&#x1EA7;u ti&#xEA;n. &#x110;i&#x1EC1;u n&#xE0;y khi&#x1EBF;n cho h&#x1EC7; th&#x1ED1;ng kh&#x1EA9;u trang r&#x1EA5;t hi&#x1EC7;u qu&#x1EA3; trong vi&#x1EC7;c ch&#x1ED1;ng d&#x1ECB;ch: h&#x1EA1;n ch&#x1EBF; l&#xE2;y nhi&#x1EC5;m covid v&#xE0; nh&#x1EAD;n bi&#x1EBF;t ng&#x1B0;&#x1EDD;i tu&#xE2;n th&#x1EE7;.</p>
+<p>V&#xE0; &#x111;&#xE2;y l&#xE0; thi&#x1EBF;t k&#x1EBF; cho Th&#x1EBB; Gia &#x111;&#xEC;nh, 1 lo&#x1EA1;i &quot;Th&#x1EBB; l&#x1EC7;nh&quot; d&#xE0;nh cho gia &#x111;&#xEC;nh</p>
+<p><img src="the_gia_dinh_overview.png" alt></p>
+<p>C&#xE1;c ph&#x1EA7;n quan tr&#x1ECD;ng, gi&#xFA;p c&#xF3; &#x111;&#x1B0;&#x1EE3;c 5 y&#x1EBF;u t&#x1ED1; tr&#xEA;n</p>
+<ul>
+<li>
+<p><strong>ID (100050009)</strong>: duy nh&#x1EA5;t v&#xE0; sinh ra b&#x1EDF;i h&#x1EC7; th&#x1ED1;ng t&#x1EAD;p trung.</p>
+</li>
+<li>
+<p><strong>Ph&#x1B0;&#x1EDD;ng x&#xE3; &#x111;ang s&#x1ED1;ng</strong>, c&#x1ED1; &#x111;&#x1ECB;nh, li&#xEA;n quan t&#x1EDB;i 5 s&#x1ED1; &#x111;&#x1EA7;u c&#x1EE7;a ID</p>
+</li>
+<li>
+<p><strong>Ph&#x1EA7;n &#x111;&#xF3;ng d&#x1EA5;u c&#x1EE7;a Ph&#x1B0;&#x1EDD;ng/ x&#xE3;</strong> &#x111;&#x1EC3; ph&#x1EE5;c v&#x1EE5; cho vi&#x1EC7;c tri&#x1EC3;n khai nhanh ch&#xF3;ng, c&#x169;ng nh&#x1B0; d&#x1EC5; d&#xE0;ng nh&#x1EAD;n bi&#x1EBF;t th&#x1EAD;t gi&#x1EA3;.</p>
+</li>
+<li>
+<p><strong>L&#x1ECB;ch s&#x1EED; ra ngo&#xE0;i, mua h&#xE0;ng</strong>: khoanh tr&#xF2;n b&#x1EDF;i c&#xF4;ng an l&#xE0; &#x111;&#xE1;nh d&#x1EA5;u ng&#xE0;y ra ngo&#xE0;i, vi&#x1EBF;t ch&#xE9;o b&#x1EDF;i nh&#xE2;n vi&#xEA;n si&#xEA;u th&#x1ECB; l&#xE0; &#x111;&#x1EC3; x&#xE1;c nh&#x1EAD;n ng&#xE0;y mua h&#xE0;ng.</p>
+</li>
+<li>
+<p><strong>m&#xE3; QRCode</strong> l&#xE0; ph&#x1EA7;n &#x111;&#x1EC3; k&#x1EBF;t n&#x1ED1;i v&#x1EDB;i h&#x1EC7; th&#x1ED1;ng, d&#x1EC5; d&#xE0;ng m&#x1EDF; r&#x1ED9;ng sau.</p>
+</li>
+</ul>
+<p>Chi ti&#x1EBF;t tham kh&#x1EA3;o th&#xEA;m <a href="https://baotnq.qrcare.vn/trienkhai.html#tri%E1%BB%83n-khai-th%E1%BA%BB-gia-%C4%91%C3%ACnh">Tri&#x1EC3;n khai Th&#x1EBB; Gia &#x111;&#xEC;nh</a></p>
+<h4 class="mume-header" id="c%C3%A1c-b%C3%AAn-c%C3%B3-th%E1%BB%83-t%C6%B0%C6%A1ng-t%C3%A1c">C&#xE1;c b&#xEA;n c&#xF3; th&#x1EC3; t&#x1B0;&#x1A1;ng t&#xE1;c:</h4>
+
+<p>Ng&#x1B0;&#x1EDD;i d&#xE2;n, ch&#xED;nh quy&#x1EC1;n &#x111;&#x1ECB;a ph&#x1B0;&#x1A1;ng, doanh nghi&#x1EC7;p, c&#xF4;ng an,... &#x111;&#x1EC1;u c&#xF3; th&#x1EC3; t&#x1B0;&#x1A1;ng t&#xE1;c l&#xEA;n t&#x1EEB;ng &quot;Th&#x1EBB; l&#x1EC7;nh&quot;.</p>
+<p>Ban ch&#x1EC9; &#x111;&#x1EA1;o ch&#x1ED1;ng d&#x1ECB;ch, d&#x1EF1;a tr&#xEA;n h&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh, c&#xF3; th&#x1EC3; gi&#xE1;m s&#xE1;t, qu&#x1EA3;n l&#xFD; c&#xE1;c t&#x1B0;&#x1A1;ng t&#xE1;c n&#xE0;y t&#x1EEB; xa.</p>
+<p>Chi ti&#x1EBF;t xem minh ho&#x1EA1; b&#xEA;n d&#x1B0;&#x1EDB;i</p>
+<p><img src="moi-tuong-tac.png" alt></p>
+<h4 class="mume-header" id="gi%C3%A1m-s%C3%A1t-ch%C3%A9o">Gi&#xE1;m s&#xE1;t ch&#xE9;o</h4>
+
+<p>C&#x1A1; ch&#x1EBF; gi&#xE1;m s&#xE1;t &#x111;an xen, h&#x1EA1;n ch&#x1EBF; t&#x1ED1;i &#x111;a khe h&#x1EDF; vi ph&#x1EA1;m, thi&#x1EBF;u tr&#xE1;ch nhi&#x1EC7;m.</p>
+<p><img src="giam-sat-cheo.png" alt></p>
+<p>H&#x1B0;&#x1EDB;ng d&#x1EAB;n chi ti&#x1EBF;t, bao g&#x1ED3;m lu&#xF4;n c&#xE1;ch gi&#xE1;m s&#xE1;t, k&#xE8;m c&#xE1;c ch&#x1EBF; t&#xE0;i x&#x1EED; l&#xFD; vi ph&#x1EA1;m r&#xF5; r&#xE0;ng s&#x1EBD; gi&#xFA;p m&#x1ECD;i b&#xEA;n t&#x1EF1; &#x111;&#x1ED9;ng tu&#xE2;n th&#x1EE7;. Lo&#x1EA1;i b&#x1ECF;  suy ngh&#x129; ti&#xEA;u c&#x1EF1;c c&#x1EE7;a m&#x1ECD;i ng&#x1B0;&#x1EDD;i: <strong>t&#xEC;m c&#xE1;ch vi ph&#x1EA1;m v&#xE0; tin r&#x1EB1;ng s&#x1EBD; kh&#xF4;ng b&#x1ECB; ph&#xE1;t hi&#x1EC7;n</strong></p>
+<p>M&#x1ED9;t s&#x1ED1; tr&#x1B0;&#x1EDD;ng h&#x1EE3;p &#x111;&#x1EB7;c bi&#x1EC7;t, s&#x1EBD; c&#xF3; t&#xE0;i kho&#x1EA3;n s&#x1EED; d&#x1EE5;ng tr&#xEA;n <strong>MobileApp</strong> ri&#xEA;ng. Ph&#x1EA7;n c&#xF4;ng ngh&#x1EC7; n&#xE0;y c&#xF3; th&#x1EC3; b&#x1ED5; sung sau.</p>
+<p>V&#x1EDB;i c&#x1A1; ch&#x1EBF; gi&#xE1;m s&#xE1;t ch&#xE9;o v&#xE0; h&#x1EC7; th&#x1ED1;ng t&#x1EAD;p trung, Th&#x1EBB; gia &#x111;&#xEC;nh gi&#x1EA3;i quy&#x1EBF;t nhi&#x1EC1;u h&#x1EA1;n ch&#x1EBF; c&#x1EE7;a c&#xE1;c gi&#x1EA3;i ph&#xE1;p &#x111;ang c&#xF3;.<br>
+Tham kh&#x1EA3;o th&#xEA;m <a href="https://baotnq.qrcare.vn/trienkhai.html#b%E1%BA%A5t-c%E1%BA%ADp-c%E1%BB%A7a-phi%E1%BA%BFu-ra-%C4%91%C6%B0%E1%BB%9Dng-th%E1%BA%BB-%C4%91i-ch%E1%BB%A3">B&#x1EA5;t c&#x1EAD;p c&#x1EE7;a phi&#x1EBF;u ra &#x111;&#x1B0;&#x1EDD;ng, th&#x1EBB; &#x111;i ch&#x1EE3;</a></p>
+<p>Sau 1 th&#x1EDD;i gian tri&#x1EC3;n khai &quot;h&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh&quot;, v&#xF9;ng d&#x1ECB;ch c&#xF3; th&#x1EC3; th&#x1EF1;c hi&#x1EC7;n <strong>m&#x1EE5;c ti&#xEA;u k&#xE9;p</strong> ch&#x1ED1;ng d&#x1ECB;ch v&#xE0; ph&#xE1;t tri&#x1EC3;n kinh t&#x1EBF;</p>
+<h3 class="mume-header" id="th%E1%BB%B1c-hi%E1%BB%87n-m%E1%BB%A5c-ti%C3%AAu-k%C3%A9p-c%E1%BB%A7a-ch%C3%ADnh-ph%E1%BB%A7">Th&#x1EF1;c hi&#x1EC7;n &quot;M&#x1EE5;c ti&#xEA;u k&#xE9;p&quot; c&#x1EE7;a ch&#xED;nh ph&#x1EE7;</h3>
+
+<ul>
+<li>
+<p><strong>T&#x1EAD;p trung ch&#x1ED1;ng d&#x1ECB;ch khu v&#x1EF1;c nguy c&#x1A1; cao</strong> : khoanh v&#xF9;ng ch&#x1EB7;t ch&#x1EBD;,  x&#xE9;t nghi&#x1EC7;m to&#xE0;n b&#x1ED9; li&#xEA;n t&#x1EE5;c &#x111;&#x1EC3; t&#xE1;ch h&#x1EBF;t F0 &#x111;&#x1EC3; chuy&#x1EC3;n th&#xE0;nh v&#xF9;ng an to&#xE0;n.</p>
+</li>
+<li>
+<p><strong>Gi&#x1EA3;m b&#x1EDB;t gi&#xE3;n c&#xE1;ch &#x111;&#x1EC3; ph&#xE1;t tri&#x1EC3;n kinh t&#x1EBF; b&#xEA;n trong khu v&#x1EF1;c an to&#xE0;n</strong>: cho ph&#xE9;p m&#x1EDF; l&#x1EA1;i nhi&#x1EC1;u ho&#x1EA1;t &#x111;&#x1ED9;ng h&#x1A1;n b&#xEA;n trong, v&#xE0; v&#x1EAB;n duy tr&#xEC; x&#xE9;t nghi&#x1EC7;m</p>
+</li>
+<li>
+<p><strong>H&#x1EC7; th&#x1ED1;ng c&#x1EA3;nh b&#xE1;o s&#x1EDB;m</strong> X&#xE9;t nghi&#x1EC7;m theo t&#x1EEB;ng nh&#xF3;m nguy c&#x1A1; cao, &#x111;&#x1EC3; nhanh ch&#xF3;ng ph&#xE1;t hi&#x1EC7;n, &#x111;&#x1EC3; h&#x1EA1;n ch&#x1EBF; d&#x1ECB;ch b&#xF9;ng ph&#xE1;t trong t&#x1B0;&#x1A1;ng lai.</p>
+</li>
+</ul>
+<p>Sau &#x111;&#xE2;y ch&#xFA;ng ta s&#x1EBD; chi ti&#x1EBF;t 3 nhi&#x1EC7;m v&#x1EE5; ch&#xED;nh c&#x1EE7;a h&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh:</p>
+<h3 class="mume-header" id="nhi%E1%BB%87m-v%E1%BB%A5-1-chia-v%C3%B9ng-d%E1%BB%8Bch-th%C3%A0nh-c%C3%A1c-khu-v%E1%BB%B1c-li%E1%BB%81n-k%E1%BB%81">Nhi&#x1EC7;m v&#x1EE5; 1: Chia v&#xF9;ng d&#x1ECB;ch th&#xE0;nh c&#xE1;c khu v&#x1EF1;c li&#x1EC1;n k&#x1EC1;</h3>
+
+<p>Khi tri&#x1EC3;n khai m&#x1ED9;t s&#x1ED1; m&#x1EC7;nh l&#x1EC7;nh l&#xEA;n h&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh, s&#x1EBD; khi&#x1EBF;n cho h&#x1EA7;u h&#x1EBF;t ho&#x1EA1;t &#x111;&#x1ED9;ng c&#x1EE7;a m&#x1ECD;i ng&#x1B0;&#x1EDD;i t&#x1EAD;p trung b&#xEA;n trong t&#x1EEB;ng khu v&#x1EF1;c. Ng&#x1B0;&#x1EDD;i d&#xE2;n ch&#x1EC9; mua h&#xE0;ng b&#xEA;n trong khu v&#x1EF1;c, kh&#xF4;ng v&#xF4; &#xFD; di chuy&#x1EC3;n sang khu v&#x1EF1;c l&#xE2;n c&#x1EAD;n.</p>
+<p>Quan tr&#x1ECD;ng h&#x1A1;n, vi&#x1EC7;c gi&#x1EDB;i h&#x1EA1;n ho&#x1EA1;t &#x111;&#x1ED9;ng theo khu v&#x1EF1;c di&#x1EC5;n ra m&#x1ED9;t c&#xE1;ch &quot;v&#xF4; th&#x1EE9;c&quot;, kh&#xF4;ng ph&#x1EE5; thu&#x1ED9;c v&#xE0;o tinh th&#x1EA7;n t&#x1EF1; gi&#xE1;c c&#x1EE7;a ng&#x1B0;&#x1EDD;i d&#xE2;n. C&#xE1;c c&#xE1; nh&#xE2;n ra v&#xE0;o khu v&#x1EF1;c &#x111;&#x1EC3; l&#xE0;m vi&#x1EC7;c, giao h&#xE0;ng theo Th&#x1EBB; c&#xE1; nh&#xE2;n tu&#xE2;n th&#x1EE7; m&#x1ED9;t c&#xE1;ch &quot;v&#xF4; th&#x1EE9;c&quot;, c&#x169;ng nh&#x1B0; &#x111;&#x1B0;&#x1EE3;c ki&#x1EC3;m so&#xE1;t ch&#x1EB7;t khi c&#x1EA7;n thi&#x1EBF;t.</p>
+<p>T&#x1EC9; l&#x1EC7; c&#x1ED1; &#xFD; vi ph&#x1EA1;m, ra kh&#x1ECF;i khu v&#x1EF1;c kh&#xF4;ng c&#xF3; l&#xFD; do s&#x1EBD; &#xED;t &#x111;i nhi&#x1EC1;u. Vi&#x1EC7;c ph&#xE1;t hi&#x1EC7;n d&#x1EC5; d&#xE0;ng, x&#x1EED; ph&#x1EA1;t r&#xF5; r&#xE0;ng theo quy &#x111;&#x1ECB;nh, c&#xE0;ng khi&#x1EBF;n cho s&#x1ED1; l&#x1B0;&#x1EE3;ng vi ph&#x1EA1;m d&#x1EA7;n v&#x1EC1; 0.</p>
+<h4 class="mume-header" id="h%E1%BA%A1n-ch%E1%BA%BF-ra-ngo%C3%A0i-mua-nhu-y%E1%BA%BFu-ph%E1%BA%A9m">H&#x1EA1;n ch&#x1EBF; ra ngo&#xE0;i mua nhu y&#x1EBF;u ph&#x1EA9;m</h4>
+
+<p>Th&#x1EBB; gia &#x111;&#xEC;nh s&#x1EBD; b&#x1EA3;o &#x111;&#x1EA3;m ra m&#x1ED7;i gia &#x111;&#xEC;nh ch&#x1EC9; c&#xF3; 1 ng&#x1B0;&#x1EDD;i ra ngo&#xE0;i mua nhu y&#x1EBF;u ph&#x1EA9;m.</p>
+<p>V&#x1EDB;i l&#x1EC7;nh, <strong>ng&#x1B0;&#x1EDD;i b&#xE1;n ghi nh&#x1EAD;n ng&#xE0;y mua h&#xE0;ng &#x1EDF; m&#x1EB7;t sau t&#x1EA5;m th&#x1EBB;</strong>, s&#x1EBD; gi&#xFA;p ph&#xE1;t hi&#x1EC7;n d&#x1EC5; d&#xE0;ng vi&#x1EC7;c c&#x1ED1; t&#xEC;nh ra ngo&#xE0;i nhi&#x1EC1;u l&#x1EA7;n m&#xE0; kh&#xF4;ng mua h&#xE0;ng.</p>
+<p>V&#x1EDB;i l&#x1EC7;nh: <strong>ch&#x1EC9; b&#xE1;n cho ng&#x1B0;&#x1EDD;i c&#xF3; th&#x1EBB;, kh&#xF4;ng v&#x1B0;&#x1EE3;t gi&#x1EDB;i h&#x1EA1;n mua theo ng&#xE0;y</strong>, gi&#xFA;p lo&#x1EA1;i b&#x1ECF; nhu c&#x1EA7;u ra ngo&#xE0;i mua h&#xE0;ng kh&#xF4;ng c&#x1EA7;n thi&#x1EBF;t.</p>
+<p>&#x110;&#x1ED3;ng th&#x1EDD;i, <strong>y&#xEA;u c&#x1EA7;u b&#xEA;n b&#xE1;n &#x111;&#x1B0;a ra c&#xE1;c &#x1B0;u &#x111;&#xE3;i mua h&#xE0;ng t&#x1EA1;i nh&#xE0;</strong>, s&#x1EBD; h&#x1EA1;n ch&#x1EBF; nhu c&#x1EA7;u ra ngo&#xE0;i mua h&#xE0;ng.</p>
+<p>K&#x1EBF;t h&#x1EE3;p l&#x1EA1;i, s&#x1EBD; t&#x1EA1;o ra m&#x1ED9;t l&#x1EC7;nh m&#x1EA1;nh m&#x1EBD;, ph&#xE2;n bi&#x1EC7;t nhanh ng&#x1B0;&#x1EDD;i c&#x1ED1; t&#xEC;nh vi ph&#x1EA1;m. B&#x1EA3;n th&#xE2;n m&#x1ED7;i ng&#x1B0;&#x1EDD;i c&#x169;ng bi&#x1EBF;t &#x111;i&#x1EC1;u n&#xE0;y, khi&#x1EBF;n h&#x1ECD; &quot;v&#xF4; th&#x1EE9;c&quot; h&#x1EA1;n ch&#x1EBF; ra &#x111;&#x1B0;&#x1EDD;ng.</p>
+<p>H&#x1EA1;n ch&#x1EBF; &#x111;&#x1B0;&#x1EE3;c m&#x1ECD;i ng&#x1B0;&#x1EDD;i d&#xE2;n ra &#x111;&#x1B0;&#x1EDD;ng theo tinh th&#x1EA7;n c&#x1EE7;a ch&#x1EC9; th&#x1ECB; 16, gi&#xFA;p vi&#x1EC7;c &#xE1;p d&#x1EE5;ng c&#xE1;c b&#x1B0;&#x1EDB;c sau nhanh ch&#xF3;ng, &#xED;t b&#x1ECB; ph&#x1EA3;n kh&#xE1;ng.</p>
+<h4 class="mume-header" id="gi%E1%BB%9Bi-h%E1%BA%A1n-ho%E1%BA%A1t-%C4%91%E1%BB%99ng-c%E1%BB%A7a-ng%C6%B0%E1%BB%9Di-d%C3%A2n-b%C3%AAn-trong-khu-v%E1%BB%B1c">Gi&#x1EDB;i h&#x1EA1;n ho&#x1EA1;t &#x111;&#x1ED9;ng c&#x1EE7;a ng&#x1B0;&#x1EDD;i d&#xE2;n b&#xEA;n trong khu v&#x1EF1;c</h4>
+
+<p>Ra l&#x1EC7;nh b&#xEA;n b&#xE1;n <strong>kh&#xF4;ng ph&#x1EE5;c v&#x1EE5; c&#x1B0; d&#xE2;n ngo&#xE0;i khu v&#x1EF1;c c&#x1EE5; th&#x1EC3;</strong>, c&#x169;ng nh&#x1B0; th&#xF4;ng b&#xE1;o v&#x1EC1; c&#x1A1; ch&#x1EBF; x&#x1EED; ph&#x1EA1;t n&#x1EBF;u b&#x1ECB; ph&#xE1;t hi&#x1EC7;n, s&#x1EBD; &quot;v&#xF4; th&#x1EE9;c&quot; h&#x1EA1;n ch&#x1EBF; vi&#x1EC7;c di chuy&#x1EC3;n ra ngo&#xE0;i khu  v&#x1EF1;c c&#x1EE7;a ng&#x1B0;&#x1EDD;i d&#xE2;n</p>
+<p>T&#x1EC9; l&#x1EC7; vi ph&#x1EA1;m s&#x1EBD; gi&#x1EA3;m h&#x1A1;n nhi&#x1EC1;u v&#xE0; d&#x1EC5; b&#x1ECB; ph&#xE1;t hi&#x1EC7;n, khi&#x1EBF;n s&#x1ED1; l&#x1B0;&#x1EE3;ng ng&#xE0;y c&#xE0;ng gi&#x1EA3;m</p>
+<p>Vi&#x1EC7;c gi&#x1EDB;i h&#x1EA1;n m&#x1ED9;t c&#xE1;ch t&#x1EF1; nhi&#xEA;n cho m&#x1ECD;i ng&#x1B0;&#x1EDD;i mang th&#x1EBB; d&#x1EF1;a tr&#xEA;n m&#x1ED9;t l&#xFD; thuy&#x1EBF;t l&#xE0; &quot;c&#x1EA5;u tr&#xFA;c &#x1EA3;nh h&#x1B0;&#x1EDF;ng t&#x1EDB;i h&#xE0;nh vi c&#x1EE7;a m&#x1ECD;i &#x111;&#x1ED1;i t&#x1B0;&#x1EE3;ng b&#xEA;n trong&quot; v&#xE0; s&#x1ED1; l&#x1B0;&#x1EE3;ng vi ph&#x1EA1;m ng&#xE0;y c&#xE0;ng gi&#x1EA3;m l&#xE0; m&#x1ED9;t ti&#x1EBF;n tr&#xEC;nh t&#x103;ng c&#x1B0;&#x1EDD;ng theo th&#x1EDD;i gian. Tham kh&#x1EA3;o hai ph&#x1EA7;n n&#xE0;y trong cu&#x1ED1;n <a href="https://vietnambiz.vn/nguyen-li-thu-nam-the-fifth-discipline-la-gi-cac-nguyen-tac-chinh-20191214001907077.htm">Nguy&#xEA;n l&#xFD; th&#x1EE9; 5</a></p>
+<h4 class="mume-header" id="gi%C3%A1m-s%C3%A1t-vi%E1%BB%87c-di-chuy%E1%BB%83n-ra-v%C3%A0o-ngo%C3%A0i-khu-v%E1%BB%B1c">Gi&#xE1;m s&#xE1;t vi&#x1EC7;c di chuy&#x1EC3;n ra, v&#xE0;o ngo&#xE0;i khu v&#x1EF1;c</h4>
+
+<p>Th&#x1EBB; l&#xE0;m vi&#x1EC7;c d&#xE0;nh cho &#x111;&#x1ED9;i giao h&#xE0;ng, nh&#xE2;n vi&#xEA;n &#x111;i l&#xE0;m th&#x1B0;&#x1EDD;ng xuy&#xEA;n ra, v&#xE0;o khu v&#x1EF1;c,... gi&#xFA;p cho vi&#x1EC7;c gi&#xE1;m s&#xE1;t tr&#x1EDF; n&#xEA;n d&#x1EC5; d&#xE0;ng.<br>
+Y&#xEA;u c&#x1EA7;u t&#x1EDB;i &#x111;&#x1B0;&#x1EDD;ng gi&#xE1;p ranh, <strong>khai b&#xE1;o t&#x1EF1; nguy&#x1EC7;n b&#x1EB1;ng c&#xE1;ch qu&#xE9;t th&#x1EBB; t&#x1EA1;i c&#xE1;c &#x111;i&#x1EC3;m Checkpoint</strong></p>
+<p>D&#x1EF1;a v&#xE0;o &#x111;&#xF3; d&#x1EC5; d&#xE0;ng ph&#xE2;n bi&#x1EC7;t c&#xE1;c c&#xE1; nh&#xE2;n kh&#xF4;ng c&#xF3; Th&#x1EBB;, ho&#x1EB7;c ch&#x1EC9; c&#xF3; Th&#x1EBB; gia &#x111;&#xEC;nh.</p>
+<p>Khi c&#x1EA7;n t&#x103;ng m&#x1EE9;c &#x111;&#x1ED9; ki&#x1EC3;m so&#xE1;t ra ngo&#xE0;i khu v&#x1EF1;c, b&#x1ED5; sung th&#xEA;m c&#xF4;ng an, d&#xE2;n ph&#xF2;ng t&#x1EA1;i c&#xE1;c &#x111;i&#x1EC3;m Checkpoint v&#xE0; y&#xEA;u c&#x1EA7;u t&#x1EA5;t c&#x1EA3; tu&#xE2;n th&#x1EE7; nh&#x1B0; khai b&#xE1;o y t&#x1EBF;, x&#xE9;t nghi&#x1EC7;m, ho&#x1EB7;c c&#xE1;ch ly,...</p>
+<p>K&#x1EBF;t qu&#x1EA3; c&#x1EE7;a vi&#x1EC7;c &#x111;&#x1ED3;ng th&#x1EDD;i th&#x1EF1;c hi&#x1EC7;n c&#xE1;c vi&#x1EC7;c tr&#xEA;n, gi&#xFA;p ph&#xE2;n chia v&#xF9;ng d&#x1ECB;ch th&#xE0;nh nh&#x1EEF;ng khu v&#x1EF1;c ho&#x1EA1;t &#x111;&#x1ED9;ng n&#x1ED9;i b&#x1ED9;, vi&#x1EC7;c &#x111;i l&#x1EA1;i gi&#x1EEF;a hai khu v&#x1EF1;c li&#x1EC1;n k&#x1EC1; &#x111;&#x1B0;&#x1EE3;c gi&#xE1;m s&#xE1;t. H&#xEC;nh th&#xE0;nh m&#x1EA1;ng l&#x1B0;&#x1EDB;i khu v&#x1EF1;c li&#x1EC1;n k&#x1EC1;, gi&#x1ED1;ng <strong>ru&#x1ED9;ng b&#x1EAD;c thang</strong> h&#x1EA1;n ch&#x1EBF; vi&#x1EC7;c l&#xE2;y lan c&#x1EE7;a covid &#x111;i xa m&#x1ED9;t c&#xE1;ch hi&#x1EC7;u qu&#x1EA3;.</p>
+<p>H&#x1EA1;n ch&#x1EBF; v&#xE0; khoanh v&#xF9;ng l&#xE2;y lan theo ru&#x1ED9;ng b&#x1EAD;c thang, gi&#xFA;p ngu&#x1ED3;n l&#x1EF1;c &#x111;&#x1B0;&#x1EE3;c t&#x1EAD;p trung, s&#x1EED; d&#x1EE5;ng hi&#x1EC7;u qu&#x1EA3; v&#x1EDB;i h&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh &#x111;&#x1EC3;<br>
+c&#xF3; th&#x1EC3; th&#x1EF1;c hi&#x1EC7;n nhi&#x1EC7;m v&#x1EE5; ti&#x1EBF;p theo.</p>
+<h3 class="mume-header" id="nhi%E1%BB%87m-v%E1%BB%A5-2-huy-%C4%91%E1%BB%99ng-m%E1%BB%8Di-ng%C6%B0%E1%BB%9Di-b%C3%AAn-trong-khu-v%E1%BB%B1c-c%C3%B9ng-tham-gia-ch%E1%BB%91ng-d%E1%BB%8Bch">Nhi&#x1EC7;m v&#x1EE5;  2. Huy &#x111;&#x1ED9;ng m&#x1ECD;i ng&#x1B0;&#x1EDD;i b&#xEA;n trong khu v&#x1EF1;c  c&#xF9;ng tham gia ch&#x1ED1;ng d&#x1ECB;ch</h3>
+
+<p>Mu&#x1ED1;n ch&#x1ED1;ng d&#x1ECB;ch hi&#x1EC7;u qu&#x1EA3;, b&#xEA;n c&#x1EA1;nh tinh th&#x1EA7;n t&#x1EF1; gi&#xE1;c, c&#x1EA7;n m&#x1ECD;i ng&#x1B0;&#x1EDD;i c&#xF9;ng ph&#x1ED1;i h&#x1EE3;p, tu&#xE2;n th&#x1EE7; nh&#x1EEF;ng y&#xEA;u c&#x1EA7;u &#x111;&#x1B0;a ra.</p>
+<h4 class="mume-header" id="h%E1%BB%87-th%E1%BB%91ng-li%C3%AAn-l%E1%BA%A1c-%C4%91a-chi%E1%BB%81u">H&#x1EC7; th&#x1ED1;ng li&#xEA;n l&#x1EA1;c &#x111;a chi&#x1EC1;u</h4>
+
+<p>gi&#x1EEF;a B&#x1ED9; ch&#x1EC9; huy v&#xE0; m&#x1ECD;i &#x111;&#x1ED1;i t&#x1B0;&#x1EE3;ng: ng&#x1B0;&#x1EDD;i d&#xE2;n, doanh nghi&#x1EC7;p &#x111;&#x1ECB;a ph&#x1B0;&#x1A1;ng, c&#xE1;n b&#x1ED9; &#x111;&#x1ECB;a ph&#x1B0;&#x1A1;ng, v&#xE0; &#x111;&#x1ED9;i ng&#x169; y t&#x1EBF; d&#xF9;ng chung. C&#xF3; nhi&#x1EC1;u c&#x1A1; ch&#x1EBF; li&#xEA;n l&#x1EA1;c tu&#x1EF3; t&#xEC;nh h&#xEC;nh</p>
+<ul>
+<li>Truy&#x1EC1;n l&#x1EC7;nh t&#x1ED5;ng qu&#xE1;t, t&#x1EEB; xa: th&#xF4;ng qua b&#xE1;o ch&#xED; truy&#x1EC1;n h&#xEC;nh, ...</li>
+<li>Gi&#x1EA3;i th&#xED;ch l&#x1EC7;nh theo t&#x1EEB;ng khu v&#x1EF1;c, Ph&#x1B0;&#x1EDD;ng / x&#xE3; nh&#x1ECF; h&#x1A1;n:</li>
+<li>h&#x1B0;&#x1EDB;ng d&#x1EAB;n tr&#x1EF1;c ti&#x1EBF;p t&#x1EA1;i t&#x1EEB;ng nh&#xE0; b&#x1EDF;i c&#xE1;c b&#x1ED9; &#x111;&#x1ECB;a ph&#x1B0;&#x1A1;ng</li>
+<li>&#x111;&#xF4;n &#x111;&#x1ED1;c c&#xE1;n b&#x1ED9; &#x111;&#x1ECB;a ph&#x1B0;&#x1A1;ng b&#xE1;m s&#xE1;t m&#x1ECD;i gia &#x111;&#xEC;nh, h&#x1EA1;n ch&#x1EBF; b&#x1ECF; s&#xF3;t</li>
+<li>ng&#x1B0;&#x1EDD;i d&#xE2;n nh&#x1EAF;c nh&#x1EDF;, h&#x1B0;&#x1EDB;ng d&#x1EAB;n nhau v&#x1EC1; c&#xE1;ch th&#x1EF1;c hi&#x1EC7;n.</li>
+<li>C&#xE1;c c&#xE1; nh&#xE2;n mang th&#x1EBB;, g&#x1EED;i d&#x1EEF; li&#x1EC7;u th&#x1EF1;c t&#x1EBF; v&#x1EC1; B&#x1ED9; ch&#x1EC9; huy khi c&#xF3; y&#xEA;u c&#x1EA7;u ho&#x1EB7;c t&#x1EF1; gi&#xE1;c th&#x1EF1;c hi&#x1EC7;n.</li>
+</ul>
+<p>T&#x103;ng c&#x1B0;&#x1EDD;ng m&#x1EDF; r&#x1ED9;ng, k&#x1EBF;t h&#x1EE3;p nhi&#x1EC1;u c&#xF4;ng ngh&#x1EC7;: thi&#x1EBF;t b&#x1ECB; t&#x1EF1; &#x111;&#x1ED9;ng, ph&#xE2;n t&#xED;ch d&#x1EEF; li&#x1EC7;u &#x111;&#x1EC3; t&#x1ED1;i &#x1B0;u t&#x1ED5; ch&#x1EE9;c, m&#xF4; h&#xEC;nh d&#x1EF1; &#x111;o&#xE1;n xu h&#x1B0;&#x1EDB;ng d&#x1ECB;ch b&#x1EC7;nh,... gi&#xFA;p n&#xE2;ng cao n&#x103;ng l&#x1EF1;c, hi&#x1EC7;u qu&#x1EA3; c&#x1EE7;a h&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh.</p>
+<h4 class="mume-header" id="huy-%C4%91%E1%BB%99ng-m%E1%BB%8Di-ngu%E1%BB%93n-l%E1%BB%B1c">Huy &#x111;&#x1ED9;ng m&#x1ECD;i ngu&#x1ED3;n l&#x1EF1;c</h4>
+
+<p>V&#x1EDB;i h&#x1EC7; th&#x1ED1;ng li&#xEA;n l&#x1EA1;c m&#x1EA1;nh m&#x1EBD;, nhi&#x1EC1;u k&#xEA;nh n&#xE0;y, s&#x1EBD; huy &#x111;&#x1ED9;ng &#x111;&#x1B0;&#x1EE3;c ngu&#x1ED3;n l&#x1EF1;c c&#x1EE7;a c&#x1ED9;ng &#x111;&#x1ED3;ng</p>
+<ul>
+<li><strong>Ng&#x1B0;&#x1EDD;i d&#xE2;n</strong> S&#x1EF1; h&#x1EE3;p t&#xE1;c, tu&#xE2;n th&#x1EE7; c&#x1EE7;a m&#x1ECD;i gia &#x111;&#xEC;nh</li>
+<li><strong>Ngu&#x1ED3;n l&#x1EF1;c &#x111;&#x1ECB;a ph&#x1B0;&#x1A1;ng</strong>: c&#xE1;n b&#x1ED9; &#x111;&#x1ECB;a ph&#x1B0;&#x1A1;ng, t&#xEC;nh nguy&#x1EC7;n vi&#xEA;n v&#xE0; c&#x1EA3; doanh nghi&#x1EC7;p &#x111;&#x1ECB;a ph&#x1B0;&#x1A1;ng</li>
+<li><strong>Ngu&#x1ED3;n l&#x1EF1;c t&#x1EAD;p trung</strong> &#x111;&#x1B0;&#x1EE3;c &#x111;i&#x1EC1;u ph&#x1ED1;i khoa h&#x1ECD;c, t&#x1ED1;i &#x1B0;u v&#xE0; c&#x1EA3;i thi&#x1EC7;n theo th&#x1EDD;i gian.</li>
+</ul>
+<p>Khi vi&#x1EC7;c ch&#x1ED1;ng d&#x1ECB;ch di&#x1EC5;n ra th&#x1B0;&#x1EDD;ng xuy&#xEA;n: nh&#x1B0; x&#xE9;t nghi&#x1EC7;m t&#x1EAD;p trung, &#x111;&#x1ECB;nh k&#x1EF3;, ti&#xEA;m vacxin theo &#x111;&#x1EE3;t,... H&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh c&#x169;ng gi&#xFA;p t&#x1EA1;o ra th&#xF3;i quen cho m&#x1ECD;i ng&#x1B0;&#x1EDD;i, nh&#x1B0; : &#x111;&#x1EBF;n &#x111;&#xFA;ng n&#x1A1;i, &#x111;&#xFA;ng gi&#x1EDD;, di chuy&#x1EC3;n tr&#x1EAD;t t&#x1EF1;,...</p>
+<p>Th&#xF3;i quen n&#xE0;y ch&#xED;nh l&#xE0; ngu&#x1ED3;n s&#x1EE9;c m&#x1EA1;nh v&#xF4; c&#xF9;ng l&#x1EDB;n &#x111;&#x1EC3; ch&#x1ED1;ng d&#x1ECB;ch hi&#x1EC7;u qu&#x1EA3;.</p>
+<h4 class="mume-header" id="%C4%91%E1%BB%91i-t%C6%B0%E1%BB%A3ng-l%E1%BA%A9n-tr%C3%A1nh-thi%E1%BA%BFu-tr%C3%A1ch-nhi%E1%BB%87m-ti%C3%AAu-c%E1%BB%B1c">&#x110;&#x1ED1;i t&#x1B0;&#x1EE3;ng l&#x1EA9;n tr&#xE1;nh, thi&#x1EBF;u tr&#xE1;ch nhi&#x1EC7;m, ti&#xEA;u c&#x1EF1;c</h4>
+
+<p>Ngo&#xE0;i ra, H&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh c&#xF2;n gi&#xFA;p l&#x1ECD;c ra c&#xE1;c &#x111;&#x1ED1;i t&#x1B0;&#x1EE3;ng &quot;l&#x1EA9;n tr&#xE1;nh, b&#x1ECF; s&#xF3;t, v&#xE0; ch&#x1EC3;nh m&#x1EA3;ng&quot;:</p>
+<ul>
+<li>c&#xE1;c gia &#x111;&#xEC;nh kh&#xF4;ng tham gia theo l&#x1EC7;nh</li>
+<li>c&#xE1;c gia &#x111;&#xEC;nh, c&#xE1; nh&#xE2;n b&#x1ECB; b&#x1ECF; s&#xF3;t, ch&#x1B0;a &#x111;&#x1B0;&#x1EE3;c c&#x1EA5;p th&#x1EBB;.</li>
+<li>c&#xE1;c &#x111;&#x1ECB;a ph&#x1B0;&#x1A1;ng c&#xF3; c&#xE1;n b&#x1ED9;, &#x111;&#x1ED9;i ng&#x169; ch&#x1EC3;nh m&#x1EA3;ng, thi&#x1EBF;u tr&#xE1;ch nhi&#x1EC7;m trong ch&#x1ED1;ng d&#x1ECB;ch.</li>
+<li>c&#xE1;c &#x111;&#x1ECB;a ph&#x1B0;&#x1A1;ng c&#xF3; ti&#xEA;u c&#x1EF1;c trong c&#x1EA5;p th&#x1EBB;, d&#x1EA5;u s&#x1ED1; li&#x1EC7;u, ...</li>
+</ul>
+<p>&#x110;&#xE2;y l&#xE0; nh&#x1EEF;ng nguy c&#x1A1; cao, kh&#xF4;ng ch&#x1EC9; l&#xE2;y lan m&#xE0; c&#xF2;n t&#x1EA1;o nguy c&#x1A1; b&#xF9;ng ph&#xE1;t &#xE2;m th&#x1EA7;m, g&#xE2;y nguy h&#x1EA1;i r&#x1EA5;t l&#x1EDB;n.</p>
+<p>Khi d&#x1ECB;ch b&#x1EC7;nh &#x111;&#x1B0;&#x1EE3;c ki&#x1EC1;m ch&#x1EBF; trong m&#x1ED9;t khu v&#x1EF1;c, v&#xE0; cho ph&#xE9;p ho&#x1EA1;t &#x111;&#x1ED9;ng l&#x1EA1;i c&#xE1;c ho&#x1EA1;t &#x111;&#x1ED9;ng ph&#xE1;t tri&#x1EC3;n kinh t&#x1EBF; n&#x1ED9;i khu, th&#xEC; nguy c&#x1A1; x&#xE2;m nh&#x1EAD;p t&#x1EEB; b&#xEA;n ngo&#xE0;i v&#x1EAB;n th&#x1B0;&#x1EDD;ng tr&#x1EF1;c. H&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh l&#xFA;c n&#xE0;y &#x111;&#xF3;ng vai tr&#xF2; c&#x1EA3;nh b&#xE1;o s&#x1EDB;m, &#x111;&#x1ED3;ng lo&#x1EA1;t k&#xED;ch ho&#x1EA1;t c&#xE1;c bi&#x1EC7;n ph&#xE1;t ki&#x1EC1;m ch&#x1EBF;. &#x110;&#xF3; l&#xE0; nhi&#x1EC7;m v&#x1EE5; th&#x1EE9; 3.</p>
+<h3 class="mume-header" id="nhi%E1%BB%87m-v%E1%BB%A5-3-h%E1%BB%87-th%E1%BB%91ng-c%E1%BA%A3nh-b%C3%A1o-ki%E1%BB%81m-so%C3%A1t-covid-b%C3%B9ng-ph%C3%A1t-theo-khu-v%E1%BB%B1c">Nhi&#x1EC7;m v&#x1EE5; 3: H&#x1EC7; th&#x1ED1;ng c&#x1EA3;nh b&#xE1;o, ki&#x1EC1;m so&#xE1;t Covid b&#xF9;ng ph&#xE1;t theo khu v&#x1EF1;c.</h3>
+
+<h4 class="mume-header" id="t%E1%BA%A1i-sao-c%E1%BA%A7n-h%E1%BB%87-th%E1%BB%91ng-n%C3%A0y">T&#x1EA1;i sao c&#x1EA7;n h&#x1EC7; th&#x1ED1;ng n&#xE0;y?</h4>
+
+<p>Covid l&#xE0; m&#x1ED9;t c&#x1EA5;u tr&#xFA;c m&#x1EA1;nh m&#x1EBD;, t&#x103;ng c&#x1B0;&#x1EDD;ng l&#xE2;y lan d&#x1EF1;a tr&#xEA;n h&#x1EC7; th&#x1ED1;ng di chuy&#x1EC3;n ph&#x1EE9;c t&#x1EA1;p c&#x1EE7;a x&#xE3; h&#x1ED9;i lo&#xE0;i ng&#x1B0;&#x1EDD;i. M&#xE0; vi&#x1EC7;c di chuy&#x1EC3;n c&#x1EE7;a m&#x1ECD;i ng&#x1B0;&#x1EDD;i l&#xE0; x&#x1B0;&#x1A1;ng s&#x1ED1;ng c&#x1EE7;a n&#x1EC1;n kinh t&#x1EBF; c&#x1EE7;a lo&#xE0;i ng&#x1B0;&#x1EDD;i.</p>
+<p>C&#xF3; 2 chi&#x1EBF;n l&#x1B0;&#x1EE3;c ch&#xED;nh &#x111;&#x1EC3; &#x111;&#x1ED1;i kh&#xE1;ng nguy c&#x1A1; c&#x1EE7;a Covid:</p>
+<ul>
+<li><strong>Chi&#x1EBF;n l&#x1B0;&#x1EE3;c ch&#x1EEF;a tr&#x1ECB;</strong>: gi&#x1EA3;m thi&#x1EC7;t h&#x1EA1;i kinh t&#x1EBF; b&#x1EB1;ng h&#x1EA1;n ch&#x1EBF; t&#x1B0;&#x1A1;ng &#x111;&#x1ED1;i, cho ph&#xE9;p Covid l&#xE2;y lan, ti&#xEA;m ch&#x1EE7;ng &#x111;&#x1EC3; h&#x1EA1;n ch&#x1EBF; t&#x1ED5;n th&#x1EA5;t nh&#xE2;n m&#x1EA1;ng v&#xE0; gi&#x1EEF; cho h&#x1EC7; th&#x1ED1;ng y t&#x1EBF; k&#x1ECB;p &#x111;&#xE1;p &#x1EE9;ng.</li>
+<li><strong>Chi&#x1EBF;n l&#x1B0;&#x1EE3;c ph&#xF2;ng b&#x1EC7;nh</strong>: ch&#x1EA5;p nh&#x1EAD;n thi&#x1EC7;t h&#x1EA1;i kinh t&#x1EBF;, ki&#x1EC3;m so&#xE1;t &#x111;i l&#x1EA1;i, v&#xE0; qu&#xE9;t nguy c&#x1A1; ra kh&#x1ECF;i c&#x1ED9;ng &#x111;&#x1ED3;ng.</li>
+</ul>
+<p>Hi&#x1EC7;n t&#x1EA1;i chi&#x1EBF;n l&#x1B0;&#x1EE3;c ph&#xF2;ng b&#x1EC7;nh &#x111;ang g&#x1EB7;p nhi&#x1EC1;u kh&#xF3; kh&#x103;n t&#x1EA1;i nhi&#x1EC1;u n&#x1B0;&#x1EDB;c t&#x1EEB;ng th&#xE0;nh c&#xF4;ng trong 2020, nh&#x1B0;ng kh&#xF4;ng c&#xF3; ngh&#x129;a l&#xE0; chi&#x1EBF;n l&#x1B0;&#x1EE3;c ph&#xF2;ng b&#x1EC7;nh kh&#xF4;ng kh&#xE1;ng c&#x1EF1; &#x111;&#x1B0;&#x1EE3;c v&#x1EDB;i d&#x1ECB;ch Covid, ch&#x1EC9; l&#xE0; ch&#xFA;ng ta ch&#x1B0;a t&#xEC;m ra, v&#xE0; &#xE1;p d&#x1EE5;ng &#x111;&#x1EE7; s&#x1EDB;m th&#xF4;i.</p>
+<p>&quot;H&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh&quot; l&#xE0; m&#x1ED9;t c&#xF4;ng c&#x1EE5; m&#x1EA1;nh m&#x1EBD; &#x111;&#x1EC3; th&#x1EF1;c hi&#x1EC7;n chi&#x1EBF;n l&#x1B0;&#x1EE3;c ph&#xF2;ng b&#x1EC7;nh nh&#x1B0; tr&#xEA;n.</p>
+<h4 class="mume-header" id="h%E1%BB%87-th%E1%BB%91ng-n%C3%A0y-c%C3%B3-kh%E1%BA%A3-thi-%C4%91%E1%BB%83-%C4%91%E1%BB%91i-ph%C3%B3-covid-ko">H&#x1EC7; th&#x1ED1;ng n&#xE0;y c&#xF3; kh&#x1EA3; thi &#x111;&#x1EC3; &#x111;&#x1ED1;i ph&#xF3; Covid ko?</h4>
+
+<p>Ch&#x1ED1;ng l&#x1EA1;i 1 c&#x1EA5;u tr&#xFA;c h&#x1EC7; th&#x1ED1;ng m&#x1EA1;nh m&#x1EBD; nh&#x1B0; D&#x1ECB;ch Covid, c&#x1EA7;n ph&#x1EA3;i &#x111;&#x1B0;a ra 1 c&#x1EA5;u tr&#xFA;c h&#x1EC7; th&#x1ED1;ng &#x111;&#x1ED1;i kh&#xE1;ng m&#x1EA1;nh, cho ph&#xE9;p n&#xE2;ng c&#x1EA5;p, t&#x103;ng c&#x1B0;&#x1EDD;ng kh&#x1EA3; n&#x103;ng &#x111;&#x1ED1;i kh&#xE1;ng trong t&#x1B0;&#x1A1;ng lai.</p>
+<p>Khi hi&#x1EC3;u r&#xF5; h&#x1A1;n v&#x1EC1; c&#x1EA5;u tr&#xFA;c covid, ch&#xFA;ng ta s&#x1EBD; t&#xEC;m ra nhi&#x1EC1;u c&#x1EA5;u tr&#xFA;c h&#x1EC7; th&#x1ED1;ng &#x111;&#x1ED1;i kh&#xE1;ng t&#x1B0;&#x1A1;ng &#x1EE9;ng.</p>
+<p>H&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh l&#xE0; d&#x1EF1;a tr&#xEA;n &#xFD; t&#x1B0;&#x1EDF;ng <strong>&quot;ru&#x1ED9;ng b&#x1EAD;c thang h&#x1EA1;n ch&#x1EBF; r&#xF2; r&#x1EC9; n&#x1B0;&#x1EDB;c&quot;</strong> khoanh v&#xF9;ng khu v&#x1EF1;c, t&#x1EA1;o th&#xE0;nh d&#x1EA1;ng ru&#x1ED9;ng b&#x1EAD;c thang nguy c&#x1A1; &#x111;&#x1EC3; h&#x1EA1;n ch&#x1EBF; lay lan.</p>
+<p>V&#xE0; khi ph&#xE1;t hi&#x1EC7;n 1 khu v&#x1EF1;c c&#xF3; nguy c&#x1A1;, nhanh ch&#xF3;ng k&#xED;ch ho&#x1EA1;t &quot;Th&#x1EBB; l&#x1EC7;nh&quot; trong to&#xE0;n h&#x1EC7; th&#x1ED1;ng &#x111;&#x1EC3; t&#x103;ng c&#x1B0;&#x1EDD;ng c&#x1EA3;nh gi&#xE1;c.</p>
+<p>N&#x1EBF;u m&#x1ECD;i ng&#x1B0;&#x1EDD;i &#x111;&#x1EC1;u quen v&#x1EDB;i h&#x1EC7; th&#x1ED1;ng n&#xE0;y, th&#xEC; vi&#x1EC7;c k&#xED;ch ho&#x1EA1;t c&#xF3; th&#x1EC3; tri&#x1EC3;n khai trong 1 ng&#xE0;y. So v&#x1EDB;i &quot;kh&#x1EA3; n&#x103;ng l&#xE2;y sau 2-3 ng&#xE0;y&quot; v&#xE0; &#x111;&#xF3; l&#xE0; t&#x1ED1;c &#x111;&#x1ED9; &#x111;&#x1EE7; &#x111;&#x1EC3; ki&#x1EC1;m so&#xE1;t covid.</p>
+<h4 class="mume-header" id="m%E1%BB%9F-r%E1%BB%99ng-s%E1%BB%91-l%C6%B0%E1%BB%A3ng-th%E1%BA%BB-theo-nhu-c%E1%BA%A7u-ho%E1%BA%A1t-%C4%91%E1%BB%99ng">M&#x1EDF; r&#x1ED9;ng s&#x1ED1; l&#x1B0;&#x1EE3;ng Th&#x1EBB; theo nhu c&#x1EA7;u ho&#x1EA1;t &#x111;&#x1ED9;ng.</h4>
+
+<p>Khi d&#x1ECB;ch b&#x1EC7;nh &#x111;&#x1B0;&#x1EE3;c ki&#x1EC3;m so&#xE1;t trong 1 khu v&#x1EF1;c (ho&#x1EB7;c t&#x1EC9;nh / tp), 1 gia &#x111;&#xEC;nh s&#x1EBD; c&#xF3; c&#xE1;c c&#xE1;c th&#x1EBB;.</p>
+<p><img src="the-1-nha.png" alt></p>
+<ul>
+<li>
+<p>Gi&#x1EEF; nguy&#xEA;n c&#x1EA5;u tr&#xFA;c: 1 Th&#x1EBB; gia &#x111;&#xEC;nh v&#xE0; duy tr&#xEC; ch&#xED;nh s&#xE1;ch b&#xE1;n h&#xE0;ng theo gia &#x111;&#xEC;nh.</p>
+</li>
+<li>
+<p>B&#x1ED5; sung Th&#x1EBB; &#x111;i l&#xE0;m: khi m&#x1EDF; r&#x1ED9;ng ho&#x1EA1;t &#x111;&#x1ED9;ng kinh t&#x1EBF;, c&#xE1;c doanh nghi&#x1EC7;p n&#x1ED9;i khu v&#x1EF1;c s&#x1EBD; &#x111;&#x103;ng k&#xFD; Th&#x1EBB; &#x111;i l&#xE0;m v&#xE0; c&#x1EA5;p cho t&#x1EEB;ng h&#x1ED9; gia &#x111;&#xEC;nh.</p>
+</li>
+<li>
+<p>Th&#xEA;m Th&#x1EBB; ch&#x1ED1;ng d&#x1ECB;ch cho ng&#x1B0;&#x1EDD;i d&#xE2;n mu&#x1ED1;n tham gia:</p>
+</li>
+</ul>
+<h4 class="mume-header" id="c%E1%BA%A3nh-b%C3%A1o-s%E1%BB%9Bm-theo-m%C3%A0u-c%E1%BB%A7a-th%E1%BA%BB">C&#x1EA3;nh b&#xE1;o s&#x1EDB;m theo m&#xE0;u c&#x1EE7;a th&#x1EBB;.</h4>
+
+<p><strong>M&#xE0;u &#x111;&#x1ECF; (Th&#x1EBB; ch&#x1ED1;ng d&#x1ECB;ch)</strong>: nguy c&#x1A1; b&#x1ECB; l&#xE2;y, v&#xE0; l&#xE2;y lan cao nh&#x1EA5;t</p>
+<ul>
+<li>c&#x1EA7;n ch&#xFA; &#xFD; c&#xE1;c t&#xEC;nh nguy&#x1EC7;n vi&#xEA;n: &#xED;t &#x111;&#x1B0;&#x1EE3;c ti&#xEA;m vacxin, k&#x1EF9; n&#x103;ng h&#x1EA1;n ch&#x1EBF; b&#x1ECB; l&#xE2;y th&#x1EA5;p</li>
+<li>&#x1B0;u ti&#xEA;n vacxin v&#xE0; li&#xEA;n t&#x1EE5;c x&#xE9;t nghi&#x1EC7;m: 1,2 ng&#xE0;y / 1 l&#x1EA7;n</li>
+</ul>
+<p><strong>M&#xE0;u v&#xE0;ng (Th&#x1EBB; &#x111;i l&#xE0;m)</strong>: chia th&#xE0;nh 2 nh&#xF3;m</p>
+<ul>
+<li>
+<p>&#x111;i l&#xE0;m ngo&#xE0;i khu v&#x1EF1;c sinh s&#x1ED1;ng: nh&#x1EA5;t l&#xE0; giao h&#xE0;ng li&#xEA;n t&#x1EC9;nh, l&#xE1;i xe &#x111;&#x1B0;&#x1EDD;ng d&#xE0;i c&#x1EA7;n th&#x1B0;&#x1EDD;ng xuy&#xEA;n x&#xE9;t nghi&#x1EC7;m: 2,3 l&#x1EA7;n ng&#xE0;y / 1 l&#x1EA7;n.</p>
+</li>
+<li>
+<p>&#x111;i l&#xE0;m trong c&#xF9;ng khu v&#x1EF1;c sinh s&#x1ED1;ng: r&#x1EE7;i ro th&#x1EA5;p h&#x1A1;n: 4,5 ng&#xE0;y / 1 l&#x1EA7;n</p>
+</li>
+</ul>
+<p><strong>M&#xE0;u xanh (th&#x1EBB; gia &#x111;&#xEC;nh)</strong>:</p>
+<p>Vi&#x1EC7;c x&#xE9;t nghi&#x1EC7;m theo nh&#xF3;m th&#x1EBB; gi&#xFA;p t&#x1ED1;i &#x1B0;u ngu&#x1ED3;n l&#x1EF1;c x&#xE9;t nghi&#x1EC7;m nh&#x1B0;ng v&#x1EAB;n gi&#x1EEF; &#x111;&#x1B0;&#x1EE3;c t&#xED;nh c&#x1EA3;nh b&#xE1;o s&#x1EDB;m Covid trong khu v&#x1EF1;c.</p>
+<h4 class="mume-header" id="quy-ho%E1%BA%A1ch-c%C3%A1c-ho%E1%BA%A1t-%C4%91%E1%BB%99ng-b%C3%AAn-trong-khu-v%E1%BB%B1c">Quy ho&#x1EA1;ch c&#xE1;c ho&#x1EA1;t &#x111;&#x1ED9;ng b&#xEA;n trong khu v&#x1EF1;c</h4>
+
+<ul>
+<li>C&#xE1;c d&#x1ECB;ch v&#x1EE5; cho ng&#x1B0;&#x1EDD;i d&#xE2;n b&#xEA;n trong khu v&#x1EF1;c: c&#xF4;ng vi&#xEA;n, tr&#x1B0;&#x1EDD;ng h&#x1ECD;c, khu vui ch&#x1A1;i ngo&#xE0;i tr&#x1EDD;i,... c&#x1EA7;n tu&#xE2;n theo c&#xE1;c ti&#xEA;u chu&#x1EA9;n ph&#xF2;ng v&#xE0; gi&#xE1;m s&#xE1;t d&#x1ECB;ch tr&#x1B0;&#x1EDB;c khi ho&#x1EA1;t &#x111;&#x1ED9;ng</li>
+<li>&#x1AF;u ti&#xEA;n cho c&#xE1;c doanh nghi&#x1EC7;p s&#x1EAF;p x&#x1EBF;p &#x111;&#x1ED9;i ng&#x169; nh&#xE2;n vi&#xEA;n, b&#x1ED1; tr&#xED; n&#x1A1;i &#x1EDF; v&#xE0; l&#xE0;m vi&#x1EC7;c b&#xEA;n trong 1 khu v&#x1EF1;c.</li>
+</ul>
+<p>tham kh&#x1EA3;o th&#xEA;m :</p>
+<ul>
+<li>
+<p><a href="https://baotnq.qrcare.vn/trienkhai.html#h%E1%BB%97-tr%E1%BB%A3-c%C3%A1c-gia-%C4%91%C3%ACnh-kh%C3%B3-kh%C4%83n">H&#x1ED7; tr&#x1EE3; c&#xE1;c gia &#x111;&#xEC;nh kh&#xF3; kh&#x103;n</a></p>
+</li>
+<li>
+<p><a href="https://baotnq.qrcare.vn/trienkhai.html#t%E1%BB%95-ch%E1%BB%A9c-d%E1%BB%8Bch-v%E1%BB%A5-n%E1%BB%99i-khu">T&#x1ED5; ch&#x1EE9;c d&#x1ECB;ch v&#x1EE5; n&#x1ED9;i khu</a></p>
+</li>
+</ul>
+<h3 class="mume-header" id="t%E1%BB%95ng-k%E1%BA%BFt">T&#x1ED5;ng k&#x1EBF;t</h3>
+
+<p>Tr&#xEA;n &#x111;&#xE2;y l&#xE0; nh&#x1EEF;ng n&#x1ED9;i dung t&#x1ED5;ng quan v&#x1EC1; H&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh.</p>
+<p>&#x110;&#x1EC3; &#x111;&#x1B0;a v&#xE0;o th&#x1EF1;c t&#x1EBF;, c&#x1EA7;n t&#xEC;m hi&#x1EC3;u th&#xEA;m gi&#x1EA3;i ph&#xE1;p chi ti&#x1EBF;t.<br>
+Ph&#x1EA7;n n&#xE0;y &#x111;&#x1B0;&#x1EE3;c t&#xE1;ch ri&#xEA;ng trong 1 b&#xE0;i vi&#x1EBF;t &#x111;&#x1ED9;c l&#x1EAD;p.</p>
+<p>Xem link b&#xEA;n d&#x1B0;&#x1EDB;i</p>
+<ul>
+<li><a href="http://baotnq.qrcare.vn/trienkhai.html">Tri&#x1EC3;n khai H&#x1EC7; th&#x1ED1;ng Th&#x1EBB; l&#x1EC7;nh v&#xE0;o th&#x1EF1;c t&#x1EBF;</a></li>
+</ul>
+<h4 class="mume-header" id="g%C3%B3p-%C3%BD-li%C3%AAn-h%E1%BB%87">G&#xF3;p &#xFD;, li&#xEA;n h&#x1EC7;:</h4>
+
+<p>C&#x1EA3;m &#x1A1;n &#x111;&#xE3; d&#xE0;nh th&#x1EDD;i gian &#x111;&#x1ECD;c t&#x1EDB;i &#x111;&#xE2;y. C&#xF3; nhi&#x1EC1;u n&#x1ED9;i dung, c&#x1EA7;n trao &#x111;&#x1ED5;i tr&#x1EF1;c ti&#x1EBF;p m&#x1EDB;i gi&#x1EA3;i th&#xED;ch &#x111;&#x1B0;&#x1EE3;c.</p>
+<p>R&#x1EA5;t mong &#x111;&#x1EC1; xu&#x1EA5;t n&#xE0;y g&#x1EED;i t&#x1EDB;i &#x111;&#x1B0;&#x1EE3;c &#x111;&#x1EBF;n Ban ch&#x1EC9; &#x111;&#x1EA1;o ch&#x1ED1;ng d&#x1ECB;ch, ho&#x1EB7;c c&#xE1;c l&#xE3;nh &#x111;&#x1EA1;o c&#x1EE7;a Ch&#xED;nh ph&#x1EE7;.</p>
+<p>T&#xF4;i lu&#xF4;n ch&#xE0;o &#x111;&#xF3;n m&#x1ECD;i ph&#x1EA3;n bi&#x1EC7;n c&#x1EE7;a m&#x1ECD;i ng&#x1B0;&#x1EDD;i.</p>
+<p>M&#x1ECD;i g&#xF3;p &#xFD; g&#x1EED;i v&#x1EC1; <strong><a href="mailto:quocbao.tn@gmail.com">quocbao.tn@gmail.com</a></strong><br>
+ho&#x1EB7;c g&#x1ECD;i &#x111;i&#x1EC7;n t&#x1EDB;i s&#x1ED1;: <strong>076 784 7421</strong></p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>

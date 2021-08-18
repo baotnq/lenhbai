@@ -3,6 +3,7 @@
 
 <!-- code_chunk_output -->
  
+- [Giới thiệu](#giới-thiệu)
 - [Thế nào là "hệ thống Thẻ lệnh".](#thế-nào-là-hệ-thống-thẻ-lệnh)
   - [Điểm nổi bật của "hệ thống Thẻ lệnh"](#điểm-nổi-bật-của-hệ-thống-thẻ-lệnh)
   - [Cấu trúc cân bằng của "Thẻ lệnh"](#cấu-trúc-cân-bằng-của-thẻ-lệnh)
@@ -27,6 +28,37 @@
   - [Góp ý, liên hệ:](#góp-ý-liên-hệ)
 
 <!-- /code_chunk_output -->
+
+### Giới thiệu
+
+
+Là giải pháp cấp Thẻ cho các cá nhân được phép ra ngoài, với 3 loại chính: 
+- Thẻ gia đình (màu xanh) dành cho 1 cá nhân, đại diện 1 gia đình, nhà trọ, phòng trọ, ... được ra ngoài mua hàng
+- Thẻ làm việc (màu vàng) dành cho cá nhân được Đơn vị chủ quản đăng ký đi làm tại nhà máy hay đi giao nhận hàng hoá.
+- Thẻ chống dịch (màu đỏ) dành cho nhân viên y tế, cán bộ địa phương, tình nguyện viên, nhà báo,... tham gia chống dịch 
+
+Mọi người được Lệnh phải đeo Thẻ khi ra ngoài, và quét Thẻ tại các chốt kiểm tra. 
+Chợ siêu thị, được Lệnh chỉ bán hàng cho người có Thẻ gia đình, theo Phường/Xã, theo ngày trong khung giờ quy định sẵn. 
+Doanh nghiệp được Lệnh quản lý nhân viên đã đăng ký ra ngoài làm việc và đóng phạt nếu nhân viên vi phạm. 
+Cán bộ Phường/Xã được Lệnh định kỳ 1,2 tuần tới gặp Từng gia đình để hướng dẫn chống dịch. 
+Công an, dân phòng được Lệnh xử phạt các cá nhân không mang Thẻ, và bảo đảm mọi thẻ được Quét khi kiểm tra. 
+
+Kết hợp Lệnh với Thẻ giúp phát hiện vi phạm nhanh chóng
+và dễ dàng xử phạt. Khi triển khai đồng loạt trên toàn hệ thống tạo nên tính răn đe cao, giúp tăng sự tuân thủ và giảm việc vi phạm của mọi người. 
+
+Nhiệm vụ thứ 2 của Hệ thống Thẻ Lệnh là nâng cao hiệu quả biện phát truy quét để tách F0 ra khỏi cộng đồng. Trong thời gian truy quét, Hệ thống sẽ kiểm soát chặt mọi ra vào, để bảo đảm Covid bị cô lập theo từng Phường/Xã. 
+
+Đội chống dịch sẽ tập trung lấy mẫu toàn bộ Thẻ gia đình của một Phường trong 1 ngày, trước khi chuyển sang Phường lân cận. Liên tục xoay vòng để quay lại lấy mẫu lần 2 không quá 6 ngày.  
+
+Hệ thống Thẻ Lệnh đưa ra sơ đồ bố trí di chuyển để các điểm lấy mẫu tập trung tổ chức khoa học, hạn chế lây lan khi người dân tụ tập lấy mẫu. Hệ thống cũng liên tục thu thập dữ liệu để cải thiện cho các lần tiếp theo. 
+
+Nhiệm vụ thứ 3 là Hệ thống phát hiện sớm nguy cơ trong vùng an toàn. Chính quyền sẽ định kỳ xét nghiệm để phát hiện F0 trong cộng đồng một các
+
+Việc lấy mẫu sẽ dựa trên Thẻ gia đình kết hợp với 
+
+Ngoài ra, Thẻ Lệnh giúp tăng hiệu quả của việc
+Phân chia 3 loại thẻ cho 3 đối tượng nguy cơ khác nhau, giúp việc xét nghiệm truy vết đ
+Số liệu di chuyển thực tế có được từ quét Thẻ cộng với  việc phân thành 3 đối tượng 
 ### Thế nào là "hệ thống Thẻ lệnh". 
 
 "Thẻ lệnh" là **1 tấm thẻ, yêu cầu mọi người ra ngoài, mua hàng hay làm việc, phải đeo nó.**
