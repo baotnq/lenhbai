@@ -1,23 +1,18 @@
-## Thẻ Lệnh: Chống dịch hiệu quả và phát triển kinh tế bên trong Phường/Xã an toàn.
+# Thẻ Lệnh: Chống dịch hiệu quả và phát triển kinh tế bên trong Phường/Xã an toàn.
 
 Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã. 
 
-Để thực hiện chiến lược này cần cấp **Thẻ** cho mọi đối tượng được phép ra ngoài: mua hàng, làm việc và chống dịch.
+Để thực hiện chiến lược này cần [Cấp Thẻ cho mọi đối tượng được phép di chuyển](#cấp-thẻ-cho-mọi-đối-tượng-được-phép-di-chuyển) : mua hàng, làm việc và chống dịch. 
 
 ![](3-loai-the.png)
 
 Sau khi phát hành Thẻ giấy và đưa tới từng Phường/Xã, Chính quyền tỉnh/Tp đưa ra các quy định hành chính, kèm nội dung xử phạt, (gọi tắt là **Lệnh**) cho các bên: 
 
-Phường/Xã: đóng dấu và cấp Thẻ cho
-  - mọi hộ gia đình, nhà trọ, phòng trọ, ... 
-  - các doanh nghiệp, cơ quan được phép hoạt động
-  - đội ngũ chống dịch: y tế, cán bộ, công an, dân phòng, tình nguyên viên, nhà báo,...
+Phường/Xã: đóng dấu và cấp Thẻ 
 
-Chợ, siêu thị,.. chỉ bán hàng cho Thẻ gia đình, theo Phường/Xã cấp thẻ. 
+Chợ, siêu thị,.. chỉ bán hàng cho Thẻ gia đình theo [Lệnh cho siêu thị, chợ](#lệnh-cho-siêu-thị-chợ). 
 
-Doanh nghiệp quản lý Thẻ làm việc đã cấp cho nhân viên 
-
-Đơn vị chống dịch quản lý Thẻ chống dịch đã cấp. 
+Doanh nghiệp quản lý Thẻ làm việc và Cơ quan chống dịch quản lý các cá nhân tham gia bằng [Lệnh cho Đơn vị chủ quản (Doanh nghiệp, cơ quan, ...)](#lệnh-cho-đơn-vị-chủ-quản-doanh-nghiệp-cơ-quan)
 
 Công an, dân phòng kiểm tra và quét Thẻ. 
 
@@ -41,43 +36,48 @@ Ngoài ra Thẻ Lệnh giúp hỗ trợ đúng và kịp thời các gia đình 
 
 Khi vùng dịch trở lại "bình thường mới", Thẻ Lệnh vẫn hiện diện như là Hệ thống phát hiện và ngăn chặn sớm nguy cơ: Covid và dịch bệnh tương tự khác. Nó hình thành một số thói quen tốt cho mọi người, để "sinh hoạt và làm việc trong một khu vực an toàn".
 
-Các khác biệt chính của Thẻ Lệnh với với các chiến lược truy quét khác là: 
+**Khác biệt của Thẻ Lệnh** với với các chiến lược truy quét khác là: 
+
+1. Thẻ là sự kết hợp sáng tạo giữa cái chung (phôi) và cái riêng (ID), giữa đời thường và công nghệ, giữa trực quan vật lý và ảo hoá online, giữa quen thuộc của giấy và mới mẻ của qrcode,... 
+
+2. Lệnh là sự cân bằng giữa lợi ích giữa của các bên, là giám sát chéo để loại bỏ tư tưởng vi phạm, là ảnh hưởng ngầm để tăng tuân thủ và giảm vi phạm.
 
 1. Phân chia theo Phường/Xã, chứ chia nhỏ hơn thành tổ dân phố, hẻm dân cư... hay lớn hơn theo Quận/Huyện.
     - Là khu vực nhỏ nhất, đủ khả năng đáp ứng nhu yếu phẩm cho người dân bên trong. 
     - Đủ chức năng và nhân lực để cấp Thẻ, kiểm soát mọi ra vào, và truy quét toàn bộ Thẻ trong 1 ngày. 
-    
-2. Kết hợp Thẻ với Lệnh để giám sát chéo, tăng tuân thủ và giảm vi phạm hiệu quả.
-
-3. Dùng Thẻ giấy (vật lý) để phù hợp cho việc đeo, để đơn giản việc thu thập dữ liệu di chuyển. 
 
 4. Dùng số liệu thực tế để phát hiện vi phạm và ngăn chặn sớm nguy cơ.
 
+Trước khi đi chi tiết từng nội dung của Thẻ Lệnh, chúng ta cần xét một vấn đề quan trọng mà các biện pháp hiện tại đang bỏ sót: là dữ liệu di chuyển quá ít so với thực tế. Giải quyết được vấn đề này, sẽ giúp chúng ta hình dung về tình hình hiện tại, khu vực nào đang gặp khó khăn và cần làm gì để chống dịch hiệu quả hơn. 
 
-**Mục lục**
-<!-- @import "[TOC]" {cmd="toc" depthFrom=3 depthTo=5 orderedList=true} -->
+Bên dưới là **Mục lục** gồm vấn đề quan trọng nhưng ít chú ý,cách giải quyết và từ đó hình thành chiến lược chống dịch hiệu quả bằng Thẻ Lệnh. 
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=5 orderedList=true} -->
 
 <!-- code_chunk_output -->
 
-1. [Dữ liệu di chuyển quá ít, chưa sát với thực tế](#dữ-liệu-di-chuyển-quá-ít-chưa-sát-với-thực-tế)
-    1. [Phiếu mua hàng](#phiếu-mua-hàng)
-    2. [Giấy đi đường](#giấy-đi-đường)
-    3. [Khai báo tại chốt kiểm tra, siêu thị, chợ](#khai-báo-tại-chốt-kiểm-tra-siêu-thị-chợ)
-2. [Cấp Thẻ cho mọi đối tượng được phép di chuyển.](#cấp-thẻ-cho-mọi-đối-tượng-được-phép-di-chuyển)
-3. [Thu thập số liệu di chuyển bằng quét Thẻ](#thu-thập-số-liệu-di-chuyển-bằng-quét-thẻ)
-4. [Điều chỉnh việc di chuyển của mọi người bằng Lệnh](#điều-chỉnh-việc-di-chuyển-của-mọi-người-bằng-lệnh)
-    1. [Lệnh cho người dân](#lệnh-cho-người-dân)
-    2. [Lệnh cho siêu thị, chợ](#lệnh-cho-siêu-thị-chợ)
-    3. [Lệnh cho Đơn vị chủ quản (Doanh nghiệp, cơ quan, ...)](#lệnh-cho-đơn-vị-chủ-quản-doanh-nghiệp-cơ-quan)
-    4. [Lệnh cho Phường / Xã](#lệnh-cho-phường-xã)
-    5. [Lệnh cho Công an, Dân phòng](#lệnh-cho-công-an-dân-phòng)
-5. [Tăng tuân thủ, giảm vi phạm bằng Thẻ Lệnh](#tăng-tuân-thủ-giảm-vi-phạm-bằng-thẻ-lệnh)
-    1. [Kiểm tra để phát hiện vi phạm](#kiểm-tra-để-phát-hiện-vi-phạm)
-    2. [Dùng số liệu để dự báo, điều tiết và phát hiện nguy cơ.](#dùng-số-liệu-để-dự-báo-điều-tiết-và-phát-hiện-nguy-cơ)
-6. [Truy quét hiệu quả F0 trong cộng đồng bằng Thẻ Lệnh](#truy-quét-hiệu-quả-f0-trong-cộng-đồng-bằng-thẻ-lệnh)
-7. [Hỗ trợ đúng gia đình khó khăn qua Thẻ](#hỗ-trợ-đúng-gia-đình-khó-khăn-qua-thẻ)
-8. [Giúp dân nghèo có thu nhập bằng Shipper Nội khu](#giúp-dân-nghèo-có-thu-nhập-bằng-shipper-nội-khu)
-9. [Hệ thống phát hiện sớm F0 trong vùng "bình thường mới"](#hệ-thống-phát-hiện-sớm-f0-trong-vùng-bình-thường-mới)
+1. [Vấn đề:](#vấn-đề)
+    1. [Dữ liệu di chuyển quá ít, chưa sát với thực tế](#dữ-liệu-di-chuyển-quá-ít-chưa-sát-với-thực-tế)
+        1. [Phiếu mua hàng](#phiếu-mua-hàng)
+        2. [Giấy đi đường](#giấy-đi-đường)
+        3. [Khai báo tại chốt kiểm tra, siêu thị, chợ](#khai-báo-tại-chốt-kiểm-tra-siêu-thị-chợ)
+2. [Cách giải quyết](#cách-giải-quyết)
+    1. [Cấp Thẻ cho mọi đối tượng được phép di chuyển.](#cấp-thẻ-cho-mọi-đối-tượng-được-phép-di-chuyển)
+    2. [Thu thập số liệu di chuyển bằng quét Thẻ](#thu-thập-số-liệu-di-chuyển-bằng-quét-thẻ)
+3. [Phát triển thành Chiến lược chống dịch](#phát-triển-thành-chiến-lược-chống-dịch)
+    1. [Điều chỉnh việc di chuyển của mọi người bằng Lệnh](#điều-chỉnh-việc-di-chuyển-của-mọi-người-bằng-lệnh)
+        1. [Lệnh cho người dân](#lệnh-cho-người-dân)
+        2. [Lệnh cho siêu thị, chợ](#lệnh-cho-siêu-thị-chợ)
+        3. [Lệnh cho Đơn vị chủ quản (Doanh nghiệp, cơ quan, ...)](#lệnh-cho-đơn-vị-chủ-quản-doanh-nghiệp-cơ-quan)
+        4. [Lệnh cho Phường / Xã](#lệnh-cho-phường-xã)
+        5. [Lệnh cho Công an, Dân phòng](#lệnh-cho-công-an-dân-phòng)
+    2. [Tăng tuân thủ, giảm vi phạm bằng Thẻ Lệnh](#tăng-tuân-thủ-giảm-vi-phạm-bằng-thẻ-lệnh)
+        1. [Kiểm tra để phát hiện vi phạm](#kiểm-tra-để-phát-hiện-vi-phạm)
+        2. [Dùng số liệu để dự báo, điều tiết và phát hiện nguy cơ.](#dùng-số-liệu-để-dự-báo-điều-tiết-và-phát-hiện-nguy-cơ)
+    3. [Truy quét hiệu quả F0 trong cộng đồng bằng Thẻ Lệnh](#truy-quét-hiệu-quả-f0-trong-cộng-đồng-bằng-thẻ-lệnh)
+    4. [Hỗ trợ đúng gia đình khó khăn qua Thẻ](#hỗ-trợ-đúng-gia-đình-khó-khăn-qua-thẻ)
+    5. [Giúp dân nghèo có thu nhập bằng Shipper Nội khu](#giúp-dân-nghèo-có-thu-nhập-bằng-shipper-nội-khu)
+    6. [Hệ thống phát hiện sớm F0 trong vùng "bình thường mới"](#hệ-thống-phát-hiện-sớm-f0-trong-vùng-bình-thường-mới)
 
 <!-- /code_chunk_output -->
  
@@ -122,6 +122,7 @@ Thiếu số liệu thực tế khiến việc đánh giá tác động của c�
 
 Cần một cách làm mới để trả lời 2 câu hỏi trên, đó là cấp thẻ cho mọi cá nhân được phép ra ngoài và thu thập dữ liệu di chuyển của các Thẻ này. 
 
+## Cách giải quyết 
 ### Cấp Thẻ cho mọi đối tượng được phép di chuyển. 
 
 Thẻ là 1 tấm giấy, kích thước bằng thẻ ngân hàng, kèm theo dây đeo. Nên dùng giấy (thay vì nhựa) để làm thẻ để in ấn dễ dàng và tiết kiệm chi phí.  
@@ -191,6 +192,7 @@ Lịch sử đi lại, tụ tập của mọi người sẽ được thu thập 
 
 Từ số liêụ trên, Chính quyền đánh giá được thực tế xã hội, và có các biện pháp điều chỉnh hành vi của mọi người để phục vụ chống dịch. 
 
+## Phát triển thành Chiến lược chống dịch 
 ### Điều chỉnh việc di chuyển của mọi người bằng Lệnh 
 
 **Lệnh** là các quy định hành chính áp dụng cho các đối tượng liên quan tới Thẻ. Các quy định này là cụ thể hoá nội dung phòng chống dịch của chính quyền, như chỉ thị 16 của chính phủ hay chỉ thị 12 của tp HCM. 
@@ -254,6 +256,8 @@ Lưu ý:
 
 #### Lệnh cho Phường / Xã
 - Cấp cho mỗi hộ gia đình, nhà trọ, phòng trọ,... 1 Thẻ gia đình. Các bộ Phường sẽ bị xử lý nếu phát hiện tiêu cực trong Cấp Thẻ
+- Cấp Thẻ làm việc cho các doanh nghiệp, cơ quan đang hoạt động có đăng ký nhân viên đi làm. 
+- Cấp Thẻ cho các cá nhân tham gia chống 
 - Hàng tuần tới từng nhà dân, đôn đốc hướng dẫn chống dịch, xác nhận bằng quét Thẻ gia đình. Phường nào có tỉ lệ xác nhận dưới 95%, xem như thiếu trách nhiệm trong công tác phòng dịch. 
 
 #### Lệnh cho Công an, Dân phòng
