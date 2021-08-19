@@ -1,46 +1,90 @@
 ## Thẻ Lệnh: Chống dịch hiệu quả và phát triển kinh tế bên trong Phường/Xã an toàn.
 
-Thẻ Lệnh là một chiến lược truy quét F0 ra khỏi cộng đồng. 
+Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã. 
 
-Để thực hiện chiến lược này cần cấp Thẻ cho mọi cá nhân được phép ra ngoài mua hàng, làm việc và chống dịch.
+Để thực hiện chiến lược này cần cấp **Thẻ** cho mọi đối tượng được phép ra ngoài: mua hàng, làm việc và chống dịch.
 
 ![](3-loai-the.png)
 
-Sau đó, ra "Lệnh" cho các cá nhân này đeo Thẻ và quét thẻ tại các địa điểm đến như siêu thị, chợ, chốt kiểm tra,... 
-để tạo dữ liệu di chuyển của mọi người. 
-Kết hợp với nhiều Lệnh khác dành cho Doanh nghiệp, Chính quyền địa phương,..., huy động các bên cùng kiểm soát tất cả ra vào Phường/Xã mỗi ngày. 
+Sau khi phát hành Thẻ giấy và đưa tới từng Phường/Xã, Chính quyền tỉnh/Tp đưa ra các quy định hành chính, kèm nội dung xử phạt, (gọi tắt là **Lệnh**) cho các bên: 
 
-Khi tất cả Phường/Xã kiểm soát được việc ra vào mỗi ngày, đồng nghĩa việc lây lan Covid giữa các Phường được kiểm soát. Lúc này tập trung truy quét F0 bằng cách lấy mẫu xét nghiệm toàn bộ Thẻ mà Phường đã cấp. 
+Phường/Xã: đóng dấu và cấp Thẻ cho
+  - mọi hộ gia đình, nhà trọ, phòng trọ, ... 
+  - các doanh nghiệp, cơ quan được phép hoạt động
+  - đội ngũ chống dịch: y tế, cán bộ, công an, dân phòng, tình nguyên viên, nhà báo,...
 
-Việc truy quét theo Phường cần hoàn thành trong 1 ngày, không bỏ sót Thẻ nào, trước khi chuyển sang Phường bên cạnh. Thực hiện liên tục như vậy, toàn vùng dịch sẽ được lấy mẫu 2 lần sau 12 ngày, 3 lần sau 21 ngày,...
+Chợ, siêu thị,.. chỉ bán hàng cho Thẻ gia đình, theo Phường/Xã cấp thẻ. 
 
-Khi hết F0 trong cộng đồng, cho phép mở lại các hoạt động kinh tế bên trong Phường/Xã. Việc kiểm soát ra vào được giảm bớt và chuyển sang tự giám sát. Bên cạnh đó định kỳ xét nghiệm các Thẻ có lịch sử ra vào Phường, để phát hiện sớm nguy cơ. 
+Doanh nghiệp quản lý Thẻ làm việc đã cấp cho nhân viên 
 
-Khi dịch đã được đẩy lùi, bất ngờ 1 Phường an toàn phát hiện F0 trong cộng đồng, Thẻ Lệnh sẽ kích hoạt 2 Lớp kiểm soát để ngăn chặn lây lan. Xét nghiệm tất cả các Thẻ có lịch sử ra vào. Nếu 1 Thẻ là F0 thì Phường nơi F0 đến hoặc đi xem như có F0 cộng đồng. Đội Chống dịch sẽ tập trung truy quét toàn bộ Thẻ trong các Phường nguy cơ này. 
+Đơn vị chống dịch quản lý Thẻ chống dịch đã cấp. 
 
-Ngoài ra thông qua Thẻ Lệnh, các gia đình khó khăn được hỗ trợ đúng và kịp thời. Siêu thị, chợ giải quyết việc giao hàng tại nhà bằng đội shipper nội khu. Doanh nghiệp bố trí lại nhân viên để hoạt động an toàn trong vùng dịch,...
+Công an, dân phòng kiểm tra và quét Thẻ. 
 
-Khi vùng dịch trở lại "bình thường mới", Thẻ Lệnh vẫn hiện diện như là công cụ phát hiện và ngăn chặn sớm nguy cơ: Covid và dịch bệnh trong tương lai. Nó hình thành một số thói quen tốt cho mọi người, để "sinh hoạt và làm việc trong một khu vực an toàn".
+Riêng với cá nhân:
+- đeo Thẻ khi ra đường và quét thẻ tại các điểm đến để lưu lịch sử đi lại. 
+- Tuân thủ các Lệnh đưa ra khi tham gia lấy mẫu xét nghiệm 
+
+Khi các bên tuân thủ các Lệnh đưa ra, người dân chỉ mua hàng theo Phường/Xã đang sống, việc ra vào Phường/Xã chỉ để làm việc, hoặc chống dịch. Số lượng này khá ít, và mỗi Phương/Xã có đủ nhân lực kiểm tra, phát hiện vi phạm để **kiểm soát tất cả ra vào mỗi ngày**. 
+
+Khi tất cả Phường/Xã kiểm soát được di chuyển ra vào mỗi ngày, đồng nghĩa việc lây lan Covid giữa các Phường được kiểm soát. Tập trung lấy mẫu xét nghiệm toàn bộ Thẻ trong Phường để truy quét F0. 
+Thẻ Lệnh giúp nâng cao hiệu quả việc truy quét: phân loại nguy cơ, tổ chức việc lấy mẫu khoa học, an toàn, và phát hiện sớm cá nhân cố tình tránh né, không tham gia. 
+
+Khi F0 được bóc tách sạch sẽ, dần dần mở rộng các hoạt động kinh tế bên trong Phường/Xã. Việc kiểm soát ra vào được giảm bớt và chuyển sang tự giám sát. Định kỳ xét nghiệm các Thẻ có lịch sử ra vào, để phát hiện sớm xâm nhập. 
+
+Nếu phát hiện F0 trong 1 Phường/ Xã từ xét nghiệm định kỳ, Thẻ Lệnh sẽ kích hoạt chế độ Ngăn chặn:
+- Tổ chức 2 Lớp kiểm soát ra vào để ngăn chặn lây lan. 
+- Xét nghiệm tất cả các Thẻ có lịch sử ra vào. Nếu 1 Thẻ là F0 thì Phường nơi F0 đến hoặc đi xem như có F0 cộng đồng. 
+- Tập trung truy quét trong các Phường nguy cơ: có F0 cộng đồng
+
+Ngoài ra Thẻ Lệnh giúp hỗ trợ đúng và kịp thời các gia đình khó khăn. Việc giao hàng tại nhà của siêu thị, chợ được giải quyết bằng đội shipper nội khu. Cũng như giúp doanh nghiệp bố trí lại nhân viên để hoạt động an toàn trong vùng dịch,...
+
+Khi vùng dịch trở lại "bình thường mới", Thẻ Lệnh vẫn hiện diện như là Hệ thống phát hiện và ngăn chặn sớm nguy cơ: Covid và dịch bệnh tương tự khác. Nó hình thành một số thói quen tốt cho mọi người, để "sinh hoạt và làm việc trong một khu vực an toàn".
+
+Các khác biệt chính của Thẻ Lệnh với với các chiến lược truy quét khác là: 
+
+1. Phân chia theo Phường/Xã, chứ chia nhỏ hơn thành tổ dân phố, hẻm dân cư... hay lớn hơn theo Quận/Huyện.
+    - Là khu vực nhỏ nhất, đủ khả năng đáp ứng nhu yếu phẩm cho người dân bên trong. 
+    - Đủ chức năng và nhân lực để cấp Thẻ, kiểm soát mọi ra vào, và truy quét toàn bộ Thẻ trong 1 ngày. 
+    
+2. Kết hợp Thẻ với Lệnh để giám sát chéo, tăng tuân thủ và giảm vi phạm hiệu quả.
+
+3. Dùng Thẻ giấy (vật lý) để phù hợp cho việc đeo, để đơn giản việc thu thập dữ liệu di chuyển. 
+
+4. Dùng số liệu thực tế để phát hiện vi phạm và ngăn chặn sớm nguy cơ.
+
 
 **Mục lục**
-<!-- @import "[TOC]" {cmd="toc" depthFrom=3 depthTo=3 orderedList=false} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=3 depthTo=5 orderedList=true} -->
 
 <!-- code_chunk_output -->
 
-- [Vấn đề: Thiếu số liệu di chuyển của mọi người](#vấn-đề-thiếu-số-liệu-di-chuyển-của-mọi-người)
-- [Cấp Thẻ cho mọi đối tượng được phép di chuyển.](#cấp-thẻ-cho-mọi-đối-tượng-được-phép-di-chuyển)
-- [Thu thập số liệu di chuyển bằng quét Thẻ](#thu-thập-số-liệu-di-chuyển-bằng-quét-thẻ)
-- [Điều chỉnh việc di chuyển của mọi người bằng Lệnh](#điều-chỉnh-việc-di-chuyển-của-mọi-người-bằng-lệnh)
-- [Tăng tuân thủ, giảm vi phạm bằng Thẻ Lệnh](#tăng-tuân-thủ-giảm-vi-phạm-bằng-thẻ-lệnh)
-- [Truy quét hiệu quả F0 trong cộng đồng bằng Thẻ Lệnh](#truy-quét-hiệu-quả-f0-trong-cộng-đồng-bằng-thẻ-lệnh)
-- [Hỗ trợ đúng gia đình khó khăn qua Thẻ](#hỗ-trợ-đúng-gia-đình-khó-khăn-qua-thẻ)
-- [Giúp dân nghèo có thu nhập bằng Shipper Nội khu](#giúp-dân-nghèo-có-thu-nhập-bằng-shipper-nội-khu)
-- [Hệ thống phát hiện sớm F0 trong vùng "bình thường mới"](#hệ-thống-phát-hiện-sớm-f0-trong-vùng-bình-thường-mới)
+1. [Dữ liệu di chuyển quá ít, chưa sát với thực tế](#dữ-liệu-di-chuyển-quá-ít-chưa-sát-với-thực-tế)
+    1. [Phiếu mua hàng](#phiếu-mua-hàng)
+    2. [Giấy đi đường](#giấy-đi-đường)
+    3. [Khai báo tại chốt kiểm tra, siêu thị, chợ](#khai-báo-tại-chốt-kiểm-tra-siêu-thị-chợ)
+2. [Cấp Thẻ cho mọi đối tượng được phép di chuyển.](#cấp-thẻ-cho-mọi-đối-tượng-được-phép-di-chuyển)
+3. [Thu thập số liệu di chuyển bằng quét Thẻ](#thu-thập-số-liệu-di-chuyển-bằng-quét-thẻ)
+4. [Điều chỉnh việc di chuyển của mọi người bằng Lệnh](#điều-chỉnh-việc-di-chuyển-của-mọi-người-bằng-lệnh)
+    1. [Lệnh cho người dân](#lệnh-cho-người-dân)
+    2. [Lệnh cho siêu thị, chợ](#lệnh-cho-siêu-thị-chợ)
+    3. [Lệnh cho Đơn vị chủ quản (Doanh nghiệp, cơ quan, ...)](#lệnh-cho-đơn-vị-chủ-quản-doanh-nghiệp-cơ-quan)
+    4. [Lệnh cho Phường / Xã](#lệnh-cho-phường-xã)
+    5. [Lệnh cho Công an, Dân phòng](#lệnh-cho-công-an-dân-phòng)
+5. [Tăng tuân thủ, giảm vi phạm bằng Thẻ Lệnh](#tăng-tuân-thủ-giảm-vi-phạm-bằng-thẻ-lệnh)
+    1. [Kiểm tra để phát hiện vi phạm](#kiểm-tra-để-phát-hiện-vi-phạm)
+    2. [Dùng số liệu để dự báo, điều tiết và phát hiện nguy cơ.](#dùng-số-liệu-để-dự-báo-điều-tiết-và-phát-hiện-nguy-cơ)
+6. [Truy quét hiệu quả F0 trong cộng đồng bằng Thẻ Lệnh](#truy-quét-hiệu-quả-f0-trong-cộng-đồng-bằng-thẻ-lệnh)
+7. [Hỗ trợ đúng gia đình khó khăn qua Thẻ](#hỗ-trợ-đúng-gia-đình-khó-khăn-qua-thẻ)
+8. [Giúp dân nghèo có thu nhập bằng Shipper Nội khu](#giúp-dân-nghèo-có-thu-nhập-bằng-shipper-nội-khu)
+9. [Hệ thống phát hiện sớm F0 trong vùng "bình thường mới"](#hệ-thống-phát-hiện-sớm-f0-trong-vùng-bình-thường-mới)
 
 <!-- /code_chunk_output -->
  
 
-### Vấn đề: Thiếu số liệu di chuyển của mọi người
+## Vấn đề: 
+
+### Dữ liệu di chuyển quá ít, chưa sát với thực tế 
 
 Hiện tại có nhiều biện pháp đang triển khai để hạn chế hoạt động của người dân theo Chỉ thị 16 của chính phủ, như Phiếu mua hàng để hạn chế ra ngoài mua hàng và Giấy đi đường để cấp phép cho cá nhân ra ngoài làm việc. 
 
@@ -96,20 +140,19 @@ Có 3 loại thẻ chính cho 3 nhu cầu: ra ngoài mua hàng, làm việc hay 
 ![](The-lam-viec-3mau.jpg)
 - gồm 3 mẫu chi tiết hơn: Thẻ đi làm (cố định), Thẻ Giao hàng (nội khu vực) và Thẻ Vận chuyển (liên khu vực)
 
-- Địa phương nơi làm việc sẽ cấp thẻ cho Đơn vị chủ quản. Đơn vị sẽ cấp cho nhân viên theo danh sách đã đăng ký. 
+- Phường / Xã nơi làm việc sẽ cấp thẻ cho Đơn vị chủ quản. Đơn vị sẽ cấp cho nhân viên theo danh sách đã đăng ký. 
 
 **Thẻ chống dịch** (màu đỏ)
 
 ![](the-chong-dich.png)
 
 - Dành cho cá nhân tham gia chống dịch như: cán bộ địa phương, công an dân phòng, đội ngũ y tế, tình nguyện viên, nhà báo,...
-- Chính quyền cấp Thẻ cho các đơn vị chống dịch. Các đơn vị này sẽ cấp cho cá nhân tham gia chống dịch.
+- Phường / Xã cấp Thẻ cho các đơn vị chống dịch. Các đơn vị này sẽ cấp cho cá nhân tham gia chống dịch.
 
 **Đặc điểm chung** của các loại Thẻ này là 
 - có ID duy nhất, thuộc Phường/ Xã cấp thẻ 
 - có QRCode chứa ID, privateCode (8 số) chống giả. 
 - được phát hành bởi 1 hệ thống, Hệ thống Thẻ lệnh 
-
 
 **Quy trình cấp Thẻ** 
 
