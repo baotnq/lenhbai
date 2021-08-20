@@ -2,64 +2,71 @@
 
 Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã. 
 
-Để thực hiện chiến lược này cần [Cấp Thẻ cho mọi đối tượng được phép di chuyển](#cấp-thẻ-cho-mọi-đối-tượng-được-phép-di-chuyển) : mua hàng, làm việc và chống dịch. 
+Để thực hiện chiến lược này cần Cấp Thẻ cho mọi đối tượng được phép di chuyển : mua hàng, làm việc và chống dịch. 
 
 ![](3-loai-the.png)
 
-Sau khi phát hành Thẻ giấy và đưa tới từng Phường/Xã, Chính quyền tỉnh/Tp đưa ra các quy định hành chính, kèm nội dung xử phạt, (gọi tắt là **Lệnh**) cho các bên: 
+Sau khi phát hành Thẻ giấy và đưa tới từng Phường/Xã, Ban Chỉ đạo chống dịch cấp Tỉnh/Tp đưa ra các quy định hành chính, kèm nội dung xử phạt, (gọi tắt là **Lệnh**) cho các bên: 
 
-1. Phường/Xã: đóng dấu và cấp Thẻ cho 
-    - cấp Thẻ gia đình cho mọi gia đình, nhà trọ phòng trọ, 
-    - cấp Thẻ làm việc cho Doanh nghiệp đang hoạt động, để đưa cho nhân viên
-    - cấp Thẻ chống dịch cho các đơn vị để cấp cho cán bộ, nhân viên y tế, dân phòng, tình nguyện viên, nhà báo,...
+1. Lệnh cho Phường/Xã: đóng dấu và cấp Thẻ cho mọi đối tượng bên dưới 
+    - Thẻ gia đình cho mọi gia đình, nhà trọ phòng trọ, 
+    - Thẻ làm việc cho Doanh nghiệp đang hoạt động, để đưa cho nhân viên
+    - Thẻ chống dịch cho các đơn vị để cấp cho cán bộ, nhân viên y tế, dân phòng, tình nguyện viên, nhà báo,...
 
-2. Chợ, siêu thị,.. chỉ bán hàng cho Thẻ gia đình theo [Lệnh cho siêu thị, chợ](#lệnh-cho-siêu-thị-chợ). 
+2. Lệnh cho chợ, siêu thị,.. chỉ bán hàng cho Thẻ gia đình, [xem chi tiết](#lệnh-cho-siêu-thị-chợ). 
 
-3. Doanh nghiệp chịu trách nhiệm về việc sử dụng Thẻ làm việc của nhân viên bằng [Lệnh cho Đơn vị chủ quản (Doanh nghiệp, cơ quan, ...)](#lệnh-cho-đơn-vị-chủ-quản-doanh-nghiệp-cơ-quan)
+3. Lệnh cho Doanh nghiệp: quản lý cấp Thẻ làm việc và liên đới chịu trách nhiệm nếu nhân viên được cấp vi phạm. [xem chi tiết](#lệnh-cho-đơn-vị-chủ-quản-doanh-nghiệp-cơ-quan)
 
-4. Công an, dân phòng kiểm tra và quét Thẻ. 
+4. Lệnh cho Công an, dân phòng: kiểm tra và quét Thẻ.
 
-Riêng với cá nhân:
-- đeo Thẻ khi ra đường và quét thẻ tại các điểm đến để lưu lịch sử đi lại. 
-- Tuân thủ các Lệnh đưa ra khi tham gia lấy mẫu xét nghiệm 
+5. Lệnh cho người dân:
+   - đeo Thẻ khi ra đường và quét thẻ tại các điểm đến để lưu lịch sử đi lại. 
+   - Tuân thủ các Lệnh đưa ra khi tham gia lấy mẫu xét nghiệm 
 
-Khi các bên tuân thủ các Lệnh đưa ra, người dân chỉ mua hàng theo Phường/Xã đang sống, việc ra vào Phường/Xã chỉ để làm việc, hoặc chống dịch. Số lượng này khá ít, và mỗi Phương/Xã có đủ nhân lực kiểm tra, phát hiện vi phạm để **kiểm soát tất cả ra vào mỗi ngày**. 
+Triển khai đồng thời các Lệnh trên, sẽ giám sát chéo các đối tượng liên quan, tăng cường sự tuân thủ và giảm vi phạm.
 
-Khi tất cả Phường/Xã kiểm soát được di chuyển ra vào mỗi ngày, đồng nghĩa việc lây lan Covid giữa các Phường được kiểm soát. Trong thời gian đó, tập trung lấy mẫu xét nghiệm toàn bộ Thẻ trong Phường.
+Người dân sẽ mua hàng theo Phường/Xã đang sống, việc ra vào Phường/Xã chỉ để làm việc, hoặc chống dịch. Số lượng này khá ít, và mỗi Phương/Xã có đủ nhân lực kiểm tra, phát hiện vi phạm để **kiểm soát tất cả ra vào mỗi ngày**. 
 
-Thẻ Lệnh giúp nâng cao hiệu quả bằng cách: 
-- phân loại nguy cơ theo loại Thẻ và lịch sử di chuyển, 
+Khi tất cả Phường/Xã kiểm soát được di chuyển ra vào mỗi ngày, đồng nghĩa việc lây lan Covid giữa các Phường được kiểm soát. Trong thời gian đó, tập trung lấy mẫu xét nghiệm toàn bộ Thẻ trong Phường, thay vì lấy mẫu toàn dân. 
+
+Mỗi Phường cần hoàn thành truy quét trong 1 ngày, không bỏ sót Thẻ nào, trước khi chuyển sang Phường bên cạnh. Thực hiện liên tục như vậy, toàn vùng dịch sẽ được lấy mẫu sau 12 ngày, vùng nguy cơ cao và vừa lấy mẫu 2 lần. [Xem chi tiết](#giải-pháp-mô-hình-toàn-vùng-dịch-2-lần-sau-12-ngày)
+
+Thẻ Lệnh giúp nâng cao hiệu quả lấy mẫu xét nghiệm: [chi tiết](#truy-quét-hiệu-quả-f0-trong-cộng-đồng-bằng-thẻ-lệnh)
+- phân loại nguy cơ theo loại Thẻ và lịch sử di chuyển
 - tổ chức việc lấy mẫu khoa học, an toàn
 - phát hiện sớm cá nhân cố tình tránh né, không tham gia. 
 
-Khi F0 được bóc tách sạch sẽ, dần dần mở rộng các hoạt động kinh tế bên trong Phường/Xã. Việc kiểm soát ra vào được giảm bớt và chuyển sang tự giám sát. Định kỳ xét nghiệm các Thẻ có lịch sử ra vào, để phát hiện sớm xâm nhập. 
+Khi F0 được bóc tách sạch sẽ, dần dần mở rộng các hoạt động kinh tế bên trong Phường/Xã. Việc kiểm soát ra vào được giảm bớt và chuyển sang tự giám sát. **Định kỳ xét nghiệm các Thẻ có lịch sử ra vào**, để phát hiện sớm xâm nhập. 
 
 Nếu phát hiện F0 trong 1 Phường/ Xã từ xét nghiệm định kỳ, Thẻ Lệnh sẽ kích hoạt chế độ ngăn chặn:
 - Tổ chức 2 Lớp kiểm soát ra vào để ngăn chặn lây lan. 
 - Xét nghiệm tất cả các Thẻ có lịch sử ra vào. Nếu 1 Thẻ là F0 thì Phường nơi F0 đến hoặc đi xem như có F0 cộng đồng. 
 - Tập trung truy quét trong các Phường có F0 cộng đồng
 
-Về an sinh xã hội, Thẻ Lệnh giúp hỗ trợ đúng và kịp thời các gia đình khó khăn. Việc giao hàng tại nhà của siêu thị, chợ được giải quyết bằng đội shipper nội khu. Cũng như giúp doanh nghiệp bố trí lại nhân viên để hoạt động an toàn trong vùng dịch,...
+Về an sinh xã hội, Thẻ Lệnh giúp 
+- hỗ trợ đúng và kịp thời các gia đình khó khăn. 
+- Việc giao hàng tại nhà của siêu thị, chợ được giải quyết bằng đội shipper nội khu. 
+- Doanh nghiệp bố trí lại nhân viên để hoạt động an toàn trong vùng dịch,...
 
 Khi trở lại "bình thường mới", Thẻ Lệnh vẫn hiện diện như là Hệ thống phát hiện và ngăn chặn sớm nguy cơ: Covid và dịch bệnh tương tự khác. Nó hình thành một số thói quen tốt cho mọi người, để "sinh hoạt và làm việc trong một khu vực an toàn".
 
-**Khác biệt của Thẻ Lệnh** với với các chiến lược truy quét khác là: 
+**Khác biệt của Thẻ Lệnh** ở các điểm sau: 
 
-1. Thẻ là sự kết hợp sáng tạo giữa cái chung (phôi) và cái riêng (ID), giữa đời thường và công nghệ, giữa trực quan vật lý và ảo hoá online, giữa quen thuộc của giấy và mới mẻ của qrcode,... 
+1. Lệnh là sự cân bằng giữa lợi ích giữa của các bên, là giám sát chéo để loại bỏ tư tưởng vi phạm, là ảnh hưởng ngầm để tăng tuân thủ và giảm vi phạm.
 
-2. Lệnh là sự cân bằng giữa lợi ích giữa của các bên, là giám sát chéo để loại bỏ tư tưởng vi phạm, là ảnh hưởng ngầm để tăng tuân thủ và giảm vi phạm.
+1. Thẻ là sự kết hợp sáng tạo giữa cái chung (Phôi thẻ) và cái riêng (ID), đời thường và công nghệ, trực quan vật lý và ảo hoá online, sự quen thuộc của giấy,bút và mới mẻ của qrcode,smartphone. 
 
-1. Phân chia theo Phường/Xã, chứ chia nhỏ hơn thành tổ dân phố, hẻm dân cư... hay lớn hơn theo Quận/Huyện.
+1. Khoanh vùng theo Phường/Xã (chứ không phải tổ dân phố, hẻm dân cư hay theo Quận/Huyện)
     - Là khu vực nhỏ nhất, đủ khả năng đáp ứng nhu yếu phẩm cho người dân bên trong. 
     - Đủ chức năng và nhân lực để cấp Thẻ, kiểm soát mọi ra vào, và truy quét toàn bộ Thẻ trong 1 ngày. 
 
-4. Dùng số liệu thực tế để phát hiện vi phạm và ngăn chặn sớm nguy cơ.
+4. Phát hiện sự bất thường từ số liệu thu thập để ngăn chặn nguy cơ. 
 
-Trước khi đi chi tiết từng nội dung của Thẻ Lệnh, chúng ta cần xét một vấn đề quan trọng mà các biện pháp hiện tại đang bỏ sót: là dữ liệu di chuyển quá ít so với thực tế. Giải quyết được vấn đề này, sẽ giúp chúng ta hình dung về tình hình hiện tại, khu vực nào đang gặp khó khăn và cần làm gì để chống dịch hiệu quả hơn. 
+Trước khi tìm hiểu chi tiết, chúng ta cần xét một vấn đề quan trọng mà các biện pháp hiện tại đang bỏ sót: là dữ liệu di chuyển quá ít so với thực tế. Giải quyết được vấn đề này, sẽ giúp chúng ta hình dung về tình hình hiện tại, khu vực nào đang gặp khó khăn và cần làm gì để chống dịch hiệu quả hơn. 
 
 Bên dưới là **Mục lục** gồm vấn đề quan trọng nhưng ít chú ý,cách giải quyết và từ đó hình thành chiến lược chống dịch hiệu quả bằng Thẻ Lệnh. 
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=5 orderedList=true} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=4 orderedList=true} -->
 
 <!-- code_chunk_output -->
 
@@ -82,9 +89,14 @@ Bên dưới là **Mục lục** gồm vấn đề quan trọng nhưng ít chú 
         1. [Kiểm tra để phát hiện vi phạm](#kiểm-tra-để-phát-hiện-vi-phạm)
         2. [Dùng số liệu để dự báo, điều tiết và phát hiện nguy cơ.](#dùng-số-liệu-để-dự-báo-điều-tiết-và-phát-hiện-nguy-cơ)
     3. [Truy quét hiệu quả F0 trong cộng đồng bằng Thẻ Lệnh](#truy-quét-hiệu-quả-f0-trong-cộng-đồng-bằng-thẻ-lệnh)
-    4. [Hỗ trợ đúng gia đình khó khăn qua Thẻ](#hỗ-trợ-đúng-gia-đình-khó-khăn-qua-thẻ)
-    5. [Giúp dân nghèo có thu nhập bằng Shipper Nội khu](#giúp-dân-nghèo-có-thu-nhập-bằng-shipper-nội-khu)
-    6. [Hệ thống phát hiện sớm F0 trong vùng "bình thường mới"](#hệ-thống-phát-hiện-sớm-f0-trong-vùng-bình-thường-mới)
+        1. [Tối ưu số mẫu cần lấy](#tối-ưu-số-mẫu-cần-lấy)
+        2. [Tổ chức lấy mẫu khoa học và an toàn](#tổ-chức-lấy-mẫu-khoa-học-và-an-toàn)
+        3. [Không bỏ sót cá nhân tránh né lấy mẫu](#không-bỏ-sót-cá-nhân-tránh-né-lấy-mẫu)
+        4. [Giải pháp mô hình toàn vùng dịch 2 lần sau 12 ngày](#giải-pháp-mô-hình-toàn-vùng-dịch-2-lần-sau-12-ngày)
+4. [Thẻ Lệnh giúp an sinh xã hội.](#thẻ-lệnh-giúp-an-sinh-xã-hội)
+    1. [Hỗ trợ đúng gia đình khó khăn qua Thẻ](#hỗ-trợ-đúng-gia-đình-khó-khăn-qua-thẻ)
+    2. [Giúp dân nghèo có thu nhập bằng Shipper Nội khu](#giúp-dân-nghèo-có-thu-nhập-bằng-shipper-nội-khu)
+    3. [Hệ thống phát hiện sớm F0 trong vùng "bình thường mới"](#hệ-thống-phát-hiện-sớm-f0-trong-vùng-bình-thường-mới)
 
 <!-- /code_chunk_output -->
  
@@ -345,7 +357,7 @@ Chống dịch bằng cách xét nghiệm toàn dân để truy quét F0 là m�
 - Thực hiện trong thời gian ngắn với đội ngũ lấy mẫu hạn chế. 
 - Các cá nhân nguy cơ cao thường tránh né lấy mẫu. 
 
-**Tối ưu số mẫu cần lấy**
+#### Tối ưu số mẫu cần lấy
 
 Màu sắc của 3 loại Thẻ Lệnh phản ánh nguy cơ lây nhiễm của các đối tượng mang Thẻ. 
 
@@ -358,7 +370,7 @@ Dữ liệu check-in thực tế theo ID cũng giúp lọc ra các đối tượ
 
 Từ đó Thẻ Lệnh giúp giảm số lượng mẫu cần lấy, nhưng vẫn bảo đảm tính khoa học, bao phủ được các đối tượng nguy cơ cao. Cho phép việc truy quét lấy mẫu diễn ra thường xuyên, định kỳ hơn với chi phí tối ưu. 
 
-**Tổ chức lấy mẫu khoa học và an toàn**
+#### Tổ chức lấy mẫu khoa học và an toàn
 
 Khi cần lấy mẫu toàn bộ để quét sạch F0 ra khỏi mọi gia đình. Số lượng lấy mẫu sẽ rất lớn, và chúng ta có thể dùng Thẻ gia đình để lấy mẫu cá nhân đại diện. Trường hợp của Tp HCM, sẽ có tầm 3 triệu Thẻ gia đình cần lấy mẫu. 
 
@@ -368,7 +380,7 @@ Trong tình huống này, Thẻ Lệnh phát huy vai trò tổ chức việc l�
 - Tổ chức đường di chuyển 1 chiều theo CheckPoint, từ cổng vào, xếp hàng, di chuyển tới bàn lấy mẫu một cách khoa học, trật tự.
 - quét Thẻ tại Checkpoint để có số liệu thực tế, cải thiện việc tổ chức lần sau. 
 
-**Không bỏ sót cá nhân tránh né lấy mẫu** 
+#### Không bỏ sót cá nhân tránh né lấy mẫu
 
 Một số cá nhân tự biết nguy cơ cao, thường tìm cách tránh né xét nghiệm do sợ khi bị phát hiện, ảnh hưởng tới công việc, thu nhập. 
 
@@ -380,9 +392,46 @@ Công sức của mọi người tham gia truy vết có thể tan thành mây k
 
 Thẻ Lệnh sẽ lọc ra các ID có nguy cơ cao, thông báo để Đội lấy mẫu chú ý. Nếu phát hiện các ID này chưa tham gia lấy mẫu, sẽ tới tận nhà để truy quét vào cuối ngày. 
 
+#### Giải pháp mô hình toàn vùng dịch 2 lần sau 12 ngày
+> đặt tên là Quạt 3 cánh: 
+
+**Nguồn lực cần có**
+- Năng lực lấy mẫu, xét nghiệm hàng ngày = 1/6 Tổng số Thẻ
+- Năng lực cần duy trì liên tục 12 ngày, cần dự phòng tầm 20% đội ngũ lấy mẫu.
+
+![](ban_do.png)
+
+**Giải thích**
+- Chia toàn vùng thành 3 vùng nhỏ, không cho đi lại giữa các vùng. 
+- mỗi vùng lại chia thành 3 cánh liền kề nhau. Mỗi cánh là vài Phường / Xã. 
+- con số bên trong vòng tròn mỗi cánh, là ngày thực hiện thứ 
+    - số 1: lấy mẫu lần 1 (màu đen) ngày thứ 1
+    - số (4,5) lấy mẫu lần 2 (màu vàng) ở ngày thứ 4,5
+    - số (10,11) lấy mẫu lần thứ 3 ở ngày thứ 10,11. 
+
+- mũi tên màu đỏ chỉ việc: đội ngũ lấy mẫu tách đôi, và 1 /2 di chuyển sang vùng khác. 
+- Theo hình trên:
+    - vùng nguy cơ cao: lần 1 từ ngày 1 tới ngày 3, lần 2 từ ngày 4 tới ngày 9, 
+    - vùng nguy cơ vừa: lần 1 từ ngày 4 tới ngày 6, lần 2 từ ngày 7 tới ngày 12
+    - vùng nguy cơ thấp: lần 1 từ ngày 7 tới ngày 12. 
+**Ưu điểm của cách này**
+- Vùng càng nguy cơ, càng bắt đầu sớm để tách F0 sớm
+- đội ngũ lấy mẫu tập trung, ít di chuyển. 
+- Vùng nguy cơ thấp vẫn được xét nghiệm 
+
+![](ban_do-13.png)
+
+**Giải thích**
+- sau 6 ngày lấy mẫu tiếp theo (từ 13 tới 18)
+    - vùng nguy cơ cao và vừa được lấy mẫu lần 3
+    - vùng nguy cơ thấp lấy mẫu lần 2.
+   
+
 Thẻ Lệnh còn giúp tối ưu đội ngũ lấy mẫu tập trung,là các Thẻ Chống dịch, như tổ chức việc hậu cần, di chuyển giữa các điểm lấy mẫu. Phân công thực hiện hợp lý để chất lượng lấy mẫu duy trì trong thời gian 2,3 tuần liên tục.
 
 Trên đây là các ưu điểm của Hệ thống Thẻ Lệnh để chống dịch hiệu quả. Bên cạnh đó Thẻ Lệnh còn giúp duy trì sức dân và phát triển kinh tế trong khu vực an toàn. 
+
+## Thẻ Lệnh giúp an sinh xã hội.
 ### Hỗ trợ đúng gia đình khó khăn qua Thẻ
 
 Trong hoàn cảnh dịch bệnh kéo dài, có khá nhiều đối tượng khó khăn, có thể là 
