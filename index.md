@@ -95,7 +95,7 @@ Bên dưới là **Mục lục** gồm vấn đề quan trọng nhưng ít chú 
         4. [Giải pháp mô hình toàn vùng dịch 2 lần sau 12 ngày](#giải-pháp-mô-hình-toàn-vùng-dịch-2-lần-sau-12-ngày)
 4. [Thẻ Lệnh giúp an sinh xã hội.](#thẻ-lệnh-giúp-an-sinh-xã-hội)
     1. [Hỗ trợ đúng gia đình khó khăn qua Thẻ](#hỗ-trợ-đúng-gia-đình-khó-khăn-qua-thẻ)
-    2. [Giúp dân nghèo có thu nhập bằng Shipper Nội khu](#giúp-dân-nghèo-có-thu-nhập-bằng-shipper-nội-khu)
+    2. [Giúp người dân có thu nhập bằng Shipper Nội khu](#giúp-người-dân-có-thu-nhập-bằng-shipper-nội-khu)
     3. [Hệ thống phát hiện sớm F0 trong vùng "bình thường mới"](#hệ-thống-phát-hiện-sớm-f0-trong-vùng-bình-thường-mới)
 
 <!-- /code_chunk_output -->
@@ -446,15 +446,14 @@ Các nhà hảo tâm cũng có biết và hỗ trợ đúng gia đình thực s�
 
 Các khó khăn khác của người dân như cần chăm sóc Y tế, cần xe cấp cứu,... từ Thẻ gia đình kết nối với các hệ thống chuyên môn khác. 
 
-### Giúp dân nghèo có thu nhập bằng Shipper Nội khu
+### Giúp người dân có thu nhập bằng Shipper Nội khu
 
 Khi giãn cách kéo dài, mọi người sẽ tìm cách để tăng nguồn thu bằng cách làm thêm. Một công việc hợp lệ là làm Shipper giao hàng
 
-Các shipper tham gia trên ứng dụng như Grab, GoJek,... phải chấp nhập di chuyển nhiều nơi, tiếp xúc nhiều người để có thu nhập.
-Đổi lại họ gặp rủi ro về sức khoẻ và bị phạt tiền nếu vi phạm. 
-Grab, Gojek,... thu lợi từ công việc của Giao nhận, nhưng Nhà nước sẽ phải trả phí nếu các Giao nhận bị dính covid. Điều này khá vô lý. 
+Các shipper tham gia trên ứng dụng như Grab, GoJek,... phải chấp nhập di chuyển nhiều nơi, tiếp xúc nhiều người để có thu nhập. Đổi lại họ gặp rủi ro về sức khoẻ và bị phạt tiền nếu vi phạm. 
+Grab, Gojek,... thu lợi từ công việc của Shipper, nhưng Nhà nước sẽ phải tốn kém để chăm sóc nếu các Shipper bị dính covid. Sự mất cân bằng này sẽ càng khiến Grab, Gojek,.. tăng cường tuyển và giao việc Shipper. 
 
-Có một cách để cân bằng quyền lợi của các bên, đó là chia việc vận chuyển hàng hoá cho 2 nhóm shipper: Giao nhận nội khu và Vận chuyển liên khu. Cách tổ chức như vậy giúp ngăn ngừa lây lan dịch bệnh do việc di chuyển liên tục nhiều nơi.
+Để cân bằng quyền lợi của các bên, đó là chia việc vận chuyển hàng hoá cho 2 nhóm shipper:  Nội khu và Vận chuyển liên khu.
 
 ![](shipper-2mau.png)
 
@@ -464,19 +463,19 @@ Shipper nội khu được phép giao nhận hàng với người dân, và di c
 
 Shipper của Grab, Gojek... có thể đăng ký hoạt động tại nơi đang sống. 
 
-Phường Xã tự Cấp Thẻ để xây dựng đội Giao nhận này. 
-Những cá nhân mất thu nhập có thể đăng ký với Phường/ Xã đang sống để tham gia đội Giao nhận nội khu. 
+Những cá nhân mất thu nhập có thể đăng ký với Phường/ Xã đang sống để tham gia đội Shipper nội khu. 
 
-Siêu thị, chợ bên trong Phường sẽ sử dụng đội Giao nhận này, để vận chuyển các đơn hàng tới tay người dân. Siêu thị, chợ sẽ trả phí giao hàng như thông thường cũng như trả phí xét nghiệm định kỳ cho đội này. 
+Siêu thị, chợ bên trong Phường sẽ sử dụng đội Shipper này, để vận chuyển các đơn hàng tới tay người dân. Siêu thị, chợ sẽ trả phí giao hàng như thông thường cũng như trả phí xét nghiệm định kỳ cho đội này. 
 
-Người dân muốn chuyển hàng tới Quận huyện khác, có thể gọi Giao nhận nội khu chuyển hàng tới điểm tập kết, hàng sau đó sẽ do VNPOST, Viettelpost, Grab, Gojek... vận chuyển tiếp. 
+Người dân muốn chuyển hàng tới Quận huyện khác, có thể gọi Shipper  nội khu chuyển hàng tới điểm tập kết, hàng sau đó sẽ do VNPOST, Viettelpost, Grab, Gojek... vận chuyển tiếp. 
 
-Giao nhận nội khu cân bằng lợi ích giữa lợi ích kinh tế và việc phòng chống dịch 
+Shipper nội khu cân bằng lợi ích giữa lợi ích kinh tế và việc phòng chống dịch 
 
-- Giao nhận nội khu giảm nguy cơ lây lan dịch bệnh
+- Shipper nội khu giảm nguy cơ lây lan dịch bệnh
 - Bổ sung đội ngũ giao nhận cho Siêu thị, chợ, đủ năng lực giao hàng tại nhà, với chi phí hợp lý. 
 - Người dân cảm thấy an toàn hơn và tiết kiện được Chi phí giao nhận
-- Cư dân làm shipper nội khu có thêm thu nhập, không chịu rủi ro dịch bệnh hoặc bị phạt khi qua chốt. 
+- Cư dân làm shipper nội khu có thêm thu nhập, không chịu rủi ro dịch bệnh hoặc bị phạt khi qua chốt.
+
 
 **Shipper Liên khu**
 
