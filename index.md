@@ -491,12 +491,13 @@ Hệ thống Thẻ Lệnh đóng vai trò phát hiện sớm nguy cơ thông qua
 ### Bức tranh "bình thường mới" với Thẻ Lệnh.
 #### Với người dân:
 
-Được cấp Thẻ miễn phí cho các nhu cầu chính đáng.
+Được cấp Thẻ miễn phí.
 
-Mỗi người khi ra ngoài sẽ mang (đeo) Thẻ, di chuyển tự do, bình thường như trước đây. 
+Mỗi người khi ra ngoài sẽ mang (đeo) Thẻ là quét Thẻ tại các điểm đến. Nếu tuân thủ sẽ được di chuyển tự do trong khu vực nhất định, khi vượt quá sẽ cần tuân thủ biện Phòng dịch.
 
-Mỗi Thẻ có phạm vi di chuyển tự do, nếu vượt quá thì cần tự giác khai báo, (cũng như trả thêm phí xét nghiệm,...). 
+Khi một điểm đến có F0, danh sách ID đã check-in ở điểm đó sẽ được công khai. Đối chiếu với ID trên Thẻ để biết và tuân thủ yêu cầu cách ly hoặc xét nghiệm. Nếu không thực hiện Phường/Xã sẽ dựa vào ID, tới tận nhà đôn đốc hướng dẫn. 
 
+**Mỗi Thẻ có phạm vi di chuyển tự do**
 - Thẻ Gia đình sẽ tự do bên trong Phường/Xã, hoặc trong  Quận/ Huyện. Nên mua hàng Online từ các Quận Huyện khác hoặc muốn mua tại chỗ thì cần tuân thủ yêu cầu phòng dịch và trả thêm phí. 
 
 - Thẻ Làm việc cho phép di chuyển trên trục đường giữa 2 Phường/Xã, và tự do di chuyển bên trong 2 nơi này.  Nếu di chuyển sang các nơi khác vì công việc, như gặp khách hàng, hội họp, ... phải tuân thủ các biện pháp Phòng dịch và trả thêm chi phí.
@@ -506,10 +507,6 @@ Mỗi Thẻ có phạm vi di chuyển tự do, nếu vượt quá thì cần t�
 - Khi chuyển sang nơi khác để sinh sống, thì xin cấp Thẻ mới (và hoàn trả Thẻ cũ) ngay tại Phường/Xã mới. 
 
 Khi tới điểm đến như chợ, siêu thị, toà nhà,... sẽ được bảo vệ ở đó yêu cầu quét thẻ để Check-in. 
-
-Nếu 1 điểm đến phát hiện F0, danh sách ID đã check-in sẽ được lọc ra và thông báo công khai. 
-  - Người dân có ID trùng cần tự giác tuân thủ các biện pháp cách ly hoặc xét nghiệm. 
-  - Phường/Xã đang sống sẽ nhắc nhở, hỗ trợ khi cần thiết. 
 
 #### Với chợ, siêu thị: 
 - Chỉ bán cho người có Thẻ gia đình 
