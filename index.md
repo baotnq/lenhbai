@@ -66,37 +66,27 @@ Trước khi tìm hiểu chi tiết, chúng ta cần xét một vấn đề quan
 
 Bên dưới là **Mục lục** gồm vấn đề quan trọng nhưng ít chú ý,cách giải quyết và từ đó hình thành chiến lược chống dịch hiệu quả bằng Thẻ Lệnh. 
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=4 orderedList=true} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=2 depthTo=3 orderedList=true} -->
 
 <!-- code_chunk_output -->
 
 1. [Vấn đề:](#vấn-đề)
     1. [Dữ liệu di chuyển quá ít, chưa sát với thực tế](#dữ-liệu-di-chuyển-quá-ít-chưa-sát-với-thực-tế)
-        1. [Phiếu mua hàng](#phiếu-mua-hàng)
-        2. [Giấy đi đường](#giấy-đi-đường)
-        3. [Khai báo tại chốt kiểm tra, siêu thị, chợ](#khai-báo-tại-chốt-kiểm-tra-siêu-thị-chợ)
 2. [Cách giải quyết](#cách-giải-quyết)
     1. [Cấp Thẻ cho mọi đối tượng được phép di chuyển.](#cấp-thẻ-cho-mọi-đối-tượng-được-phép-di-chuyển)
     2. [Thu thập số liệu di chuyển bằng quét Thẻ](#thu-thập-số-liệu-di-chuyển-bằng-quét-thẻ)
 3. [Phát triển thành Chiến lược chống dịch](#phát-triển-thành-chiến-lược-chống-dịch)
     1. [Điều chỉnh việc di chuyển của mọi người bằng Lệnh](#điều-chỉnh-việc-di-chuyển-của-mọi-người-bằng-lệnh)
-        1. [Lệnh cho người dân](#lệnh-cho-người-dân)
-        2. [Lệnh cho siêu thị, chợ](#lệnh-cho-siêu-thị-chợ)
-        3. [Lệnh cho Đơn vị chủ quản (Doanh nghiệp, cơ quan, ...)](#lệnh-cho-đơn-vị-chủ-quản-doanh-nghiệp-cơ-quan)
-        4. [Lệnh cho Phường / Xã](#lệnh-cho-phường-xã)
-        5. [Lệnh cho Công an, Dân phòng](#lệnh-cho-công-an-dân-phòng)
     2. [Tăng tuân thủ, giảm vi phạm bằng Thẻ Lệnh](#tăng-tuân-thủ-giảm-vi-phạm-bằng-thẻ-lệnh)
-        1. [Kiểm tra để phát hiện vi phạm](#kiểm-tra-để-phát-hiện-vi-phạm)
-        2. [Dùng số liệu để dự báo, điều tiết và phát hiện nguy cơ.](#dùng-số-liệu-để-dự-báo-điều-tiết-và-phát-hiện-nguy-cơ)
     3. [Truy quét hiệu quả F0 trong cộng đồng bằng Thẻ Lệnh](#truy-quét-hiệu-quả-f0-trong-cộng-đồng-bằng-thẻ-lệnh)
-        1. [Tối ưu số mẫu cần lấy](#tối-ưu-số-mẫu-cần-lấy)
-        2. [Tổ chức lấy mẫu khoa học và an toàn](#tổ-chức-lấy-mẫu-khoa-học-và-an-toàn)
-        3. [Không bỏ sót cá nhân tránh né lấy mẫu](#không-bỏ-sót-cá-nhân-tránh-né-lấy-mẫu)
-        4. [Giải pháp mô hình toàn vùng dịch 2 lần sau 12 ngày](#giải-pháp-mô-hình-toàn-vùng-dịch-2-lần-sau-12-ngày)
 4. [Thẻ Lệnh giúp an sinh xã hội.](#thẻ-lệnh-giúp-an-sinh-xã-hội)
     1. [Hỗ trợ đúng gia đình khó khăn qua Thẻ](#hỗ-trợ-đúng-gia-đình-khó-khăn-qua-thẻ)
     2. [Giúp người dân có thu nhập bằng Shipper Nội khu](#giúp-người-dân-có-thu-nhập-bằng-shipper-nội-khu)
-    3. [Hệ thống phát hiện sớm F0 trong vùng "bình thường mới"](#hệ-thống-phát-hiện-sớm-f0-trong-vùng-bình-thường-mới)
+5. [Xã hội "bình thường mới"](#xã-hội-bình-thường-mới)
+    1. [Phát hiện sớm nguy cơ trong vùng "bình thường mới"](#phát-hiện-sớm-nguy-cơ-trong-vùng-bình-thường-mới)
+    2. [Bức tranh "bình thường mới" với Thẻ Lệnh.](#bức-tranh-bình-thường-mới-với-thẻ-lệnh)
+    3. [Tính nhân văn của Thẻ Lệnh](#tính-nhân-văn-của-thẻ-lệnh)
+    4. [Sống và làm việc trong cùng khu vực](#sống-và-làm-việc-trong-cùng-khu-vực)
 
 <!-- /code_chunk_output -->
  
@@ -486,7 +476,9 @@ Việc di chuyển chủ yếu giữa các điểm tập kết, theo các trục
 Trong 1 doanh nghiệp vận chuyển, Tài xế liên khu không được tiếp xúc, hoặc tự ý hoán đổi với tài xế Giao nhận nội khu
 
 Các doanh nghiệp cần tổ chức thành 2 đội này, để bảo đảm an toàn trong Phòng chống dịch cũng như phát triển bền vững trong tương lai.
-### Hệ thống phát hiện sớm F0 trong vùng "bình thường mới" 
+
+## Xã hội "bình thường mới"
+### Phát hiện sớm nguy cơ trong vùng "bình thường mới" 
 
 Để phát triển kinh tế song song với chống dịch hiệu quả, cần tổ chức vùng dịch thành Ruộng bậc thang Phường/Xã, trong đó mỗi Phường/Xã kiểm soát toàn bộ ra mỗi ngày. 
 
@@ -494,11 +486,87 @@ Các doanh nghiệp cần tổ chức thành 2 đội này, để bảo đảm a
 
 Chính quyền sẽ tập trung Chống dịch trong Phường/Xã nguy cơ, và cho phép phát triển kinh tế bên trong Phường Xã an toàn. 
 
-Hệ thống Thẻ Lệnh đóng vai trò phát hiện sớm nguy cơ thông qua việc xét nghiệm đình kỳ các đối tượng nguy cơ. 
+Hệ thống Thẻ Lệnh đóng vai trò phát hiện sớm nguy cơ thông qua việc xét nghiệm đình kỳ các đối tượng nguy cơ.
+
+### Bức tranh "bình thường mới" với Thẻ Lệnh.
+#### Với người dân:
+
+Được cấp Thẻ miễn phí cho các nhu cầu chính đáng.
+
+Mỗi người khi ra ngoài sẽ mang (đeo) Thẻ, di chuyển tự do, bình thường như trước đây. 
+
+Mỗi Thẻ có phạm vi di chuyển tự do, nếu vượt quá thì cần tự giác khai báo, (cũng như trả thêm phí xét nghiệm,...). 
+
+- Thẻ Gia đình sẽ tự do bên trong Phường/Xã, hoặc trong  Quận/ Huyện. Nên mua hàng Online từ các Quận Huyện khác hoặc muốn mua tại chỗ thì cần tuân thủ yêu cầu phòng dịch và trả thêm phí. 
+
+- Thẻ Làm việc cho phép di chuyển trên trục đường giữa 2 Phường/Xã, và tự do di chuyển bên trong 2 nơi này.  Nếu di chuyển sang các nơi khác vì công việc, như gặp khách hàng, hội họp, ... phải tuân thủ các biện pháp Phòng dịch và trả thêm chi phí.
+
+- Nếu có nhu cầu di chuyển chính đáng khác như thăm người thân, đi du lịch,... cần đăng ký với Phường/Xã để được cấp Thẻ Di chuyển 1 lần. Tuân thủ các yêu cầu chống dịch khi di chuyển, và thông báo sau khi thành chuyến đi để khoá Thẻ. 
+
+- Khi chuyển sang nơi khác để sinh sống, thì xin cấp Thẻ mới (và hoàn trả Thẻ cũ) ngay tại Phường/Xã mới. 
+
+Khi tới điểm đến như chợ, siêu thị, toà nhà,... sẽ được bảo vệ ở đó yêu cầu quét thẻ để Check-in. 
+
+Nếu 1 điểm đến phát hiện F0, danh sách ID đã check-in sẽ được lọc ra và thông báo công khai. 
+  - Người dân có ID trùng cần tự giác tuân thủ các biện pháp cách ly hoặc xét nghiệm. 
+  - Phường/Xã đang sống sẽ nhắc nhở, hỗ trợ khi cần thiết. 
+
+#### Với chợ, siêu thị: 
+- Chỉ bán cho người có Thẻ gia đình 
+- Có chính sách khuyến mãi, ưu đãi cho Thẻ gia đình bên trong Phường/Xã
+- Ưu tiên đặt hàng Online, không phân biệt Thẻ từ nơi nào. 
+- Hạn chế mua hàng tại chỗ với Thẻ từ Phường/Xã khác (như số lần mua 1 tuần, khai báo y tế)
+- Với các siêu thị lớn, phục vụ nhiều Phường/Xã xung quanh, 
+Cần phân chia để cư dân 2 Phường không mua hàng cùng 1 ngày.
+
+#### Với toà nhà, văn phòng làm việc 
+
+Chỉ cho người có Thẻ làm việc ra vào, và bắt buộc quét Thẻ.
+
+Với các văn phòng bên trong toà nhà, bắt buộc quét Thẻ lúc vào, lúc ra ngay cả với nhân viên làm việc bên trong . 
+
+#### Với các Chốt chống dịch
+
+Trong trạng thái bình thường, phát hiện người không có Thẻ bằng các biện pháp kiểm tra thông thường. Với người đeo Thẻ, không cần kiểm tra hoặc yêu cầu quét Thẻ. 
+
+Cần giám sát: yêu cầu mọi người đi qua phải tự quét Thẻ. Cảnh cáo hoặc xử phạt các cá nhân không tự giác thực hiện quét Thẻ. Hệ thống sẽ phân tích, lọc ra các Thẻ đang vượt quá giới hạn để cảnh cáo, nếu lặp lại nhiều lần, sẽ bị xử phạt vì tội cố ý.
+
+Cần kiểm soát: quét Thẻ và kiểm tra chi tiết thông tin. Nếu được phép thì mới cho qua, không thì buộc quay đầu. 
+
+#### Với Phường/Xã
+
+Hệ thống sẽ gửi danh sách ID cảnh báo, để cán bộ Phường/Xã gửi giấy nhắc nhở,cảnh báo tới các ID này. 
+
+Với ID vi phạm, yêu cầu mang Thẻ trung ID tới để nộp phạt
+
+Nhưng tới Phường/Xã Cảnh báo, sẽ phải đưa thẻ tại các Chốt Chống dịch, công an sẽ để kiểm tra và lưu lịch sử. Nếu được phép thì cho vào, không thì quay về. 
+
+### Tính nhân văn của Thẻ Lệnh 
+
+#### Không lưu thông tin cá nhân của mọi người
+
+> Bảo đảm an toàn thông tin ngay cả với nhân sự phát triển,  vận hành Thẻ Lệnh.
+
+Khi Thẻ được cấp, chỉ lưu 1 phần (3 hay 6 số cuối cùng) của CMND/ CCCD của người được cấp.
+
+Phường/Xã lưu địa chỉ nhà của người được cấp Thẻ, để có thể tới tận nhà kiểm tra khi cần. 
+
+Không cần lưu thông tin cá nhân như tên, số điện thoại, ngày sinh, hay hình ảnh cmnd vào hệ thống. 
+
+#### Nhắc nhở thay vì xử phạt.
+
+Dựa vào dữ liệu quét Thẻ để phát hiện vi phạm (Phạt nguội), mục đích chính là hình thành thói quen tuân thủ Phòng dịch của mọi người. 
+
+Những vi phạm lần đầu xem như là vô ý, cần được nhắc nhở, hướng dẫn để cải thiện.
+
+Những vi phạm liên tiếp, sẽ bị cảnh báo xử phạt
+
+Những vi phạm tiếp diễn sau khi xử phạt, sẽ thêm hình phạt thích đáng. 
+ 
 
 Và để xã hội trở về "bình thường mới" một cách bền vững, cần tổ chức điều chỉnh một số cấu trúc xã hội, hướng tới mô hình 
 
-**Sống và làm việc trong cùng khu vực**
+### Sống và làm việc trong cùng khu vực
 
 Doanh nghiệp phối hợp với địa phương để bố trí lại lực lượng lao động: 
 
