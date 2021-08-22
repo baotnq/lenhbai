@@ -1,4 +1,4 @@
-# Thẻ Lệnh: Chống dịch hiệu quả và phát triển kinh tế bên trong Phường/Xã an toàn.
+# Thẻ Lệnh: Chống dịch và phát triển kinh tế theo Phường/Xã.
 
 Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã, chia thành nhiều giai đoạn, mỗi giai đoạn áp dụng đồng thời vài chiến thuật. Đây là chiến lược dài hạn kéo dài 5-10 năm hoặc lâu hơn.
 
@@ -6,16 +6,16 @@ Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã, chia th
 
 ![](3-loai-the.png)
 
-Sau khi phát hành Thẻ giấy và đưa tới từng Phường/Xã, Ban Chỉ đạo chống dịch cấp Tỉnh/Tp đưa ra các quy định hành chính, kèm nội dung xử phạt, (gọi tắt là **Lệnh**) cho các bên: 
+Sau khi phát hành Thẻ giấy và chuyển tới tất cả Phường/Xã, Ban Chỉ đạo chống dịch cấp Tỉnh/Tp đưa ra các quy định hành chính, kèm nội dung xử phạt, (gọi tắt là **Lệnh**) cho các bên: 
 
 1. Lệnh cho Phường/Xã: đóng dấu và cấp Thẻ cho mọi đối tượng bên dưới 
-    - Thẻ gia đình cho mọi gia đình, nhà trọ phòng trọ, 
-    - Thẻ làm việc cho Doanh nghiệp đang hoạt động, để đưa cho nhân viên
-    - Thẻ chống dịch cho các đơn vị để cấp cho cán bộ, nhân viên y tế, dân phòng, tình nguyện viên, nhà báo,...
+    - Thẻ gia đình cho mọi gia đình, nhà trọ, phòng trọ,...
+    - Thẻ làm việc cho Doanh nghiệp để đưa cho nhân viên
+    - Thẻ chống dịch để cấp cho cán bộ, nhân viên y tế, dân phòng, tình nguyện viên, nhà báo,...
 
-2. Lệnh cho chợ, siêu thị,.. chỉ bán hàng cho Thẻ gia đình, [xem chi tiết](#lệnh-cho-siêu-thị-chợ). 
+2. [Lệnh cho chợ, siêu thị,...](#lệnh-cho-siêu-thị-chợ) chỉ bán hàng cho Thẻ gia đình, theo Phường/Xã cấp Thẻ. 
 
-3. Lệnh cho Doanh nghiệp: quản lý cấp Thẻ làm việc và liên đới chịu trách nhiệm nếu nhân viên được cấp vi phạm. [xem chi tiết](#lệnh-cho-đơn-vị-chủ-quản-doanh-nghiệp-cơ-quan)
+3. [Lệnh cho Doanh nghiệp]: quản lý cấp Thẻ làm việc và liên đới chịu trách nhiệm nếu nhân viên vi phạm. [xem chi tiết](#lệnh-cho-đơn-vị-chủ-quản-doanh-nghiệp-cơ-quan)
 
 4. Lệnh cho Công an, dân phòng: kiểm tra và quét Thẻ.
 
@@ -50,7 +50,7 @@ Một số vấn đề an sinh xã hội như:
 - Việc giao hàng tại nhà của siêu thị, chợ được giải quyết bằng đội shipper nội khu. 
 - Doanh nghiệp bố trí lại nơi làm việc, khu vực di chuyển của nhân viên để bảm đảm phòng dịch và phát triển kinh doanh bền vững.
 
-Thẻ Lệnh còn là chiến lược phát hiện, ngăn chặn sớm nguy cơ Covid và các đại dịch tương tự khi [xã hội trở lại "bình thường mới"]((#xã-hội-bình-thường-mới)). Thẻ Lệnh giúp điều chỉnh việc di chuyển của cộng đồng, hình thành một số thói quen tốt cho mọi người, như đeo và quét Thẻ tại điểm đến, hướng tới mục tiêu "sinh hoạt và làm việc trong một khu vực an toàn".
+Thẻ Lệnh còn là chiến lược phát hiện, ngăn chặn sớm nguy cơ Covid và các đại dịch tương tự khi [xã hội trở lại "bình thường mới"](#xã-hội-bình-thường-mới). Thẻ Lệnh giúp điều chỉnh việc di chuyển của cộng đồng, hình thành một số thói quen tốt cho mọi người, như đeo và quét Thẻ tại điểm đến, hướng tới mục tiêu "sinh hoạt và làm việc trong một khu vực an toàn".
 
 **Khác biệt của Thẻ Lệnh** ở các điểm sau: 
 
