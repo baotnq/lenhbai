@@ -9,8 +9,7 @@ Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã, chia th
 - Thẻ làm việc để đi lại, giao hàng,... cho Doanh nghiệp để đưa cho nhân viên
 - Thẻ chống dịch để cấp cho cán bộ, nhân viên y tế, dân phòng, tình nguyện viên, nhà báo,...
 
-Mỗi Thẻ có ID duy nhất, quản lý bởi 1 hệ thống chung. 
-![](3-loai-the.png)
+Mỗi Thẻ có **ID duy nhất**, quản lý bởi 1 hệ thống chung. 
 
 Sau khi phát hành Thẻ giấy và chuyển tới tất cả Phường/Xã, BCĐ Chống dịch đưa ra các quy định hành chính, kèm nội dung xử phạt, (gọi tắt là **Lệnh**) cho các bên: 
 
