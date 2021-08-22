@@ -1,4 +1,4 @@
-# Thẻ Lệnh: Chống dịch và phát triển kinh tế theo Phường/Xã.
+# Chống dịch và phát triển kinh tế theo Phường/Xã bằng Thẻ Lệnh
 
 Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã, chia thành nhiều giai đoạn, mỗi giai đoạn áp dụng đồng thời vài chiến thuật. Đây là chiến lược dài hạn kéo dài 5-10 năm hoặc lâu hơn.
 
