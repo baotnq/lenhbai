@@ -1,8 +1,8 @@
 # Thẻ Lệnh: Chống dịch hiệu quả và phát triển kinh tế bên trong Phường/Xã an toàn.
 
-Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã. 
+Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã, chia thành nhiều giai đoạn, mỗi giai đoạn áp dụng đồng thời vài chiến thuật. Đây là chiến lược dài hạn kéo dài 5-10 năm hoặc lâu hơn.
 
-Để thực hiện chiến lược này cần Cấp Thẻ cho mọi đối tượng được phép di chuyển : mua hàng, làm việc và chống dịch. 
+Để thực hiện chiến lược này, đầu tiên cần Cấp Thẻ cho mọi đối tượng được phép di chuyển : mua hàng, làm việc và chống dịch. 
 
 ![](3-loai-the.png)
 
@@ -43,12 +43,14 @@ Nếu phát hiện F0 trong 1 Phường/ Xã từ xét nghiệm định kỳ, Th
 - Xét nghiệm tất cả các Thẻ có lịch sử ra vào. Nếu 1 Thẻ là F0 thì Phường nơi F0 đến hoặc đi xem như có F0 cộng đồng. 
 - Tập trung truy quét trong các Phường có F0 cộng đồng
 
-Về an sinh xã hội, Thẻ Lệnh giúp 
+Thẻ Lệnh là [chiến lược về an sinh xã hội](#thẻ-lệnh-giúp-an-sinh-xã-hội), trong đó người dân, doanh nghiệp phản ảnh, Phường/Xã xác nhận khó khăn, Chính Quyền cân đối nguồn lực để đạt kết quả tối ưu. Và Thẻ Lệnh giám sát mọi công việc trên. 
+
+Một số vấn đề an sinh xã hội như: 
 - hỗ trợ đúng và kịp thời các gia đình khó khăn. 
 - Việc giao hàng tại nhà của siêu thị, chợ được giải quyết bằng đội shipper nội khu. 
-- Doanh nghiệp bố trí lại nhân viên để hoạt động an toàn trong vùng dịch,...
+- Doanh nghiệp bố trí lại nơi làm việc, khu vực di chuyển của nhân viên để bảm đảm phòng dịch và phát triển kinh doanh bền vững.
 
-Khi trở lại "bình thường mới", Thẻ Lệnh vẫn hiện diện như là Hệ thống phát hiện và ngăn chặn sớm nguy cơ: Covid và dịch bệnh tương tự khác. Nó hình thành một số thói quen tốt cho mọi người, để "sinh hoạt và làm việc trong một khu vực an toàn".
+Thẻ Lệnh còn là chiến lược phát hiện, ngăn chặn sớm nguy cơ Covid và các đại dịch tương tự khi [xã hội trở lại "bình thường mới"]((#xã-hội-bình-thường-mới)). Thẻ Lệnh giúp điều chỉnh việc di chuyển của cộng đồng, hình thành một số thói quen tốt cho mọi người, như đeo và quét Thẻ tại điểm đến, hướng tới mục tiêu "sinh hoạt và làm việc trong một khu vực an toàn".
 
 **Khác biệt của Thẻ Lệnh** ở các điểm sau: 
 
