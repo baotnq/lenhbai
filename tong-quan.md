@@ -2,7 +2,7 @@
 
 Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã, chia thành nhiều giai đoạn, mỗi giai đoạn áp dụng đồng thời vài chiến thuật. Đây là chiến lược dài hạn kéo dài 5-10 năm hoặc lâu hơn, được tóm gọn trong 1 câu: 
 
-**Cấp Thẻ cho mọi di chuyển, biết được mọi Thẻ ra vào Phường/Xã mỗi ngày và Xét nghiệm toàn bộ Thẻ bên trong**
+**Cấp Thẻ (có ID) cho mọi người được phép di chuyển, khoanh vùng theo Phường/Xã, lưu tất cả ID ra vào mỗi ngày, đồng thời xét nghiệm theo Phường/Xã tất cả ID bên trong nhiều lần**
 
 Đầu tiên cần Cấp Thẻ cho mọi đối tượng được phép di chuyển  trong vùng dịch:
 - Thẻ gia đình để mua hàng, cho mọi gia đình, nhà trọ, phòng trọ,...
