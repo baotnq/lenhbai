@@ -1,15 +1,13 @@
 #Chống dịch và phát triển kinh tế theo Phường/Xã bằng Thẻ Lệnh.
 
-Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã, chia thành nhiều giai đoạn, mỗi giai đoạn áp dụng đồng thời vài chiến thuật. Đây là chiến lược dài hạn kéo dài 5-10 năm hoặc lâu hơn, được tóm gọn trong 1 câu: 
+Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã, chia thành nhiều giai đoạn, mỗi giai đoạn áp dụng đồng thời vài chiến thuật. Đây là chiến lược dài hạn kéo dài 5-10 năm hoặc lâu hơn, được tóm gọn trong 3 câu: 
 
-**Cấp Thẻ (có ID) cho mọi người được phép di chuyển, khoanh vùng theo Phường/Xã, lưu tất cả ID ra vào mỗi ngày, đồng thời xét nghiệm theo Phường/Xã tất cả ID bên trong nhiều lần**
+![](3-cau-the-lenh-mau.png)
 
-Đầu tiên cần Cấp Thẻ cho mọi đối tượng được phép di chuyển  trong vùng dịch:
+Cấp Thẻ (ID duy nhất) cho mọi người được phép di chuyển trong vùng dịch 
 - Thẻ gia đình để mua hàng, cho mọi gia đình, nhà trọ, phòng trọ,...
 - Thẻ làm việc để đi lại, giao hàng,... cho Doanh nghiệp để đưa cho nhân viên
 - Thẻ chống dịch để cấp cho cán bộ, nhân viên y tế, dân phòng, tình nguyện viên, nhà báo,...
-
-Mỗi Thẻ có **ID duy nhất**, quản lý bởi 1 hệ thống chung. 
 
 Sau khi phát hành Thẻ giấy và chuyển tới tất cả Phường/Xã, BCĐ Chống dịch đưa ra các quy định hành chính, kèm nội dung xử phạt, (gọi tắt là **Lệnh**) cho các bên: 
 
