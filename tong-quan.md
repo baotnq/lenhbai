@@ -1,10 +1,37 @@
 #Chống dịch và phát triển kinh tế theo Phường/Xã bằng Thẻ Lệnh.
 
-Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã, chia thành nhiều giai đoạn, mỗi giai đoạn áp dụng đồng thời vài chiến thuật. Đây là chiến lược dài hạn kéo dài 5-10 năm hoặc lâu hơn, được tóm gọn trong 3 câu: 
+Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã, chia thành nhiều giai đoạn, mỗi giai đoạn áp dụng đồng thời vài chiến thuật. 
 
-![](3-cau-the-lenh-mau.png)
+Áp dụng chiến lược này, Chính phủ có thể thực hiện 2 cam kết sau.
 
-Cấp Thẻ (ID duy nhất) cho mọi người được phép di chuyển trong vùng dịch 
+**Cam kết 1: với vùng đang có dịch**:
+
+- Nếu mọi đối tượng (người dân, doanh nghiệp, địa phương,...) trong 1 Phường/Xã tuân thủ nghiêm các quy định về giãn cách và xét nghiệm, sau 2,3 tuần Phường /xã đó sẽ được giảm bớt giãn cách.
+Mọi người được ra ngoài nhiều hơn, bên trong Phường/Xã đó . 
+
+- Và nếu tiếp tục tuân thủ và xét nghiệm định kỳ, Phường xã đó sẽ quay về bình thường mới sau 4-6 tuần. Mọi người được tự do ra ngoài, đi lại bên trong Phường/Xã, hoặc sang các Phường/Xã an toàn lân cận, mà không bị ảnh hưởng bởi dịch bệnh đang diễn ra ở khu vực khác. 
+
+- Ngược lại, các Phường xã có vi phạm (người dân, doanh nghiệp hay cán bộ địa phương,...), sẽ phải tiếp tục giãn cách. Và bị tăng cường giãn cách tới mức "không ai được ra ngoài" nếu không cải thiện tình hình.
+
+**Cam kết 2: Với xã hội khi trở về bình thường mới**
+
+- Nếu mọi đối tượng vẫn tuân thủ theo Lệnh đưa ra, Chính phủ sẽ phát hiện sớm nguy cơ, ngăn chặn lây lan trong mỗi Phường/xã, không phải giãn cách toàn tỉnh, thành phố để ảnh hưởng tới hoạt động kinh tế.
+
+Chiến lược Thẻ Lệnh được tóm gọn trong 3 câu: 
+
+1. **Cấp Thẻ có ID duy nhất, cho mọi người được phép di chuyển**
+2. **Khoanh vùng theo Phường/Xã, lưu ID của mọi cá nhân ra vào mỗi ngày.**
+3. **Xét nghiệm theo Phường/Xã cho tất cả ID bên trong tới khi hết F0 cộng đồng. Sau đó định kỳ xét nghiệm tất cả ID có lịch sử ra, vào Phường/Xã.**
+
+Lưu ý:
+1. Thẻ mà không có ID duy nhất coi như vô dụng.
+2. Để người không có Thẻ ra ngoài, coi  như vô dụng. 
+2. Không lưu ID khi kiểm tra thẻ coi như vô dụng
+3. Khoanh vùng như không kiểm soát được ra ngoài, coi như vô dụng
+4. bỏ sót Thẻ khi xét nghiệm coi như vô dụng. 
+
+
+Để thực hiện được chiến lược, đầu tiên **cấp Thẻ (ID duy nhất) cho mọi người được phép di chuyển trong vùng dịch**:
 - Thẻ gia đình để mua hàng, cho mọi gia đình, nhà trọ, phòng trọ,...
 - Thẻ làm việc để đi lại, giao hàng,... cho Doanh nghiệp để đưa cho nhân viên
 - Thẻ chống dịch để cấp cho cán bộ, nhân viên y tế, dân phòng, tình nguyện viên, nhà báo,...
@@ -15,7 +42,7 @@ Sau khi phát hành Thẻ giấy và chuyển tới tất cả Phường/Xã, BC
 
 2. [Lệnh cho chợ, siêu thị,...](https://baotnq.qrcare.vn/#lệnh-cho-siêu-thị-chợ) chỉ bán hàng cho Thẻ gia đình, theo Phường/Xã cấp Thẻ. 
 
-3. [Lệnh cho Doanh nghiệp]: quản lý cấp Thẻ làm việc và liên đới chịu trách nhiệm nếu nhân viên vi phạm. [xem chi tiết](https://baotnq.qrcare.vn/#lệnh-cho-đơn-vị-chủ-quản-doanh-nghiệp-cơ-quan)
+3. [Lệnh cho Doanh nghiệp](https://baotnq.qrcare.vn/#lệnh-cho-đơn-vị-chủ-quản-doanh-nghiệp-cơ-quan): quản lý cấp Thẻ làm việc và liên đới chịu trách nhiệm nếu nhân viên vi phạm.
 
 4. Lệnh cho Công an, dân phòng: kiểm tra và quét Thẻ.
 
