@@ -1,37 +1,34 @@
 #Chống dịch và phát triển kinh tế theo Phường/Xã bằng Thẻ Lệnh.
 
-Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã, chia thành nhiều giai đoạn, mỗi giai đoạn áp dụng đồng thời vài chiến thuật. 
+Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã, chia thành nhiều giai đoạn, mỗi giai đoạn áp dụng đồng thời vài chiến thuật. Chiến lược này được tóm gọn trong 3 câu: 
 
-Áp dụng chiến lược này, Chính phủ có thể thực hiện 2 cam kết sau.
+1. **Mọi người được phép ra ngoài, phải đeo Thẻ nhận diện có ID và quét Thẻ tại các điểm đến.**
+2. **Mua hàng trong Phường/Xã, mọi ra vào Phường/Xã để làm việc hay chống dịch phải quét Thẻ.**
+3. **Xét nghiệm theo Phường/Xã cho tất cả ID bên trong tới khi hết F0 cộng đồng. Sau đó định kỳ xét nghiệm tất cả ID có lịch sử ra, vào Phường/Xã.**
+
+Thẻ Lệnh đo lường tỉ lệ vi phạm/ tuân thủ các quy định chống dịch theo Phường Xã mỗi ngày. Các vi phạm có thể do nhiều đối tượng gây ra, ví dụ: 
+
+- Người dân không đeo Thẻ ra đường, hoặc ra đường quá số lần quy định,...
+- Chợ, siêu thị bán hàng cho người không đeo Thẻ, hoặc không đúng Thẻ theo quy định,...
+- Cán bộ Phường chưa cấp Thẻ cho 1 gia đình, khiến gia đình đó phản ánh tới hotline,...
+- Đội chống dịch bỏ sót Thẻ khi lấy xét nghiệm toàn Phường. 
+
+Dựa trên việc đo lường này, Chính phủ có thể  thực hiện 2 cam kết sau.
 
 **Cam kết 1: với vùng đang có dịch**:
 
-- Nếu mọi đối tượng (người dân, doanh nghiệp, địa phương,...) trong 1 Phường/Xã tuân thủ nghiêm các quy định về giãn cách và xét nghiệm, sau 2,3 tuần Phường /xã đó sẽ được giảm bớt giãn cách.
-Mọi người được ra ngoài nhiều hơn, bên trong Phường/Xã đó . 
+- Nếu 1 Phường/Xã tuân thủ nghiêm các quy định về giãn cách (tỉ lệ tuân thủ gần 100%), và xét nghiệm toàn bộ Thẻ không phát hiện F0, thì sau 1 tuần Phường /xã đó được giảm bớt giãn cách. 
 
-- Và nếu tiếp tục tuân thủ và xét nghiệm định kỳ, Phường xã đó sẽ quay về bình thường mới sau 4-6 tuần. Mọi người được tự do ra ngoài, đi lại bên trong Phường/Xã, hoặc sang các Phường/Xã an toàn lân cận, mà không bị ảnh hưởng bởi dịch bệnh đang diễn ra ở khu vực khác. 
+- Và nếu tiếp tục tuân thủ và xét nghiệm định kỳ, sau 4-6 tuần, Phường/ xã đó có thể quay về bình thường mới, mọi người tự do di chuyển, phát triển kinh tế bên trong. 
 
-- Ngược lại, các Phường xã có vi phạm (người dân, doanh nghiệp hay cán bộ địa phương,...), sẽ phải tiếp tục giãn cách. Và bị tăng cường giãn cách tới mức "không ai được ra ngoài" nếu không cải thiện tình hình.
+- Ngược lại, các Phường xã có vi phạm nhiều, hay vẫn còn F0 trong cộng đồng, phải tiếp tục giãn cách. Và bị tăng cường giãn cách nếu không giảm tỉ lệ vi phạm.
 
 **Cam kết 2: Với xã hội khi trở về bình thường mới**
 
-- Nếu mọi đối tượng vẫn tuân thủ theo Lệnh đưa ra, Chính phủ sẽ phát hiện sớm nguy cơ, ngăn chặn lây lan trong mỗi Phường/xã, không phải giãn cách toàn tỉnh, thành phố để ảnh hưởng tới hoạt động kinh tế.
+- Nếu mọi đối tượng vẫn tuân thủ các Lệnh đưa ra, Chính phủ sẽ phát hiện sớm nguy cơ, ngăn chặn lây lan theo Phường/xã. 
+Tỉnh, thành phố có dịch sẽ không phải giãn cách chặt, cho phép hoạt động kinh tế ở các Phường/Xã an toàn. 
 
-Chiến lược Thẻ Lệnh được tóm gọn trong 3 câu: 
-
-1. **Cấp Thẻ có ID duy nhất, cho mọi người được phép di chuyển**
-2. **Khoanh vùng theo Phường/Xã, lưu ID của mọi cá nhân ra vào mỗi ngày.**
-3. **Xét nghiệm theo Phường/Xã cho tất cả ID bên trong tới khi hết F0 cộng đồng. Sau đó định kỳ xét nghiệm tất cả ID có lịch sử ra, vào Phường/Xã.**
-
-Lưu ý:
-1. Thẻ mà không có ID duy nhất coi như vô dụng.
-2. Để người không có Thẻ ra ngoài, coi  như vô dụng. 
-2. Không lưu ID khi kiểm tra thẻ coi như vô dụng
-3. Khoanh vùng như không kiểm soát được ra ngoài, coi như vô dụng
-4. bỏ sót Thẻ khi xét nghiệm coi như vô dụng. 
-
-
-Để thực hiện được chiến lược, đầu tiên **cấp Thẻ (ID duy nhất) cho mọi người được phép di chuyển trong vùng dịch**:
+Để triển khai Thẻ Lệnh, đầu tiên **cấp Thẻ (ID duy nhất) cho mọi người được phép di chuyển trong vùng dịch**:
 - Thẻ gia đình để mua hàng, cho mọi gia đình, nhà trọ, phòng trọ,...
 - Thẻ làm việc để đi lại, giao hàng,... cho Doanh nghiệp để đưa cho nhân viên
 - Thẻ chống dịch để cấp cho cán bộ, nhân viên y tế, dân phòng, tình nguyện viên, nhà báo,...
@@ -77,22 +74,17 @@ Một số vấn đề an sinh xã hội như:
 - Việc giao hàng tại nhà của siêu thị, chợ được giải quyết bằng đội shipper nội khu. 
 - Doanh nghiệp bố trí lại nơi làm việc, khu vực di chuyển của nhân viên để bảm đảm phòng dịch và phát triển kinh doanh bền vững.
 
-Thẻ Lệnh còn là chiến lược phát hiện, ngăn chặn sớm nguy cơ Covid và các đại dịch tương tự khi [xã hội trở lại "bình thường mới"](https://baotnq.qrcare.vn/#xã-hội-bình-thường-mới). Thẻ Lệnh giúp điều chỉnh việc di chuyển của cộng đồng, hình thành một số thói quen tốt cho mọi người, như đeo và quét Thẻ tại điểm đến, hướng tới mục tiêu "sinh hoạt và làm việc trong một khu vực an toàn".
+Thẻ Lệnh còn là chiến lược phát hiện, ngăn chặn sớm nguy cơ Covid và các đại dịch tương tự khi [xã hội trở lại "bình thường mới"](https://baotnq.qrcare.vn/#xã-hội-bình-thường-mới), hình thành một số thói quen tốt cho mọi người, như
 
-**Khác biệt của Thẻ Lệnh** ở các điểm sau: 
+1. **Mọi người khi ra ngoài cần đeo Thẻ và quét Thẻ tại các điểm đến: chợ, siêu thị, toà nhà,...**
 
-1. Lệnh là **sự cân bằng lợi ích** giữa của các bên, là giám sát chéo để loại bỏ tư tưởng vi phạm, là ảnh hưởng ngầm để tăng tuân thủ và giảm vi phạm.
+2. **Di chuyển tự do trong khu vực do Thẻ quy định. Nếu vượt quá khu vực đó phải quét Thẻ và (có thẻ) trả phí xét nghiệm.**
 
-1. Thẻ là **sự kết hợp sáng tạo** giữa cái chung (Phôi thẻ) và cái riêng (ID), đời thường và công nghệ, trực quan vật lý và ảo hoá online, sự quen thuộc của giấy,bút và mới mẻ của qrcode,smartphone. 
+3. **Quét Thẻ để biết yêu cầu xét nghiệm, cách ly do đã tiếp xúc với F0, và tự giác thực hiện.**
 
-1. Phân chia theo Phường/Xã (chứ không phải tổ dân phố, hẻm dân cư hay theo Quận/Huyện)
-    - Là khu vực nhỏ nhất, đủ khả năng đáp ứng nhu yếu phẩm cho người dân bên trong. 
-    - Đủ chức năng và nhân lực để cấp Thẻ, kiểm soát mọi ra vào, và truy quét toàn bộ Thẻ trong 1 ngày. 
-
-4. **Phát hiện bất thường** từ số liệu thu thập để ngăn chặn nguy cơ. 
+Ngoài ra Thẻ Lệnh giúp Doanh nghiệp bố trí nhân viên sống và làm việc trong 1 khu vực nhỏ, để phòng dịch hiệu quả, hướng tới mục tiêu "sinh hoạt và làm việc trong một khu vực an toàn".
 
 Để bắt đầu tìm hiểu chi tiết, cần xem xét một vấn đề quan trọng mà các biện pháp hiện tại đang bỏ sót: là **dữ liệu di chuyển quá ít so với thực tế**. Giải quyết được vấn đề này, sẽ giúp chúng ta hình dung về tình hình hiện tại, khu vực nào đang gặp khó khăn và cần làm gì để chống dịch hiệu quả hơn. 
-
 
 1. [Vấn đề:](https://baotnq.qrcare.vn/#vấn-đề)
     1. [Dữ liệu di chuyển quá ít, chưa sát với thực tế](https://baotnq.qrcare.vn/#dữ-liệu-di-chuyển-quá-ít-chưa-sát-với-thực-tế)
