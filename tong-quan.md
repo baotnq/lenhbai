@@ -1,80 +1,71 @@
-#Chống dịch và phát triển kinh tế theo Phường/Xã bằng Thẻ Lệnh.
+---
+title: "Chống dịch và phát triển kinh tế theo Phường/Xã bằng Thẻ Lệnh"
+output: 
+  word_document: 
+    highlight: tango
+---
 
-Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã, chia thành nhiều giai đoạn, mỗi giai đoạn áp dụng đồng thời vài chiến thuật. Chiến lược này được tóm gọn trong 3 câu: 
+## Chống dịch và phát triển kinh tế theo Phường/Xã bằng Thẻ Lệnh.
 
-1. **Mọi người được phép ra ngoài, phải đeo Thẻ nhận diện có ID và quét Thẻ tại các điểm đến.**
-2. **Mua hàng trong Phường/Xã, mọi ra vào Phường/Xã để làm việc hay chống dịch phải quét Thẻ.**
-3. **Xét nghiệm theo Phường/Xã cho tất cả ID bên trong tới khi hết F0 cộng đồng. Sau đó định kỳ xét nghiệm tất cả ID có lịch sử ra, vào Phường/Xã.**
+Covid lây lan dựa trên việc di chuyển, tụ tập của con người. Vậy muốn chống dịch hiệu quả, cần hệ thống những hoạt động này, với mọi thành viên trong cộng đồng.
+Hệ thống thẻ lệnh ra đời, là giúp chúng ta biết cần làm gì, đi những đâu một cách khoa học, vừa đáp ứng nhu cầu vừa hạn chế việc lây lan một cách tự nhiên.
 
-Thẻ Lệnh đo lường tỉ lệ vi phạm/ tuân thủ các quy định chống dịch theo Phường Xã mỗi ngày. Các vi phạm có thể do nhiều đối tượng gây ra, ví dụ: 
+Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã, chia thành nhiều giai đoạn, gói gọn trong 3 câu: 
 
-- Người dân không đeo Thẻ ra đường, hoặc ra đường quá số lần quy định,...
-- Chợ, siêu thị bán hàng cho người không đeo Thẻ, hoặc không đúng Thẻ theo quy định,...
-- Cán bộ Phường chưa cấp Thẻ cho 1 gia đình, khiến gia đình đó phản ánh tới hotline,...
-- Đội chống dịch bỏ sót Thẻ khi lấy xét nghiệm toàn Phường. 
+1. **Lệnh cho mọi người được phép ra ngoài, phải đeo Thẻ nhận diện có ID và quét Thẻ tại các điểm đến**
+2. **Lệnh cho dân phòng kiểm tra Thẻ tại đầu đường, chỉ cho phép những cá nhân ra vào Phường/Xã để làm việc hay chống dịch và bắt buộc quét Thẻ.**
+3. **Xét nghiệm tất cả ID bên trong Phường/xã cho tới khi hết F0 cộng đồng. Sau đó định kỳ xét nghiệm tất cả ID có lịch sử ra, vào.**
 
-Dựa trên việc đo lường này, Chính phủ có thể  thực hiện 2 cam kết sau.
+Trong đó, Lệnh là một quy định phòng dịch, có chế tài xử phạt cụ thể. Không chỉ cho người dân, Lệnh còn áp dụng cho doanh nghiệp, cán bộ địa phương,...để giám sát chéo. 
+
+Về tổng quan, Thẻ Lệnh giống biện pháp Chống dịch mà nhiều tỉnh thành phố đang áp dụng: tăng cường giãn cách "ai ở đâu ở yên đấy", "phường xã là pháo đài" và "thần tốc" xét nghiệm toàn bộ người dân. Nhưng mục tiêu của Thẻ Lệnh lại khác: 
+
+**Phát hiện nhanh, sớm các vi phạm bằng Thẻ Lệnh**
+- Thẻ dùng để nhận diện từ xa, phát hiện nhanh những người không đeo Thẻ. Không cần gây khó khăn, tốn thời gian người tuân thủ. 
+
+- Phát hiện sớm vi phạm khi vừa ra khỏi nhà, để lọc bớt sớm các đối tượng không tuân thủ tạo nên tính răn đe.  
+
+- Quét Thẻ khi ra vào Phường/xã là việc bắt buộc, còn việc kiểm tra sẽ linh động để hạn chế gây tắc nghẽn, tụ tập đông. 
+
+**Phát hiện nguy cơ bằng xét nghiệm định kỳ**
+- *"Xét nghiệm theo Phường/Xã cho tất cả ID bên trong tới khi hết F0 cộng đồng"* không phải là mục tiêu, mà là 1 bước đệm để từng Phường/Xã đạt tới giai đoạn  **"định kỳ xét nghiệm tất cả ID có lịch sử ra, vào"**. Ở giai đoạn này,  nguồn lây chỉ là các cá nhân ra vào Phường Xã mỗi ngày. 
+
+- Xét nghiệm đình kỳ để phát hiện sớm nguy cơ nhưng cũng giá khả năng Chống dịch xâm nhập của Phường/Xã đó. Nếu khả năng này cao, thì giảm giãn cách, cho phép hoạt động bên trong và ngược lại. 
+
+- Mỗi Phường/Xã kéo dài giai đoạn "Định kỳ xét nghiệm" càng lâu, để chờ các Phường/Xã xung quanh cùng tới giai đoạn này. Các phường xã liền kề cùng phối hợp kiểm soát ra vào, khả năng chống dịch xâm nhập sẽ được tăng cường, không chỉ với Delta mà còn các biến thể nguy hiểm trong tương lai. 
+
+Thẻ Lệnh còn là **bảng điểm theo Phường/Xã**, ghi nhận vi phạm do nhiều đối tượng gây ra, ví dụ: 
+
+- Không đeo Thẻ, hoặc ra đường quá số lần quy định,...
+- Bán hàng cho người không có Thẻ, không đúng quy định
+- Phường/Xã cấp Thẻ thiếu, khiến dân phản ánh tới hotline
+- Đội chống dịch bỏ sót Thẻ khi lấy mẫu. 
+
+Mỗi ngày, Thẻ Lệnh cập nhật điểm số cho tất cả Phường/Xã trong vùng dịch, giúp nâng cao tinh thần chung của mọi người, để tăng cường tuân thủ, giảm thiểu vi phạm. 
+
+Và qua bảng điểm này, Chính phủ có thể thực hiện 2 cam kết sau.
 
 **Cam kết 1: với vùng đang có dịch**:
 
-- Nếu 1 Phường/Xã tuân thủ nghiêm các quy định về giãn cách (tỉ lệ tuân thủ gần 100%), và xét nghiệm toàn bộ Thẻ không phát hiện F0, thì sau 1 tuần Phường /xã đó được giảm bớt giãn cách. 
+- Nếu mọi người trong 1 Phường/Xã tuân thủ nghiêm Thẻ Lệnh đồng thời không phát hiện F0 cộng đồng sau khi xét nghiệm, thì Phường/Xã đó sẽ sớm trở về bình thường mới: người dân được phép ra ngoài nhiều hơn, và doanh nghiệp được phép mở lại bên trong. 
 
-- Và nếu tiếp tục tuân thủ và xét nghiệm định kỳ, sau 4-6 tuần, Phường/ xã đó có thể quay về bình thường mới, mọi người tự do di chuyển, phát triển kinh tế bên trong. 
+- Ngược lại, các Phường xã còn nhiều vi phạm, hay vẫn còn F0 trong cộng đồng, phải tiếp tục giãn cách.
 
-- Ngược lại, các Phường xã có vi phạm nhiều, hay vẫn còn F0 trong cộng đồng, phải tiếp tục giãn cách. Và bị tăng cường giãn cách nếu không giảm tỉ lệ vi phạm.
+- Cán bộ địa phương buông lỏng quản lý, để người dân trong Phường/Xã vi phạm nhiều lần, sẽ bị thay thế. 
 
 **Cam kết 2: Với xã hội khi trở về bình thường mới**
 
 - Nếu mọi đối tượng vẫn tuân thủ các Lệnh đưa ra, Chính phủ sẽ phát hiện sớm nguy cơ, ngăn chặn lây lan theo Phường/xã. 
 Tỉnh, thành phố có dịch sẽ không phải giãn cách chặt, cho phép hoạt động kinh tế ở các Phường/Xã an toàn. 
 
-Để triển khai Thẻ Lệnh, đầu tiên **cấp Thẻ (ID duy nhất) cho mọi người được phép di chuyển trong vùng dịch**:
-- Thẻ gia đình để mua hàng, cho mọi gia đình, nhà trọ, phòng trọ,...
-- Thẻ làm việc để đi lại, giao hàng,... cho Doanh nghiệp để đưa cho nhân viên
-- Thẻ chống dịch để cấp cho cán bộ, nhân viên y tế, dân phòng, tình nguyện viên, nhà báo,...
-
-Sau khi phát hành Thẻ giấy và chuyển tới tất cả Phường/Xã, BCĐ Chống dịch đưa ra các quy định hành chính, kèm nội dung xử phạt, (gọi tắt là **Lệnh**) cho các bên: 
-
-1. Lệnh cho Phường/Xã: đóng dấu và cấp Thẻ cho mọi đối tượng bên trên. 
-
-2. [Lệnh cho chợ, siêu thị,...](https://baotnq.qrcare.vn/#lệnh-cho-siêu-thị-chợ) chỉ bán hàng cho Thẻ gia đình, theo Phường/Xã cấp Thẻ. 
-
-3. [Lệnh cho Doanh nghiệp](https://baotnq.qrcare.vn/#lệnh-cho-đơn-vị-chủ-quản-doanh-nghiệp-cơ-quan): quản lý cấp Thẻ làm việc và liên đới chịu trách nhiệm nếu nhân viên vi phạm.
-
-4. Lệnh cho Công an, dân phòng: kiểm tra và quét Thẻ.
-
-5. Lệnh cho người dân:
-   - đeo Thẻ khi ra đường và quét thẻ tại các điểm đến để **lưu lịch sử đi lại**. 
-   - Tuân thủ các Lệnh đưa ra khi tham gia lấy mẫu xét nghiệm 
-
-Triển khai đồng thời các Lệnh trên, sẽ giám sát chéo các đối tượng liên quan, **tăng cường sự tuân thủ và giảm vi phạm**.
-
-Người dân sẽ mua hàng theo Phường/Xã đang sống, việc ra vào Phường/Xã chỉ để làm việc, hoặc chống dịch. Số lượng này khá ít, và mỗi Phương/Xã có đủ nhân lực kiểm tra, phát hiện vi phạm để **kiểm soát tất cả ra vào mỗi ngày**. 
-
-Khi tất cả Phường/Xã kiểm soát được di chuyển ra vào mỗi ngày, đồng nghĩa việc lây lan Covid giữa các Phường được kiểm soát. Trong thời gian đó, tập trung **lấy mẫu xét nghiệm toàn bộ Thẻ trong Phường**, thay vì lấy mẫu toàn dân. 
-
-Mỗi Phường cần hoàn thành truy quét trong 1 ngày, không bỏ sót Thẻ nào, trước khi chuyển sang Phường bên cạnh. Thực hiện liên tục như vậy, toàn vùng dịch sẽ được lấy mẫu sau 12 ngày, vùng nguy cơ cao và vừa lấy mẫu 2 lần. [Xem chi tiết](https://baotnq.qrcare.vn/#giải-pháp-mô-hình-toàn-vùng-dịch-2-lần-sau-12-ngày)
-
-Thẻ Lệnh giúp nâng cao hiệu quả lấy mẫu xét nghiệm: [chi tiết](https://baotnq.qrcare.vn/#truy-quét-hiệu-quả-f0-trong-cộng-đồng-bằng-thẻ-lệnh)
-- phân loại nguy cơ theo loại Thẻ và lịch sử di chuyển
-- tổ chức việc lấy mẫu khoa học, an toàn
-- **phát hiện** cá nhân cố tình tránh né, không tham gia. 
-
-Khi F0 được bóc tách sạch sẽ, dần dần mở rộng các hoạt động kinh tế bên trong Phường/Xã. Việc kiểm soát ra vào được giảm bớt và chuyển sang tự giám sát. **Định kỳ xét nghiệm các Thẻ có lịch sử ra vào**, để phát hiện sớm xâm nhập. 
-
-Nếu phát hiện F0 trong 1 Phường/ Xã từ xét nghiệm định kỳ, Thẻ Lệnh sẽ kích hoạt chế độ ngăn chặn:
-- Tổ chức 2 Lớp kiểm soát ra vào để ngăn chặn lây lan. 
-- Xét nghiệm tất cả các Thẻ có lịch sử ra vào. Nếu 1 Thẻ là F0 thì Phường nơi F0 đến hoặc đi xem như có F0 cộng đồng. 
-- Tập trung truy quét trong các Phường có F0 cộng đồng
-
 Thẻ Lệnh là [chiến lược về an sinh xã hội](https://baotnq.qrcare.vn/#thẻ-lệnh-giúp-an-sinh-xã-hội), trong đó người dân, doanh nghiệp phản ảnh khó khăn, cán bộ Phường/Xã tới tận nơi xác nhận, dựa vào đó cân đối nguồn lực cứu trợ, từ thiện để mọi khó khăn được giải quyết. Và Thẻ Lệnh **giám sát mọi công việc trên**. 
 
 Một số vấn đề an sinh xã hội như: 
 - hỗ trợ đúng và kịp thời các gia đình khó khăn. 
-- Việc giao hàng tại nhà của siêu thị, chợ được giải quyết bằng đội shipper nội khu. 
-- Doanh nghiệp bố trí lại nơi làm việc, khu vực di chuyển của nhân viên để bảm đảm phòng dịch và phát triển kinh doanh bền vững.
+- Việc giao hàng tại nhà của siêu thị, chợ được giải quyết bằng [đội shipper nội khu](https://baotnq.qrcare.vn/#giúp-người-dân-có-thu-nhập-bằng-shipper-nội-khu)
 
-Thẻ Lệnh còn là chiến lược phát hiện, ngăn chặn sớm nguy cơ Covid và các đại dịch tương tự khi [xã hội trở lại "bình thường mới"](https://baotnq.qrcare.vn/#xã-hội-bình-thường-mới), hình thành một số thói quen tốt cho mọi người, như
+
+Thẻ Lệnh còn là chiến lược phát hiện, ngăn chặn sớm nguy cơ Covid, các đại dịch tương tự,... khi [xã hội trở lại "bình thường mới"](https://baotnq.qrcare.vn/#xã-hội-bình-thường-mới), hình thành một số thói quen tốt cho mọi người, như
 
 1. **Mọi người khi ra ngoài cần đeo Thẻ và quét Thẻ tại các điểm đến: chợ, siêu thị, toà nhà,...**
 
