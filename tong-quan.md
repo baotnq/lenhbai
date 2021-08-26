@@ -7,8 +7,10 @@ output:
 
 ## Chống dịch và phát triển kinh tế theo Phường/Xã bằng Thẻ Lệnh.
 
-Covid lây lan dựa trên việc di chuyển, tụ tập của con người. Vậy muốn chống dịch hiệu quả, cần hệ thống những hoạt động này, với mọi thành viên trong cộng đồng.
-Hệ thống thẻ lệnh ra đời, là giúp chúng ta biết cần làm gì, đi những đâu một cách khoa học, vừa đáp ứng nhu cầu vừa hạn chế việc lây lan một cách tự nhiên.
+Đại dịch Covid-19 lây lan, bùng phát dựa trên di chuyển, tụ tập của con người. Từ đặc điểm này, muốn phòng, chống dịch hiệu quả, cần hệ thống những hoạt động này của cộng đồng. Trong đó việc di chuyển cần bớt hỗn loạn, và ghi lại đầy đủ các điểm đến, việc tụ tập cần trật tự hơn, được giám sát từ xa. 
+
+Để đạt được mục tiêu trên, cần kiến thức về "tư duy hệ thống", cũng như suy ngẫm, lĩnh hội về thực tại xung quanh. Và đầu tiên, cần để tâm trí rộng mở, để đón nhận những kiến thức mới và những quan điểm khác biệt. 
+
 
 Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã, chia thành nhiều giai đoạn, gói gọn trong 3 câu: 
 
