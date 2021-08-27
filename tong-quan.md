@@ -5,12 +5,59 @@ output:
     highlight: tango
 ---
 
+## Định nghĩa mới về miễn dịch cộng đồng
+
+Miễn dịch cộng đồng với đại dịch Covid là một hiện trạng của xã hội. Khi đạt tới hiện trạng này, toàn xã hội không cần phải giãn cách triệt để mà vẫn kiểm soát lây lan, khống chế bùng phát, và dập tắt dịch bệnh. 
+
+Có vài chiến lược để đạt tới hiện trạng này: 
+- tạo ra miễn dịch cho phần lớn người dân (Israel, Anh,...)
+- Không Covid bằng kiểm soát chặt biên giới ra vào (Trung Quốc, NewZealand, Việt Nam,..)
+- giám sát lây lan Covid mà không cần giãn cách toàn xã hội (Hàn Quốc hiện tại)
+
+Còn một chiến lược nữa: đó là hệ thống hoá, quy hoạch hoá việc di chuyển theo khu vực. 
+
+**Hệ thống hoá** là tạo cho mọi người những thói quen mới một cách hệ thống để phòng, chống covid. Đeo khẩu trang là một thói quen mà toàn xã hội đang có. Một thói quen khác cần được hệ thống là "Check-in tại mọi điểm đến trong nhà và cả ngoài trời. 
+
+Tất cả mọi người có thói quen check-in hàng ngày, thì mới xem Hệ thống (xã hội) cần có. 
+
+Chúng ta thường hiểu nhầm, hiểu sai về "Hệ thống", cứ nghĩ nó là hệ thống phần mềm, app,.cntt,... Phần mềm, app chỉ là công cụ, 1 phần để hình thành Hệ thống thói quen bên trên thôi. 
+
+Thói quen của cá nhân vẫn là chưa đủ để phòng chống dịch bệnh. Xã hội cần một thói quen khác, ở quy mô lớn hơn đó là thói quen **"quy hoạch việc di chuyển theo khu vực"**
+
+Mục đích của thói quen này, là phân chia xã hội thành nhiều khu vực nhỏ, tương đồng nhau. Trong đó hầu hết việc di chuyển hàng ngày đều tập trung bên trong khu vực này. Nhu cầu di chuyển liên khu vực vẫn diễn ra, nhưng đã giảm đi rất nhiều. 
+
+Di chuyển liên khu vực ít đi, thì tốc độ lây lan qua nhiều khu vực sẽ giảm đi một cách tự nhiên. Quản lý, giám sát các di chuyển này cũng dễ dàng, và việc kiểm soát chặt khi cần chống dịch là điều khả thi. 
+
+Thói quen "Quy hoạch việc di chuyển theo khu vực" đã và đang diễn ra khi Covid xuất hiện, với "khu vực" là quy mô quốc gia. Mỗi quốc gia chủ động được việc này, và việc kiểm soát xâm nhập đã mang lại lợi ích rất lớn: mọi hoạt động bên trong diễn ra bình thường.
+
+Nhưng với biến thể Delta, thì khu vực ở đây cần nhỏ hơn rất nhiều, và lý tưởng nhất là theo Phường/Xã. 
+
+Mỗi Phường/Xã định kỳ kiểm tra Covid xâm nhập, sẽ tạo thành 1 một "radar siêu nhạy" để phát hiện nguy cơ. Và trong lúc Delta lây lan chậm lại giữa các Phường/Xã, chúng ta có đủ thời gian để khoanh vùng, kiểm soát và dập tắt bùng phát.  
+
+Đây chính là một hiện trạng "miễn dịch cộng đồng" mà thế giới đang cần, bởi tính chủ động, sẵn sàng áp dụng của mỗi quốc gia, vùng dịch.
+
+Nhưng mỗi quốc gia cần làm gì để có thói quen "quy hoạch việc di chuyển theo khu vực"? Đối tượng nào trong xã hội cần có thói quen này? Bao lâu để đạt được thói quen trên? 
+
+Giải pháp để thực hiện từng bước đã có, và có thể áp dụng ngay lúc này. 
+
+Nhưng luôn có 1 câu hỏi quan trọng nhất trước khi bắt đầu. 
+
+Đó là **lợi ích mang lại, có xứng đáng với công sức, nỗ lực mà xã hội bỏ ra để có  thói quen "Quy hoạch di chuyển theo Phường/Xã" hay không?**
+
+Ai cũng biết, một thói quen tốt luôn xứng đáng với mọi cố gắng, công sức để tạo nên thói quen đó. Nhưng thế nào là tốt, xấu thì tuỳ thuộc quan điểm, cảm nhận của mỗi người. 
+
+Và để mọi người đồng thuận rằng "Quy hoạch di chuyển theo khu vực (Phường/Xã)" là thói quen tốt so với không làm gì, để "xã hội di chuyển hỗn loạn như hiện tại", còn vất vả, tốn thời gian hơn là thực hiện thói quen đó. 
+
+Một định nghĩa mới về "Miễn dịch cộng đồng", là rất cần thiết lúc này, giúp chúng ta hình dung rõ hơn về đích đến. Một đích đến rõ ràng, sẽ giúp chúng ta **không phải hối hận**, khi nhận ra đã "bắc thang lên nhầm bức tường". 
+
+P/S: "Quy hoạch di chuyển theo khu vực" là thói quen mà xã hội cần thực hiện với Doanh nghiệp, tổ chức, cơ quan,... để đạt tới kết quả "mọi người sinh hoạt và làm việc theo khu vực"
+
+- bán hàng tại chỗ theo khu vực
+- giao hàng theo khu vực 
+- làm việc trong khu vực đang sống. 
+- các quy hoạch đô thị khác. 
+
 ## Chống dịch và phát triển kinh tế theo Phường/Xã bằng Thẻ Lệnh.
-
-Đại dịch Covid-19 lây lan, bùng phát dựa trên di chuyển, tụ tập của con người. Từ đặc điểm này, muốn phòng, chống dịch hiệu quả, cần hệ thống những hoạt động này của cộng đồng. Trong đó việc di chuyển cần bớt hỗn loạn, và ghi lại đầy đủ các điểm đến, việc tụ tập cần trật tự hơn, được giám sát từ xa. 
-
-Để đạt được mục tiêu trên, cần kiến thức về "tư duy hệ thống", cũng như suy ngẫm, lĩnh hội về thực tại xung quanh. Và đầu tiên, cần để tâm trí rộng mở, để đón nhận những kiến thức mới và những quan điểm khác biệt. 
-
 
 Thẻ Lệnh là một chiến lược truy quét F0 theo Phường/Xã, chia thành nhiều giai đoạn, gói gọn trong 3 câu: 
 
