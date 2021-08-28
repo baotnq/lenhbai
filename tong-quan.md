@@ -10,7 +10,7 @@ output:
 
 Đại dịch Covid là vấn đề của toàn xã hội: y tế cộng đồng, an sinh xã hội, phát triển kinh tế,... và các quốc gia tìm cách giải quyết vấn đề này bằng cách đạt được "miễn dịch cộng đồng". 
 
-Nhưng các định nghĩa về "miễn dịch cộng đồng" hiện nay lại dựa trên các yếu tố y tế như: hầu hết người dân có kháng thể bằng cách tiêm vacxin, nghiên cứu thuốc trị covid,... và lãng quên các yếu tố xã hội khác. **Và đây chính là vấn đề.**
+Nhưng các định nghĩa về ["miễn dịch cộng đồng"](https://vi.wikipedia.org/wiki/Miễn_dịch_cộng_đồng) hiện nay lại dựa trên các yếu tố y tế, và bỏ qua các yếu tố xã hội khác. **Và đây chính là vấn đề.**
 
 Việc hiểu "miễn dịch cộng đồng" dựa trên các định nghĩa y tế, sẽ khiến giải pháp từ các chuyên gia y tế được chú ý, coi trọng, và ý kiến từ các lĩnh vực khác dễ bị bỏ qua. 
 
