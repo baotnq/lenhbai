@@ -10,7 +10,9 @@ output:
 
 Đại dịch Covid là vấn đề của toàn xã hội: y tế cộng đồng, an sinh xã hội, phát triển kinh tế,... và các quốc gia tìm cách giải quyết vấn đề này bằng cách đạt được "miễn dịch cộng đồng". 
 
-Nhưng các định nghĩa về ["miễn dịch cộng đồng"](https://vi.wikipedia.org/wiki/Miễn_dịch_cộng_đồng) hiện nay lại dựa trên các yếu tố y tế, và bỏ qua các yếu tố xã hội khác. **Và đây chính là vấn đề.**
+Nhưng các định nghĩa về ["miễn dịch cộng đồng"](https://vi.wikipedia.org/wiki/Miễn_dịch_cộng_đồng) đang có lại dựa trên các yếu tố y tế, và bỏ qua các yếu tố xã hội khác. 
+
+**Đây chính là vấn đề.**
 
 Việc hiểu "miễn dịch cộng đồng" dựa trên các định nghĩa y tế, sẽ khiến giải pháp từ các chuyên gia y tế được chú ý, coi trọng, và ý kiến từ các lĩnh vực khác dễ bị bỏ qua. 
 
@@ -20,12 +22,17 @@ Sau một thời gian, Chống dịch Covid chỉ còn là công việc của Ch
 
 Xã hội bị phân mảnh, thiếu sự đoàn kết về mặt tư tưởng, mục tiêu trong vấn đề chung là Phòng chống Đại dịch. Đây là hiện tượng chung của toàn thế giới, chứ không riêng Việt Nam. 
 
-[“Albert Einstein observed, “The significant problems we face cannot be solved at the same level of thinking we were at when we created them.”](https://www.goodreads.com/quotes/1180773-albert-einstein-observed-the-significant-problems-we-face-cannot-be)
+**Trí tuệ của loài người đang bị lãng phí**, chính là vấn đề.
 
-- Đại dịch được tạo ra bởi virus và sự di chuyển của con người ("we created them"), nhưng tác động đến toàn xã hội ("the significant problems we face").
-- Suy ngẫm từ câu trên, chúng ta cần một cách hiểu toàn xã hội ("high level of thinking") hơn về "miễn dịch cộng đồng".
+Xin trích dẫn câu nói của 1 trí tuệ, được loài người thừa nhận, Albert Einstein, 
 
-### Một cách hiểu khác về miễn dịch cộng đồng
+[“We cannot solve our problems with the same thinking we used when we created them.”](https://articulous.com.au/problem-solving/)
+
+
+Suy ngẫm từ câu trên, chúng ta cần một cách hiểu toàn xã hội ("high level of thinking") hơn về "miễn dịch cộng đồng", để [Bắt đầu bằng đích đến](https://www.fahasa.com/7-thoi-quen-hieu-qua-bia-cung-tai-ban-2021.html?attempt=1)
+
+### Hiểu khác về miễn dịch cộng đồng
+
 
 > **Miễn dịch cộng đồng với đại dịch Covid là một **hiện trạng xã hội**. Khi đạt tới hiện trạng này, toàn xã hội không cần phải giãn cách triệt để mà vẫn kiểm soát lây lan, khống chế bùng phát,và dập tắt dịch bệnh.**
 
