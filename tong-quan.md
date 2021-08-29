@@ -33,6 +33,8 @@ Thẻ có 3 loại chính cho mua hàng, làm việc và chống dịch
 
 ![](3-loai-the.png)
 
+![](moi-tuong-tac.png)
+
 Tham khảo thêm [Cấp Thẻ cho mọi đối tượng được phép di chuyển.](https://baotnq.qrcare.vn/#cấp-thẻ-cho-mọi-đối-tượng-được-phép-di-chuyển)
 
 
@@ -59,6 +61,12 @@ Tham khảo thêm [Cấp Thẻ cho mọi đối tượng được phép di chuy�
 
 - Xét nghiệm thông qua Thẻ sẽ hiệu quả kinh tế hơn rất nhiều so với cách đang thực hiện, xem [chi tiết](https://baotnq.qrcare.vn/#truy-quét-hiệu-quả-f0-trong-cộng-đồng-bằng-thẻ-lệnh)
 
+Đây là ví dụ về giám sát chéo của Thẻ gia đình 
+
+![](giam-sat-cheo.png)
+
+![](the-di-lam-giam-sat-cheo.png)
+
 Thẻ Lệnh là **bảng điểm theo Phường/Xã**, ghi nhận vi phạm do nhiều đối tượng gây ra, ví dụ: 
 
 - Không đeo Thẻ, hoặc ra đường quá số lần quy định,...
@@ -80,10 +88,16 @@ Và qua bảng điểm này, Chính phủ dễ dàng đánh giá, quyết địn
 
 - Cán bộ địa phương buông lỏng quản lý, để người dân trong Phường/Xã vi phạm nhiều lần, sẽ bị thay thế. 
 
+- tham khảo thêm [Chiến thuật tách F0 cộng đồng](https://baotnq.qrcare.vn/#giải-pháp-mô-hình-toàn-vùng-dịch-2-lần-sau-12-ngày)
+
+![](ban_do.png)
+
 **Với xã hội khi trở về bình thường mới**
 
 - Nếu mọi đối tượng vẫn tuân thủ các Lệnh đưa ra, Chính phủ sẽ phát hiện sớm nguy cơ, ngăn chặn lây lan theo Phường/xã. 
-Tỉnh, thành phố có dịch sẽ không phải giãn cách chặt, cho phép hoạt động kinh tế ở các Phường/Xã an toàn. 
+- Tỉnh, thành phố có dịch sẽ không phải giãn cách chặt, cho phép hoạt động kinh tế ở các Phường/Xã an toàn. 
+
+![](ruong-bac-thang-1.png)
 
 Thẻ Lệnh còn là [chiến lược về an sinh xã hội](https://baotnq.qrcare.vn/#thẻ-lệnh-giúp-an-sinh-xã-hội), trong đó người dân, doanh nghiệp phản ảnh khó khăn, cán bộ Phường/Xã tới tận nơi xác nhận, dựa vào đó cân đối nguồn lực cứu trợ, từ thiện để mọi khó khăn được giải quyết. Một số vấn đề an sinh xã hội như: 
 - hỗ trợ đúng và kịp thời các gia đình khó khăn. 
