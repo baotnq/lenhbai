@@ -83,6 +83,9 @@ Bên dưới là **Mục lục** gồm vấn đề quan trọng nhưng ít chú 
 
 - [Vấn đề:](#vấn-đề)
   - [Dữ liệu di chuyển quá ít, chưa sát với thực tế](#dữ-liệu-di-chuyển-quá-ít-chưa-sát-với-thực-tế)
+  - [Phiếu mua hàng](#phiếu-mua-hàng)
+  - [Giấy đi đường](#giấy-đi-đường)
+  - [Khai báo tại chốt kiểm tra, siêu thị, chợ](#khai-báo-tại-chốt-kiểm-tra-siêu-thị-chợ)
 - [Cách giải quyết](#cách-giải-quyết)
   - [Cấp Thẻ cho mọi đối tượng được phép di chuyển.](#cấp-thẻ-cho-mọi-đối-tượng-được-phép-di-chuyển)
   - [Thu thập số liệu di chuyển bằng quét Thẻ](#thu-thập-số-liệu-di-chuyển-bằng-quét-thẻ)
@@ -109,7 +112,7 @@ Bên dưới là **Mục lục** gồm vấn đề quan trọng nhưng ít chú 
 
 Hiện tại có nhiều biện pháp đang triển khai để hạn chế hoạt động của người dân theo Chỉ thị 16 của chính phủ, như Phiếu mua hàng để hạn chế ra ngoài mua hàng và Giấy đi đường để cấp phép cho cá nhân ra ngoài làm việc. 
 
-#### Phiếu mua hàng 
+### Phiếu mua hàng 
 
 Mỗi địa phương có mẫu phiếu riêng, nhưng cách làm thì khá giống nhau. Sau nhiều lần cải tiến, Tp Hồ Chí Minh đang áp dụng mẫu Phiếu bên dưới. 
 
@@ -118,7 +121,7 @@ Mỗi địa phương có mẫu phiếu riêng, nhưng cách làm thì khá gi�
 Người dân phải điền nhiều thông tin tên, địa chỉ, số điện thoại,..., khiến việc số hoá chữ viết tay trên 1 Phiếu tốn không ít thời gian và dễ sai sót. 1 Phiếu được dùng 2 lần trong 6 ngày, khiến tổng số  Phiếu đã phát trong 1,2 tháng của Phường/Xã, Quận/Huyện và Thành phố là rất lớn.
 
 Việc số hoá tất cả phiếu này là tốn rất nhiều nhân lực và cũng không phải bắt buộc, dẫn đến thực tế là số liệu về hoạt động mua hàng gần như không có, hoặc chỉ là phần nhỏ so với thực tế. 
-#### Giấy đi đường
+### Giấy đi đường
 
 Sau vài lần điều chỉnh, việc cấp Giấy đi đường sẽ do Phường/Xã thực hiện, và đây là 1 mẫu mới nhất mà Tp Hà Nội đang áp dụng 
 
@@ -127,7 +130,7 @@ Sau vài lần điều chỉnh, việc cấp Giấy đi đường sẽ do Phư�
 Giấy đi đường cũng có rất nhiều chỗ phải điền vào, và khá nhiều thông tin không thực sự cần thiết. Nhưng trên giấy lại không có ID hay QRCode riêng, dùng cho việc thu thập dữ liệu khi kiểm tra. Thực tế là tại các chốt, công an chỉ xem thông tin trên Giấy đi đường, **không lưu thông tin người ra chốt mỗi ngày**.
 
 Để khắc phục việc thiếu số liệu thực tế, nhiều biện pháp khác được bổ sung để người dân tự nguyện khai báo.
-#### Khai báo tại chốt kiểm tra, siêu thị, chợ  
+### Khai báo tại chốt kiểm tra, siêu thị, chợ  
 
 Các giải pháp khác như "Di biến động dân cư", Tờ khai Y tế trên ứng dụng NCovi, Bluezone tốn khá nhiều thời gian để thực hiện. 
 và thường gây tụ tập, tắc nghẽn tại các chốt. 

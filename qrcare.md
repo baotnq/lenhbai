@@ -84,7 +84,6 @@ QRCare nhấn mạnh vai trò của Người sử dụng, là người quyết �
 
 Bên cung cấp nên ưu tiên phục vụ tốt Người sử dụng, sẽ mang lại nhiều giá trị trong dài hạn. 
 
-
 ### Các tính năng hiện có của QRCare 
 
 > tham khảo https://qrcare.vn 

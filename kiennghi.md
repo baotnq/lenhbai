@@ -1,21 +1,22 @@
 ---
-title: THƯ KIẾN NGHỊ
 output: 
   word_document: 
     highlight: tango
 ---
 
-## Chiến lược Phòng chống dịch COVID-19 và Phát triển kinh tế theo từng Phường/Xã
+## THƯ KIẾN NGHỊ
+## Phòng chống dịch COVID-19 và Phát triển kinh tế bằng Thẻ Lệnh 
 
-### TP Hồ Chí Minh ngày 7/9/2021
+### TP Hồ Chí Minh ngày 10/9/2021
 
 Kính gửi: 
 
+- Ông Nguyễn Xuân Phúc, Chủ tịch nước Cộng hòa Xã hội Chủ nghĩa Việt Nam,
 - Ông Phạm Minh Chính, Thủ tướng Chính phủ nước Cộng hòa Xã hội Chủ nghĩa Việt Nam,
 - Ông Vũ Đức Đam, Phó Thủ tướng Chính phủ, Trưởng Ban Chỉ đạo Quốc gia Phòng, chống dịch COVID-19,
 - Ông Tô Lâm, Bộ trưởng Bộ Công An,
 - Ông Nguyễn Thanh Long, Bộ trưởng Bộ Y tế,
-- Văn phòng Chính phủ, 
+- Văn phòng Chủ tịch nước, 
 - Ban Bí Thư Trung ương Đảng Cộng sản Việt Nam,
 - Ban Kinh tế Trung ương Đảng Cộng sản Việt Nam,
 - Ban Tuyên giáo Trung ương Đảng Cộng sản Việt Nam, 
@@ -24,7 +25,7 @@ Kính gửi:
 Chúng tôi gồm các tổ chức thành viên tập hợp trong các Mạng lưới, Liên minh dưới đây (chi tiết xem thêm Phụ lục 1):
 
 
-Hưởng ứng lời kêu gọi của Thủ tướng Chính phủ Phạm Minh Chính [^1] “Toàn dân tham gia phòng chống đại dịch” (01/5/2021), của Chủ Tịch nước Nguyễn Xuân Phúc ngày 27/5/2021[^2], của 
+Hưởng ứng lời kêu gọi của Thủ tướng Chính phủ Phạm Minh Chính [^1] “Toàn dân tham gia phòng chống đại dịch” (01/5/2021), của Chủ Tịch nước Nguyễn Xuân Phúc ngày 27/5/2021[^2], của Tổng Bí thư Nguyễn Phú Trọng [^3] ngày 29/7/2021 gửi toàn thể người dân Việt Nam cả trong và ngoài nước, chúng tôi, .... , đã cùng nhau phát triển các góp ý điều chỉnh các chính sách phòng chống dịch COVID-19 trước tình hình mới.
 
 [^1]: https://dangcongsan.vn/nong-trong-ngay/thu-tuong-keu-goi-toan-dan-chung-tay-phong-chong-dich-covid-19-579620.html 
 
@@ -33,35 +34,31 @@ Hưởng ứng lời kêu gọi của Thủ tướng Chính phủ Phạm Minh Ch
 
 [^3]: https://moh.gov.vn/hoat-dong-cua-lanh-dao-bo/-/asset_publisher/TW6LTp1ZtwaN/content/tong-bi-thu-nguyen-phu-trong-ra-loi-keu-goi-phong-chong-ai-dich-covid-19
  
- 
-Tổng Bí thư Nguyễn Phú Trọng [^3] ngày 29/7/2021 gửi toàn thể người dân Việt Nam cả trong và ngoài nước, chúng tôi, .... , đã cùng nhau phát triển các góp ý điều chỉnh các chính sách phòng chống dịch COVID-19 trước tình hình mới.
-
-Kiến nghị này được tạo ra qua ba bước: 
-   - (1) Tổ chức cuộc hội luận chuyên gia gồm cả trong và ngoài nước vào ngày 12/08 (xem phụ lục 2) với chủ đề: “Thảo luận chuyên gia kiến nghị chính sách phòng chống dịch COVID-19 trong tình hình mới; 
-   - (2) Xây dựng kiến nghị dựa trên kết quả hội luận, và thông qua góp ý rộng rãi của tất cả các tổ chức thành viên các Mạng lưới, Liên minh trên trong các ngày 13 và 14/08/2021; 
-   - (3) Tiếp tục chỉnh sửa kiến nghị cho phù hợp hơn nữa với tình hình mới dựa trên cập nhật kết quả Hội nghị trực tuyến của Chính Phủ sáng 15/08/2021 về phòng chống COVID-19 do Thủ tướng Phạm Minh Chính chủ trì.
-
-Xin gửi tới tập thể Lãnh đạo Nhà nước thành quả làm việc của chúng tôi trong những ngày qua.
-
 Kính thưa Chủ tịch nước và Thủ tướng Chính phủ,
 
-Chúng tôi tin rằng, trước quyết tâm rất cao và sự chỉ đạo rất linh hoạt gắn liền với thực tiễn của Thủ tướng chính phủ, một số kiến nghị nêu dưới đây khi tới được các địa chỉ chắc chắn đã lại trở nên lạc hậu 
+Chúng tôi xin trình bày một Chiến lược khả thi để Phòng Chống Covid-19 mà không cần giãn cách toàn xã hội. Đặt tên là **Thẻ Lệnh**. 
 
-### CƠ SỞ ĐỂ ĐỀ XUẤT CHIẾN LƯỢC PHÒNG CHỐNG DỊCH TRƯỚC TÌNH HÌNH MỚI
+Thẻ Lệnh có thể **triển khai ngay** trên toàn lãnh thổ Việt Nam, nhất là những vùng đang áp dụng giãn cách xã hội theo chỉ thị 16 để kiểm soát Covid-19 như tp Hồ Chí Minh, Hà Nội,...
+
+Chúng tôi tin rằng, trước quyết tâm rất cao và sự chỉ đạo rất linh hoạt gắn liền với thực tiễn của Thủ tướng chính phủ, sau 1,2 tuần triển khai, mỗi vùng có thể điều chỉnh mức độ giãn cách xã hội, mở lại các hoạt động kinh tế theo lộ trình mà vẫn kiểm soát, khống chế Covid-19.
+
+Thẻ Lệnh kết hợp các Quy định Phòng chống dịch bệnh (Lệnh) để điều chỉnh, quy hoạch xã hội, Thẻ và hệ thống Công nghệ thông tin để thay đổi hành vi của mọi người cùng với xét nghiệm để phát hiện Covid. Đây là khoa học về điều chỉnh mô hình, hệ thống xã hội, dựa trên các cơ sở thực tế.
+
+### CƠ SỞ ĐỂ ĐỀ XUẤT CHIẾN LƯỢC THẺ LỆNH
 
 Trước hết, chúng tôi khẳng định, Chính phủ đã có những chỉ đạo điều chỉnh rất đúng và rất kịp thời, mới nhất là Phiên họp Chính phủ thường kỳ tháng 8 năm 2021 [^4] ngày 6/9/2021 dưới sự chủ trì, điều hành của Thủ tướng. Cụ thể các điểm sau:
 
 - “mỗi xã, phường, thị trấn là một pháo đài; mỗi người dân là một chiến sỹ; người dân vừa là trung tâm, vừa là chủ thể trong phòng, chống dịch.”
 
-- tuyên truyền, vận động để “dân biết, dân hiểu, dân tin, dân theo và dân làm.” 
+- “nghiên cứu giải pháp thích ứng an toàn trong điều kiện mới; xây dựng kịch bản khôi phục, phát triển kinh tế trong tình hình mới.”,
 
-- “ nghiên cứu giải pháp thích ứng an toàn trong điều kiện mới; xây dựng kịch bản khôi phục, phát triển kinh tế trong tình hình mới.”,
+- tuyên truyền, vận động để “dân biết, dân hiểu, dân tin, dân theo và dân làm.” 
 
 [^4]: https://www.vietnamplus.vn/thu-tuong-dieu-hanh-phien-hop-chinh-phu-thuong-ky-thang-8/738740.vnp
 
-Trên cơ sở đó, chúng tôi nêu thêm các cơ sở nhận định và khuyến nghị của chúng tôi dưới đây đề nghị Chính phủ và Lãnh đạo Nhà nước tham khảo:
+Trên cơ sở đó, chúng tôi nêu thêm các cơ sở nhận định dưới đây đề nghị Chính phủ và Lãnh đạo Nhà nước tham khảo:
 
-Thứ nhất, đã có những bằng chứng khoa học mới nhất giúp nhận định chính xác hơn về biến chủng DELTA và khả năng xuất hiện các biến chủng mới, cần được tham khảo đưa vào ngay mọi hoạch định chiến lược tới đây, cả trước mắt và kế hoạch trung hạn, nhằm gia tăng thế chủ động cho công tác phòng chống dịch của đất nước:
+**Thứ nhất**, đã có những bằng chứng khoa học mới nhất giúp nhận định chính xác hơn về biến chủng DELTA và khả năng xuất hiện các biến chủng mới:
 
 - **Bằng chứng khoa học về vai trò của vắc xin và nguy cơ diễn biến dịch lâu dài**: Miễn dịch tạo bởi các vắc xin tốt nhất hiện có (Moderna, Pfizer, Johnson and Johson, Astrazeneca) giảm diễn biến nặng và hạ thấp số tử vong khi bị mắc vi rút, nhưng chưa đủ hiệu lực để chặn hoàn toàn sự lưu hành của vi rút, khiến khả năng xuất hiện biến thể mới là chắc chắn xảy ra. Dịch sẽ tiếp tục tồn tại lâu dài hơn như đã dự đoán trước đây, kể cả khi đã đạt tỷ lệ tiêm chủng cao tới 70% dân số, khiến các nước đang phải lên kế hoạch có mũi tái chủng (mũi 3) cho những đối tượng có nguy cơ cao giảm miễn dịch và xem xét kế hoạch chỉ định triển khai đại trà cho toàn thể người dân trong thời gian tới [^5].
 
@@ -77,10 +74,10 @@ Thứ nhất, đã có những bằng chứng khoa học mới nhất giúp nh�
    - Gần như chắc chắn (an almost certainty) sẽ xuất hiện chủng mới có khả năng “bất hoạt” được các loại vắc xin (tức các vắc xin hiện có trở nên vô dụng);
 
    - Có khả năng thực tế (a realtistic possibility) vi rút phát triển thành biến chủng mới có khả năng gây tử vong cao hơn như đã thấy ở các vi rút cùng nhóm COVI gây các dịch trước đó (SARS-COV và MERS-COV). Tức là, từ mức tỷ lệ tử vong hiện tại chỉ 1-2% (ở những người nhiễm vi rút) sẽ phát triển lên tới 10-35%;
- 
-- Những bằng chứng thực tế gần đây tại các điểm dịch TP. Hồ Chí Minh khi thực hiện phong tỏa kéo dài kéo theo một loạt vấn đề xã hội khác nảy sinh, đòi hỏi cần điều chỉnh và tìm đến các biện pháp chống dịch mềm dẻo thực tế hơn, hiệu quả hơn.
 
-Thứ hai, dịch bệnh COVID-19 là hậu quả của sự phá vỡ môi trường sinh thái[^7], sự thất bại trong bảo đảm vai trò khoa học dẫn đường cho các chính sách can thiệp kinh tế - xã hội kéo dài ở cấp độ toàn cầu! Cần nhìn nhận đại dịch COVID-19 là sự tiếp nối của xuất hiện các vụ dịch trước đó như dịch SARS (2003)[^8] hay MERS (2012)[^9]. Nguy cơ xuất hiện thêm các vụ dịch nhiễm trùng mới, gây bởi nhóm vi rút Corona hoặc loại khác, là chắc chắn, nếu toàn cầu không tạo được một hành lang pháp lý bắt buộc thực hiện các biện pháp an ninh y tế toàn cầu gắn liền với phòng chống biến đổi khí hậu.
+**Thứ hai**, dịch bệnh COVID-19 lây lan dựa trên hệ thống di chuyển, tiếp xúc của con người. Xu hướng toàn cầu hoá, tự do thương mại hình thành nên hệ thống di chuyển phức tạp, hỗn loạn. Các hạn chế di chuyển đã diễn ra trên cấp độ quốc gia, sau đó thu hẹp tới từng tỉnh thành, quận huyện và đang mang lại những kết quả nhất định: ngăn bùng phát trên diện rộng và dần dần kiểm soát theo khu vực, nhưng ảnh hưởng lớn tới hoạt động kinh tế. Có những **phương pháp khoa học về hệ thống xã hội**, để điều chỉnh nhu cầu di chuyển hiện tại, cho phép Phòng, chống dịch và phát triển kinh tế bền vững. 
+
+**Thứ ba**, dịch bệnh COVID-19 là hậu quả của sự phá vỡ môi trường sinh thái[^7], sự thất bại trong bảo đảm vai trò khoa học dẫn đường cho các chính sách can thiệp kinh tế - xã hội kéo dài ở cấp độ toàn cầu! Cần nhìn nhận đại dịch COVID-19 là sự tiếp nối của xuất hiện các vụ dịch trước đó như dịch SARS (2003)[^8] hay MERS (2012)[^9]. Nguy cơ xuất hiện thêm các vụ dịch nhiễm trùng mới, gây bởi nhóm vi rút Corona hoặc loại khác, là chắc chắn, nếu toàn cầu không tạo được một hành lang pháp lý bắt buộc thực hiện các biện pháp an ninh y tế toàn cầu gắn liền với phòng chống biến đổi khí hậu.
 
 [^7]: https://www.nature.com/articles/d41586-020-02341-1
 
@@ -88,85 +85,157 @@ Thứ hai, dịch bệnh COVID-19 là hậu quả của sự phá vỡ môi trư
 
 [^9]: https://www.who.int/health-topics/middle-east-respiratory-syndrome-coronavirus-mers#tab=tab_1
 
-### ĐỀ XUẤT ĐIỀU CHỈNH CỤ THỂ
+### NỘI DUNG CỦA CHIẾN LƯỢC THẺ LỆNH
 
-### I. Ở tầm Chiến lược chung
+Đầu tiên, chúng tôi trình bày "Mạng lưới Phát hiện xâm nhập vào Phường/Xã", vai trò trong việc Phòng, chống Dịch Covid-19 mà không cần phải giãn cách toàn xã hội. 
 
-#### Quy hoạch theo Phường/Xã mọi nhu cầu di chuyển 
+Sau đó sẽ trình bày các thay đổi trong xã hội để "Mạng lưới Phát hiện xâm nhập vào Phường/Xã" có thể hoạt động và duy trì lâu dài. 
 
-Để phòng chống Covid-19, cần thiết lập Cơ chế Phát hiện xâm nhập cho từng Phường/Xã. Xét nghiệm tất cả những người có lịch sử ra vào, là cách để phát hiện Covid xâm nhập.  
+Cuối cùng là Thực hiện được thay đổi trên bằng Thẻ Lệnh.
 
-Nếu giảm tối đa số người cần xét nghiệm, **nguồn lực xã hội** (nhân viên y tế, chi phí xét nghiệm, thời gian của người dân,...) sẽ được giảm thiểu rất nhiều. Tất cả Phường/Xã có thể áp dụng Cơ chế Phát hiện xâm nhập trong giai đoạn Chống dịch, và duy trì định kỳ trong "Bình thường mới". 
+### I. Mạng lưới Phát hiện xâm nhập vào Phường/Xã
 
-Đó là lý do cần quy hoạch lại mọi nhu cầu di chuyển, để giảm thiểu tối đa việc di chuyển ra vào Phường / Xã mỗi ngày.
+Với một khu vực an toàn, những người từ bên ngoài vào chính là nguồn mang Covid-19 xâm nhập. 
 
-**Cơ chế Phát hiện xâm nhập định kỳ** giúp các Phường/Xã liền kề nâng cao cảnh giác, cùng phối hợp để ngăn chặn sớm, không để âm thầm lây lan trên diện rộng tới mức phải giãn cách xã hội, ảnh hưởng hoạt động kinh tế các khu vực khác.
+Có hai cách để phát hiện Covid-19 từ nguồn xâm nhập này:
 
-Các Phường/Xã sau khi truy quét toàn bộ F0 bên trong, dần dần gỡ bỏ giãn cách, mở lại nhiều hoạt động kinh doanh bên trong, đồng thời kiểm soát "tái nhiễm" bằng Cơ chế Phát hiện xâm nhập . Không bị "tái nhiễm" sẽ bảo vệ thành quả chống dịch trước đó, sớm đưa Phường/Xã trở lại "bình thường mới" một cách bền vững. 
+1. Xét nghiệm tại chỗ, hoặc kiểm tra giấy xét nghiệm: âm tính mới được phép vào, sau đó cách ly và xét nghiệm thường xuyên, gọi là Cơ chế Ngăn chặn xâm nhập
 
-Khi tất cả Phường/Xã cùng triển khai, cơ chế Phát hiện xâm nhập sẽ bổ sung, cộng hưởng lẫn nhau, tạo thành **1 mạng lưới Cảnh báo nguy cơ** cho toàn vùng (một tỉnh/ thành phố) hoặc cả nước. Mạng lưới Cảnh báo kết hợp với việc quy hoạch theo Phường/Xã, hình thành mô hình "Ruộng bậc thang" trong phòng, chống Covid và các bệnh truyền nhiễm theo di chuyển, tiếp xúc của con người. 
-**Với "Ruộng bậc thang", không cần phải giãn cách toàn xã hội, các hoạt động kinh tế vẫn tiếp tục như bình thường**.
+2. KHÔNG kiểm tra hay xét nghiệm tại chỗ, chỉ lưu thông tin (nơi ở) để bắt buộc xét nghiệm thường xuyên, gọi là Cơ chế Phát hiện xâm nhập. 
 
-Dưới đây là các nhu cầu di chuyển có thể quy hoạch theo Phường/Xã như sau: 
+Cơ chế Ngăn chặn xâm nhập an toàn hơn, nhưng yêu cầu nhân lực (công an, nhân viên y tế) ở tất cả ngõ ra vào nên phù hợp ở quy mô một quốc gia hoặc một tỉnh/thành phố. Ở quy mô nhỏ hơn rất tốn kém, khó duy trì lâu dài.
 
-- Mua hàng mỗi ngày, chủ yếu là nhu yếu phẩm, có thể quy hoạch 
+Ngược lại, **Cơ chế Phát hiện xâm nhập** ít cản trở việc di chuyển, không gây tụ tập, tắc nghẽn tại các Chốt Chống dịch. Khi mọi người có thói quen "Quét Thẻ tại tất cả điểm đến" (trình bày bên dưới), KHÔNG cần duy trì nhân lực tại các Chốt Chống dịch bao quanh. 
 
-- Đi làm mỗi ngày: quy hoạch để di chuyển theo đường giáp ranh để không ra, vào Phường/Xã, trừ nơi sinh sống và nơi làm việc. 
+Việc tối ưu (hoặc không cần) nhân lực, cho phép tất cả các Phường/Xã triển khai Cơ chế Phát hiện xâm nhập đồng thời, hình thành nên **Mạng lưới Phát hiện xâm nhập vào Phường/Xã**. Mạng lưới này có thể duy trì trong giai đoạn "bình thường mới", ít ảnh hưởng tới hoạt động di chuyển, phát triển kinh tế liên quan. 
 
-- Giao nhận hàng hoá: chia thành 2 loại di chuyển, quy hoạch thanh 2 đội:
+Tuy nhiên, có 2 rủi ro với Mạng lưới Phát hiện xâm nhập vào Phường/Xã:
+
+1. Giữa 2 lần xét nghiệm, vài người trở thành F0 có khả năng lây lan ra cộng đồng. 
+
+2. Cơ chế Phát hiện xâm nhập ở vài Phường/Xã hoạt động chưa tốt, bỏ sót đối tượng có lịch sử ra vào, âm thầm lây lan Covid-19 bên trong và lan sang các Phường/Xã khác. 
+
+**Rủi ro 1** được phát hiện sớm bởi Cơ chế của mỗi Phường/Xã, giúp truy vết và kiểm soát nhanh chóng. Các Phường/Xã có F0 di chuyển nâng cao mức độ cảnh giác để đánh giá mức độ nguy cơ, áp dụng các hạn chế di chuyển phù hợp. 
+
+**Rủi ro 2** được phát hiện bởi Phường/Xã khác trong Mạng lưới Phát hiện xâm nhập. Lúc này các Phường/xã liền kề tăng cường nguồn lực Chống dịch, tạo thành 2 lớp kiểm soát lây lan ra ngoài trước khi truy quét, chống dịch bên trong. Đây là mô hình "Ruộng bậc thang" chống dịch, như hình bên dưới. 
+
+![](ruong-bac-thang-1.png)
+
+Rủi ro 2 gây thiệt hại lớn hơn, nhưng sẽ hạn chế bằng cách tăng cường phối hợp, nâng cao hiệu quả của "Mạng lưới Phát hiện xâm nhập vào Phường/Xã".
+Trong cả hai tình huống, rủi ro nhanh chóng được phát hiện, cô lập, và tập trung xử lý bên trong. Các Phường/Xã khác được thông báo để cần nâng cao cảnh giác, và tiếp tục các hoạt động như bình thường. 
+
+Với vùng Dịch bị nhiễm bệnh sâu, còn F0 trong cộng đồng hoặc không thể "cách ly" nguy cơ: F0 điều trị tại nhà, trong khu phong toả, ... "Mạng lưới Phát hiện xâm nhập vào Phường/Xã" kiểm soát lây lan giữa các Phường/Xã, hạn chế bùng phát diện rộng ngay cả khi mở lại các hoạt động kinh tế, xã hội. Hệ thống y tế không bị quá tải kết hợp với tiêm vaccine cho mọi người sẽ giảm tối đa tổn thất. Đây là cách xã hội "sống chung với Covid-19". 
+
+Với những vùng ít nguy cơ, Mạng lưới đóng vai trò phát hiện sớm Phường/Xã nguy cơ, để cô lập, khống chế để không ảnh hưởng tớicác Phường/Xã khác. Sau thời gian có thể đưa toàn vùng về trạng thái "không covid"
+
+Tóm lại, "Mạng lưới Phát hiện xâm nhập vào Phường/Xã" là biện pháp hiệu quả để không giãn cách xã hội mà vẫn Phòng, chống dịch hiệu quả. T
+
+uy nhiên, với di chuyển trong xã hội hiện nay, số lượng ra vào Phường/Xã mỗi ngày là rất lớn, và nguồn lực xã hội (đội ngũ y tế, chi phí xét nghiệm, thời gian của người dân,...) để xét nghiệm là cản trở lớn để triển khai và duy trì "Mạng lưới Phát hiện xâm nhập" trên một vùng rộng lớn. 
+
+Bên cạnh những cải thiện để tối ưu nguồn lực thực hiện 1 xét nghiệm như người dân có thể tự test nhanh Covid-19 tại nhà, thiết bị phát hiện Covid-19 tại trong phòng,... Có những biện pháp khoa học để điều chỉnh hệ thống di chuyển của để giảm số lượng ra vào Phường/Xã mỗi ngày và duy trì ở mức hợp lý. Đó là nội dung trong phần thứ II. 
+
+### II. Những điều chỉnh để thay đổi xã hội 
+
+#### Thứ nhất: Điều chỉnh, quy hoạch di chuyển theo Phường/Xã
+
+Các nhu cầu di chuyển có thể điều chỉnh ngay
+
+- **Phục vụ tại chỗ**, quy hoạch theo Phường/Xã
+   - mua hàng tại chợ, siêu thị (còn lại đặt mua từ xa, giao hàng tại nhà)
+   - Tập thể dục, giải trí hàng ngày
+   - buôn bán đường phố: chỉ bán cho cư dân bên trong 
+   - dịch vụ tại chỗ như: ngân hàng, hớt tóc, gym,... phục vụ cư dân bên trong. 
+
+- **Đi làm mỗi ngày**: điều chỉnh để di chuyển không dừng theo đường biên, không ra, vào Phường/Xã, trừ nơi sinh sống và nơi làm việc. 
+
+- **Đi lại trong thời gian làm việc**: ăn uống, gặp gỡ khách hàng,... giới hạn bên trong Phường/Xã làm việc. 
+
+- **Công việc địa phương, phổ thông**: sắp xếp để nhân viên làm việc và sống trong Phường/Xã.
+
+Một số nhu cầu phức tạp hơn, quy hoạch dần dần theo thời gian: 
+
+- **Giao nhận hàng hoá**: chia thành 2 loại di chuyển, quy hoạch thanh 2 đội:
    - Đội Tài xế Nội khu: tự do di chuyển bên trong, nhưng không được ra ngoài Phường/Xã. Hàng hoá ra ngoài Phường/Xã sẽ chuyển tới các điểm tập kết liên Phường/Xã. 
    - Đội Vận chuyển Liên khu (Shipper hai bánh, xe tải nhỏ,...) sẽ trung chuyển hàng hoá tới điểm tập kết ở Phường/Xã nơi đến.
    - Đội Liên khu không được vào trong Phường/Xã, giao hàng cho người dân hay tiếp xúc với Đội Nội khu. 
+   -  Tối ưu giao nhận bằng nhiều cách: Đặt hàng tại nhà, nhận hàng tại điểm bán; Người dân tự giao, nhận hàng ở điểm tập kết,...
 
-- Công việc phổ thông, nhân viên bán hàng, ngân hàng,... nên quy hoạch cho nhân viên sống trong Phường/Xã 
-   - Doanh nghiệp, cơ quan có nhiều chi nhánh như siêu thị, ngân hàng,... sắp xếp, hoán các nhân viên đang có. 
-   - Các dịch vụ buôn bán đường phố,... sử dụng nhân lực bên trong. 
+- **Nhân viên của doanh nghiệp có nhiều chi nhánh**: sắp xếp, bố trí để làm việc và sinh sống 
 
-- Trong ngắn hạn, tuyển dụng người dân bên trong Phường/Xã để bổ sung cho các nhu cầu còn thiếu như Shipper nội khu hoặc nhân viên bán hàng, đi chợ hộ,...
+- **Ưu tiên sử dụng nhân sự bên trong Phường** cho các công việc phổ thông. 
 
-- Các nhu cầu làm việc bên ngoài, sẽ cấp Thẻ để giám sát và giới hạn số lượng tuỳ theo nguy cơ dịch bệnh.
+- **Cấp Thẻ để giám sát** số người có nhu cầu chính đáng ra vào Phường/Xã. 
+Tuỳ theo mức độ nguy cơ của khu vực, mà giới hạn số lượng được phép, bằng cách khoá Thẻ từ xa.
 
-Để việc quy hoạch hiệu quả, đối tượng cần điều chỉnh là doanh nghiệp, cơ quan,.... Các đối tượng này sẽ từ từ điều chỉnh việc di chuyển của cá nhân: nhân viên và người dân được phục vụ.  Đây là lý thuyết đòn bẩy của **khoa học về hệ thống xã hội**. 
+Với những điều chỉnh quy hoạch như trên, có thể giảm được 80% số lượng ra vào Phường/Xã mỗi ngày, và để việc quy hoạch hiệu quả, đối tượng cần điều chỉnh là doanh nghiệp, cơ quan,.... Các đối tượng này sẽ từ từ điều chỉnh việc di chuyển của cá nhân: nhân viên và người dân được phục vụ.  Đây là lý thuyết đòn bẩy của *khoa học về hệ thống xã hội*. 
 
-Chính quyền địa phương tập trung giám sát việc tuân thủ của doanh nghiệp, cơ quan, sẽ tối ưu hơn việc kiểm soát người dân. 
+Chính quyền địa phương tập trung giám sát việc tuân thủ của doanh nghiệp, cơ quan, sẽ tối ưu hơn việc kiểm soát người dân. Công an, dân phòng cần tập trung vào **phát hiện các đối tượng vi phạm**, thay vì kiểm tra giấy tờ của mọi người, và tăng cường kiểm tra **các điểm đến** thay vì cố định tại Chốt chống dịch.
 
-Công an, dân phòng cần tập trung vào **phát hiện các đối tượng vi phạm**, thay vì kiểm tra giấy tờ của mọi người, và tăng cường kiểm tra tại **các điểm đến** hơn là cố định tại vài Chốt chống dịch.
+Về lâu dài, Chính phủ cần có chính sách để khuyến khích việc quy hoạch di chuyển bên trong Phường/Xã và khu vực rộng hơn (Quận/huyện). 
 
-Về lâu dài, Chính phủ có nhiều chính sách để khuyến khích việc nhu cầu di chuyển trong khu vực (Phường/Xã hoặc rộng hơn là Quận/huyện) như 
-
-- **Bộ tiêu chí quy hoạch di chuyển** để Phòng chống bệnh truyền nhiễm, khuyến khích doanh nghiệp bố trí nơi làm việc gần với nơi nhân viên đang sinh sống. Hoặc nếu phải di chuyển xa, thì doanh nghiệp chịu "chi phí Covid" phát sinh như xét nghiệm định kỳ,...
+- **Bộ tiêu chí quy hoạch di chuyển** để Phòng chống bệnh truyền nhiễm, khuyến khích doanh nghiệp bố trí nơi làm việc gần với nơi nhân viên đang sinh sống. Doanh nghiệp sẽ cân nhắc giữa lợi ích từ việc quy hoạch với "chi phí Covid" phát sinh như xét nghiệm định kỳ,nguy cơ tạm ngưng hoạt động khi dịch bùng phát,...
 
 - Mô hình **"remote teams"**: Khuyến khích doanh nghiệp tổ chức nhân sự thành nhiều nhóm nhỏ, sinh sống gần nhau, để làm việc trong một văn phòng  trong khu vực đó. Mô hình này sẽ bền vững và hiệu quả hơn mô hình "work from home" hiện nay. 
 
-- Và nhiều quy định khác để hạn chế các sự kiện không cần thiết gây di chuyển loạn xa, tập trung đông người.
+- Và nhiều quy hoạch đô thị khác để phù hợp với xã hội sau Đại dịch Covid-19
 
-#### Phục vụ theo gia đình những nhu cầu bị giới hạn, khan hiếm về nguồn cung.
+Mạng lưới Phát hiện xâm nhập vào Phường/Xã có thể triển khai ngay, sử dụng các nguồn lực sẵn có. Và càng thực hiện quy hoạch theo Phường/Xã, không chỉ năng lực phòng chống dịch, khả năng phát triển kinh tế cũng được nâng cao, xã hội phát triển an toàn, bền vững. 
+
+Bên cạnh việc điều chỉnh ở **quy mô xã hội**, cần điều chỉnh ở **quy mô tổ chức*: doanh nghiệp, cơ quan, đơn vị,... để phục vụ xã hội điều tiết, hiệu quả hơn. 
+#### Thứ hai: Phục vụ nhu cầu theo gia đình
 
 Mục tiêu cần hướng tới là tối ưu nguồn lực xã hội, nhất là các nguồn lực bị hạn chế, khan hiếm giữa giãn cách xã hội, để điều tiết và bảo đảm mọi gia đình đều được phục vụ. 
 
-Cần cơ chế điều tiết theo gia đình, để hạn chế tối đa các hành vi không cần thiết như tích trữ quá mức, thu gom mà không sử dụng, hoặc tệ hơn là bán lại kiếm lời,... gây nên kham hiếm giả tạo, tăng giá. Nếu để tình trạng khan hiếm, tăng giá kéo dài, những gia đình gặp khó khăn (về tài chính, trong khu phong toả, chăm sóc y tế,...) sẽ mất dần cơ hội được phục vụ. 
+Cần hạn chế tối đa các hành vi không cần thiết như tích trữ quá mức, thu gom mà không sử dụng, hoặc tệ hơn là bán lại kiếm lời,... gây nên kham hiếm giả tạo, tăng giá. Nếu để tình trạng khan hiếm, tăng giá kéo dài, những gia đình gặp khó khăn (về tài chính, trong khu phong toả, chăm sóc y tế,...) sẽ mất dần cơ hội được phục vụ. 
 
-Chúng tôi đề xuất một Cơ chế điều tiết thông qua **Thẻ gia đình với ID riêng**. Việc phục vụ sẽ điều tiết theo Thẻ này, cho nhiều nhu cầu như: 
+Nếu KHÔNG điều tiết, giới hạn theo gia đình, nhiều nguồn lực có giới hạn khi giãn cách xã hội sẽ bị lãng phí, gây khan hiếm, tắc nghẽn cục bộ: quá tải đơn hàng Online, huỷ đơn hàng vì đã đặt nhiều, ... ảnh hướng trực tiếp tới an sinh xã hội. 
+
+Chúng tôi đề xuất một Cơ chế điều tiết thông qua **Thẻ gia đình với ID riêng** cho nhiều nhu cầu như: 
+
+![](the_gia_dinh_overview.png)
+   
+   - ID (10005.00001) với 5 số đầu là ID Phường/Xã để điều tiết việc phục vụ theo gia đình. 
+   - qrcode là tiện ích nâng cao với người dân, không phải bắt buộc.
 
 Mua bán hàng hoá theo gia đình: 
 - Chợ, siêu thị chỉ bán hàng theo ID, với giới hạn theo Phường/Xã, khung thời gian, loại mặt hàng,...
-- Giao hàng theo ID trùng với trên đơn hàng, tối ưu theo nhóm gia đình gần nhau. 
+- Giao hàng cho Thẻ trùng với ID trên đơn hàng, tối ưu việc giao theo nhóm ID gần nhau. 
 - Siêu thị, chợ sẽ điều tiết, chuẩn bị hàng hoá tốt hơn dựa trên tổng số ID trong Phường/Xã 
 - Chính quyền sẽ dự đoán được mức độ đáp ứng nhu cầu người dân theo từng khu vực, để có kế hoạch phân bố, vận chuyển hàng hoá tốt hơn giữa các Phường/Xã.
 
 An sinh xã hội: cho những gia đình được Phường/Xã xác nhận
-- phân bố nguồn lực cứu trợ của chính quyền
-- nguồn lực từ thiện được tối ưu để đúng đối tượng 
+- phân bố cân bằng nguồn lực cứu trợ của chính quyền
+- nguồn lực từ thiện được phân bố đúng đối tượng 
 
-Các nhu cầu khác liên quan tới Phòng chống Covid-19 như: xét nghiệm, cách ly tại nhà, tiêm vaccine,... cũng cần được phục vụ và điều tiết theo Thẻ gia đình.
+Các nhu cầu khác liên quan tới Phòng chống Covid-19 như: xét nghiệm, cách ly tại nhà, tiêm vaccine,... cũng cần được phục vụ và điều tiết theo Thẻ gia đình. 
 
-Khi quay về "bình thường mới", xã hội sẽ còn nhiều khó khăn về cung cấp hàng hoá, tài chính, nhân lực và cần điều tiết để tối ưu hơn. Do đó "phục vụ theo gia đình" sẽ là một cách quan trọng để tối ưu nguồn lực hạn hẹp.
+Thẻ gia đình giúp hạn chế **bỏ sót các đối tượng nguy cơ**: các gia đình  tránh né xét nghiệm, bị cách ly nhưng vẫn ra ngoài,... Đây là những nguy cơ lây lan âm thầm, khiến việc truy quét toàn bộ khó đạt hiệu quả mong muốn.
 
-#### **Thay đổi mọi người để hình thành những thói quen tích cực**
+Khi quay về "bình thường mới", xã hội sẽ còn nhiều khó khăn về cung cấp hàng hoá, tài chính, nhân lực,.... Do đó "phục vụ theo gia đình" sẽ là một cách điều tiết quan trọng để tối ưu nguồn lực hạn hẹp.
 
-**Quét Thẻ tại tất cả điểm đến"** là thói quen quan trọng nhất mà mọi người cần có. 
+#### Thứ ba: Thay đổi hành vi của mọi người
 
-Khi "quét Thẻ" được thực hiện tại hàng triệu điểm đến, chúng ta sẽ có được dữ liệu điểm đến theo thời gian thực. Dữ liệu điểm đến quan trọng và bao hàm luôn dữ liệu tại các Chốt kiểm tra. Dữ liệu này sát với thực tế, hơn là khai báo (y tế, di chuyển) do người dân tự thực hiện.
+**1. "Quét Thẻ tại tất cả điểm đến có dán Checkpoint"** là hành vi quan trọng mà mọi người cần có. 
+
+Trong giai đoạn chống dịch, Thẻ gồm 3 loại lớn, với thiết kế đồng nhất, phân biệt theo màu sắc cho 3 nhóm đối tượng chính: 
+
+![](3-loai-the.png)
+
+Mọi người đều sử dụng được, tinh gọn, hiệu quả, chống tiêu cực,... là những yếu tố căn bản mà Thẻ hướng tới. Quy trình triển khai cũng nhanh chóng sau vài ngày và việc cơ chế cấp Thẻ không gây tập trung đông tại các Phường/Xã như giấy đi đường hiện tại. 
+
+Dán Checkpoint như hình bên dưới cho tất cả các điểm cần "quét Thẻ". 
+Giải pháp dán Checkpoint cho phép triển khai nhanh chóng với chi phí thấp, được thiết kế cho 10 triệu điểm đến trong 1 Phường/Xã. 
+
+![](checkpoint.png)
+
+Giải pháp triển khai Thẻ, Checkpoint sẽ trình bày trong tài liệu tham khảo đính kèm. 
+
+Dùng Thẻ giấy, bắt buộc "Đeo khi di chuyển" cho phép phát hiện vi phạm từ xa, phát hiện ngay điểm xuất phát,... giúp loại trừ tư tưởng vi phạm.
+Phiếu đi chợ, giấy đi đường, mã qrcode,... làm giảm giá trị trên, gây khó khăn cho người tuân thủ, và tạo cơ hội cho vi phạm diễn ra. 
+
+Khi "quét Thẻ" được thực hiện tại hàng triệu điểm đến, chúng ta sẽ có được dữ liệu điểm đến theo thời gian thực, sát với di chuyển thực tế. Dữ liệu điểm đến quan trọng và bao hàm luôn dữ liệu tại các Chốt kiểm tra. Dữ liệu này sát với thực tế, hơn là khai báo (y tế, di chuyển) do người dân tự thực hiện.
+
+Dữ liệu di chuyển giữa các điểm đến là công cụ đo lường quan trọng, giúp nâng cao hiệu quả của "Quy hoạch di chuyển theo Phường/Xã" và "Phục vụ theo gia đình".
 
 Giá trị của dữ liệu các điểm đến là để **phát hiện nguy cơ** nhằm cảnh báo:
 
@@ -178,168 +247,145 @@ Giá trị của dữ liệu các điểm đến là để **phát hiện nguy c
 
 - Cảnh báo cho công an, dân phòng các cá nhân vi phạm nhiều lần, cần kiểm tra tại nhà để ngăn chặn kịp thời. 
 
-- Cảnh báo những bất thường trong một khu vực. Ví dụ: Có nhiều gia đình trong 1 khu phố **không có** lịch sử mua hàng, điểm đến trong 2,3 tuần gần đây là một bất thường, vậy nguyên nhân có thể là gì?
+Dựa trên việc không có dữ liệu, **phát hiện những bất thường ở mức hệ thống**,là nguy cơ bùng phát dịch bệnh. Ví dụ: *Có nhiều gia đình trong 1 khu phố KHÔNG CÓ lịch sử mua hàng, di chuyển trong 2,3 tuần gần đây*. Đây là một bất thường ở mức hệ thống, cần điều tra nguyên nhân thực tế.
 
-Dữ liệu di chuyển giữa các điểm đến là công cụ đo lường quan trọng, giúp nâng cao hiệu quả của "Quy hoạch theo khu vực", "Phục vụ theo gia đình".
+**2. Tăng Tuân thủ các Lệnh đưa ra** 
 
-**Tuân thủ các quy định đưa ra** là hành động của mỗi người, và có thể tạo thành thói quen.
+**Lệnh** là các quy định hành chính do Chính phủ hay Chính quyền mỗi tỉnh thành phố đưa ra. Lệnh cần mô tả rõ hành động, càng đơn giản càng tốt, để mọi người dễ dàng hiểu và tuân thủ. 
 
-Để hình thành thói quen này, "các quy định đưa ra" cần mô tả rõ hành động, càng đơn giản càng tốt. "Quét Thẻ", "Đeo Thẻ khi di chuyển" là minh hoạ cho các quy định như trên. "các quy định này" gọi chung là **Lệnh**, với ngầm ý mọi người phải (cần) tuân thủ nó.
+"Quét Thẻ tại điểm dán Checkpoint", "Đeo Thẻ khi di chuyển" là những ví dụ về Lệnh. 
 
-Kết hợp **Thẻ Lệnh** sẽ tạo nên sức mạnh để cần tuân thủ trở thành thói quen. Và đây là thói quen cho nhiều đối tượng có liên quan tới Thẻ:  
+Kết hợp **Thẻ Lệnh** sẽ tạo nên sức mạnh để "tuân thủ" trở thành hành vi mỗi ngày, và tác động tới nhiều đối tượng khác nhau có liên quan tới Thẻ:  
 
-- Bên Cấp Thẻ: cán bộ phường/Xã 
-- Bên Phục vụ Thẻ: nhân viên chợ, siêu thị,...
-- Bên Kiểm tra: công an, dân phòng, người dân tự kiểm tra,...
-- Bên Giám sát: đội ngũ giám sát dữ liệu di chuyển,...
-- Bên đưa ra Lệnh: người ra quyết định, đại diện Tỉnh thành phố,...
-- Người không có Thẻ: cũng dần tuân thủ
+- Đối tượng Cấp Thẻ: cán bộ phường/Xã 
+- Đối tượng Phục vụ Thẻ: nhân viên chợ, siêu thị,...
+- Đối tượng Kiểm tra: công an, dân phòng, người dân tự kiểm tra,...
+- Đối tượng Giám sát: đội ngũ giám sát dữ liệu di chuyển,...
+- Đối tượng không có Thẻ: bị ảnh hưởng bởi người xung quanh, dần dần tuân thủ.
 
-Và như bất kỳ thói quen nào, "Tuân thủ" cũng gây nhiều khó chịu, bất tiện với mọi người. Nhưng sau một thời gian, mọi người sẽ nhận ra nhiều lợi ích của thói quen Tuân thủ: ban đầu là ít bị làm phiền (bị kiểm tra, gây khó dễ,...), tiếp theo là sự an tâm khi thấy nhiều người xung quanh tuân thủ, và cuối cùng là sự tự do trong khuôn khổ. 
+Cơ chế kiểm tra định kỳ, giám sát chéo của Thẻ Lệnh càng củng cố hành vi "tuân thủ", biến nó thành thói quen. Đây là 1 minh hoạ. 
 
-Với trách nhiệm là bên đưa ra Lệnh, Chính quyền cũng cần tuân thủ các lệnh này, đó là không được gây khó dễ, mất thời gian khi  mọi người tuân thủ.
+![](giam-sat-cheo.png)
 
-**Tăng niềm tin, suy nghĩ tích cực trong xã hội** 
+Và như bất kỳ thói quen nào, "Tuân thủ" cũng gây nhiều khó chịu, bất tiện với mọi người. Nhưng sau một thời gian, mọi người sẽ nhận ra nhiều lợi ích của thói quen Tuân thủ: ít bị làm phiền (bị kiểm tra, gây khó dễ,...), sự an tâm khi thấy nhiều người xung quanh tuân thủ, và cuối cùng là **sự tự do trong khuôn khổ**. 
 
-Trong Đại dịch Covid, có nhiều yếu tố làm giảm niềm tin : sự lo lắng, sự nghi ngờ người lạ, sự cô lập,.... Đây là sự mất mát rất lớn, để lại hậu quả lâu dài trong xã hội. 
+Với trách nhiệm là bên đưa ra Lệnh, Chính quyền cũng cần tuân thủ các lệnh này. Đó là không được gây khó dễ, mất thời gian khi mọi người tuân thủ.
 
-Thiếu niềm tin, mọi người sẽ khó lòng hợp tác, phối hợp với nhau, gây nên sự cản trở rất lớn với mục tiêu chung là Phòng, Chống dịch. 
+Với 3 nội dung trên tạo nên thay đổi rất lớn trong xã hội. Trong hoàn cảnh bình thường, gần như không thể thực hiện các quy hoạch, thay đổi này, nhưng Đại dịch Covid-19 là **cơ hội để thực hiện những điều "tưởng chừng không thể"**.
 
-Bên cạnh những chiến lược, kế hoạch logic, hợp lý, thì việc tăng niềm tin cũng góp phần quan trọng để đạt được kết quả mong muốn, và chỉ có hành động mới làm thay đổi niềm tin. 
-
-Mỗi người, thông qua những hành động nhỏ như "quét Thẻ" sẽ làm tăng niềm tin của những người xung quanh. Một loạt hành động nhỏ, nhưng nhất quán sẽ cũng cố niềm tin của mọi người trong xã hội, ngay cả những người nghi ngờ nhất. 
-
-Và Chính phủ là cũng có thể tăng niềm tin của xã hội bằng những hành động nhỏ như: công bố các dự định kế hoạch Phòng chống dịch sắp tới của mình.
-
-Diễn biến Covid-19 luôn bất thường, khó phán đoán nên kế hoạch chính xác là điều không thể, và mọi người cũng không kỳ vọng là nó chính xác.
-
-Gía trị nhất của việc công bố kế hoạch là sự cầu thị, mong muốn tiếp nhận suy nghĩ tích cực từ mọi người.  
-
-Với 3 nội dung bên trên, sẽ tạo nên thay đổi rất lớn trong xã hội, nhất là  quy hoạch theo khu vực. Trong hoàn cảnh bình thường, gần như không thể thực hiện các quy hoạch, thay đổi này. Nhưng Đại dịch Covid-19 là **cơ hội để thực hiện những điều "tưởng chừng không thể"**.
-
-
-Với người dân sẽ có một số bất tiện, nhưng so với các quy định khắt khe trong giãn cách, được di chuyển bên trong Phường/Xã một cách tự do cũng là sự khác biệt lớn. Về lâu dài, người dân sẽ được nhiều lợi ích như: được phục vụ tốt hơn mà không phải đi xa, được làm việc gần nhà hơn, ít bị kẹt xe tắt đường ở đô thị lớn,... và nhất là không phải trở lại giãn cách toàn xã hội như trước đây. 
+Với người dân, sẽ có bất tiện ban đầu, nhưng so với các quy định khắt khe trong giãn cách, thì việc di chuyển bên trong Phường/Xã một cách tự do cũng là sự khác biệt lớn. Về lâu dài, người dân sẽ được nhiều lợi ích như: được phục vụ tốt hơn mà không phải đi xa, được làm việc gần nhà hơn, ít bị kẹt xe tắt đường ở đô thị lớn,... và nhất là không phải trở lại giãn cách toàn xã hội như trước đây. 
 
 Với Doanh nghiệp, ngoài lợi ích được trở lại hoạt động sớm, thực hiện quy hoạch nhận được nhiều lợi ích lâu dài như: hiệu quả của nhân viên tăng do thời gian đi lại giảm, ít bị kẹt xe tắt đường, không phải trả nhiều "chi phí Covid", không bị gián đoạn hoạt động khi dịch bệnh bùng phát,...
 
 Chính phủ tận dụng cơ hội "trăm năm có một" này và triển khai từng bước theo lộ trình, sẽ giải quyết được **nhiều bài toán lớn của đô thị đông dân cư**: an sinh xã hội, kẹt xe tắt đường, ô nhiễm môi trường,... và nâng cao hiệu quả toàn xã hội, phát triển kinh tế bền vững trong một môi trường an toàn, hài hoà.
 
-Trên đây là 3 đề xuất ở tầm chiến lược chung về giải pháp Phòng chống dịch bằng Thẻ Lệnh. Về các bước triển khai, chúng tôi xin trình bày ở mức tổng quan các ý chính, cho 2 giai đoạn: Chống dịch và trở về "bình thường mới" 
+### III. Các bước triển khai Thẻ Lệnh vào thực tế
 
-### II. Triển khai theo từng giai đoạn 
+#### Bước 1: Triển khai Thẻ Lệnh tới mọi đối tượng
 
-#### Giai đoạn Chống dịch: Điều chỉnh hành vi của mọi người, di chuyển của xã hội.
+**Cấp, phát Thẻ tới mọi đối tượng.**
 
-#### 1. Cấp phép di chuyển, giám sát lịch sử các điểm đến và lịch sử xét nghiệm bằng Thẻ Lệnh.
+- Phát hành phôi Thẻ cho tất cả Phường/Xã (1-2 ngày)
+   - ưu tiên Thẻ gia đình, rồi tới Thẻ làm việc Thẻ chống dịch 
 
-Thẻ Lệnh cần một hệ thống công nghệ thông tin để hoạt động. Hệ thống CNTT này chứa dữ liệu di chuyển của người dân, nên sẽ do Bộ Công An quản lý và vận hành. 
+- Đóng dấu và Phát Thẻ Gia đình tại từng nhà dân (2-3 ngày)
+   
+- Cấp Thẻ làm việc cho Doanh nghiệp (3-4 ngày)
+   - tiếp nhận hồ sơ của Doanh nghiệp: online và offline 
+   - Cấp thẻ cho các hồ sơ đã duyệt. 
 
-Đầu tiên, Công An (cấp tỉnh thành phố) sẽ phát hành Phôi Thẻ giấy cho từng Phường/Xã. Số lượng Phôi nên nhiều hơn nhu cầu thực tế để sử dụng từ từ. 
-Có các mẫu Phôi chính cho 3 nhu cầu: mua hàng, làm việc và chống dịch 
+- Chuẩn bị hệ thống Công nghệ thông tin, ứng dụng mobileapp cho các giai đoạn tiếp theo. 
 
-![](3-loai-the.png)
-   - Số ID của Thẻ, có tiền tố là ID của Phường/xã, và ngắn nhất để thân thiện khi sử dụng để khi đặt hàng qua điện thoại đọc số ID, khi ghi ID vào giấy,...
-   - Sử dụng Thẻ giấy mang lại giá trị thực tế so với cấp giấy, mã qrcode,... trong đó loại trừ tư tưởng "tiêu cực"( sao chép, in ấn, cố tình vi phạm,...) là giá trị lớn nhất.
-   - Người dân không có điện thoại, vẫn sử dụng được Thẻ này.
-   - Thông tin chi tiết về trạng thái Thẻ, giới hạn sử dụng sẽ được lưu trong mã qrcode. 
+- Lưu ý: vận dụng nguyên tắc **"Trách nhiệm thuộc bên tiếp nhận"** và **"Định kỳ kiểm tra, duyệt Thẻ"** để việc triển khai diễn ra nhanh chóng, hạn chế tụ tập tại trụ sở Phường/Xã.
 
-Những người được phép di chuyển, sẽ được Phường/Xã đóng dấu lên Phôi và cấp Thẻ. Dữ liệu thực tế sẽ được cán bộ Phường/Xã nhập lại trên hệ thống. Chức năng khoá Thẻ từ xa, giúp linh hoạt trong việc điều chỉnh số lượng Thẻ được phép sử dụng. 
+**Triển khai Lệnh sau khi Thẻ được cấp**
 
-Các điểm đến như Chốt chống dịch, chợ, siêu thị, toà nhà, văn phòng,... được phép hoạt động, sẽ được Phường/Xã cấp tài khoản để tạo ra mã Checkpoint như hình
+- Với mọi người: quét Thẻ tại các Chốt kiểm tra, các điểm đến có dãn Checkpoint. Tự giác thực hiện. 
 
-![](checkpoint.png)
+- Doanh nghiệp: tuân thủ các Lệnh về bán hàng theo Thẻ gia đình
 
-Khi thấy có Checkpoint, mọi người sẽ đưa Thẻ để Công an, Dân phòng, nhân viên..... tại đó quét, hoặc tự thực hiện bằng chính camera trên điện thoại của mình qua 2 bước quét Thẻ. Đây chính là hành động **"Quét Thẻ"** đã đề cập trong phần Chiến lược chung. 
+- Công an, dân phòng phát hiện và xử phạt người không có Thẻ. Nhắc nhở, hướng dẫn người dân tự thực hiện quét Thẻ tại khi thấy mã Checkpoint.
 
-Việc  "quét Thẻ" là bắt buộc trong giai đoạn Đây là quy định có tính bắt buộc kèm theo chế tài xử phạt nếu không thực hiện (gọi lại **Lệnh**)
+- Phường/Xã: định kỳ kiểm tra các Thẻ đã cấp, nhắc nhở xử phạt các vi phạm phát hiện tư dữ liệu quét Thẻ. 
 
-Các đối tượng khác như Công an, Dân Phòng, nhân viên tại chợ, Siêu thị,...cũng nhận các **Lệnh** riêng để bảo đảm mọi Thẻ phải được quét. 
+- Chính quyền đưa ra các Lệnh để Doanh nghiệp thực hiện quy hoạch di chuyển theo Phường/Xã. Đưa ra lộ trình để doanh nghiệp điều chỉnh. 
 
-![](giam-sat-cheo.png)
+**Truy quét để bóc tách F0 cộng đồng** Tăng cường nguồn lực để 
+   - bóc tách toàn bộ F0 cộng đồng  bên trong Phường/Xã.
+   - giám sát chặt F0 được cách ly tại nhà,và các đối tượng nguy cơ. 
+ 
+#### Bước 2: Mở lại hoạt động kinh tế dưới sự giám sát của Mạng lưới Phát hiện xâm nhập theo Phường/Xã 
 
-Mục đích chính của Thẻ Lệnh là tăng việc tuân thủ các quy định chống dịch theo Chỉ thị 16 của Chính Phủ và phân loại các đối tượng nguy cơ để bắt buộc xét nghiệm.
+**Triển khai Mạng lưới Phát hiện xâm nhập vào Phường/Xã** tuỳ theo nguy cơ trong vùng dịch 
 
-Ngoài ra, Thẻ Lệnh với cơ chế kiểm tra chéo, sẽ đôn đốc cán bộ địa phương sâu sát với người dân, nắm bắt khó khăn của từng hộ, từng cá nhân để có thể hỗ trợ kịp thời. Từng Phường/Xã làm tốt nhiệm vụ của mình, hỗ trợ phối hợp với các Phường/Xã xung quanh sẽ quyết định kết quả 
+**Với vùng bị nhiễm sâu** như ở Tp Hồ Chí Minh và các tỉnh miền tây đang có nhiều ca nhiễm, Bổ sung những Lệnh mạnh hơn để tăng cường hiệu quả của "Mạng lưới Phát hiện xâm nhập vào Phường/Xã":
+   - Với mọi người: bắt buộc đeo Thẻ khi di chuyển, bị xử phạt tại chỗ (hay phạt nguội) khi di chuyển ngoài khu vực quy định.
 
-Quản lý giám sát tốt các hoạt động cấp thẻ, quét thẻ tại mọi điểm đến... sẽ nâng cao hiệu quả Phòng chống dịch, tiết kiệm chi phí lấy mẫu xét nghiệm.
+   - Với Tổ phòng chống Covid cộng đồng tăng cường kiểm tra, quét Thẻ ngay khi người dân ra ngoài. Đồng thời giám sát tại các địa điểm bán hàng: phát hiện các vi phạm liên quan tới không đeo Thẻ, bán hàng ko đúng,...
 
-Hệ thống Công nghệ Thông tin để vận hành Thẻ Lệnh sẽ do Bộ Công An vận hành, quản lý chung, các bộ, ban ngành khác được truy cập các dữ liệu cần thiết.
+   - Với Phường/Xã, hàng tuần tới gặp người dân nhắc nhở, hướng dẫn Phòng Chống dịch, hỗ trợ các gia đình khó khăn,... và quét Thẻ gia đình để xác nhận.
 
-Chính quyền Phường/Xã được phân quyền truy cập, thực hiện các chức năng cần cho hoạt động của Phường/Xã phụ trách. 
+   - Với Doanh nghiệp, quản lý chặt việc đi lại sử dụng Thẻ làm việc của nhân viên.
 
-Triển khai Thẻ Lệnh tới mọi người, tạo ra các thói quen quét Thẻ tại điểm đến sẽ giúp thực hiện tốt nhiệm vụ thứ 2: 
+   - Với công an, dân phòng, kiểm tra và bắt buộc quét Thẻ tại Chốt kiểm tra.
 
-##### 2. Hạn chế tối đa số người được phép ra vào Phường/Xã và bắt buộc xét nghiệm định kỳ
+**Với vùng chưa có nhiều ca nhiễm** như ở tp Hà Nội: 
 
-**Về ngắn hạn**, sử dụng các **Lệnh** bên dưới để hạn chế tối đa số người được phép ra, vào:
+- Phường/Xã còn phát hiện F0, Xét nghiệm toàn bộ 1,2 lần để làm sạch F0 bên trong. 
+- Sau đó triển khai Mạng lưới Phát hiện xâm nhập theo Phường/Xã,  bắt buộc xét nghiệm thường xuyên (3 ngày/lần) hay định kỳ (7 ngày / lần) tuỳ mức độ nguy cơ của Quận Huyện đó. 
 
-- Cấm ra ngoài Phường/Xã để mua hàng.
+**Mở lại các hoạt động kinh tế, xã hội**
 
-- Không được đi vào trong Phường/Xã khi di chuyển, trừ nơi làm việc và nơi đang sống
+Ưu tiên mở lại các hoạt động bên trong để kiểm tra năng lực Phát hiện xâm nhập của từng Phường/Xã. 
+   - Phường/Xã Cấp mã Checkpoint cho các địa điểm được hoạt động trở lại. 
+   - xét nghiệm ngẫu nhiên các đối tượng nguy cơ cao, di chuyển nhiều bên trong.
+   - Cấp phép hạn chế Thẻ làm việc  có  nhu cầu ra vào mỗi ngày
 
-- Chia shipper thành 2 đội: Shipper Nội khu hoạt động bên trong Phường/Xã được phép tiếp xúc với người dân, Shipper Liên khu chỉ được giao nhận hàng tại điểm tập kết ở giáp ranh các Phường/Xã, không được gặp người dân. Shipper Nội khu do Phương/Xã cấp phép và ưu tiên người dân sống bên trong.
-![](the-shipper.png)
+Cấp phép cho nhiều Thẻ được phép ra vào Phường/Xã mỗi ngày, điều chỉnh tuỳ theo nguy cơ mà Mạng lưới Phát hiện xâm nhập.
 
-- Chợ, siêu thị sắp xếp nhân viên bán hàng để sống và làm việc bên trong Phường/Xã. Doanh nghiệp, cơ quan có nhiều chi nhánh như Ngân hàng,... cần bố trí lại nhân viên để hạn chế tối đa di chuyển liên Phường/Xã 
+#### Bước 3: Vùng dịch trở về với Bình thường mới
 
-- Cấp phép hạn chế số người được ra ngoài Phường/Xã để làm việc.
+Khi cả vùng dịch không còn phát hiện F0 cộng đồng, Mạng lưới Phát hiện xâm nhập chuyển sang chế độ định kỳ (1 tuần / lần) kết hợp với các kiểm tra ngẫu nhiên, điều tra bất thường để hạn chế nguy cơ. 
 
-Đơn vị chủ quản (doanh nghiệp, cơ quan,...) chịu trách nhiệm quản lý, trả phí xét nghiệm định kỳ các cá nhân này cũng như bị xử phạt liên đới khi có sai phạm. 
+Duy trì các Lệnh để 
 
-Về dài hạn, quy hoạch nơi làm việc và sinh sống trong một khu vực hợp lý (bên trong một quận huyện)
+- Mọi người quét Thẻ tại các điểm đến, bỏ bắt buộc tại Chốt chống dịch
 
-- Siêu thị, chợ,... bán hàng theo Phường/Xã, và cần đảm bảo đầy đủ hàng hoá theo nhu cầu. 
+- Mọi người tuân thủ việc xét nghiệm hoặc cách ly theo yêu cầu. 
 
-- mua hàng bên ngoài Phường/Xã bằng đặt hàng và nhận hàng theo ID Thẻ gia đình. 
+- Tối ưu việc phục vụ nhu câu theo gia đình 
 
-- doanh nghiệp tự điều chỉnh theo mô hình remote teams hoặc chấp nhận chi phí Covid: chia nhân viên thành nhiều nhóm nhỏ (có thể không cùng chuyên môn) tại nhiều văn phòng nằm rải rác, thay vì tập trung ở 1 trụ sở, văn phòng lớn. Tuyển dụng nhân sự mới lưu ý tới yếu tố khu vực sinh sống. 
+- Doanh nghiệp tiếp tục quy hoạch di chuyển theo Phường/Xã 
 
-- chính sách quy hoạch, tuyển dụng mới đội ngũ nhân viên để hạn chế việc di chuyển liên Phường/Xã. Hoặc chấp nhận "trả phí Covid" như xét nghiệm định kỳ,...
+### NHỮNG GIÁ TRỊ MÀ CHÚNG TÔI MUỐN ĐÓNG GÓP
 
-**Bắt buộc xét nghiệm định kỳ** là chức năng quan trọng của Thẻ Lệnh.
+#### Năng lực về giải pháp, phương pháp luận cho Hệ thống xã hội. 
 
-Người mang Thẻ sẽ được nhận thông báo xét nghiệm định kỳ, và có thể tự kiểm tra khi quét qrcode trên Thẻ. 
+Chúng tôi thiết kế chi tiết giải pháp, các Lệnh cho nhiều tình huống và các quy trình triển khai để sẵn sàng đưa vào thực tế khi có yêu cầu, chúng tôi xin đóng góp tất cả cho Chính Phủ để phục vụ cho công tác Phòng Chống dịch Covid-19 ở Việt Nam.
 
-Phải tuân thủ thực hiện khi có yêu cầu xét nghiệm, nếu không sẽ bị Công An Phường/Xã tới tận nơi để cảnh cáo, bắt buộc.
+Sẵn sàng cùng tham gia, tư vấn thêm về Phương pháp để phù hợp với tình hình thực tế. 
 
-Doanh nghiệp cần quản lý nhân viên để tuân thủ việc này, nếu không muốn bị liên đới xử phạt. 
+Với các phương pháp để hỗ trợ Doanh nghiệp quy hoạch theo khu vực, như "Remote Teams" đề cập ở trên, sẵn sàng tư vấn và hỗ trợ đưa vào thực tế.
+"Remote Teams" là một tầm nhìn của chúng tôi trong việc thay đổi xã hội trước khi Covid-19 xuất hiện. 
 
-Các cá nhân thuộc diện cách ly tại nhà, cần tuân thủ Lệnh đưa ra theo Thẻ. Nếu phát hiện vi phạm dựa trên lịch sử điểm đến, công an địa phương sẽ tới tận nơi xử phạt. 
+Chúng tôi tin rằng, không chỉ với việt nam, Chiến Lược Thẻ Lệnh còn phù hợp với nhiều quốc gia khác trên thế giới. Và chúng tôi sẵn sàng phối hợp với Chính Phủ, Tổ chức Y tế thế giới (WHO), để chia sẻ giải pháp này tới các quốc gia đang cần. 
 
-##### 3. Cho phép nhiều hoạt động trong Phường/Xã
+#### Năng lực Thiết kế Hệ thống Công nghệ thông tin: 
 
-Tiêu chuẩn phòng dịch cho địa điểm hoạt động 
+Core hệ thống và những tính năng ban đầu, sẵn sàng chuyển giao cho Bộ Công An, và sẽ sàng hỗ trợ khi có yêu cầu. Bộ Công An có thể phát triển thêm nhiều modules và kết nối với các hệ thống đang có. 
 
-Trừ trường hợp cần giãn cách triệt để thực hiện xét nghiệm toàn bộ, 
+Lĩnh vực hoạt động chính của chúng tôi là thiết kế, phát triển các giải pháp Công nghệ Thông tin phục vụ cho Doanh nghiệp, Cơ quan chính phủ. Nên chúng tôi sẵn sàng thực hiện những gói dự án khi Chính Phủ hay các tỉnh thành phố cần.
 
-Các hoạt động đang có trong Phường/Xã vẫn duy trì ở mức hợp lý.
+Nhưng đối tượng chúng tôi muốn phục vụ chính là Doanh nghiệp, để giúp chuyển đổi số hiệu quả và kết nối với hệ thống Thẻ Lệnh chung. 
 
-Tuỳ theo mức độ an toàn, và khả năng kiểm soát số lượng ra vào Phường/Xã mỗi ngày, Ban chỉ đạo chống dịch cho phép mở lại các hoạt động bên trong. 
+- Thẻ làm việc được sử dụng như Thẻ nhân viên trong quản lý, chấm công nhân viên.
+- Các hệ thống phục vụ Doanh nghiệp như chợ, siêu thị,... lên kế hoạch, điều tiết nhu cầu theo gia đình
+- Các hệ thống cải thiện hiệu quả làm việc của nhân viên, nhất là trong mô hình làm việc "remote teams" bên trên. 
 
-Các địa điểm được phép hoạt động sẽ được cấp tài khoản để sinh ra mã Checkpoint, dán tại Cổng vào và Cổng ra.
 
-![](checkpoint-dia-diem.png)
 
-Các điạ điểm này có thể là Công viên, dịch vụ giải trí, quán ăn, quán cafe,.... 
 
-Mọi người tới các địa điểm này bắt buộc quét Thẻ tại cổng vào, cổng ra và tuân thủ 5K. Thông qua hệ thống Thẻ Lệnh, Phường/Xã sẽ giám sát việc tuân thủ của các địa điểm này, nhất là số người phục vụ tại mỗi thời điểm.
 
-Áp dụng nhiều hạn chế Chống dịch dựa theo Thẻ, như chỉ phục vụ người dân có Thẻ cấp bởi Phường/Xã đang sống, theo khung giờ dựa trên ID của thẻ. 
 
-![](2-the-noi-khu.png)
-
-#### Giai đoạn "bình thường mới": duy trì thói quen xã hội để phát triển bền vững
-
-**Quét Thẻ tại mọi điểm đến**
-
-**Bán hàng theo Thẻ gia đình**
-
-Bổ sung thêm 1 Thẻ gia đình thứ cấp để 
-
-**Làm việc bên trong, gần với Phường/Xã đang sống**
-
-Khi xã hội trở về "Bình thường mới", Thẻ Lệnh đóng vai trò tương tự hệ thống Phòng cháy chữa cháy hiện nay, giúp phát hiện sớm và ngăn chặn nguy cơ bùng phát dịch bệnh. 
-
-Checkpoint cho tất cả điểm đến: chốt chống dịch, chợ, siêu thị, toà nhà,.... Mỗi điểm đến có vài checkpoint tại cổng vào, cổng ra, bãi giữ xe,...
 
 
